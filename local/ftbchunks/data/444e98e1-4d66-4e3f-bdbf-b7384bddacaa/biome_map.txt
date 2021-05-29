@@ -15,3 +15,11 @@
 #180 byg:seasonal_birch_forest_hills
 #740 byg:seasonal_deciduous_clearing
 #3A8 byg:seasonal_deciduous_forest
+#6FB byg:seasonal_deciduous_forest_hills
+#51B byg:seasonal_giant_taiga
+#755 byg:seasonal_taiga
+#4E8 byg:seasonal_taiga_hills
+#169 minecraft:taiga
+#63C minecraft:taiga_hills
+#473 byg:vibrant_swamplands
+#11C byg:zelkova_forest

@@ -1,0 +1,7 @@
+
+[effect]
+	#If true, there is a disorienting camera-wobbling effect when you teleport with Floo Powder.
+	dizzy = true
+	#If true, there is a green or magenta flash when you teleport with Floo Powder.
+	flash = true
+

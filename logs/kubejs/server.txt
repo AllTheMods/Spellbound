@@ -1,268 +1,271 @@
-[21:03:02] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[21:03:02] [INFO] Loaded script server_scripts:script.js in 0.005 s
-[21:03:02] [INFO] Loaded script server_scripts:starting_items.js in 0.007 s
-[21:03:02] [INFO] Loaded 2/2 KubeJS server scripts in 0.015 s
-[21:03:02] [INFO] Scripts loaded
-[21:03:02] [INFO] Scanning recipes...
-[21:03:04] [INFO] [blocks] Found 649 tags, added 0 objects, removed 0 objects
-[21:03:04] [INFO] [items] Found 1059 tags, added 0 objects, removed 0 objects
-[21:03:04] [INFO] [fluids] Found 64 tags, added 0 objects, removed 0 objects
-[21:03:04] [INFO] [entity_types] Found 43 tags, added 0 objects, removed 0 objects
-[21:03:04] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[21:03:04] [INFO] [enchantments] Found 1 tags, added 0 objects, removed 0 objects
-[21:03:04] [INFO] [tile_entity_types] Found 1 tags, added 0 objects, removed 0 objects
-[21:03:04] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:04] [WARN] Failed to parse recipe mekanism:processing/osmium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:04] [WARN] Failed to parse recipe 'mekanism:processing/osmium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe mekanism:processing/uranium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:04] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:04] [WARN] Failed to parse recipe 'mekanism:processing/uranium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe mekanism:processing/uranium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
-[21:03:04] [WARN] Failed to parse recipe allthemodium:allthemodium_pile[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:allthemodium_pile'
-[21:03:04] [WARN] Failed to parse recipe 'allthemodium:allthemodium_pile[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:allthemodium_pile'
-[21:03:04] [WARN] Failed to parse recipe 'aquaculture:cutting/muskellunge[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:muskellunge'
-[21:03:04] [WARN] Failed to parse recipe aquaculture:cutting/muskellunge[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:muskellunge'
-[21:03:04] [WARN] Failed to parse recipe 'mekanism:processing/copper/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe mekanism:processing/copper/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
-[21:03:04] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe mekanism:processing/copper/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
-[21:03:04] [WARN] Failed to parse recipe aquaculture:cutting/bluegill[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bluegill'
-[21:03:04] [WARN] Failed to parse recipe 'aquaculture:cutting/bluegill[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bluegill'
-[21:03:04] [WARN] Failed to parse recipe 'mekanism:processing/lead/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe mekanism:processing/lead/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
-[21:03:04] [WARN] Failed to parse recipe 'aquaculture:cutting/smallmouth_bass[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:smallmouth_bass'
-[21:03:04] [WARN] Failed to parse recipe aquaculture:cutting/smallmouth_bass[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:smallmouth_bass'
-[21:03:04] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:04] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:04] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:04] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:vibranium_pile[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:vibranium_pile'
-[21:03:05] [WARN] Failed to parse recipe allthemodium:vibranium_pile[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:vibranium_pile'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/gar[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:gar'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/gar[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:gar'
-[21:03:05] [WARN] Failed to parse recipe 'rats:dragon_wing_iaf[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'iceandfire:dragon_bone'
-[21:03:05] [WARN] Failed to parse recipe rats:dragon_wing_iaf[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'iceandfire:dragon_bone'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/brown_shrooma[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:brown_shrooma'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/brown_shrooma[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:brown_shrooma'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/piranha[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:piranha'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/piranha[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:piranha'
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/uranium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/osmium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/osmium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_unobtainium_ore[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_unobtainium_ore[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_vibranium_ingot_to_dust[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_vibranium_ingot_to_dust[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/osmium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/osmium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/osmium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/osmium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/osmium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/uranium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/capitaine[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:capitaine'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/capitaine[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:capitaine'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/red_shrooma[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_shrooma'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/red_shrooma[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_shrooma'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/atlantic_halibut[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_halibut'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/atlantic_halibut[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_halibut'
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_allthemodium_ingot_to_dust[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_allthemodium_ingot_to_dust[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/catfish[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:catfish'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/catfish[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:catfish'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cooking/turtle_soup[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'aquaculture:turtle'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cooking/turtle_soup[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item tag 'aquaculture:turtle'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/tuna[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tuna'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/tuna[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tuna'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/uranium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/uranium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/carp[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:carp'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/carp[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:carp'
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/osmium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
-[21:03:05] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_allthemodium_ore[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_allthemodium_ore[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/lead/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/lead/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/brown_trout[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/brown_trout[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/osmium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/uranium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:05] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/blackfish[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:blackfish'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/blackfish[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:blackfish'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/copper/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/copper/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/arapaima[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:arapaima'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/arapaima[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:arapaima'
-[21:03:05] [WARN] Failed to parse recipe 'mekanism:processing/uranium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:05] [WARN] Failed to parse recipe mekanism:processing/uranium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:05] [WARN] Failed to parse recipe 'aquaculture:cutting/pacific_halibut[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pacific_halibut'
-[21:03:05] [WARN] Failed to parse recipe aquaculture:cutting/pacific_halibut[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pacific_halibut'
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:unobtainium_pile[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:unobtainium_pile'
-[21:03:06] [WARN] Failed to parse recipe allthemodium:unobtainium_pile[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:unobtainium_pile'
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/uranium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/uranium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
-[21:03:06] [WARN] Failed to parse recipe 'lostsould:dar_2[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_chestplate'
-[21:03:06] [WARN] Failed to parse recipe lostsould:dar_2[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_chestplate'
-[21:03:06] [WARN] Failed to parse recipe 'lostsould:dar_4[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_boots'
-[21:03:06] [WARN] Failed to parse recipe lostsould:dar_4[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_boots'
-[21:03:06] [WARN] Failed to parse recipe 'lostsould:dar_3[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_leggings'
-[21:03:06] [WARN] Failed to parse recipe lostsould:dar_3[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_leggings'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/osmium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/lead/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/lead/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/atlantic_herring[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_herring'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/atlantic_herring[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_herring'
-[21:03:06] [WARN] Failed to parse recipe forbidden_arcanus:soul_extractor[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:bottle_block'
-[21:03:06] [WARN] Failed to parse recipe 'forbidden_arcanus:soul_extractor[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:bottle_block'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/bayad[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bayad'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/bayad[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bayad'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/pollock[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pollock'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/pollock[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pollock'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/perch[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:perch'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/perch[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:perch'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/uranium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/uranium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/rainbow_trout[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:rainbow_trout'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/rainbow_trout[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:rainbow_trout'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/copper/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/copper/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/tambaqui[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tambaqui'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/tambaqui[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tambaqui'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/pink_salmon[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pink_salmon'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/pink_salmon[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pink_salmon'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/osmium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean_mek[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/uranium/slurry/clean_mek[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/synodontis[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:synodontis'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/synodontis[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:synodontis'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/osmium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/osmium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_unobtainium_ingot_to_dust[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_unobtainium_ingot_to_dust[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/copper/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/copper/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_vibranium_ore[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_vibranium_ore[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/uranium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/uranium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/uranium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/osmium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/red_grouper[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_grouper'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/red_grouper[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_grouper'
-[21:03:06] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/boulti[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/boulti[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
-[21:03:06] [WARN] Failed to parse recipe 'mekanism:processing/osmium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
-[21:03:06] [WARN] Failed to parse recipe mekanism:processing/osmium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
-[21:03:06] [WARN] Failed to parse recipe aquaculture:cutting/atlantic_cod[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
-[21:03:06] [WARN] Failed to parse recipe 'aquaculture:cutting/atlantic_cod[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
-[21:03:06] [INFO] server_scripts:starting_items.js:13: + minecraft:crafting_shapeless: ['minecraft:book', '#forge:string'] -> [Item.of('akashictome:tome', {RepairCost:0.0,"akashictome:data":{tconstruct:{id:"tconstruct:materials_and_you",Count:1.0},evilcraft:{id:"evilcraft:origins_of_darkness",Count:1.0},resourcefulbees:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"resourcefulbees:fifty_shades_of_bees"}},astralsorcery:{id:"astralsorcery:tome",Count:1.0},theoneprobe:{id:"theoneprobe:probenote",Count:1.0},psi:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"psi:encyclopaedia_psionica"}},naturesaura:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"naturesaura:book"}},astral:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"astral:astronomicon"}},allthemodium:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"allthemodium:allthemodium"}},occultism:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"occultism:dictionary_of_debug"}},elementalcraft:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"elementalcraft:element_book"}},turtlemancy:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"turtlemancy:turtlenomicon"}},botania:{id:"botania:lexicon",Count:1.0,tag:{}},ars_nouveau:{id:"ars_nouveau:worn_notebook",Count:1.0},mysticalworld:{id:"mysticalworld:encyclopedia",Count:1.0},bloodmagic:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"bloodmagic:guide"}},twilightforest:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"twilightforest:guide"}},mysticalagriculture:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"mysticalagriculture:guide"}}},display:{Name:"{\"text\":\"All The Magic Guide\"}"}})]
-[21:03:09] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
-[21:03:10] [INFO] [il_tags/elementalcraft_runes] Found 3 tags, added 0 objects, removed 0 objects
+[03:38:43] [INFO] Loaded script server_scripts:bhc.js in 0.004 s
+[03:38:43] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[03:38:43] [INFO] Loaded script server_scripts:script.js in 0.003 s
+[03:38:43] [INFO] Loaded script server_scripts:starting_items.js in 0.009 s
+[03:38:43] [INFO] Loaded 3/3 KubeJS server scripts in 0.021 s
+[03:38:43] [INFO] Scripts loaded
+[03:38:43] [INFO] Scanning recipes...
+[03:38:45] [INFO] [blocks] Found 662 tags, added 0 objects, removed 0 objects
+[03:38:45] [INFO] [items] Found 1085 tags, added 0 objects, removed 0 objects
+[03:38:45] [INFO] [fluids] Found 64 tags, added 0 objects, removed 0 objects
+[03:38:45] [INFO] [entity_types] Found 44 tags, added 0 objects, removed 0 objects
+[03:38:45] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[03:38:45] [INFO] [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[03:38:45] [INFO] [tile_entity_types] Found 1 tags, added 0 objects, removed 0 objects
+[03:38:45] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:45] [WARN] Failed to parse recipe 'mekanism:processing/osmium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe mekanism:processing/osmium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:45] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe mekanism:processing/uranium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:45] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:45] [WARN] Failed to parse recipe 'mekanism:processing/uranium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe mekanism:processing/uranium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
+[03:38:45] [WARN] Failed to parse recipe 'allthemodium:allthemodium_pile[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:allthemodium_pile'
+[03:38:45] [WARN] Failed to parse recipe allthemodium:allthemodium_pile[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:allthemodium_pile'
+[03:38:45] [WARN] Failed to parse recipe 'aquaculture:cutting/muskellunge[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:muskellunge'
+[03:38:45] [WARN] Failed to parse recipe aquaculture:cutting/muskellunge[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:muskellunge'
+[03:38:45] [WARN] Failed to parse recipe 'mekanism:processing/copper/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe mekanism:processing/copper/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
+[03:38:45] [WARN] Failed to parse recipe mekanism:processing/copper/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
+[03:38:45] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe aquaculture:cutting/bluegill[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bluegill'
+[03:38:45] [WARN] Failed to parse recipe 'aquaculture:cutting/bluegill[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bluegill'
+[03:38:45] [WARN] Failed to parse recipe 'mekanism:processing/lead/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:45] [WARN] Failed to parse recipe mekanism:processing/lead/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/smallmouth_bass[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:smallmouth_bass'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/smallmouth_bass[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:smallmouth_bass'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:vibranium_pile[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:vibranium_pile'
+[03:38:46] [WARN] Failed to parse recipe allthemodium:vibranium_pile[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:vibranium_pile'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/gar[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:gar'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/gar[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:gar'
+[03:38:46] [WARN] Failed to parse recipe 'rats:dragon_wing_iaf[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'iceandfire:dragon_bone'
+[03:38:46] [WARN] Failed to parse recipe rats:dragon_wing_iaf[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'iceandfire:dragon_bone'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/brown_shrooma[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:brown_shrooma'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/brown_shrooma[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:brown_shrooma'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/piranha[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:piranha'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/piranha[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:piranha'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/uranium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/osmium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/osmium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_unobtainium_ore[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_unobtainium_ore[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_vibranium_ingot_to_dust[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_vibranium_ingot_to_dust[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/osmium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/osmium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/osmium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/osmium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/osmium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/uranium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/capitaine[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:capitaine'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/capitaine[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:capitaine'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/red_shrooma[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_shrooma'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/red_shrooma[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_shrooma'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/atlantic_halibut[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_halibut'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/atlantic_halibut[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_halibut'
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_allthemodium_ingot_to_dust[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_allthemodium_ingot_to_dust[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/catfish[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:catfish'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/catfish[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:catfish'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cooking/turtle_soup[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'aquaculture:turtle'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cooking/turtle_soup[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item tag 'aquaculture:turtle'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/tuna[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tuna'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/tuna[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tuna'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/uranium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/uranium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/carp[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:carp'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/carp[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:carp'
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/osmium/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_allthemodium_ore[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_allthemodium_ore[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/lead/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/lead/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/brown_trout[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/brown_trout[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/osmium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/uranium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/uranium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:46] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
+[03:38:46] [WARN] Failed to parse recipe 'aquaculture:cutting/blackfish[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:blackfish'
+[03:38:46] [WARN] Failed to parse recipe aquaculture:cutting/blackfish[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:blackfish'
+[03:38:46] [WARN] Failed to parse recipe 'mekanism:processing/copper/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
+[03:38:46] [WARN] Failed to parse recipe mekanism:processing/copper/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/arapaima[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:arapaima'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/arapaima[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:arapaima'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/uranium/shard/from_ore[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/uranium/shard/from_ore[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/pacific_halibut[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pacific_halibut'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/pacific_halibut[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pacific_halibut'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/clump/from_ore[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/clump/from_ore[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/vibranium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/vibranium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:unobtainium_pile[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:unobtainium_pile'
+[03:38:47] [WARN] Failed to parse recipe allthemodium:unobtainium_pile[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'iceandfire:unobtainium_pile'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/uranium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/uranium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe 'lostsould:dar_2[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_chestplate'
+[03:38:47] [WARN] Failed to parse recipe lostsould:dar_2[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_chestplate'
+[03:38:47] [WARN] Failed to parse recipe 'lostsould:dar_4[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_boots'
+[03:38:47] [WARN] Failed to parse recipe lostsould:dar_4[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_boots'
+[03:38:47] [WARN] Failed to parse recipe 'lostsould:dar_3[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_leggings'
+[03:38:47] [WARN] Failed to parse recipe lostsould:dar_3[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lostsould:darprincecrown_2_armor_leggings'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dirty_dust/from_clump[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/osmium/dirty_dust/from_clump[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/lead/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/lead/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/atlantic_herring[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_herring'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/atlantic_herring[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_herring'
+[03:38:47] [WARN] Failed to parse recipe 'forbidden_arcanus:soul_extractor[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:bottle_block'
+[03:38:47] [WARN] Failed to parse recipe forbidden_arcanus:soul_extractor[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'forbidden_arcanus:bottle_block'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/bayad[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bayad'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/bayad[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:bayad'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/pollock[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pollock'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/pollock[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pollock'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/perch[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:perch'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/perch[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:perch'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/uranium/shard/from_crystal[mekanism:injecting]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/uranium/shard/from_crystal[mekanism:injecting]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:injecting'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/slurry/clean[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/rainbow_trout[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:rainbow_trout'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/rainbow_trout[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:rainbow_trout'
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/copper/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/copper/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/tambaqui[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tambaqui'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/tambaqui[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:tambaqui'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/pink_salmon[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pink_salmon'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/pink_salmon[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:pink_salmon'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dust/from_ingot[mekanism:crushing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/osmium/dust/from_ingot[mekanism:crushing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crushing'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean_mek[mekanism:washing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/uranium/slurry/clean_mek[mekanism:washing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:washing'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/synodontis[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:synodontis'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/synodontis[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:synodontis'
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/osmium/ore/from_dust[mekanism:combining]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:combining'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/osmium/ore/from_dust[mekanism:combining]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_unobtainium_ingot_to_dust[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_unobtainium_ingot_to_dust[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/copper/dust/from_dirty_dust[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/copper/dust/from_dirty_dust[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:thermal/pulverizer_vibranium_ore[thermal:pulverizer]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:thermal/pulverizer_vibranium_ore[thermal:pulverizer]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'thermal:pulverizer'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/uranium/clump/from_shard[mekanism:purifying]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/uranium/clump/from_shard[mekanism:purifying]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:purifying'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/uranium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/osmium/dust/from_ore[mekanism:enriching]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/osmium/dust/from_ore[mekanism:enriching]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:enriching'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/unobtainium/slurry/dirty[mekanism:dissolution]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/unobtainium/slurry/dirty[mekanism:dissolution]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:dissolution'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/red_grouper[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_grouper'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/red_grouper[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:red_grouper'
+[03:38:47] [WARN] Failed to parse recipe 'allthemodium:mek_processing/allthemodium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe allthemodium:mek_processing/allthemodium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/boulti[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/boulti[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
+[03:38:47] [WARN] Failed to parse recipe 'mekanism:processing/osmium/crystal/from_slurry[mekanism:crystallizing]'! Falling back to vanilla: Unknown recipe type!
+[03:38:47] [WARN] Failed to parse recipe mekanism:processing/osmium/crystal/from_slurry[mekanism:crystallizing]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'mekanism:crystallizing'
+[03:38:47] [WARN] Failed to parse recipe aquaculture:cutting/atlantic_cod[farmersdelight:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
+[03:38:47] [WARN] Failed to parse recipe 'aquaculture:cutting/atlantic_cod[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'aquaculture:atlantic_cod'
+[03:38:47] [INFO] server_scripts:bhc.js:3: + botania:elven_trade: [] -> []
+[03:38:47] [INFO] server_scripts:bhc.js:13: + evilcraft:blood_infuser: [] -> []
+[03:38:47] [INFO] server_scripts:starting_items.js:13: + minecraft:crafting_shapeless: ['minecraft:book', '#forge:string'] -> [Item.of('akashictome:tome', {RepairCost:0.0,"akashictome:data":{tconstruct:{id:"tconstruct:materials_and_you",Count:1.0},evilcraft:{id:"evilcraft:origins_of_darkness",Count:1.0},resourcefulbees:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"resourcefulbees:fifty_shades_of_bees"}},astralsorcery:{id:"astralsorcery:tome",Count:1.0},theoneprobe:{id:"theoneprobe:probenote",Count:1.0},psi:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"psi:encyclopaedia_psionica"}},naturesaura:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"naturesaura:book"}},astral:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"astral:astronomicon"}},allthemodium:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"allthemodium:allthemodium"}},occultism:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"occultism:dictionary_of_debug"}},elementalcraft:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"elementalcraft:element_book"}},turtlemancy:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"turtlemancy:turtlenomicon"}},botania:{id:"botania:lexicon",Count:1.0,tag:{}},ars_nouveau:{id:"ars_nouveau:worn_notebook",Count:1.0},mysticalworld:{id:"mysticalworld:encyclopedia",Count:1.0},bloodmagic:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"bloodmagic:guide"}},twilightforest:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"twilightforest:guide"}},mysticalagriculture:{id:"patchouli:guide_book",Count:1.0,tag:{"patchouli:book":"mysticalagriculture:guide"}}},display:{Name:"{\"text\":\"All The Magic Guide\"}"}})]
+[03:38:50] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[03:38:51] [INFO] [il_tags/elementalcraft_runes] Found 3 tags, added 0 objects, removed 0 objects

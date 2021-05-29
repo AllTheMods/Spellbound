@@ -13,13 +13,8 @@ onEvent('recipes', e => {
     e.custom({
         type: 'evilcraft:blood_infuser',
         item : Item.of('minecraft:rotten_flesh').toJson(),
-        fluid: {
-            fluid: Fluid.of('evilcraft:blood').toJson(),
-            amount: 50000
-        },
-        result:{
-            item: Item.of('bhc:red_heart').toJson()
-        },
+            fluid: Fluid.of('evilcraft:blood', 50000).toJson(),
+        result: Item.of('bhc:red_heart').toJson(),
         duration: 1200,
         xp: 20,
         tier: 0
