@@ -1,0 +1,8 @@
+#507 byg:cherry_blossom_clearing
+#72F byg:cherry_blossom_forest
+#010 minecraft:forest
+#678 byg:fresh_water_lake
+#79C byg:maple_taiga
+#5FF minecraft:river
+#4D3 minecraft:swamp
+#452 minecraft:wooded_hills

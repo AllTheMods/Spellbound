@@ -1,0 +1,214 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 27, 2021 6:55:06 PM
+
+#astral:neutral_mobs
+- minecraft:spider
+- minecraft:enderman
+- minecraft:phantom
+- minecraft:zombified_piglin
+- minecraft:piglin
+
+#endergetic:not_balloon_attachable
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:puff_bug
+- endergetic:booflo
+- endergetic:booflo_adolescent
+- endergetic:booflo_baby
+- minecraft:shulker
+- minecraft:horse
+- minecraft:armor_stand
+- minecraft:phantom
+- minecraft:ghast
+- minecraft:wither
+- minecraft:ender_dragon
+
+#tconstruct:bouncy
+- tconstruct:sky_slime
+
+#astral:spiritual_beings
+- minecraft:phantom
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#forge:pigs
+- minecraft:pig
+
+#occultism:wild_hunt
+- occultism:wild_hunt_skeleton
+- occultism:wild_hunt_wither_skeleton
+
+#forge:parrots
+- minecraft:parrot
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#forge:cows
+- minecraft:cow
+
+#astral:attuned_entities
+- #astral:spiritual_beings
+- #astral:ethereal_beings
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#seeker_compass:summonables
+- endergetic:booflo
+
+#tconstruct:piggybackpack_blacklist
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#occultism:afrit_allies
+- minecraft:blaze
+
+#forge:villagers
+- minecraft:villager
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#endergetic:boof_block_resistant
+- endergetic:boof_block
+- endergetic:poise_cluster
+- endergetic:bolloom_fruit
+- endergetic:bolloom_balloon
+- minecraft:shulker
+- minecraft:painting
+- minecraft:vex
+- minecraft:item_frame
+- quark:glass_frame?
+- quark:colored_frame?
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- resourcefulbees:kitten_bee
+- resourcefulbees:pigman_bee
+- resourcefulbees:diamond_bee
+- resourcefulbees:zombie_bee
+- resourcefulbees:lapis_bee
+- resourcefulbees:slimy_bee
+- resourcefulbees:creeper_bee
+- resourcefulbees:icy_bee
+- resourcefulbees:dungeon_bee
+- resourcefulbees:dragon_bee
+- resourcefulbees:redstone_bee
+- resourcefulbees:skeleton_bee
+- resourcefulbees:oreo_bee
+- resourcefulbees:rgbee_bee
+- resourcefulbees:iron_bee
+- resourcefulbees:emerald_bee
+- resourcefulbees:nether_quartz_bee
+- resourcefulbees:netherite_bee
+- resourcefulbees:ender_bee
+- resourcefulbees:coal_bee
+- resourcefulbees:wither_bee
+- resourcefulbees:gold_bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#forbidden_arcanus:quantum_catcher_blacklisted
+- minecraft:wither
+- minecraft:elder_guardian
+- minecraft:ender_dragon
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#astral:ethereal_beings
+- astral:crystal_spider
+- astral:crystal_web_projectile
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#forge:chicken
+- minecraft:chicken

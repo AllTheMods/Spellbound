@@ -1,0 +1,10 @@
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#010 minecraft:forest
+#3DC minecraft:plains
+#7E1 byg:polluted_lake
+#090 byg:red_rock_lowlands
+#7AA byg:red_rock_mountains
+#5FF minecraft:river
+#67B minecraft:savanna
+#12E byg:shrublands

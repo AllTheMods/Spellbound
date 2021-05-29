@@ -1,0 +1,57 @@
+
+[general]
+
+	[general.magmaturtle]
+		#Set the weight of the Magma Turtle spawns (0 = no spawns). [Default: 8]
+		#Range: 0 ~ 9999
+		weight = 8
+
+	[general.altarbless]
+		#The ammount of turtle bless/curse needed to load the altar. [Default: 3]
+		#Range: 1 ~ 100
+		count = 3
+
+	[general.scutesand]
+		#Set to true if you want scute to have a possibility to drop from beach sand. [Default: True]
+		drop = true
+		#Probability (1/value) of scute droping from beach sand. [Default: 34]
+		#Range: 1 ~ 1000
+		chance = 34
+		#Max ammount of scute drop from a block of sand. [Default: 1]
+		#Range: 1 ~ 20
+		count = 1
+
+	[general.oystersand]
+		#Maximum number of Oyster Sand veins generated in one chunk. [Default: 1750]
+		#Range: 1 ~ 5000
+		chance = 1750
+
+	[general.redstonerepair]
+		#The ammount of durability repaired per redstone. [Defaul 16]
+		#Range: 0 ~ 9999
+		value = 16
+
+[tweaks]
+
+	[tweaks.bedrock_pickaxe]
+		#False to disable the Bedrock Pickaxe. [Default: True]
+		exist = true
+		#False to disable the Turtlemy recipe that turns 1 Bedrock into 9 Fragments of Bedrock. [Default: True]
+		turtlemy_tweak = true
+
+	[tweaks.shell_of_encapsulation]
+		#False to disable the Shell of Encapsulation. [Default: True]
+		exist = true
+
+[spells]
+
+	[spells.bubblecd]
+		#The cooldown to the Bubble Spells. [Default: 100]
+		#Range: 1 ~ 9999
+		count = 100
+
+	[spells.selfbubblecd]
+		#The cooldown to the Self Bubble Spells. [Default: 60]
+		#Range: 1 ~ 9999
+		count = 60
+

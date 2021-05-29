@@ -1,0 +1,2571 @@
+
+["mana-and-artifice:components/frost_damage"]
+
+	["mana-and-artifice:components/frost_damage".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/frost_damage".DAMAGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/frost_damage".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:shapes/smite"]
+
+	["mana-and-artifice:shapes/smite".RADIUS]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/smite".HEIGHT]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/smite".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+
+["mana-and-artifice:components/mind_control"]
+
+	["mana-and-artifice:components/mind_control".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/mind_control".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+
+["mana-and-artifice:components/collapse"]
+
+	["mana-and-artifice:components/collapse".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/haste"]
+
+	["mana-and-artifice:components/haste".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/haste".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/haste".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/spectral_crafting_table"]
+
+	["mana-and-artifice:components/spectral_crafting_table".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/cauterize"]
+
+	["mana-and-artifice:components/cauterize".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 40.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/cauterize".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/grow"]
+
+	["mana-and-artifice:components/grow".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:shapes/wall"]
+
+	["mana-and-artifice:shapes/wall".WIDTH]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/wall".HEIGHT]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/wall".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/wall".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+
+["mana-and-artifice:components/earthsky"]
+
+	["mana-and-artifice:components/earthsky".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/earthsky".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.5
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 7.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.5
+
+["mana-and-artifice:components/gravity_well"]
+
+	["mana-and-artifice:components/gravity_well".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/gravity_well".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:shapes/rune"]
+
+	["mana-and-artifice:shapes/rune".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/rune".RADIUS]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/rune".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 3.0
+
+["mana-and-artifice:components/shield"]
+
+	["mana-and-artifice:components/shield".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 30.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/shield".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/shield".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/mana_shield"]
+
+	["mana-and-artifice:components/mana_shield".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/mana_shield".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/mana_shield".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+
+["mana-and-artifice:components/mana_transfer"]
+
+	["mana-and-artifice:components/mana_transfer".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 20.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 100.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 20.0
+
+	["mana-and-artifice:components/mana_transfer".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/blink"]
+
+	["mana-and-artifice:components/blink".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/blink".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/rift"]
+
+	["mana-and-artifice:components/rift".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/fire_shield"]
+
+	["mana-and-artifice:components/fire_shield".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/fire_shield".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/fire_shield".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+
+["mana-and-artifice:components/entangle"]
+
+	["mana-and-artifice:components/entangle".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/entangle".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/strength"]
+
+	["mana-and-artifice:components/strength".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/strength".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+
+["mana-and-artifice:components/silence"]
+
+	["mana-and-artifice:components/silence".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/silence".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/heal"]
+
+	["mana-and-artifice:components/heal".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/heal".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:shapes/touch"]
+
+	["mana-and-artifice:shapes/touch".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 3.0
+
+["mana-and-artifice:components/transitory_tile"]
+
+	["mana-and-artifice:components/transitory_tile".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/transitory_tile".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/life_tap"]
+
+	["mana-and-artifice:components/life_tap".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 4.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/life_tap".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/life_tap".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 45.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/crystallize"]
+
+	["mana-and-artifice:components/crystallize".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 4.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/crystallize".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/animus"]
+
+	["mana-and-artifice:components/animus".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/animus".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/drown"]
+
+	["mana-and-artifice:components/drown".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/drown".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/drown".DAMAGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 30.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+
+	["mana-and-artifice:components/drown".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 2.0
+
+["mana-and-artifice:components/fire_damage"]
+
+	["mana-and-artifice:components/fire_damage".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/fire_damage".DAMAGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/fire_damage".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/blind"]
+
+	["mana-and-artifice:components/blind".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/blind".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/explosion"]
+
+	["mana-and-artifice:components/explosion".RADIUS]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/explosion".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:shapes/projectile"]
+
+	["mana-and-artifice:shapes/projectile".SPEED]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.20000000298023224
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/projectile".RADIUS]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/watery_grave"]
+
+	["mana-and-artifice:components/watery_grave".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/watery_grave".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 15.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/activate"]
+
+	["mana-and-artifice:components/activate".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/break"]
+
+	["mana-and-artifice:components/break".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/break".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/gust"]
+
+	["mana-and-artifice:components/gust".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/gust".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/leap"]
+
+	["mana-and-artifice:components/leap".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/leap".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/leap".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+
+["mana-and-artifice:shapes/bolt"]
+
+	["mana-and-artifice:shapes/bolt".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 16.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 16.0
+
+["mana-and-artifice:components/slowfall"]
+
+	["mana-and-artifice:components/slowfall".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/slowfall".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/slowfall".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/lightning_damage"]
+
+	["mana-and-artifice:components/lightning_damage".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/lightning_damage".RADIUS]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/lightning_damage".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/lightning_damage".DAMAGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/weakness"]
+
+	["mana-and-artifice:components/weakness".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/weakness".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 4.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 4.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 4.0
+
+["mana-and-artifice:components/swift_swim"]
+
+	["mana-and-artifice:components/swift_swim".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/swift_swim".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/swift_swim".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+
+["mana-and-artifice:components/magic_damage"]
+
+	["mana-and-artifice:components/magic_damage".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/magic_damage".DAMAGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:shapes/wave"]
+
+	["mana-and-artifice:shapes/wave".SPEED]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.30000001192092896
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.10000000149011612
+
+	["mana-and-artifice:shapes/wave".WIDTH]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/wave".HEIGHT]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/wave".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/transplace"]
+
+	["mana-and-artifice:components/transplace".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/absorption"]
+
+	["mana-and-artifice:components/absorption".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/absorption".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/absorption".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+
+["mana-and-artifice:components/chrono_anchor"]
+
+	["mana-and-artifice:components/chrono_anchor".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/chrono_anchor".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 60.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 480.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 15.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+
+["mana-and-artifice:components/slow"]
+
+	["mana-and-artifice:components/slow".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/slow".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/slow".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/divination"]
+
+	["mana-and-artifice:components/divination".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 7.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/divination".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/divination".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 300.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 30.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 30.0
+
+["mana-and-artifice:shapes/beam"]
+
+	["mana-and-artifice:shapes/beam".WIDTH]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/beam".HEIGHT]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/beam".DEPTH]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/beam".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/beam".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 16.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+
+["mana-and-artifice:components/light"]
+
+	["mana-and-artifice:components/light".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/light".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+
+["mana-and-artifice:components/briarthorn_barrier"]
+
+	["mana-and-artifice:components/briarthorn_barrier".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/briarthorn_barrier".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/briarthorn_barrier".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 15.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 15.0
+
+["mana-and-artifice:components/decoy"]
+
+	["mana-and-artifice:components/decoy".SPEED]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 1.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.5
+
+	["mana-and-artifice:components/decoy".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/decoy".RADIUS]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 3.0
+
+	["mana-and-artifice:components/decoy".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/invisibility"]
+
+	["mana-and-artifice:components/invisibility".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/invisibility".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/confuse"]
+
+	["mana-and-artifice:components/confuse".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/confuse".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+
+["mana-and-artifice:components/night_vision"]
+
+	["mana-and-artifice:components/night_vision".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/night_vision".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 30.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 120.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 10.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 10.0
+
+["mana-and-artifice:components/poison"]
+
+	["mana-and-artifice:components/poison".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/poison".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/poison".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 15.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+
+["mana-and-artifice:components/nethergate"]
+
+	["mana-and-artifice:components/nethergate".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:shapes/emanation"]
+
+	["mana-and-artifice:shapes/emanation".WIDTH]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/emanation".HEIGHT]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 2.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 9.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:shapes/emanation".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 10.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+["mana-and-artifice:components/fling"]
+
+	["mana-and-artifice:components/fling".SPEED]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+
+	["mana-and-artifice:components/fling".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+["mana-and-artifice:components/true_invisibility"]
+
+	["mana-and-artifice:components/true_invisibility".DELAY]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:components/true_invisibility".DURATION]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 4.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+

@@ -1,0 +1,331 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 5/28/21 5:50 PM
+Description: mouseClicked event handler
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(String.java:658) ~[?:1.8.0_242] {}
+	at com.github.alexthe666.iceandfire.util.IAFBiomeUtil.lambda$biomeMeetsListConditions$7(IAFBiomeUtil.java:81) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174) ~[?:1.8.0_242] {}
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242] {}
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242] {}
+	at com.github.alexthe666.iceandfire.util.IAFBiomeUtil.biomeMeetsListConditions(IAFBiomeUtil.java:82) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at com.github.alexthe666.iceandfire.util.IAFBiomeUtil.parseListForBiomeCheck(IAFBiomeUtil.java:126) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at com.github.alexthe666.iceandfire.world.IafWorldRegistry.onBiomesLoad(IafWorldRegistry.java:437) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at com.github.alexthe666.iceandfire.IceAndFire.onBiomeLoadFromJSON(IceAndFire.java:121) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.enhanceBiome(ForgeHooks.java:944) ~[forge:?] {re:classloading}
+	at net.minecraft.world.biome.Biome.lambda$null$8(Biome.java:75) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:chocolate.mixins.json:world.biome.BiomeMixin,pl:mixin:APP:ftbchunks.mixins.json:BiomeMixin,pl:mixin:A}
+	at com.mojang.datafixers.util.Function8.lambda$null$6(Function8.java:22) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.datafixers.util.Function4.lambda$null$2(Function4.java:14) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:315) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.datafixers.kinds.Applicative.ap4(Applicative.java:84) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:404) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$0(MapDecoder.java:52) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport$IResourceAccess$RegistryAccess.func_241879_a(WorldSettingsImport.java:236) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_241805_a_(WorldSettingsImport.java:131) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_240885_a_(WorldSettingsImport.java:105) ~[?:?] {re:classloading}
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_241797_a_(WorldSettingsImport.java:104) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.DynamicRegistries.func_243610_a(DynamicRegistries.java:144) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.util.registry.DynamicRegistries.func_243608_a(DynamicRegistries.java:132) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_244336_a(WorldSettingsImport.java:53) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.DynamicRegistries.func_239770_b_(DynamicRegistries.java:85) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.client.gui.screen.CreateWorldScreen.func_243425_a(CreateWorldScreen.java:112) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList.func_212330_a(SourceFile:101) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.screen.WorldSelectionList.<init>(SourceFile:83) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.screen.WorldSelectionScreen.func_231160_c_(SourceFile:48) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.screen.Screen.func_231158_b_(Screen.java:325) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:client.ScreenMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:852) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMinecraft,pl:mixin:APP:create.mixins.json:ShaderCloseMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.MainMenuScreen.lambda$createNormalMenuOptions$5(MainMenuScreen.java:139) ~[?:?] {re:computing_frames,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.button.Button.func_230930_b_(SourceFile:33) ~[?:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.client.gui.widget.button.AbstractButton.func_230982_a_(SourceFile:16) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.client.gui.widget.Widget.func_231044_a_(Widget.java:136) ~[?:?] {re:classloading,pl:runtimedistcleaner:A,re:mixin,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.func_231044_a_(SourceFile:27) ~[?:?] {re:computing_frames,re:mixin,re:classloading}
+	at net.minecraft.client.gui.screen.MainMenuScreen.func_231044_a_(MainMenuScreen.java:288) ~[?:?] {re:computing_frames,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_198033_b(MouseHelper.java:87) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.func_231153_a_(Screen.java:427) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:client.ScreenMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_198023_a(MouseHelper.java:85) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_228030_c_(MouseHelper.java:175) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(SourceFile:94) ~[?:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.func_228028_b_(MouseHelper.java:174) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(SourceFile:127) ~[?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:999) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMinecraft,pl:mixin:APP:create.mixins.json:ShaderCloseMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMinecraft,pl:mixin:APP:create.mixins.json:ShaderCloseMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[1.16.5.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) ~[forge-1.16.5-36.1.24.jar:36.1] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {re:classloading}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.lang.String.charAt(String.java:658) ~[?:1.8.0_242] {}
+	at com.github.alexthe666.iceandfire.util.IAFBiomeUtil.lambda$biomeMeetsListConditions$7(IAFBiomeUtil.java:81) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174) ~[?:1.8.0_242] {}
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[?:1.8.0_242] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_242] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_242] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_242] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_242] {}
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:566) ~[?:1.8.0_242] {}
+	at com.github.alexthe666.iceandfire.util.IAFBiomeUtil.biomeMeetsListConditions(IAFBiomeUtil.java:82) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at com.github.alexthe666.iceandfire.util.IAFBiomeUtil.parseListForBiomeCheck(IAFBiomeUtil.java:126) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at com.github.alexthe666.iceandfire.world.IafWorldRegistry.onBiomesLoad(IafWorldRegistry.java:437) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at com.github.alexthe666.iceandfire.IceAndFire.onBiomeLoadFromJSON(IceAndFire.java:121) ~[iceandfire:2.1.5-1.16.4] {re:classloading}
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.enhanceBiome(ForgeHooks.java:944) ~[forge:?] {re:classloading}
+	at net.minecraft.world.biome.Biome.lambda$null$8(Biome.java:75) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:chocolate.mixins.json:world.biome.BiomeMixin,pl:mixin:APP:ftbchunks.mixins.json:BiomeMixin,pl:mixin:A}
+	at com.mojang.datafixers.util.Function8.lambda$null$6(Function8.java:22) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.datafixers.util.Function4.lambda$null$2(Function4.java:14) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:315) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.datafixers.kinds.Applicative.ap4(Applicative.java:84) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:404) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$0(MapDecoder.java:52) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport$IResourceAccess$RegistryAccess.func_241879_a(WorldSettingsImport.java:236) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_241805_a_(WorldSettingsImport.java:131) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_240885_a_(WorldSettingsImport.java:105) ~[?:?] {re:classloading}
+	at com.mojang.serialization.DataResult.lambda$flatMap$10(DataResult.java:138) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?] {}
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:136) ~[datafixerupper-4.0.26.jar:?] {re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_241797_a_(WorldSettingsImport.java:104) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.DynamicRegistries.func_243610_a(DynamicRegistries.java:144) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.util.registry.DynamicRegistries.func_243608_a(DynamicRegistries.java:132) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.util.registry.WorldSettingsImport.func_244336_a(WorldSettingsImport.java:53) ~[?:?] {re:classloading}
+	at net.minecraft.util.registry.DynamicRegistries.func_239770_b_(DynamicRegistries.java:85) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.client.gui.screen.CreateWorldScreen.func_243425_a(CreateWorldScreen.java:112) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList.func_212330_a(SourceFile:101) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.screen.WorldSelectionList.<init>(SourceFile:83) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.screen.WorldSelectionScreen.func_231160_c_(SourceFile:48) ~[?:?] {re:classloading}
+	at net.minecraft.client.gui.screen.Screen.func_231158_b_(Screen.java:325) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:client.ScreenMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:852) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMinecraft,pl:mixin:APP:create.mixins.json:ShaderCloseMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.MainMenuScreen.lambda$createNormalMenuOptions$5(MainMenuScreen.java:139) ~[?:?] {re:computing_frames,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.button.Button.func_230930_b_(SourceFile:33) ~[?:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.client.gui.widget.button.AbstractButton.func_230982_a_(SourceFile:16) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.client.gui.widget.Widget.func_231044_a_(Widget.java:136) ~[?:?] {re:classloading,pl:runtimedistcleaner:A,re:mixin,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.func_231044_a_(SourceFile:27) ~[?:?] {re:computing_frames,re:mixin,re:classloading}
+	at net.minecraft.client.gui.screen.MainMenuScreen.func_231044_a_(MainMenuScreen.java:288) ~[?:?] {re:computing_frames,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_198033_b(MouseHelper.java:87) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.screen.MainMenuScreen
+Stacktrace:
+	at net.minecraft.client.gui.screen.Screen.func_231153_a_(Screen.java:427) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:client.ScreenMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_198023_a(MouseHelper.java:85) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.func_228030_c_(MouseHelper.java:175) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(SourceFile:94) ~[?:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.func_228028_b_(MouseHelper.java:174) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(SourceFile:127) ~[?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:999) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMinecraft,pl:mixin:APP:create.mixins.json:ShaderCloseMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMinecraft,pl:mixin:APP:create.mixins.json:ShaderCloseMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[1.16.5.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) ~[forge-1.16.5-36.1.24.jar:36.1] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {re:classloading}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_242, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
+	Memory: 4602155800 bytes (4388 MB) / 8589934592 bytes (8192 MB) up to 8589934592 bytes (8192 MB)
+	CPUs: 12
+	JVM Flags: 21 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx8192m -Xms8192m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.1.24.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.1.24.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.1.24.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.1.24.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.1.24.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.1
+	Forge: net.minecraftforge:36.1.24
+	FML Language Providers: 
+		javafml@36.1
+		minecraft@1
+	Mod List: 
+		CyclopsCore-1.16.5-1.11.6.jar                     |Cyclops Core                  |cyclopscore                   |1.11.6              |DONE      |Manifest: NOSIGNATURE
+		astralsorcery-1.16-1.16.5-1.13.11.jar             |Astral Sorcery                |astralsorcery                 |1.16.5-1.13.11      |DONE      |Manifest: 45:2b:0a:49:6b:65:3b:39:a9:dd:d2:5b:55:7f:82:47:a5:1d:7a:cc:7f:a8:69:73:72:53:6f:57:4d:b2:1a:b7
+		ftb-essentials-1604.1.0.13.jar                    |FTB Essentials                |ftbessentials                 |1604.1.0.13         |DONE      |Manifest: NOSIGNATURE
+		BetterCaves-Forge-1.16.4-1.1.2.jar                |YUNG's Better Caves           |bettercaves                   |1.16.4-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		Controlling-7.0.0.19.jar                          |Controlling                   |controlling                   |7.0.0.19            |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.16.4-4.4.5.jar                          |Placebo                       |placebo                       |4.4.5               |DONE      |Manifest: NOSIGNATURE
+		citadel-1.6.3.jar                                 |Citadel                       |citadel                       |1.6.3               |DONE      |Manifest: NOSIGNATURE
+		farmersdelightintegrations-1.16.5-1.1.jar         |Farmer's Delight Compats      |farmersdelightintegrations    |1.16.5-1.1          |DONE      |Manifest: NOSIGNATURE
+		EvilCraft-1.16.5-1.1.5.jar                        |EvilCraft                     |evilcraft                     |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.16.4-Forge-6.jar                       |YUNG's API                    |yungsapi                      |1.16.4-Forge-6      |DONE      |Manifest: NOSIGNATURE
+		potionsmaster-0.2.0-1.16.5-36.0.52.jar            |Potions Master                |potionsmaster                 |0.2.0-1.16.5-36.0.52|DONE      |Manifest: NOSIGNATURE
+		Bookshelf-1.16.5-10.1.11.jar                      |Bookshelf                     |bookshelf                     |10.1.11             |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		reliquary-1.16.5-1.3.5.1098.jar                   |Reliquary                     |xreliquary                    |1.16.5-1.3.5.1098   |DONE      |Manifest: NOSIGNATURE
+		DarkUtilities-1.16.5-8.0.10.jar                   |Dark Utilities                |darkutils                     |8.0.10              |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		Apotheosis-1.16.4-4.6.0.jar                       |Apotheosis                    |apotheosis                    |4.6.0               |DONE      |Manifest: NOSIGNATURE
+		dynviewdist-1.9.jar                               |Dynamic view distance         |dynview                       |1.8                 |DONE      |Manifest: NOSIGNATURE
+		twilightforest-1.16.5-4.0.482-universal.jar       |The Twilight Forest           |twilightforest                |NONE                |DONE      |Manifest: NOSIGNATURE
+		alltheores-1.3.2-1.16.5-36.1.0.jar                |AllTheOres                    |alltheores                    |1.3.2-1.16.5-36.1.0 |DONE      |Manifest: NOSIGNATURE
+		chocolate-1.3.0-1.16.4.jar                        |Chocolate                     |chocolate                     |1.3.0-1.16.4        |DONE      |Manifest: NOSIGNATURE
+		mcw-bridges-1.0.5-mc1.16.5-4.jar                  |Macaw's Bridges               |mcwbridges                    |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		FarmersDelight-1.16.5-0.4.3.jar                   |Farmer's Delight              |farmersdelight                |1.16.5-0.4.3        |DONE      |Manifest: NOSIGNATURE
+		ResourcefulBees-1.16.5-0.6.7.2b.jar               |Resourceful Bees              |resourcefulbees               |1.16.5-0.6.7.2b     |DONE      |Manifest: NOSIGNATURE
+		necrum-1.6.jar                                    |lostsould                     |lostsould                     |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		ftb-ranks-1604.1.1.11.jar                         |FTB Ranks                     |ftbranks                      |1604.1.1.11         |DONE      |Manifest: NOSIGNATURE
+		astral-1.9.14.jar                                 |Astral                        |astral                        |1.9.14              |DONE      |Manifest: NOSIGNATURE
+		Botania-1.16.5-416.jar                            |Botania                       |botania                       |1.16.5-416          |DONE      |Manifest: NOSIGNATURE
+		dpanvil-1.16.4-1.1.6.jar                          |DataPack Anvil                |dpanvil                       |1.16.4-1.1.6        |DONE      |Manifest: NOSIGNATURE
+		curios-forge-1.16.5-4.0.5.1.jar                   |Curios API                    |curios                        |1.16.5-4.0.5.1      |DONE      |Manifest: NOSIGNATURE
+		eidolon-0.2.7.jar                                 |Eidolon                       |eidolon                       |0.2.7               |DONE      |Manifest: NOSIGNATURE
+		Patchouli-1.16.4-51.jar                           |Patchouli                     |patchouli                     |1.16.4-51           |DONE      |Manifest: NOSIGNATURE
+		angelring-1.16.5-1.3.4.1.jar                      |Angel Ring                    |angelring                     |1.3.4.1             |DONE      |Manifest: NOSIGNATURE
+		ftb-ultimine-1605.2.0-build.26-forge.jar          |FTB Ultimine                  |ftbultimine                   |1605.2.0-build.26   |DONE      |Manifest: NOSIGNATURE
+		tombstone-1.16-6.3.8.jar                          |Corail Tombstone              |tombstone                     |6.3.8               |DONE      |Manifest: NOSIGNATURE
+		Runelic-1.16.5-7.0.1.jar                          |Runelic                       |runelic                       |7.0.1               |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		NaturesAura-34.2.jar                              |Nature's Aura                 |naturesaura                   |34.2                |DONE      |Manifest: NOSIGNATURE
+		mcw-roofs-2.0.1-mc1.16.5-4.jar                    |Macaw's Roofs                 |mcwroofs                      |2.0.1               |DONE      |Manifest: NOSIGNATURE
+		architectury-1.17.17-forge.jar                    |Architectury                  |architectury                  |1.17.17             |DONE      |Manifest: NOSIGNATURE
+		ftb-gui-library-1605.2.1.41-forge.jar             |FTB GUI Library               |ftbguilibrary                 |1605.2.1.41         |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-1604.1.0.16-forge.jar                   |FTB Teams                     |ftbteams                      |1604.1.0.16         |DONE      |Manifest: NOSIGNATURE
+		AI-Improvements-1.16.2-0.3.0.jar                  |AI-Improvements               |aiimprovements                |0.3.0               |DONE      |Manifest: NOSIGNATURE
+		observerlib-1.16.5-1.5.2.jar                      |ObserverLib                   |observerlib                   |1.16.5-1.5.2        |DONE      |Manifest: NOSIGNATURE
+		cloth-config-4.11.26-forge.jar                    |Cloth Config v4 API           |cloth-config                  |4.11.26             |DONE      |Manifest: NOSIGNATURE
+		FastLeafDecay-v25.jar                             |FastLeafDecay                 |fastleafdecay                 |v25                 |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.36.jar                  |GeckoLib                      |geckolib3                     |3.0.36              |DONE      |Manifest: NOSIGNATURE
+		rhino-1605.1.0-build.4.jar                        |Rhino                         |rhino                         |1605.1.0-build.4    |DONE      |Manifest: NOSIGNATURE
+		mowziesmobs-1.5.16.jar                            |Mowzie's Mobs                 |mowziesmobs                   |1.5.16              |DONE      |Manifest: NOSIGNATURE
+		Cucumber-1.16.4-4.1.9.jar                         |Cucumber Library              |cucumber                      |4.1.9               |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-1605.3.1-build.10.jar           |FTB Library                   |ftblibrary                    |1605.3.1-build.10   |DONE      |Manifest: NOSIGNATURE
+		bagofyurting-1.16.4-1.2.0.1.jar                   |Bag of Yurting                |bagofyurting                  |1.2.0.1             |DONE      |Manifest: NOSIGNATURE
+		jei-1.16.5-7.7.0.101.jar                          |Just Enough Items             |jei                           |7.7.0.101           |DONE      |Manifest: NOSIGNATURE
+		item-filters-1605.2.4-build.30-forge.jar          |Item Filters                  |itemfilters                   |1605.2.4-build.30   |DONE      |Manifest: NOSIGNATURE
+		elementalcraft-1.16.5-2.6.9.jar                   |ElementalCraft                |elementalcraft                |1.16.5-2.6.9        |DONE      |Manifest: NOSIGNATURE
+		AttributeFix-1.16.5-10.1.2.jar                    |AttributeFix                  |attributefix                  |10.1.2              |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		abnormals_core-1.16.5-3.1.1.jar                   |Abnormals Core                |abnormals_core                |3.1.1               |DONE      |Manifest: NOSIGNATURE
+		create-mc1.16.5_v0.3.1c.jar                       |Create                        |create                        |mc1.16.5_v0.3.1c+151|DONE      |Manifest: NOSIGNATURE
+		Waystones_1.16.5-7.5.1.jar                        |Waystones                     |waystones                     |7.5.1               |DONE      |Manifest: NOSIGNATURE
+		Clumps-6.0.0.24.jar                               |Clumps                        |clumps                        |6.0.0.24            |DONE      |Manifest: NOSIGNATURE
+		journeymap-1.16.5-5.7.1.jar                       |Journeymap                    |journeymap                    |5.7.1               |DONE      |Manifest: NOSIGNATURE
+		comforts-forge-1.16.5-4.0.0.4.jar                 |Comforts                      |comforts                      |1.16.5-4.0.0.4      |DONE      |Manifest: NOSIGNATURE
+		NaturesCompass-1.16.5-1.8.6.jar                   |Nature's Compass              |naturescompass                |1.16.5-1.8.6        |DONE      |Manifest: NOSIGNATURE
+		Artifacts-1.16.5-2.9.2.jar                        |Artifacts                     |artifacts                     |1.16.5-2.9.2        |DONE      |Manifest: NOSIGNATURE
+		LibX-1.16.3-1.0.72.jar                            |LibX                          |libx                          |1.16.3-1.0.72       |DONE      |Manifest: NOSIGNATURE
+		iceandfire-2.1.5-1.16.4.jar                       |Ice and Fire                  |iceandfire                    |2.1.5-1.16.4        |DONE      |Manifest: NOSIGNATURE
+		ars_nouveau-1.16.5-1.17.jar                       |Ars Nouveau                   |ars_nouveau                   |1.17                |DONE      |Manifest: NOSIGNATURE
+		mysticalworld-1.16.4-0.3.1.10.jar                 |Mystical World                |mysticalworld                 |1.16.4-0.3.1.10     |DONE      |Manifest: NOSIGNATURE
+		ftb-chunks-1605.2.3-build.75.jar                  |FTB Chunks                    |ftbchunks                     |1605.2.3-build.75   |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.1.24-universal.jar                |Forge                         |forge                         |36.1.24             |DONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		BloodMagic-1.16.4-3.1.0-15.jar                    |Blood Magic                   |bloodmagic                    |1.16.4-3.1.0-15     |DONE      |Manifest: NOSIGNATURE
+		tomeofblood-1.16.4-1.0.5.jar                      |Tome of Blood                 |tomeofblood                   |1.16.4-1.0.5        |DONE      |Manifest: NOSIGNATURE
+		MysticalAgriculture-1.16.4-4.1.8.jar              |Mystical Agriculture          |mysticalagriculture           |4.1.8               |DONE      |Manifest: NOSIGNATURE
+		MysticalAgradditions-1.16.4-4.1.5.jar             |Mystical Agradditions         |mysticalagradditions          |4.1.5               |DONE      |Manifest: NOSIGNATURE
+		ironchest-1.16.4-11.2.10.jar                      |Iron Chests                   |ironchest                     |1.16.4-11.2.10      |DONE      |Manifest: NOSIGNATURE
+		MythicBotany-1.16.4-1.3.12.jar                    |MythicBotany                  |mythicbotany                  |1.16.4-1.3.12       |DONE      |Manifest: NOSIGNATURE
+		dungeonsarise1.16.5-1.2.72a.jar                   |Dungeons Arise                |dungeons_arise                |1.2.72a             |DONE      |Manifest: NOSIGNATURE
+		CraftingTweaks_1.16.3-12.2.0.jar                  |Crafting Tweaks               |craftingtweaks                |12.2.0              |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.1.24-client.jar                   |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: NOSIGNATURE
+		cofh_core-1.16.4-1.2.1.jar                        |CoFH Core                     |cofh_core                     |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		ensorcellation-1.16.4-1.2.0.jar                   |Ensorcellation                |ensorcellation                |1.2.0               |DONE      |Manifest: NOSIGNATURE
+		endergetic-1.16.4-3.0.0.jar                       |The Endergetic Expansion      |endergetic                    |3.0.0               |DONE      |Manifest: NOSIGNATURE
+		TConstruct-1.16.5-3.0.4.171.jar                   |Tinkers' Construct            |tconstruct                    |3.0.4.171           |DONE      |Manifest: NOSIGNATURE
+		EnchantmentDescriptions-1.16.5-7.0.8.jar          |EnchantmentDescriptions       |enchdesc                      |7.0.8               |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		theoneprobe-1.16-3.1.4.jar                        |The One Probe                 |theoneprobe                   |1.16-3.1.4          |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-2.14-mc1.16.2.jar                     |Mouse Tweaks                  |mousetweaks                   |2.14                |DONE      |Manifest: NOSIGNATURE
+		ftb-quests-1605.2.1-build.39-forge.jar            |FTB Quests                    |ftbquests                     |1605.2.1-build.39   |DONE      |Manifest: NOSIGNATURE
+		Psi 1.16-94.jar                                   |Psi                           |psi                           |1.16-94             |DONE      |Manifest: NOSIGNATURE
+		mana-and-artifice-1.3.0.6.jar                     |Mana and Artifice             |mana-and-artifice             |1.3.0.6             |DONE      |Manifest: NOSIGNATURE
+		allthemodium-1.4.9-1.16.5-36.1.0.jar              |Allthemodium                  |allthemodium                  |1.4.9-1.16.5-36.1.0 |DONE      |Manifest: NOSIGNATURE
+		turtlemancy-1.16.5-1.6.3.jar                      |Turtlemancy                   |turtlemancy                   |1.6.3               |DONE      |Manifest: NOSIGNATURE
+		Mantle-1.16.5-1.6.103.jar                         |Mantle                        |mantle                        |1.6.103             |DONE      |Manifest: NOSIGNATURE
+		rats-7.2.0-1.16.5.jar                             |Rats                          |rats                          |7.2.0               |DONE      |Manifest: NOSIGNATURE
+		ratlantis-1.0.0-1.16.3.jar                        |Rats: Ratlantis               |ratlantis                     |1.0.0-1.16.3        |DONE      |Manifest: NOSIGNATURE
+		ftb-backups-2.1.1.6.jar                           |FTB Backups                   |ftbbackups                    |2.1.1.6             |DONE      |Manifest: NOSIGNATURE
+		baubley-heart-canisters-1.16.4-1.1.2.jar          |Baubley Heart Canisters       |bhc                           |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		FastWorkbench-1.16.4-4.5.1.jar                    |FastWorkbench                 |fastbench                     |4.5.1               |DONE      |Manifest: NOSIGNATURE
+		AutoRegLib-1.6-49.jar                             |AutoRegLib                    |autoreglib                    |1.6-49              |DONE      |Manifest: NOSIGNATURE
+		Quark-r2.4-312.jar                                |Quark                         |quark                         |r2.4-312            |DONE      |Manifest: NOSIGNATURE
+		StorageDrawers-1.16.3-8.2.2.jar                   |Storage Drawers               |storagedrawers                |8.2.2               |DONE      |Manifest: NOSIGNATURE
+		FastFurnace-1.16.4-4.4.0.jar                      |FastFurnace                   |fastfurnace                   |4.4.0               |DONE      |Manifest: NOSIGNATURE
+		AppleSkin-mc1.16.2-forge-1.0.14.jar               |AppleSkin                     |appleskin                     |1.0.14              |DONE      |Manifest: NOSIGNATURE
+		ferritecore-2.0.4-forge.jar                       |Ferrite Core                  |ferritecore                   |2.0.4               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		occultism-1.16.5-1.1.3.jar                        |Occultism                     |occultism                     |1.16.5-1.1.3        |DONE      |Manifest: NOSIGNATURE
+		solcarrot-1.16.3-1.9.10.jar                       |Spice of Life: Carrot Edition |solcarrot                     |1.16.3-1.9.10       |DONE      |Manifest: NOSIGNATURE
+		allthetweaks-1.3.9-1.16.5-36.1.13.jar             |All The Tweaks                |allthetweaks                  |1.3.9-1.16.5-36.1.13|DONE      |Manifest: NOSIGNATURE
+		kubejs-1605.3.10-build.8-forge.jar                |KubeJS                        |kubejs                        |1605.3.10-build.8   |DONE      |Manifest: NOSIGNATURE
+		kubejs-blood-magic-1604.1.0.4.jar                 |KubeJS Blood Magic            |kubejs_blood_magic            |1604.1.0.4          |DONE      |Manifest: NOSIGNATURE
+		kubejs-create-1604.1.0.4.jar                      |KubeJS Create                 |kubejs_create                 |1604.1.0.4          |DONE      |Manifest: NOSIGNATURE
+		byg-1.2.8.jar                                     |Oh The Biomes You'll Go       |byg                           |1.2.8               |DONE      |Manifest: NOSIGNATURE
+		expandability-2.0.1-forge.jar                     |ExpandAbility                 |expandability                 |2.0.1               |DONE      |Manifest: NOSIGNATURE
+		valhelsia_core-16.0.8.jar                         |Valhelsia Core                |valhelsia_core                |16.0.8              |DONE      |Manifest: NOSIGNATURE
+		forbidden_arcanus-16.2.0-beta-3.jar               |Forbidden & Arcanus           |forbidden_arcanus             |16.2.0-beta-3       |DONE      |Manifest: NOSIGNATURE
+		magipsi-1.16.4-2.0.0.0.jar                        |Magical Psi                   |magipsi                       |1.16.4-2.0.0.0      |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 59873710-a70e-4a9b-80e9-572e786889f3
+	[Psi] Active spell: None
+	Patchouli open book context: n/a
+	Launched Version: 1.16.5
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: GeForce RTX 2060/PCIe/SSE2 GL version 4.6.0 NVIDIA 456.71, NVIDIA Corporation
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x Intel(R) Core(TM) i7-4960X CPU @ 3.60GHz

@@ -1,0 +1,239 @@
+{
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "turtlemancy:root": {
+    "criteria": {
+      "craftturlemancybook": "2021-05-28 20:19:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/lexicon": {
+    "criteria": {
+      "has_alt_item": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "rats:ratlantis/root": {
+    "criteria": {
+      "tick": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "evilcraft:evil_source": {
+    "criteria": {
+      "criteria_0": "2021-05-28 20:24:56 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "naturesaura:root": {
+    "criteria": {
+      "book": "2021-05-28 20:19:09 -0700"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2021-05-28 20:29:02 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/misc/shapeless_book_with_string": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2021-05-28 21:10:23 -0700",
+      "minecraft:river": "2021-05-28 21:10:38 -0700",
+      "minecraft:plains": "2021-05-28 21:10:36 -0700"
+    },
+    "done": false
+  },
+  "astral:root": {
+    "criteria": {
+      "tick": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "psi:main/encyclopaedia_psionica": {
+    "criteria": {
+      "flower": "2021-05-28 20:19:38 -0700"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "resourcefulbees:resourcefulbees/root": {
+    "criteria": {
+      "inventory_changed": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-05-28 20:19:44 -0700"
+    },
+    "done": true
+  },
+  "astral:dimensional_travel": {
+    "criteria": {
+      "none": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "solcarrot:recipes/food_book": {
+    "criteria": {
+      "has_book": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "rats:rats/root": {
+    "criteria": {
+      "tick": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-05-28 20:48:07 -0700"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "game_start": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "resourcefulbees:resourcefulbees/fifty_shades_of_bees": {
+    "criteria": {
+      "fifty_shades_of_bees": "2021-05-28 20:19:41 -0700"
+    },
+    "done": true
+  },
+  "astral:magical_puissance": {
+    "criteria": {
+      "none": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "naturesaura:get_book": {
+    "criteria": {
+      "book": "2021-05-28 20:19:09 -0700"
+    },
+    "done": true
+  },
+  "mysticalworld:recipes/misc/shaped_book_with_string": {
+    "criteria": {
+      "has_string": "2021-05-28 20:47:57 -0700"
+    },
+    "done": true
+  },
+  "occultism:root": {
+    "criteria": {
+      "occultism_present": "2021-05-28 20:16:55 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

@@ -1,0 +1,10 @@
+{
+	uuid: "537fe67e-1bd3-4b9a-8132-6fad0dcf82a6",
+	name: "Traverse_Joe",
+	can_edit: false,
+	money: 0L,
+	auto_pin: false,
+	task_progress: {},
+	claimed_rewards: [],
+	pinned_quests: []
+}

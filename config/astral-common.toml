@@ -1,0 +1,64 @@
+
+#Settings for controlling Astral worldgen such as Feverweed, Snowberry, and Etheric Isles
+[worldgenSettings]
+	#The minimum number of chunks between two Etheric Isles. Must be less than spacing.
+	ethericIslesSeparation = 1
+	#Controls how often Feverweed spawns, in terms of 1 in x chunks
+	feverweedPatchSpawnRate = 25
+	#Controls the minimum size of Snowberry patches
+	snowberryMinPatchSize = 2
+	#Controls the radius of the feverweed patch in the X and Z directions (y is always 3 blocks)
+	feverweedPatchDistribution = 5
+	#The 1 in x chance of a crystal web spreading when it's tick function is called.
+	crystalWebSpreadChance = 30
+	#Controls how often Snowberry spawns, in terms of 1 in x chunks
+	snowberryPatchSpawnRate = 25
+	#The average number of chunks between two Etheric Isles
+	ethericIslesSpacing = 15
+	#Controls how many tries the world generator will attempt to spawn a block of Feverweed
+	feverweedMaxTries = 64
+	#Controls how often Snowberries add snow nearby, in terms of 1 in x times it grows
+	snowberrySpreadSnowChance = 5
+	#Controls the maximum size of Snowberry patches
+	snowberryMaxPatchSize = 5
+
+#Settings for potion and food effects in the mod
+[effectDurations]
+	#Controls the duration of the Astral Travel potion duration, in ticks
+	astralTravelPotionDuration = 6000
+	#Controls the duration of nausea from Snowberry Brew, in ticks.
+	snowberryBrewNauseaDuration = 600
+	#Controls the duration of regeneration from Snowberries, in ticks.
+	snowberriesRegenerationDuration = 300
+	#Controls the duration of luck from Feverweed Brew, in ticks.
+	feverweedBrewLuckDuration = 600
+	#Controls the duration of hunger from Feverweed, in ticks.
+	feverweedHungerDuration = 300
+	#Controls the duration of Astral Travel from Traveling Medicine, in ticks.
+	travelingMedicineAstralTravelDuration = 1200
+	#Controls the duration of luck from Feverweed, in ticks.
+	feverweedLuckDuration = 300
+	#Controls the duration of nausea from Snowberries, in ticks.
+	snowberriesNauseaDuration = 300
+	#Controls the duration of hunger from Feverweed Brew, in ticks.
+	feverweedBrewHungerDuration = 600
+	#Controls the duration of regeneration from Snowberry Brew, in ticks.
+	snowberryBrewRegenerationDuration = 600
+
+#The speed of flight using Astral Travel decays with every block the player is above the closest block below them.
+[flightSettings]
+	#Controls the maximum multiplier of the base speed.
+	maxMultiplier = 1.5
+	#Controls how long it takes for the Physical Body to update its stats to the player, in ticks
+	syncInterval = 5
+	#Controls the base speed of the player, in blocks per second.
+	baseSpeed = 4.317
+	#Controls how long it takes for the benefits of Astral travel to kick in, in ticks
+	startupTime = 50
+	#Controls the maximum penalty that could be applied to the maximum multiplier.
+	maxPenalty = 0.5
+	#Controls the maximum height above the ground the penalty maxes out at.
+	heightPenaltyLimit = 64
+	#Controls how many blocks before the desired height should you decelerate.
+	decelerationDistance = 5
+
