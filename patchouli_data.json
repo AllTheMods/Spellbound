@@ -1,1 +1,46 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "astral:astronomicon": {
+      "viewedEntries": [
+        "astral:astral_travel",
+        "astral:inner_realm",
+        "astral:garden"
+      ],
+      "bookmarks": [],
+      "history": [
+        "astral:garden",
+        "astral:inner_realm",
+        "astral:astral_travel"
+      ],
+      "completedManualQuests": []
+    },
+    "turtlemancy:turtlenomicon": {
+      "viewedEntries": [
+        "turtlemancy:getting_started/how_to_become_a_turtlemancer",
+        "turtlemancy:getting_started/getting_turtle_bless",
+        "turtlemancy:rituals/evil_rituals",
+        "turtlemancy:equipment/magma_heart"
+      ],
+      "bookmarks": [],
+      "history": [
+        "turtlemancy:rituals/evil_rituals",
+        "turtlemancy:equipment/magma_heart",
+        "turtlemancy:getting_started/how_to_become_a_turtlemancer",
+        "turtlemancy:getting_started/getting_turtle_bless"
+      ],
+      "completedManualQuests": []
+    },
+    "occultism:dictionary_of_debug": {
+      "viewedEntries": [
+        "occultism:pentacles_debug"
+      ],
+      "bookmarks": [],
+      "history": [
+        "occultism:pentacles_debug"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

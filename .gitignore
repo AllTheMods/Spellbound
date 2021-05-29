@@ -3,3 +3,26 @@
 config.json
 config.bak.json
 .mixin.out/audit/mixin_implementation_report.txt
+*.save
+usercache.json
+*.log
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/biome_map.txt
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/block_map.txt
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/dimensions.txt
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/minecraft_overworld/0EA5F-0EA5F.zip
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/minecraft_overworld/0EA5F-0EA60.zip
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/minecraft_overworld/waypoints.json
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/minecraft_overworld/dimension.regions
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/minecraft_overworld/0EA60-0EA60.zip
+local/ftbchunks/data/6947c381-0d08-4e13-b590-04c7823d3b2f/minecraft_overworld/0EA60-0EA5F.zip
+*.gz
+*.gz
+saves/New World/advancements/537fe67e-1bd3-4b9a-8132-6fad0dcf82a6.json
+saves/New World/astralsorcery/DIM_minecraft_overworld/lightnetwork/general.dat
+saves/New World/advancements/537fe67e-1bd3-4b9a-8132-6fad0dcf82a6.json
+saves/New World/astralsorcery/DIM_minecraft_overworld/lightnetwork/lightnetwork_12_9.dat
+saves/New World/advancements/537fe67e-1bd3-4b9a-8132-6fad0dcf82a6.json
+saves/New World/astralsorcery/DIM_minecraft_overworld/rock-crystals-Backup/rock-crystals_-1_0.dat
+saves/New World/astralsorcery/DIM_minecraft_overworld/rock-crystals-Backup/rock-crystals_0_0.dat
+saves/New World/astralsorcery/DIM_minecraft_overworld/rock-crystals/rock-crystals_-1_0.dat
+saves/New World/astralsorcery/DIM_minecraft_overworld/rock-crystals/rock-crystals_-1_-1.dat
