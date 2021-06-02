@@ -14,6 +14,27 @@
 
 	["Small Wells".RarityPerChunk]
 		#
+		# Adds a wood themed wells to Forest and Birch Forest biomes.
+		# This effects how often wells will attempt to spawn per chunk.
+		# The chance of a well generating at a chunk is 1/rarityPerChunk.
+		# 1 for wells spawning in every chunk and 10000 for no wells.
+		#Range: 1 ~ 10000
+		forestWellRarityPerChunk = 350
+		#
+		# Adds mossy stone themed wells to Jungles, Dark Oak, and Swamp biomes.
+		# This effects how often wells will attempt to spawn per chunk.
+		# The chance of a well generating at a chunk is 1/rarityPerChunk.
+		# 1 for wells spawning in every chunk and 10000 for no wells.
+		#Range: 1 ~ 10000
+		mossyStoneWellRarityPerChunk = 350
+		#
+		# Adds Snow themed wells to snowy and icy biomes.
+		# This effects how often wells will attempt to spawn per chunk.
+		# The chance of a well generating at a chunk is 1/rarityPerChunk.
+		# 1 for wells spawning in every chunk and 10000 for no wells.
+		#Range: 1 ~ 10000
+		snowWellRarityPerChunk = 350
+		#
 		# Adds Badlands themed wells to Badlands biomes.
 		# This effects how often wells will attempt to spawn per chunk.
 		# The chance of a well generating at a chunk is 1/rarityPerChunk.
@@ -27,25 +48,4 @@
 		# 1 for wells spawning in every chunk and 10000 for no wells.
 		#Range: 1 ~ 10000
 		netherWellRarityPerChunk = 200
-		#
-		# Adds Snow themed wells to snowy and icy biomes.
-		# This effects how often wells will attempt to spawn per chunk.
-		# The chance of a well generating at a chunk is 1/rarityPerChunk.
-		# 1 for wells spawning in every chunk and 10000 for no wells.
-		#Range: 1 ~ 10000
-		snowWellRarityPerChunk = 350
-		#
-		# Adds mossy stone themed wells to Jungles, Dark Oak, and Swamp biomes.
-		# This effects how often wells will attempt to spawn per chunk.
-		# The chance of a well generating at a chunk is 1/rarityPerChunk.
-		# 1 for wells spawning in every chunk and 10000 for no wells.
-		#Range: 1 ~ 10000
-		mossyStoneWellRarityPerChunk = 350
-		#
-		# Adds a wood themed wells to Forest and Birch Forest biomes.
-		# This effects how often wells will attempt to spawn per chunk.
-		# The chance of a well generating at a chunk is 1/rarityPerChunk.
-		# 1 for wells spawning in every chunk and 10000 for no wells.
-		#Range: 1 ~ 10000
-		forestWellRarityPerChunk = 350
 
