@@ -1,0 +1,7 @@
+
+[General]
+	#Dwarf Coal Burn Time
+	burnTime = 200
+	#Charcoal Block Burn Time
+	blockBurnTime = 16000
+

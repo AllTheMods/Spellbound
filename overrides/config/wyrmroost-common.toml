@@ -1,0 +1,6 @@
+
+#Wyrmroost General Options
+[general]
+	#Do not enable this unless you are told to!
+	debugMode = false
+
