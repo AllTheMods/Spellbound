@@ -1,0 +1,30 @@
+{
+    "key": "alfsteel",
+    "category": "metal",
+    "primary": "14",
+    "secondary": "10",
+    "tertiary": "1",
+    "durability": "4600",
+    "integrityCost": "2",
+    "integrityGain": "10",
+    "magicCapacity": "288",
+    "toolLevel": "6",
+    "toolEfficiency": "12",
+    "tints": {
+        "glyph": "e6b24c",
+        "texture": "e19419"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "mythicbotany:alfsteel_ingot"
+    },
+    "improvements": {
+        "mana_repair": 1
+    },
+    "requiredTools": {
+        "hammer": 4
+    }
+}

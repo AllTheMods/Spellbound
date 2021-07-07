@@ -1,0 +1,27 @@
+{
+    "key": "runewood",
+    "category": "wood",
+    "primary": "3",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "80",
+    "integrityCost": "1",
+    "integrityGain": "5",
+    "magicCapacity": "100",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "653A34",
+        "texture": "653A34"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "malum:runewood_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

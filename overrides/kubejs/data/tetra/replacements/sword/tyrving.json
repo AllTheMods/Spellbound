@@ -1,0 +1,14 @@
+[
+    {
+        "predicate": {
+            "item": "malum:tyrving"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": ["sword/tyrving", "tyrving/tyrving"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/forged_beam"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/obsidian"],
+            "sword/guard": ["sword/tyrving_socket", "sword_socket/tainted"]
+        }
+	}
+]

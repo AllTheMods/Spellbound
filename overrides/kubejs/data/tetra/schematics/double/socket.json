@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "outcomes": [
+        {
+            "material": {
+                "item": "ars_nouveau:mana_gem"
+            },
+            "experienceCost": 5,
+            "moduleKey": "double/socket",
+            "moduleVariant": "double_socket/mana_gem"
+        }
+    ]
+}

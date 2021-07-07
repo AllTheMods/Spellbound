@@ -46,6 +46,30 @@ onEvent('recipes', e => {
                 }
             });
 
+                e.remove({
+                    id: `occultism:crushing/${name}_dust`
+                });
+                e.custom({
+                    type: 'occultism:crushing',
+                    ingredient: {
+                        tag: `forge:ores/${name}`
+                    },
+                    result: {
+                        item: dustItem,
+                        count: 2
+                    }
+                });
+                
+                e.custom({
+                    type: 'occultism:crushing',
+                    ingredient: {
+                        tag: `forge:ingots/${name}`
+                    },
+                    result: {
+                        item: dustItem
+                    }
+                });
+
             
 
             //preProcess for x8 processing=

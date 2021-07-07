@@ -1,0 +1,106 @@
+{
+    "pools": [
+        {
+            "name": "forged/bolt",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:air",
+                    "weight": 3
+                },
+                {
+                    "type": "group",
+                    "weight": 1,
+                    "quality": 2,
+                    "name": "rarest",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:ancient_debris",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "allthemodium:vibranium_ore",
+                            "weight": 0.5
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "weight": 5,
+                    "quality": 0.5,
+                    "name": "rare",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "malum:blazing_quartz_ore",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:nether_gold_ore",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "mysticalagradditions:nether_inferium_ore",
+                            "expand": true
+                        },
+                        {
+                            "type": "item",
+                            "name": "mysticalagradditions:nether_inferium_ore",
+                            "expand": true
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "weight": 8,
+                    "name": "common",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:quartz_ore",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:shroomlight",
+                            "weight": 0.5
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:crimson_stem",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:glowstone",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:warped_stem",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "weight": 8,
+                    "quality": -0.5,
+                    "name": "filler",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:netherrack",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -78,5 +78,16 @@
             "perchunk": true
         },
         "result" : "deny"
-    }
-  ]
+    },
+	{
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:silverfish",
+    "mincount": {
+      "amount": 20,
+      "onjoin": true,
+      "perplayer": true
+    },
+    "result": "deny"
+	}
+  
+ ]

@@ -1,0 +1,28 @@
+{
+   "key": "archwood",
+   "category": "wood",
+   "primary": "3",
+   "secondary": "1.7",
+   "tertiary": "6",
+   "durability": "59",
+   "integrityCost": "1",
+   "integrityGain": "4",
+   "magicCapacity": "125",
+   "toolLevel": "1",
+   "toolEfficiency": "2",
+   "tints": {
+	"glyph":"949494",
+	"texture":"949494"
+   },
+   "textures": [
+	"crude",
+	"wooden"
+   ],
+   "material": {
+ 	"item":"ars_nouveau:archwood_planks"
+   },
+
+   "requiredTools":{
+	"axe":1
+   }
+}

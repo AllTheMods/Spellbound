@@ -1,0 +1,86 @@
+{
+    "pools": [
+        {
+            "name": "forged/bolt",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:air",
+                    "weight": 3
+                },
+                {
+                    "type": "group",
+                    "weight": 1,
+                    "quality": 2,
+                    "name": "rarest",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "allthemodium:unobtainium_ore",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "weight": 7,
+                    "quality": 0.5,
+                    "name": "rare",
+                    "children": [
+                       {
+                           "type": "item",
+                           "name": "betterendforge:end_ore",
+                           "expand": true
+                       },
+                       {
+                           "type": "item",
+                           "name" : "mysticalagradditions:end_prosperity_ore",
+                           "expand": true
+                       }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "weight": 10,
+                    "name": "common",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "mysticalagradditions:end_inferium_ore",
+                            "expand": true
+                        },
+                        {
+                            "type": "item",
+                            "name": "betterendforge:thallasium_ore",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "betterendforge:flavolite",
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "weight": 8,
+                    "quality": -0.5,
+                    "name": "filler",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:endstone",
+                            "weight": 1
+                        },
+                        {
+                            "type": "item",
+                            "name": "quark:biotite_ore",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

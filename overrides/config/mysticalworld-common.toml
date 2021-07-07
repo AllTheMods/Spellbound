@@ -149,6 +149,8 @@
 		biomes = "SAVANNA,DEAD,FOREST,SANDY,WASTELAND"
 		#Which biome types this tree shouldn't spawn in (default END, NETHER)
 		biomeRestrictions = "NETHER,END"
+		#The dimensions that this feature should spawn in as a list (default ["minecraft:overworld"])
+		dimensions = ["minecraft:overworld"]
 
 	#Stonepetal Patch Generation
 	[feature_spawns.stone_petal]
@@ -162,6 +164,8 @@
 		biomes = "MOUNTAIN"
 		#Which biome types this tree shouldn't spawn in (default END, NETHER)
 		biomeRestrictions = "NETHER,END"
+		#The dimensions that this feature should spawn in as a list (default ["minecraft:overworld"])
+		dimensions = ["minecraft:overworld"]
 
 #Armor Configuration
 [armor_config]

@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "key": "double_socket/mana_gem",
+            "category": "gem",
+            "integrity": -1,
+	    "effects": {
+            "intuit":1
+            },
+            "glyph": {
+                "tint": "c34cff",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "c34cff"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "predicate": {
+            "item": "malum:soul_stained_steel_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/hoe_left", "hoe/soul_stained"],
+            "double/head_right": ["double/butt_right", "butt/soul_stained"],
+            "double/handle": ["double/basic_handle", "basic_handle/runewood"]
+        }
+    }
+]

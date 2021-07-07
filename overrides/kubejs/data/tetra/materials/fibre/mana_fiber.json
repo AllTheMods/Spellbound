@@ -1,0 +1,28 @@
+{
+   "key": "mana_fiber",
+   "category": "fibre",
+   "primary": "5",
+   "secondary": "0.8",
+   "tertiary": "3",
+   "durability": "220",
+   "integrityCost": "1",
+   "integrityGain": "3",
+   "magicCapacity": "105",
+   "toolLevel": "0",
+   "toolEfficiency": "0",
+   "tints": {
+	"glyph":"c34cff",
+	"texture":"c34cff"
+   },
+   "textures": [
+	"crude",
+	"default"
+   ],
+   "material": {
+ 	"item":"ars_nouveau:mana_fiber"
+   },
+
+   "requiredTools":{
+	"cut":1
+   }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "predicate": {
+            "item": "malum:soul_stained_steel_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_shovel", "basic_shovel/soul_stained"],
+            "single/handle": ["single/basic_handle", "basic_handle/runewood"]
+        }
+    }
+]

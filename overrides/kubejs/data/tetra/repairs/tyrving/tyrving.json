@@ -1,0 +1,11 @@
+{
+    "material": {
+        "item": "malum:wicked_spirit",
+        "count": 3
+    },
+    "requiredTools": {
+        "hammer": 1
+    },
+    "moduleKey": "blade/tyrving",
+    "moduleVariant": "tyrving/tyrving"
+}

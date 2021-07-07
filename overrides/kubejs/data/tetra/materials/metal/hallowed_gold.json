@@ -1,0 +1,31 @@
+{
+    "key": "hallowed_gold",
+    "category": "metal",
+    "primary": "2.5",
+    "secondary": "4",
+    "tertiary": "0.7",
+    "durability": "6",
+    "integrityCost": "3",
+    "integrityGain": "3",
+    "magicCapacity": "170",
+    "toolLevel": "1",
+    "toolEfficiency": "14",
+    "tints": {
+        "glyph": "gold_glyph",
+        "texture": "gold"
+    },
+    "textures": [
+        "shiny",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "malum:hallowed_gold_ingot"
+    },
+    "effects": {
+        "stabilizing": 25
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

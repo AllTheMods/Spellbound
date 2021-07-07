@@ -1,0 +1,34 @@
+{
+	"type": "apotheosis:potion_charm",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "potion"
+	}],
+	"recipe": [
+		[{
+				"tag": "forge:dusts/allthemodium"
+			},
+			{
+				"tag": "forge:dusts/allthemodium"
+			},
+			{
+				"tag": "forge:dusts/allthemodium"
+			}
+		],
+		[
+			"potion",
+			"potion",
+			"potion"
+		],
+		[{
+				"tag": "forge:dusts/unobtainium"
+			},
+			{
+				"tag": "forge:dusts/unobtainium"
+			},
+			{
+				"tag": "forge:dusts/unobtainium"
+			}
+		]
+	]
+}

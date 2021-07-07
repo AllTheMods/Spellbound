@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "slots": ["sword/guard"],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "key": "sword_socket/tainted",
+            "category": "gem",
+            "durability": 150,
+            "durabilityMultiplier": 1,
+            "integrity": -2,
+            "glyph": {
+                "tint": "800080",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/blade/tyrving/socket"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "predicate": {
+            "item": "malum:soul_stained_steel_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": ["sword/basic_blade", "basic_blade/soul_stained"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/runewood"],
+            "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/soul_stained"],
+            "sword/guard": ["sword/makeshift_guard", "makeshift_guard/soul_stained"]
+        }
+    }
+]
