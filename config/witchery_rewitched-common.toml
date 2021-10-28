@@ -1,0 +1,9 @@
+
+#Witchery: Rewitched's server-side configuration options
+["General Settings"]
+	#Turn on debug mode, which increases the speed of machines, the altar recharge rate, and more to solve problems quickly.
+	debug = false
+	#Range of the altar, defualt: 16
+	#Range: 0 ~ 100
+	altarRadius = 16
+

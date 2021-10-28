@@ -1,0 +1,14 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "scroll"
+	size = 2
+
+[[curiosSettings]]
+	identifier = "charm"
+	size = 2
+
+[[curiosSettings]]
+	identifier = "ring"
+	size = 5
+

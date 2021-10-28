@@ -1,0 +1,901 @@
+{
+	id: "7504DA9E0F082391"
+	group: "39F979C9278EDB85"
+	order_index: 0
+	filename: "magicium_endgame"
+	title: "Magicium Endgame"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+		ForgeCaps: {
+			Parent: { }
+		}
+	}
+	subtitle: ["Traverse through Space and more Space, cause time... Aint nobody got time for dat."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Under da sea, under da sea"
+			description: ["Under the Ocean biomes below Y-45 is Allthemodium. Netherite + to mine."]
+			id: "358436AC4C810F59"
+			tasks: [{
+				id: "57E3309F98590C06"
+				type: "item"
+				item: "allthemodium:allthemodium_ore"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Warped and Crimson Minds vibrate at unnatural rates."
+			description: ["In the nether, within the Crimson and Warped forests, at Y-107 to Y-113 is Vibranium. Allthemodium + to mine."]
+			dependencies: ["358436AC4C810F59"]
+			id: "7300A709ED633508"
+			tasks: [{
+				id: "50A1D9A2A7B20BF3"
+				type: "item"
+				item: "allthemodium:vibranium_ore"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "It's obtainable. But it says unobtainium, THE NUMBERS MASON, WHAT DO THEY MEAN!"
+			description: ["With in the End Highlands, Unobtainium lies. Vibranium + to mine."]
+			dependencies: ["7300A709ED633508"]
+			id: "63262D7BC25DD485"
+			tasks: [{
+				id: "37D57AED4512EDB8"
+				type: "item"
+				item: "allthemodium:unobtainium_ore"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["358436AC4C810F59"]
+			id: "324BA87B466871FA"
+			tasks: [{
+				id: "47AD6E95C94B92FC"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["7300A709ED633508"]
+			id: "65433E875151C858"
+			tasks: [{
+				id: "2B75830CE19A9E8A"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["63262D7BC25DD485"]
+			id: "1696F699C7FE5C4C"
+			tasks: [{
+				id: "6054102FA348174B"
+				type: "item"
+				item: "allthemodium:unobtainium_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["56B53A2B2924FE4A"]
+			id: "593D6BBA74118D83"
+			tasks: [{
+				id: "3787F6FE71E87C18"
+				type: "item"
+				item: "allthemodium:unobtainium_allthemodium_alloy_block"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["56B53A2B2924FE4A"]
+			id: "595C87A7813AB3A5"
+			tasks: [{
+				id: "53CBD23B306D1586"
+				type: "item"
+				item: "allthemodium:unobtainium_vibranium_alloy_block"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["56B53A2B2924FE4A"]
+			id: "749F28B877B1593C"
+			tasks: [{
+				id: "18BEC0FF5B2E3815"
+				type: "item"
+				item: "allthemodium:vibranium_allthemodium_alloy_block"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			subtitle: "The walls were shaking, the earth was quaking, my mind was aching and we were making it and yooou"
+			description: ["Shook me all night long"]
+			dependencies: [
+				"593D6BBA74118D83"
+				"595C87A7813AB3A5"
+				"749F28B877B1593C"
+			]
+			id: "171D68E3334A27A0"
+			tasks: [{
+				id: "66074843FF987F44"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["29532E699147E3EF"]
+			id: "5DF3E4E0E0ED6ED3"
+			tasks: [{
+				id: "12E8CAD6E8B52AE6"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["5DF3E4E0E0ED6ED3"]
+			id: "038B5C60D7AC3B46"
+			tasks: [{
+				id: "10B34DEB5F91CB6D"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["038B5C60D7AC3B46"]
+			id: "729DFCDD79242E6C"
+			tasks: [{
+				id: "5EE1A558411E6A53"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["729DFCDD79242E6C"]
+			id: "5016D543F25370A7"
+			tasks: [{
+				id: "394A3388AC7A199F"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "2D1A4E7EAF30F9CE"
+			tasks: [{
+				id: "40E465C57B1367B2"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			subtitle: "Condense. Further. FURTHER."
+			dependencies: [
+				"5016D543F25370A7"
+				"0A0C12C1CD391244"
+				"386368226DCD3E10"
+				"3FA88FA6E33929DA"
+			]
+			id: "5197D4284469F3CF"
+			tasks: [{
+				id: "083D214BC2BAEF0E"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			subtitle: "Don't misclick, or you might lose that item."
+			dependencies: [
+				"2D1A4E7EAF30F9CE"
+				"5197D4284469F3CF"
+			]
+			id: "782FC3264F6F378D"
+			tasks: [{
+				id: "4EA8947EAA0274A6"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "44C9D9441B0A4406"
+			tasks: [{
+				id: "7850C7B139DBEF00"
+				type: "item"
+				item: "projecte:dm_boots"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "6BE590DCF74312DC"
+			tasks: [{
+				id: "5EE8346120D3D2C4"
+				type: "item"
+				item: "projecte:dm_leggings"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "01FC2D1005888840"
+			tasks: [{
+				id: "55F5143488681C05"
+				type: "item"
+				item: "projecte:dm_chestplate"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "5ACA4ECA836C537E"
+			tasks: [{
+				id: "1D7123B679532052"
+				type: "item"
+				item: "projecte:dm_helmet"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "00F22BE20E078DE7"
+			tasks: [{
+				id: "23F954CDF685F57C"
+				type: "item"
+				item: {
+					id: "projecte:dm_pick"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "28FB640D88CD2381"
+			tasks: [{
+				id: "0F7B52FDCD0106DA"
+				type: "item"
+				item: {
+					id: "projecte:dm_axe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "1EB096F7804F806B"
+			tasks: [{
+				id: "1A514B6F2165C50E"
+				type: "item"
+				item: {
+					id: "projecte:dm_shovel"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "26497E501AB67DE7"
+			tasks: [{
+				id: "1FD5AD79D1E163E3"
+				type: "item"
+				item: {
+					id: "projecte:dm_sword"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "673663AEC551E32C"
+			tasks: [{
+				id: "49E6CE78DDE3E3D0"
+				type: "item"
+				item: {
+					id: "projecte:dm_hoe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "4CC5E33EF852832E"
+			tasks: [{
+				id: "423F764199293F5C"
+				type: "item"
+				item: {
+					id: "projecte:dm_shears"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			dependencies: ["5016D543F25370A7"]
+			id: "472CA2FDFF0C22F5"
+			tasks: [{
+				id: "3639548018C17E5C"
+				type: "item"
+				item: {
+					id: "projecte:dm_hammer"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			dependencies: ["2D1A4E7EAF30F9CE"]
+			id: "178CA2CB1D164D2F"
+			tasks: [{
+				id: "4466991BA10C63CE"
+				type: "item"
+				item: "projecte:rm_boots"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.5d
+			dependencies: ["2D1A4E7EAF30F9CE"]
+			id: "29DBD8F9609AD77A"
+			tasks: [{
+				id: "53CB53BE5AA7B10A"
+				type: "item"
+				item: "projecte:rm_leggings"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			dependencies: ["2D1A4E7EAF30F9CE"]
+			id: "461D9502A03A51BC"
+			tasks: [{
+				id: "6FCEC7937A21E837"
+				type: "item"
+				item: "projecte:rm_chestplate"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -3.5d
+			dependencies: ["2D1A4E7EAF30F9CE"]
+			id: "5CA4C45075E3B4E0"
+			tasks: [{
+				id: "0CF848AF6F0DBE00"
+				type: "item"
+				item: "projecte:rm_helmet"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.0d
+			dependencies: ["2D1A4E7EAF30F9CE"]
+			id: "68B1078837196826"
+			tasks: [{
+				id: "1BB2ED76D90DCA86"
+				type: "item"
+				item: {
+					id: "projecte:rm_katar"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.0d
+			dependencies: ["2D1A4E7EAF30F9CE"]
+			id: "45056A30AB03D2CC"
+			tasks: [{
+				id: "142C7B270A832669"
+				type: "item"
+				item: {
+					id: "projecte:rm_morning_star"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["29532E699147E3EF"]
+			id: "0A0C12C1CD391244"
+			tasks: [{
+				id: "270F4AA4F72CA5E0"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["29532E699147E3EF"]
+			id: "386368226DCD3E10"
+			tasks: [{
+				id: "345D28FC09A194E0"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["29532E699147E3EF"]
+			id: "3FA88FA6E33929DA"
+			tasks: [{
+				id: "09301D15BC1A725E"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["29532E699147E3EF"]
+			id: "718D4600C661057B"
+			tasks: [{
+				id: "5F272C1D457897E4"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["718D4600C661057B"]
+			id: "16BBDA52B51A787F"
+			tasks: [{
+				id: "1946E5BD050E7AF3"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["16BBDA52B51A787F"]
+			id: "2AFB2BA87A13B358"
+			tasks: [{
+				id: "76BBE5BB7AEA5143"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			dependencies: ["2AFB2BA87A13B358"]
+			id: "6D9828894EDFCA98"
+			tasks: [{
+				id: "7EA94EC151D674EC"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			dependencies: ["6D9828894EDFCA98"]
+			id: "2DA2D8E33264EFCC"
+			tasks: [{
+				id: "7E496B35B9C75A7F"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.0d
+			dependencies: ["2DA2D8E33264EFCC"]
+			id: "53289A2EE133F5E2"
+			tasks: [{
+				id: "1C8432CC89EFBFCF"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Dragon Forge"
+			icon: "iceandfire:dragonegg_gray"
+			x: 4.5d
+			y: 0.5d
+			subtitle: "With your powers combined, I am toast!"
+			description: [
+				"In order to obtain the powerful alloys of the AlltheMagicium, we need to visit the Other and get 3 kinds of Dragons."
+				"-Fire type dragons are most prominant, their breath breathes life into Vibranium-Allthemodium"
+				"-Ice dragons lurking below cold biomes absolute zeroes Unobtainium-Vibranium"
+				"-Lightning Dragons with in mountainous depths shock-weld Allthemodium-Unobtainium"
+			]
+			dependencies: [
+				"324BA87B466871FA"
+				"65433E875151C858"
+				"1696F699C7FE5C4C"
+				"1A541A66E62B439C"
+			]
+			id: "56B53A2B2924FE4A"
+			tasks: [
+				{
+					id: "46AED9CF395A2FEC"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_input"
+				}
+				{
+					id: "15EB127FB55C84FB"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_input"
+				}
+				{
+					id: "5436078CD1DC43FF"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_input"
+				}
+			]
+		}
+		{
+			icon: "kubejs:patrick_star"
+			x: 6.5d
+			y: 1.5d
+			subtitle: "Hahah ahahah ahahah haha."
+			description: ["Allthemods has Patrick because he's loaded. Allthemagic has Patrick remembering Spongebob because he makes \"imagination\" magic."]
+			dependencies: [
+				"749F28B877B1593C"
+				"595C87A7813AB3A5"
+				"593D6BBA74118D83"
+			]
+			id: "3CA03EFE2F5523D0"
+			tasks: [
+				{
+					id: "1D2A2F9A5DBA8F4D"
+					type: "item"
+					item: "kubejs:patrick_star"
+				}
+				{
+					id: "0BE6F34EB9CE97E2"
+					type: "item"
+					item: "enigmaticlegacy:mega_sponge"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "The Eternal Struggle of Overpowered items"
+			description: ["The conglomeration of all things magical. "]
+			dependencies: ["3CA03EFE2F5523D0"]
+			id: "5952B426D3319B10"
+			tasks: [{
+				id: "06D2A8FB89F011B7"
+				type: "item"
+				item: "kubejs:atm_star"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			subtitle: "A start to an overpowered trip"
+			dependencies: ["5952B426D3319B10"]
+			id: "29532E699147E3EF"
+			tasks: [{
+				id: "0E89896519A0D4D4"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Over it, Nether it, just End it"
+			description: [
+				"A special teleporter that takes you to 2 places depending on where it is placed."
+				"- In the overworld, the Teleporter will take you to the Mining Dimension."
+				"- In the Nether, it takes you to The Other. The Other has all of your Dragons needed for The Forges."
+			]
+			dependencies: ["324BA87B466871FA"]
+			id: "1A541A66E62B439C"
+			tasks: [{
+				id: "1F3E0846A56D1239"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+		}
+		{
+			title: "AlltheModium Armor"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "I'm a Briick houuse."
+			dependencies: ["324BA87B466871FA"]
+			id: "2A8B9688FE040F25"
+			tasks: [
+				{
+					id: "169B967DF16588C0"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "095F75F0CECBF957"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0408971B2CE258C8"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64F68B6986DE1C45"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Vibranium Armor"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "Vibrating metals go Brrrrrrr"
+			hide_dependency_lines: true
+			dependencies: [
+				"65433E875151C858"
+				"2A8B9688FE040F25"
+			]
+			id: "5AFC6515481163B8"
+			tasks: [
+				{
+					id: "29E8F5F9611348B1"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "256827797E8908A2"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03BFC0B414C25635"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C8352CBA49D443F"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Unobtainium Armor"
+			x: 4.5d
+			y: -0.5d
+			subtitle: "Not to be confused with Bedrockium."
+			hide_dependency_lines: true
+			dependencies: [
+				"5AFC6515481163B8"
+				"1696F699C7FE5C4C"
+			]
+			id: "482C06ED62B74C18"
+			tasks: [
+				{
+					id: "7F0864B8BF52DEA0"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "28FE0D15C7E7E5FF"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0394A7699EF0EDA9"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "446F3B0A809AE998"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

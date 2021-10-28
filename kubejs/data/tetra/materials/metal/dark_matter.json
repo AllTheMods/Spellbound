@@ -1,0 +1,27 @@
+{
+    "key": "dark_matter",
+    "category": "metal",
+    "primary": "2500",
+    "secondary": "1000",
+    "tertiary": "1000",
+    "durability": "1000000",
+    "integrityCost": "0",
+    "integrityGain": "100",
+    "magicCapacity": "500",
+    "toolLevel": "8",
+    "toolEfficiency": "30",
+    "tints": {
+        "glyph": "222353",
+        "texture": "222353"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "projecte:dark_matter"
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

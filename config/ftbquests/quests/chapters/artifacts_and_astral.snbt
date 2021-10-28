@@ -1,0 +1,415 @@
+{
+	id: "3D05FD156E84A544"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 0
+	filename: "artifacts_and_astral"
+	title: "Astral and Artifacts"
+	icon: "astral:key_of_enlightenment"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -14.0d
+			y: -4.5d
+			id: "054297072C999353"
+			tasks: [{
+				id: "7AEB4C020814A3B2"
+				type: "item"
+				item: "artifacts:steadfast_spikes"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -3.5d
+			id: "2512CE5DC33C3C66"
+			tasks: [{
+				id: "7282286A83866548"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -4.5d
+			id: "5DBA0B34084E8324"
+			tasks: [{
+				id: "233F88C8D50401D2"
+				type: "item"
+				item: "artifacts:kitty_slippers"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -4.5d
+			id: "4828EC2FB540B82C"
+			tasks: [{
+				id: "388F17506489B039"
+				type: "item"
+				item: "artifacts:bunny_hoppers"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			id: "164237E20B31C8C6"
+			tasks: [{
+				id: "75D4285D32CD6A49"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -11.0d
+			id: "18F5D8A23C7FF1A4"
+			tasks: [{
+				id: "5FAE9A65C6BB68C0"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -3.5d
+			id: "64CB30C869BE33F3"
+			tasks: [{
+				id: "590423BC325CB1C1"
+				type: "item"
+				item: "artifacts:flippers"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.5d
+			id: "6946555E7802E563"
+			tasks: [{
+				id: "236F56D0CFCEEB7B"
+				type: "item"
+				item: "artifacts:vampiric_glove"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.5d
+			id: "45755442DD07BDE4"
+			tasks: [{
+				id: "7D2ACFE5F1A05B7E"
+				type: "item"
+				item: "artifacts:golden_hook"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			id: "7984C24DCBED6B09"
+			tasks: [{
+				id: "59969E4593593D5B"
+				type: "item"
+				item: "artifacts:pocket_piston"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -11.0d
+			id: "515CD372E5B826C8"
+			tasks: [{
+				id: "37B8D23AAA595EC7"
+				type: "item"
+				item: "artifacts:umbrella"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -12.5d
+			id: "204180F113CA2F16"
+			tasks: [{
+				id: "4A6EED2A85FAF730"
+				type: "item"
+				item: "artifacts:everlasting_beef"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -13.5d
+			dependencies: ["204180F113CA2F16"]
+			id: "45342B1BDE66C54B"
+			tasks: [{
+				id: "0510905D7FA30694"
+				type: "item"
+				item: "artifacts:eternal_steak"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -13.5d
+			id: "22B9657033671A34"
+			tasks: [
+				{
+					id: "47678C352F99AD2C"
+					type: "item"
+					item: "artifacts:plastic_drinking_hat"
+				}
+				{
+					id: "147EE3F5F867BC92"
+					type: "item"
+					item: "artifacts:novelty_drinking_hat"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -13.5d
+			id: "2B0625BB66BEB93B"
+			tasks: [{
+				id: "2F8872AA45F784F9"
+				type: "item"
+				item: "artifacts:snorkel"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -13.5d
+			id: "4E2B89313D9EC070"
+			tasks: [{
+				id: "0C676661BBC7ED28"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -12.5d
+			id: "7AE6A60CE00AA8DA"
+			tasks: [{
+				id: "4190CE7CB8CA58D1"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -12.5d
+			id: "03B800B45ECAF3CA"
+			tasks: [{
+				id: "02990CECC6788017"
+				type: "item"
+				item: "artifacts:superstitious_hat"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -7.5d
+			id: "3D6E910475AA69DA"
+			tasks: [{
+				id: "387E50EB59A9645A"
+				type: "item"
+				item: "artifacts:power_glove"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -8.5d
+			id: "43B4321CF955ABC6"
+			tasks: [{
+				id: "7CDDD4C74FC27459"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -7.0d
+			id: "7434D5CFF53C706F"
+			tasks: [{
+				id: "1F02F5067977180F"
+				type: "item"
+				item: "artifacts:crystal_heart"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -6.0d
+			id: "3799171F5C8D5AB5"
+			tasks: [{
+				id: "1C7629591093FC89"
+				type: "item"
+				item: "artifacts:universal_attractor"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.0d
+			id: "3EDD3963C34E41E4"
+			tasks: [{
+				id: "406F63ABBA83C83A"
+				type: "item"
+				item: "artifacts:cloud_in_a_bottle"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -10.0d
+			id: "7224FE6EAE076B03"
+			tasks: [{
+				id: "547E299F69A09617"
+				type: "item"
+				item: "artifacts:charm_of_sinking"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -11.0d
+			id: "6EA6FC0E2A5DBF2E"
+			tasks: [{
+				id: "66D1E3C81F8CE25B"
+				type: "item"
+				item: "artifacts:flame_pendant"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -11.0d
+			id: "0122F39E8D711D60"
+			tasks: [{
+				id: "1E5CF59AEEE8276F"
+				type: "item"
+				item: "artifacts:cross_necklace"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -9.0d
+			id: "7B1128C9ED14583F"
+			tasks: [{
+				id: "177DC038F81FD8F8"
+				type: "item"
+				item: "artifacts:lucky_scarf"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.5d
+			id: "63DF28BD86E6D8FF"
+			tasks: [{
+				id: "1273ACC116D4E9C3"
+				type: "item"
+				item: "artifacts:fire_gauntlet"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -7.5d
+			id: "2944DCEE75EC23B3"
+			tasks: [{
+				id: "30965EE80CA4BC7A"
+				type: "item"
+				item: "artifacts:feral_claws"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -6.0d
+			id: "08ACE961946FC17E"
+			tasks: [{
+				id: "2C86E316CAD5D127"
+				type: "item"
+				item: "artifacts:helium_flamingo"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -7.0d
+			id: "70B1399629FADF3B"
+			tasks: [{
+				id: "1B9AA0640482E730"
+				type: "item"
+				item: "artifacts:antidote_vessel"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -7.0d
+			id: "41161158457A6284"
+			tasks: [{
+				id: "1F0C55310A30A076"
+				type: "item"
+				item: "artifacts:obsidian_skull"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -10.0d
+			id: "49C46BA8D8DDF6A9"
+			tasks: [{
+				id: "2413049A4888DFFD"
+				type: "item"
+				item: "artifacts:thorn_pendant"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -10.0d
+			id: "04E4133ABA7127F1"
+			tasks: [{
+				id: "7528356C7273B5BD"
+				type: "item"
+				item: "artifacts:shock_pendant"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -11.0d
+			id: "7F8B0AC57BC1AECE"
+			tasks: [{
+				id: "6B47527430327577"
+				type: "item"
+				item: "artifacts:panic_necklace"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -9.0d
+			id: "45F3B104E4718B26"
+			tasks: [{
+				id: "4FB2F7C5306F3E79"
+				type: "item"
+				item: "artifacts:scarf_of_invisibility"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -12.0d
+			subtitle: "The start of a out of body experience"
+			description: [
+				"Before we can start the mod, we need Snowberries and Feverweed."
+				"They will appear rarely in the overworld as plants (cold biomes), or found in Dungeon loot chests (wrecked ships have a decent chance of both)."
+			]
+			dependencies: ["47B6EF60AF437BD0"]
+			id: "1E97AAB865C6CF57"
+			tasks: [
+				{
+					id: "6F63EBBC180E2EEB"
+					type: "item"
+					item: "astral:snowberry"
+				}
+				{
+					id: "1CD8D891C5C4C09D"
+					type: "item"
+					item: "astral:feverweed"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -13.5d
+			subtitle: "Projecting oneself into a new world... Or a really bad trip."
+			description: ["In this mod, Astral is all about unlocking yourself, gaining enlightenment."]
+			id: "47B6EF60AF437BD0"
+			tasks: [{
+				id: "5487A10401B094C3"
+				type: "checkmark"
+				title: "Welcome to Astral"
+			}]
+		}
+	]
+}

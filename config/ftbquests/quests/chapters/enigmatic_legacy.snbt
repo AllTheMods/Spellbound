@@ -1,0 +1,421 @@
+{
+	id: "2BE3696DB7066A3F"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 1
+	filename: "enigmatic_legacy"
+	title: "Enigmatic Legacy and Baubly Heart Canisters"
+	icon: "enigmaticlegacy:lore_inscriber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -4.0d
+			id: "715071FE28D7D751"
+			tasks: [{
+				id: "39FD2C49F05C96E8"
+				type: "item"
+				item: "enigmaticlegacy:golem_heart"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			id: "6A83604C827D3C1D"
+			tasks: [{
+				id: "7338131F972016BB"
+				type: "item"
+				item: "enigmaticlegacy:angel_blessing"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "6304C7F54657DDDC"
+			tasks: [{
+				id: "5D847446A257E9DA"
+				type: "item"
+				item: "enigmaticlegacy:ocean_stone"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			id: "3F4F40633AFE5665"
+			tasks: [{
+				id: "7E311011F3A42E46"
+				type: "item"
+				item: "enigmaticlegacy:magma_heart"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			id: "2C2D791C8F852998"
+			tasks: [{
+				id: "109689C659628488"
+				type: "item"
+				item: "enigmaticlegacy:eye_of_nebula"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			id: "72BCCFF7D63AC383"
+			tasks: [{
+				id: "23C839868D20B3D9"
+				type: "item"
+				item: "enigmaticlegacy:void_pearl"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			description: [
+				"While you are adventuring with the Ring of the 7 Curses, you will find certain mobs dropping new things."
+				"These would be from the Wither, Guardians."
+				"And outside of special Cursed drops, you enable a new Loot table for certain mobs as well."
+				"Wither Skeletons can drop Netherite Scrap and Ghast tears."
+			]
+			id: "7F92FBB7571FBEC3"
+			tasks: [{
+				id: "54009892A6359E35"
+				type: "checkmark"
+				title: "Cursed Ring Treasure Party"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["7F92FBB7571FBEC3"]
+			id: "0545EFF443222A0D"
+			tasks: [{
+				id: "6D19384408A5B996"
+				type: "item"
+				item: "enigmaticlegacy:berserk_emblem"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["7F92FBB7571FBEC3"]
+			id: "341E7E7E0B4645B1"
+			tasks: [{
+				id: "683EF2E8C76CEF51"
+				type: "item"
+				item: "enigmaticlegacy:dark_mirror"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["7F92FBB7571FBEC3"]
+			id: "70F388C02FE329DB"
+			tasks: [{
+				id: "4478173EF039E36A"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["7F92FBB7571FBEC3"]
+			id: "5245BA57E83CA285"
+			tasks: [{
+				id: "3715121F4A07E8B5"
+				type: "item"
+				item: "enigmaticlegacy:cursed_scroll"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["7F92FBB7571FBEC3"]
+			id: "7560446D22120119"
+			tasks: [{
+				id: "21CE6D7AEEF7717F"
+				type: "item"
+				item: "enigmaticlegacy:the_twist"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["7F92FBB7571FBEC3"]
+			id: "55EF50B03C6B70FE"
+			tasks: [{
+				id: "3654C67FD0BFA337"
+				type: "item"
+				item: "enigmaticlegacy:guardian_heart"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["7F92FBB7571FBEC3"]
+			id: "47847F79793816FA"
+			tasks: [{
+				id: "3E5F44666B06BA44"
+				type: "item"
+				item: "enigmaticlegacy:avarice_scroll"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			id: "66B32C20BFC037EC"
+			tasks: [{
+				id: "4B8B259D9826110E"
+				type: "item"
+				item: "enigmaticlegacy:unholy_grail"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "000C4CDDFFCDB6D5"
+			tasks: [{
+				id: "3299BF0C8E553FDD"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:xp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			id: "5A639A6935EB4DAB"
+			tasks: [{
+				id: "26AAE3C01DD4989A"
+				type: "item"
+				item: "enigmaticlegacy:escape_scroll"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "24B2F21F85E20093"
+			tasks: [{
+				id: "5A05D4F1E3C45570"
+				type: "item"
+				item: "enigmaticlegacy:heaven_scroll"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "5BA627144D04E889"
+			tasks: [{
+				id: "2DC30EBD9F6779E4"
+				type: "item"
+				item: "enigmaticlegacy:magnet_ring"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "066A3C25924E4A17"
+			tasks: [{
+				id: "2864892DCDE87DCE"
+				type: "item"
+				item: "enigmaticlegacy:super_magnet_ring"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "22242049985735A1"
+			tasks: [{
+				id: "7A93833BF9080D87"
+				type: "item"
+				item: "enigmaticlegacy:ender_ring"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			id: "5CB2923C816B693C"
+			tasks: [{
+				id: "491D9F11E27F3455"
+				type: "item"
+				item: "enigmaticlegacy:monster_charm"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			id: "615391F4036B11C7"
+			tasks: [{
+				id: "05C128FD40C03274"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mining_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			subtitle: "Can't say the water's fine if you're absorbing it."
+			id: "0749C4149C7036DA"
+			tasks: [{
+				id: "70472D741789EDBE"
+				type: "item"
+				item: "enigmaticlegacy:mega_sponge"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "They see them rolling, they hating.... Watching as their heads lopped and hurlin."
+			id: "160B7E797EC705E6"
+			tasks: [{
+				id: "3CCA2329605AAB19"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:forbidden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			subtitle: "All your gardens are belong to us."
+			id: "59DF387E52E08CFC"
+			tasks: [{
+				id: "04E82E810B799372"
+				type: "item"
+				item: "enigmaticlegacy:infinimeal"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			id: "2754A7AA8073D999"
+			tasks: [{
+				id: "46697DD428408163"
+				type: "item"
+				item: "bhc:heart_amulet"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["2754A7AA8073D999"]
+			id: "58E62341873F8AF5"
+			tasks: [{
+				id: "6BAFB21F7453B349"
+				type: "item"
+				item: "bhc:red_heart"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			dependencies: ["2754A7AA8073D999"]
+			id: "6E3057CF129DC84B"
+			tasks: [{
+				id: "7E01AF5F453887A6"
+				type: "item"
+				item: "bhc:canister"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["2754A7AA8073D999"]
+			id: "6E64B65A71D2E8CC"
+			tasks: [{
+				id: "56E5CB4B1C5F519C"
+				type: "item"
+				item: "bhc:yellow_heart"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["2754A7AA8073D999"]
+			id: "66992299876D7233"
+			tasks: [{
+				id: "457DB30FD592546A"
+				type: "item"
+				item: "bhc:green_heart"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["2754A7AA8073D999"]
+			id: "0D567A45002251C6"
+			tasks: [{
+				id: "7BAEC0B532C369F0"
+				type: "item"
+				item: "bhc:blue_heart"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.5d
+			dependencies: ["6E3057CF129DC84B"]
+			id: "5F594960CDECA34F"
+			tasks: [{
+				id: "5E075397823A7D69"
+				type: "item"
+				item: "bhc:red_heart_canister"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["6E3057CF129DC84B"]
+			id: "5BE2FEEBFFDD6488"
+			tasks: [{
+				id: "7B10DD8CC2DA3F1D"
+				type: "item"
+				item: "bhc:yellow_heart_canister"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["6E3057CF129DC84B"]
+			id: "6F44B6FD6D3EECD3"
+			tasks: [{
+				id: "0C899649E56F65D0"
+				type: "item"
+				item: "bhc:green_heart_canister"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["6E3057CF129DC84B"]
+			id: "7D7BCD38FB23F971"
+			tasks: [{
+				id: "2B41D7204A582D5F"
+				type: "item"
+				item: "bhc:blue_heart_canister"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			id: "0D34D3B3AA26685C"
+			tasks: [{
+				id: "4EC1A8EB5FE3840E"
+				type: "item"
+				item: "bhc:relic_apple"
+			}]
+		}
+	]
+}

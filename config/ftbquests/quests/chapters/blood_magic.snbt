@@ -1,0 +1,495 @@
+{
+	id: "61D9FECB31A43823"
+	group: "2869CB12B4663D25"
+	order_index: 3
+	filename: "blood_magic"
+	title: "Blood Magic"
+	icon: "bloodmagic:altar"
+	subtitle: ["Blood? Check. Orb? Check. Pancake Mix? Pancake mix??"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Starting Point"
+			icon: "bloodmagic:soulsnare"
+			x: 0.0d
+			y: 0.0d
+			description: ["1.16.5 Blood Magic has a lot of unimplemented items, but the majority of the mod is here. "]
+			id: "605245BED4C5C4A3"
+			tasks: [
+				{
+					id: "791070D6F5916871"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 16L
+				}
+				{
+					id: "37F15615D294F101"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "274A997C1B690D16"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "32BAAD5F3790BDDB"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "23E64ACFCEF35AA9"
+					type: "item"
+					item: "bloodmagic:weakbloodorb"
+				}
+			]
+		}
+		{
+			title: "Willing?"
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["605245BED4C5C4A3"]
+			id: "756227036DB6BD4E"
+			tasks: [
+				{
+					id: "02CC4BC10E05B9C9"
+					type: "item"
+					item: "bloodmagic:soulforge"
+				}
+				{
+					id: "2B573F9071CE889E"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgempetty"
+						Count: 1b
+						tag: {
+							souls: 64.0d
+						}
+					}
+				}
+				{
+					id: "4E0687051F89863D"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tartaric Tiering"
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["756227036DB6BD4E"]
+			id: "3E49817A9FBB8B05"
+			tasks: [
+				{
+					id: "3A213C2FCC49A841"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgempetty"
+						Count: 1b
+						tag: {
+							souls: 64.0d
+						}
+					}
+				}
+				{
+					id: "653068345BEED04B"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemlesser"
+						Count: 1b
+						tag: {
+							souls: 256.0d
+						}
+					}
+				}
+				{
+					id: "5B1F4FA043660DF8"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemcommon"
+						Count: 1b
+						tag: {
+							souls: 1024.0d
+						}
+					}
+				}
+				{
+					id: "5F32964DCF8E4670"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemgreater"
+						Count: 1b
+						tag: {
+							souls: 4096.0d
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tier 2"
+			x: 1.5d
+			y: 2.0d
+			description: ["Blank runes are put here but you can use any you want. "]
+			dependencies: ["605245BED4C5C4A3"]
+			id: "62D550C71E0EAB0F"
+			tasks: [
+				{
+					id: "471F493DB6119320"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 16L
+				}
+				{
+					id: "72200672045068D7"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 8L
+				}
+				{
+					id: "0286B90B73942529"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "601A9BDCCEB1BF7C"
+					type: "item"
+					item: "bloodmagic:apprenticebloodorb"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["605245BED4C5C4A3"]
+			id: "68BA54BDB4F750DD"
+			tasks: [{
+				id: "5ED20D23FA80BA6E"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			title: "Tiering for Dummies"
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["62D550C71E0EAB0F"]
+			id: "49278FCB4BAF2511"
+			tasks: [
+				{
+					id: "5FF3A335250BC626"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72247E0498ACC876"
+					type: "item"
+					item: "bloodmagic:divinationsigil"
+				}
+				{
+					id: "6E01A0801F0B9288"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tier 3"
+			x: 1.5d
+			y: 3.5d
+			description: ["You can swap the glowstone blocks for sea lanterns. "]
+			dependencies: ["62D550C71E0EAB0F"]
+			id: "3FCF29FFF5D86BBD"
+			tasks: [
+				{
+					id: "6D03D3DB97D6A3D9"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 20L
+				}
+				{
+					id: "50F309A23416721E"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "11292D125FA62224"
+					type: "item"
+					item: "bloodmagic:magicianbloodorb"
+				}
+				{
+					id: "103D6331E8E91CE0"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Ritualistic"
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["3FCF29FFF5D86BBD"]
+			id: "2D2CC288030E60F1"
+			tasks: [
+				{
+					id: "186929EDA21AA600"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+				{
+					id: "3147BBDE6A24D76E"
+					type: "item"
+					item: {
+						id: "bloodmagic:airscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "21F9AE0B12EF5379"
+					type: "item"
+					item: {
+						id: "bloodmagic:firescribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "194A5A29277D76A8"
+					type: "item"
+					item: {
+						id: "bloodmagic:waterscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F8E51713A80D744"
+					type: "item"
+					item: {
+						id: "bloodmagic:earthscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55E5903E48FFBD78"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 36L
+				}
+				{
+					id: "4CE1683848FD9B1B"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "219CE7E128CD6020"
+					type: "item"
+					item: "bloodmagic:ritualtinkerer"
+				}
+				{
+					id: "04532C81CF1526A7"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+		}
+		{
+			title: "Binding"
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["3FCF29FFF5D86BBD"]
+			id: "2838B8D43EAE3ED4"
+			tasks: [
+				{
+					id: "04AD19DCE947E17A"
+					type: "item"
+					item: {
+						id: "bloodmagic:sanguinereverter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AF92D0B439FDC3A"
+					type: "item"
+					item: "bloodmagic:alchemicalreactionchamber"
+				}
+				{
+					id: "38B76EAEBFD139C1"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
+		}
+		{
+			title: "Tier 4"
+			x: 1.5d
+			y: 5.0d
+			dependencies: [
+				"3FCF29FFF5D86BBD"
+				"2838B8D43EAE3ED4"
+			]
+			id: "47E6E1CB6A4DF87E"
+			tasks: [
+				{
+					id: "195B0171E4F1817D"
+					type: "item"
+					item: "bloodmagic:masterbloodorb"
+				}
+				{
+					id: "2D13CA725FAED2C7"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "05930EB0CEA30D31"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+				{
+					id: "129E1421562EB8DA"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Ritual Improvements"
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["2D2CC288030E60F1"]
+			id: "585A934ABA18FAD4"
+			tasks: [
+				{
+					id: "6298D41518CDB431"
+					type: "item"
+					item: {
+						id: "bloodmagic:duskscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CE9D7BCE55DE451"
+					type: "item"
+					item: "bloodmagic:ritualdivinerdusk"
+				}
+				{
+					id: "3A834729F2E7268C"
+					type: "item"
+					item: "bloodmagic:activationcrystalawakened"
+				}
+			]
+		}
+		{
+			title: "Demonic Will Farming"
+			x: 1.5d
+			y: 6.5d
+			shape: "gear"
+			subtitle: "Uses rituals"
+			description: ["You need crystallized corrosive demonic will clusters (green for our colorblind community) in order to create the ATM star. "]
+			dependencies: [
+				"47E6E1CB6A4DF87E"
+				"2838B8D43EAE3ED4"
+			]
+			id: "44E3B85BA28B9D2D"
+			tasks: [
+				{
+					id: "61A6D53ACB2BA894"
+					type: "item"
+					item: "bloodmagic:demoncrucible"
+				}
+				{
+					id: "2479B037D1A6A16D"
+					type: "item"
+					item: "bloodmagic:corrosivecrystal"
+					count: 5L
+				}
+				{
+					id: "680690159FF9022B"
+					type: "item"
+					item: "bloodmagic:corrosivedemoncrystal"
+				}
+				{
+					id: "462D02E2A967ACB2"
+					type: "item"
+					item: "bloodmagic:demoncrystallizer"
+				}
+				{
+					id: "45EF285F540216A5"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 20L
+				}
+				{
+					id: "618DEDFE6B3AE64D"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+			]
+		}
+		{
+			title: "Inner Peace?"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "One prick, lots of blood. Very peaceful. "
+			description: ["If you walk up to the altar while it's burning, the sacrificial knife glows, stand there till the flame goes out, and right click on your blood altar after that. You will give as much blood as possible in one go with a glowing blade. The amount of tranquility can be increased by planting trees and flowers and plants, water and lava, etc. around it in a…. 9x9 space, and separated into 3x3 chunks by this 3x3 path in cardinal directions. "]
+			dependencies: ["605245BED4C5C4A3"]
+			id: "586D50F091F49370"
+			tasks: [
+				{
+					id: "5E643604E4200260"
+					type: "item"
+					item: "bloodmagic:incensealtar"
+				}
+				{
+					id: "5000D3FB4D5185DD"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+					count: 36L
+				}
+			]
+		}
+	]
+}

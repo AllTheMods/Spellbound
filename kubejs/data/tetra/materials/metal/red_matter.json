@@ -1,0 +1,27 @@
+{
+    "key": "red_matter",
+    "category": "metal",
+    "primary": "5000",
+    "secondary": "2000",
+    "tertiary": "1500",
+    "durability": "5000000",
+    "integrityCost": "0",
+    "integrityGain": "500",
+    "magicCapacity": "1000",
+    "toolLevel": "8",
+    "toolEfficiency": "60",
+    "tints": {
+        "glyph": "f01b1b",
+        "texture": "f01b1b"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "projecte:red_matter"
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

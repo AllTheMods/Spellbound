@@ -1,0 +1,227 @@
+{
+	id: "781534E6ED094656"
+	group: ""
+	order_index: 0
+	filename: "home"
+	title: "Home"
+	icon: {
+		id: "tombstone:tablet_of_home"
+		Count: 1b
+		tag: {
+			ancient: 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -4.5d
+			subtitle: "10 billion points. 10 billion percent. Land of Science... I mean Magic!"
+			description: [
+				"Welcome to Allthe Magic 2!"
+				"If you played any of the AlltheMod (ATM) packs, this is that but with 99.95% Magic Mods."
+			]
+			id: "0FDF55754497EFE8"
+			tasks: [{
+				id: "7F02513FB4F32066"
+				type: "checkmark"
+				title: "Welcome to AlltheMagic 2!"
+			}]
+			rewards: [{
+				id: "71C40B59FE44E0A0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Why Create?"
+			x: 0.5d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "Low tech, minor necessity, not Overpowered."
+			description: [
+				"Why Create: Due to how some of the magic mods have more mid to late game automation, Create is here for minor tech and Endgame Recipes."
+				""
+			]
+			dependencies: ["0FDF55754497EFE8"]
+			id: "5A9C3BE0DC78F40B"
+			tasks: [{
+				id: "090628149D6DC0E8"
+				type: "checkmark"
+				title: "Why Create and Integrated Dynamics?"
+			}]
+			rewards: [{
+				id: "4D0DDCFC256235DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Contact Us (Discord)"
+			x: -1.0d
+			y: -5.5d
+			shape: "heart"
+			description: [
+				""
+				""
+				""
+				"Here is where you can suggest ideas or ask for help mods or any AllTheMod Packs."
+				"- https://discord.gg/K5FBPYa"
+			]
+			dependencies: ["0FDF55754497EFE8"]
+			id: "24DAE6E4721F0738"
+			tasks: [{
+				id: "0EDD58B9D8B1B98E"
+				type: "checkmark"
+				title: "Discords"
+			}]
+			rewards: [{
+				id: "0593B7DCECB63144"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			shape: "gear"
+			subtitle: "Gates Gates Gates Gates!"
+			description: [
+				"Here's the thing, it's heavily gated. So you can't just \"rush\" into it."
+				""
+				"Yes, Mystical Agriculture is in, but we needed another Magical Aspect... so yeah."
+			]
+			dependencies: ["0FDF55754497EFE8"]
+			id: "69208A660508ADCE"
+			tasks: [{
+				id: "58D374CAD05A0E01"
+				type: "checkmark"
+				title: "Project E"
+			}]
+			rewards: [{
+				id: "14A8D16110762BEA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "Magics in the Air"
+			description: [
+				"Head Developer and Pack Lead:"
+				"Maddy"
+				""
+				"Quest Developer: Merithor, ZephyrWindSpirit"
+			]
+			dependencies: ["0FDF55754497EFE8"]
+			id: "0764817877077643"
+			tasks: [{
+				id: "5ED9CDA37314BA49"
+				type: "checkmark"
+				title: "Developers"
+			}]
+			rewards: [{
+				id: "524540AD8066E956"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "We played it yo."
+			description: [
+				"Traverse_Joe , ShadowxStar, DerpsDigital , Merithor, Queen Lexxie, Sephiroth, Choices, ZephyrWindSpirit"
+				"The Bovine Shaman, Vortex"
+			]
+			dependencies: ["0764817877077643"]
+			id: "6285C94BA1D4F176"
+			tasks: [{
+				id: "7B8D87B5E5311F3D"
+				type: "checkmark"
+				title: "Play Testers"
+			}]
+			rewards: [{
+				id: "2FD1E5BB129657E9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Special Thank you to"
+			x: 0.5d
+			y: -0.5d
+			description: ["Team ATM for allowing this project to come through."]
+			id: "71DBA02C97E18A6A"
+			tasks: [{
+				id: "5A85522014B0788F"
+				type: "checkmark"
+				title: "Thanks"
+			}]
+		}
+		{
+			icon: {
+				id: "fairylights:skull_light"
+				Count: 1b
+				tag: {
+					color: 16383998
+				}
+			}
+			x: 3.0d
+			y: -3.5d
+			shape: "pentagon"
+			subtitle: "More pain, more gain."
+			description: [
+				"If you wish to add a challenge to your run, we have a one time offer of a Cursed Ring"
+				"You'll take more damage, do less damage, stay on fire FOREVER if set aflame, and your soul is damaged on death."
+				"Tip: Before you can obtain fire proofing armors (Allthemodium), craft a Salamander's Eye. Or the Pyroclast Amulet."
+			]
+			id: "4EC009121B796BD3"
+			tasks: [{
+				id: "6CD4CD70480CB55A"
+				type: "checkmark"
+				title: "Up for a Challenge?"
+			}]
+			rewards: [{
+				id: "5B1234EE8FD532EC"
+				type: "item"
+				item: "enigmaticlegacy:cursed_ring"
+			}]
+		}
+		{
+			title: "Do Note (Multiplayer)"
+			x: 3.0d
+			y: -2.0d
+			description: [
+				"Some mods on this pack are not complete."
+				"-Be Patient when we get the updates for them"
+				"We intend this for team based, but can be done solo. "
+				"If a mod is crashing on multiplayer, it may be because of a glitch that the Mod Dev needs to fix, it is sadly out of our section."
+				"The known crashers is Theurgy's Element lookup in JEI, and Malum's Rune Table."
+			]
+			id: "6A4DDE12B2F0FC5D"
+			tasks: [{
+				id: "24348962E3DB43A8"
+				type: "checkmark"
+				title: "Do Note"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			shape: "pentagon"
+			subtitle: "Biome's are found, biomes are travelled."
+			description: ["Creating a Nature's Compass will help you find a Flower biome that Forbidden and Arcanus needs."]
+			id: "0EBBC526C3445BF7"
+			tasks: [{
+				id: "18D7BF38075C409C"
+				type: "checkmark"
+				title: "Nature's Compass"
+			}]
+		}
+	]
+}

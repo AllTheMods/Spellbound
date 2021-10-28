@@ -1,0 +1,1087 @@
+{
+	id: "2C54D4347FAF748C"
+	group: "3B6EB8546211E897"
+	order_index: 0
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	subtitle: ["Gaia suffers from Guardma... Guardma Dice Rolls."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: 0.5d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "Plants, Flowers, Mana!? Oh my"
+			description: [
+				"This Magical, Technical, Flower powered mod is powerful in it's own right. Utilize the power of mana, generated from varied sources, to using the mana for your crazed ideas."
+				"Along with the normal progression of typical Botania, we will cover a tiny bit on Mythic Botany, an add-on."
+				"Do Note, this mod does not have a method of Ore Doubling. Suggested to do this after Occultism/Blood Magic/ElementalCraft/Create ore doubling has been achieved."
+			]
+			id: "4B2AFC583DEA6DC8"
+			tasks: [{
+				id: "7E7A11964B92A0E3"
+				type: "checkmark"
+				title: "Welcome to Botania!"
+			}]
+		}
+		{
+			title: "Flower Picking"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Pop drop mana stop"
+			description: [
+				"For starters we need Mystical Flowers. Gather 1 of each Flower."
+				""
+				"For a tip: You can place a flower petal on Grass, bonemeal it for a 2 block tall Flower, use shears and you'll obtain 4 petals per tall flower."
+			]
+			dependencies: ["4B2AFC583DEA6DC8"]
+			id: "410E21A900CECDCA"
+			tasks: [
+				{
+					id: "5533363FE3B3F098"
+					type: "item"
+					item: "botania:white_mystical_flower"
+				}
+				{
+					id: "7719512B80572529"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+				}
+				{
+					id: "4956F9C24F2BD633"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+				}
+				{
+					id: "4FE4524E7F747841"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+				}
+				{
+					id: "5CB3B72DB8B3FD05"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+				}
+				{
+					id: "311EC069666FFE22"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+				}
+				{
+					id: "632CA71EE14440E2"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+				}
+				{
+					id: "57954C2100652F03"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+				}
+				{
+					id: "39C48F096E147459"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+				}
+				{
+					id: "10B95E9401E04C39"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+				}
+				{
+					id: "44EEB9C280263F4E"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+				}
+				{
+					id: "5DE471B12C998C8B"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+				}
+				{
+					id: "559507A62859660B"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+				}
+				{
+					id: "282682307DACD918"
+					type: "item"
+					item: "botania:green_mystical_flower"
+				}
+				{
+					id: "74AF3ABBC23ECF46"
+					type: "item"
+					item: "botania:red_mystical_flower"
+				}
+				{
+					id: "4F352CC16195F477"
+					type: "item"
+					item: "botania:black_mystical_flower"
+				}
+			]
+			rewards: [{
+				id: "4F21ADBC8717E12B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Traveling stinks for getting Flowers..."
+			description: [
+				"You probably traveled far for these flower. Lets reduce that walk time by making Mystical Fertilizer."
+				""
+				"Now make a Flower Pouch, this pouch stores the single block flowers so they don't take too much space in your chest."
+			]
+			dependencies: ["410E21A900CECDCA"]
+			id: "6BED1578CF5A8FE1"
+			tasks: [
+				{
+					id: "55E23E4FADCD40D3"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 4L
+				}
+				{
+					id: "7276DF397CFAEBF7"
+					type: "item"
+					item: "botania:flower_bag"
+				}
+			]
+			rewards: [
+				{
+					id: "1E752F350D618B17"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "70F908238C57636C"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 12
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			subtitle: "The flow of mana stems from growth.... No? just this bird bath!?"
+			description: [
+				"A Petal Apothecary is an object that creates varying flower devices. From mana generation to practical use."
+				"To use it, you need to fill it with Water from a bucket. Then you drop the needed items in any order and then you drop plain seeds. If you made a mistake, empty hand, shift right click apothecary."
+				""
+				"Make 2 Pure White Daisy's and 4 Endoflames by follow JEI."
+			]
+			dependencies: ["410E21A900CECDCA"]
+			id: "7CEEDA56EAF1C836"
+			tasks: [
+				{
+					id: "0D222D6E07F1F2A7"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "651655E3649E421C"
+					type: "item"
+					item: "botania:pure_daisy"
+					count: 2L
+				}
+				{
+					id: "6FDFF6A35C1106D5"
+					type: "item"
+					item: "botania:endoflame"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7E8DBEEC5DFC6DA4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Living Materials and the Wand of the Forest"
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Sequenced modules dictate these are Magical"
+			description: [
+				"You made the daisies, place them down where they have the 8 surrounding blocks free. 1 will be set for Stone and other for Wood logs (whatever is most near), on equal floor level for the conversion to work."
+				"Use a Building/Construction Wand to place multiple of log/stone for Daisy Conversion."
+				"The Wand of the Forest is required for mana redirecting."
+			]
+			dependencies: ["7CEEDA56EAF1C836"]
+			id: "062F71095A4AB929"
+			tasks: [
+				{
+					id: "1CEA764437FCC546"
+					type: "item"
+					title: "Any #botania:livingrock"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:livingrock"
+						}
+					}
+					count: 32L
+					consume_items: false
+				}
+				{
+					id: "5A051A571DA19B54"
+					type: "item"
+					item: "botania:livingwood"
+					count: 32L
+				}
+				{
+					id: "0842FB4C875C2054"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "Magical Conversion 2, no contracts required"
+			description: [
+				"After converting logs and stone into their living materials, you will need a pool to store the mana and a way to send the mana into it."
+				"First place your Endoflames near eachother on dirt/grass. Then 2 blocks above one of the flowers, place your spreader. Somewhere with 5 blocks on the spread on ground, place the pool."
+				"Use your wand of the Forest by shift right clicking the Spreader, then right click the pool to aim the spreader. "
+				"== Endoflames require furnace fuels with no additional items, so no Lava buckets."
+				"=-= If your flowers aren't outputting their mana, with wand, shift right click flower and right click spreader, that will link them."
+			]
+			dependencies: ["062F71095A4AB929"]
+			id: "1F06D5DA505ECDE0"
+			tasks: [
+				{
+					id: "074E24E536653C00"
+					type: "item"
+					item: "botania:mana_pool"
+					only_from_crafting: true
+				}
+				{
+					id: "06C66EB845B47A0D"
+					type: "item"
+					item: "botania:mana_spreader"
+					only_from_crafting: true
+				}
+				{
+					id: "2BC0E0A1E6024A9C"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "0106040E36D0F478"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "0741CE854C30A1E0"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+			]
+			rewards: [{
+				id: "7B4133E151199E38"
+				type: "item"
+				item: "botania:black_lotus"
+				count: 2
+			}]
+		}
+		{
+			title: "Deprived Mana"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Decay is lame, but for great justice... I mean Mana."
+			description: [
+				"In the case of emergancy, please craft 4 Hydroangeas. They eat water source blocks to generate mana, after few Minecraft days they will wilt."
+				"To keep them from wilting, you can use a Overgrowth Seed on the grass the flower is on... Shh, don't tell Vazkii I said the secret!"
+			]
+			dependencies: [
+				"1F06D5DA505ECDE0"
+				"062F71095A4AB929"
+			]
+			id: "6CB8293C9E295981"
+			tasks: [{
+				id: "76824F22C06617AB"
+				type: "item"
+				item: "botania:hydroangeas"
+				count: 4L
+			}]
+			rewards: [{
+				id: "38DB3BE652230DDC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			subtitle: "To cast Fire bolt with Chaos runes... Wait, this isn't Runescape."
+			description: [
+				"Make a Runic Altar. It is necessary to make runes of the elements to craft future flowers and apparatus."
+				"You will need a spreader right next to a Mana pool to supply the Altar with Mana. AND DON'T ASK FOR VAZKII TO PUT SPARKS ON THEM. NO."
+				"If an item is called \"mana x\" it generally means dropping an item to make it. Ender Pearl, Iron Ingot, Diamond, and Gunpowder thrown into mana pool."
+				"-= All runes needed to craft future runes do not get used, only the subsequent materials. Say Rune of Spring, it will use everything but the basic elemental runes, thus getting new runes plus the old ones back."
+			]
+			dependencies: ["1F06D5DA505ECDE0"]
+			id: "6E2CD433D025DC8D"
+			tasks: [
+				{
+					id: "4FC03C576F289ABE"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "09D84BFA8BFA01BE"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "58A88CD5BB131052"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "439BDFD04F3CCC79"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "1B35E37392B3F069"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "09E5BEC483CD2BA9"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [
+				{
+					id: "166E6B01671DBF01"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E801137EAA95E01"
+					type: "item"
+					item: "botania:manasteel_ingot"
+					count: 4
+				}
+				{
+					id: "12537C5BDE2CBC41"
+					type: "item"
+					item: "botania:mana_pearl"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Power of Rain"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Tell the oldman to sit, cause now Rain is useful."
+			description: [
+				"A special flower you can make an abundance of that won't decay are Raindeletias. When it's raining, it makes mana, if thunderstorming its faster. If seed of overgrowthed its obnoxious."
+				""
+				"Just note, it's not to be heavily relied on, but helpful. Will not decay unlike hydros. The rune of Water maintains its life."
+			]
+			dependencies: [
+				"6CB8293C9E295981"
+				"6E2CD433D025DC8D"
+			]
+			id: "7A77058EAF75F06B"
+			tasks: [{
+				id: "2BB36AEC0DEB334E"
+				type: "item"
+				item: "mythicbotany:raindeletia"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "6CD4944D905B940E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5F667846882BBB93"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: {
+							mana: 500000
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			subtitle: "Magic magic magic. ITS ALWAYS MAGIC. Here, Nature's version of Diamond Armor."
+			description: [
+				"As depicted in your Lexica, make an Agglomeration Plate and it's platform. Place sparks upon the plate and your mana pools."
+				"To make Terrasteel, place a Mana Diamond, Mana Pearl and Manasteel on the plate, and then right click plate with your Wand."
+				"The more pools with sparks, the faster it goes. Takes half a mana pool for 1 ingot."
+			]
+			dependencies: ["6E2CD433D025DC8D"]
+			id: "2DD3E7D37D24643C"
+			tasks: [
+				{
+					id: "17D5E4B9E29FD6FF"
+					type: "item"
+					item: "botania:terra_plate"
+					only_from_crafting: false
+				}
+				{
+					id: "0A2F2D84D47D8CED"
+					type: "item"
+					item: "botania:spark"
+					count: 4L
+					only_from_crafting: false
+				}
+				{
+					id: "38DDB5E52B68997A"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "7DA86E7A684BD655"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "1123E025DF7BF238"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "From lava, Mana rises."
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Burn bright, snuffed cold by cooldown.."
+			description: [
+				"Thermalillies are Hydroangeas but for Lava. But they also do not decay. They eat lava source blocks to generate lots of mana, but there is a catch. They eat a source block, generate for a bit, and then are on a cooldown."
+				"With smoke particals (black particals), they are on cooldown, feeding another lava will reset the cooldown with no mana gained. They are on cooldown for 5 minutes. "
+				"== To automate, use a 6-7 minute redstone timer, so it has time to digest the lava and get off cooldown."
+				"-= At this early stage, they generate more mana then you can output into a pool. Leading to minor mana loss."
+			]
+			dependencies: [
+				"6E2CD433D025DC8D"
+				"7A77058EAF75F06B"
+			]
+			id: "17D6B7DA5DB44210"
+			tasks: [{
+				id: "689BF967CD6870BB"
+				type: "item"
+				item: "botania:thermalily"
+				count: 4L
+			}]
+			rewards: [{
+				id: "54878DE1D0562D14"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Push more Mana!"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "More for less!"
+			description: [
+				"Craft 2 sets of mana lens. Then craft Potency Lens and Velocity Lens, and then craft them together with a slime ball."
+				"The Lens on a Mana spreader will increase it's effeciency ofsending mana. Velocity sends mana faster, and Potency causes the spreader to shoot mana at lower amount instead of quarter mark."
+			]
+			dependencies: [
+				"17D6B7DA5DB44210"
+				"7A77058EAF75F06B"
+				"6CB8293C9E295981"
+			]
+			id: "3D55827044CC233B"
+			tasks: [
+				{
+					id: "740AA73D2AC4E8ED"
+					type: "item"
+					item: {
+						id: "botania:lens_speed"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "180590A013ABD843"
+					type: "item"
+					item: {
+						id: "botania:lens_power"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			subtitle: "A nature infused portal... Elves, here I.. Cant?"
+			description: [
+				"With a terrasteel broken into nuggets, 3 will be used to make a Elven Gateway core, while the other 6 into 2 Natura Pylons. Read as depicted in Lexica for formation."
+				"But something is amiss, its a portal, but you cant enter yet... But you can throw items. Start with your Lexica, it will gain a new chapter."
+				"After the lexica, throw your mana items in, specifically manasteel, diamond and pearl. On a 2 to 1 conversion (2 manasteel) will get 1 Elementium. 1 to 1 for Pearl and Diamond counterparts, Pixie Dust and Dragonstones. Throw your livingwood for Dreamwood, and throw Mana Glass for Alfglass."
+			]
+			dependencies: ["2DD3E7D37D24643C"]
+			id: "52D26A278AD20F59"
+			tasks: [
+				{
+					id: "06A684FE8A93E33E"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "3FC17622DE7EC6EA"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "2265CDA23B7BF48A"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "09788D54BD958EEE"
+					type: "item"
+					item: "botania:dreamwood"
+					count: 8L
+				}
+				{
+					id: "302CCE991B9C0314"
+					type: "item"
+					item: "botania:elementium_ingot"
+					count: 6L
+				}
+				{
+					id: "057434F831C3C192"
+					type: "item"
+					item: "botania:pixie_dust"
+					count: 8L
+				}
+				{
+					id: "76A40027D7F66C72"
+					type: "item"
+					item: "botania:dragonstone"
+					count: 4L
+				}
+				{
+					id: "3FF6F417A94F3126"
+					type: "item"
+					item: "botania:elf_glass"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Bifrost Rods and Bifrost Products"
+			x: 5.0d
+			y: 5.0d
+			subtitle: "The Rainbow Bridge sure got small... Thor...."
+			description: [
+				"With newfound materials, we need 2 Rods of Bifrost. First one is to use crafting Bifrost Blocks (from Alfglass) and in turn making Shimmerrock needed later. The 2nd Brifrost Rod is to craft a special Rune also later."
+				""
+				"In a Crafting table, the Bifrost Blocks with Livingrock to make Shimmerrock, needed for later."
+			]
+			dependencies: ["52D26A278AD20F59"]
+			id: "39E078B6EA85F2E8"
+			tasks: [
+				{
+					id: "496AA2C8820652A7"
+					type: "item"
+					item: "botania:rainbow_rod"
+				}
+				{
+					id: "24361601B6DCB79B"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 12L
+				}
+				{
+					id: "0A062B54229D897B"
+					type: "item"
+					item: "botania:bifrost_perm"
+					count: 12L
+				}
+			]
+		}
+		{
+			title: "Runes of Seasons"
+			x: 6.0d
+			y: 4.0d
+			subtitle: "Scented rocks of the seasons. Not a snozzberry."
+			description: [
+				"Much like the Elemental runes, the Season Runes are used for advanced items. 2 of each will do, as 1 set will be used in crafting a new Agglomeration like plate."
+				"Elemental Runes do are not consumed during the process, so you'll get both elemental runes back and the new created Season rune."
+			]
+			dependencies: [
+				"6E2CD433D025DC8D"
+				"39E078B6EA85F2E8"
+			]
+			id: "06B7590289A2F545"
+			tasks: [
+				{
+					id: "6102C09B0C2260D4"
+					type: "item"
+					item: "botania:rune_spring"
+					count: 2L
+				}
+				{
+					id: "7E91DE56AEBD23A3"
+					type: "item"
+					item: "botania:rune_summer"
+					count: 2L
+				}
+				{
+					id: "795597E76C364EB3"
+					type: "item"
+					item: "botania:rune_winter"
+					count: 2L
+				}
+				{
+					id: "0D75DC4804404F92"
+					type: "item"
+					item: "botania:rune_autumn"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4ED6978118CB7E74"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "00AAC9A2D70526ED"
+					type: "item"
+					item: "botania:manasteel_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Runes of the 7 Sins"
+			x: 7.5d
+			y: 4.0d
+			subtitle: "No homunculi here. And most definently no band of misfit warriors."
+			description: ["We need these new runes in order to progress once more. The next steps require all the types of runes to continue."]
+			dependencies: ["06B7590289A2F545"]
+			id: "2ADBCB42B003D869"
+			tasks: [
+				{
+					id: "209429F26040DC59"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+				{
+					id: "54E3862277D544C5"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "3F02BFCB2173CAE0"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "39F5B7A9E32E975E"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "34B260DDFBB673BC"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "723E48AFA3F4A3A8"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "732638ACE0DE07E8"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+			]
+			rewards: [
+				{
+					id: "212371C9A6D1F890"
+					type: "item"
+					item: "botania:blacker_lotus"
+					count: 2
+				}
+				{
+					id: "69D886043D9B6F1C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Rune of Asgard and the Mana Infuser"
+			x: 9.0d
+			y: 4.0d
+			subtitle: "Bridging the gap, still Thor's fault."
+			description: [
+				"We will now make a Rune of Asgard, using the 2nd Bifrost, which is needed to craft the Mana-Infuser. Mana infuser is a stronger plate, capable of making Terrasteel and the new Alfsteel."
+				"-Lexica entry has how you lay it out. But difference is the Spark on the Mana Infuser needs the Dominant Trait."
+				"-Now like Terrasteel, place 1 Dragonstone, 1 Pixie Dust and 1 Elementium to start crafting. This process takes 2 Full mana pools worth."
+			]
+			dependencies: ["2ADBCB42B003D869"]
+			id: "22E97E8D8E949E34"
+			tasks: [
+				{
+					id: "00BFB53FAEAE1607"
+					type: "item"
+					item: "mythicbotany:asgard_rune"
+				}
+				{
+					id: "6234C441F46E5540"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "51A61B82D1EAC882"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "3B2758978AD92B36"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "Pylons for Gaia"
+			x: 9.0d
+			y: 2.5d
+			subtitle: "If her arena is not right, she will complain."
+			description: ["We will need 4 Gaia Pylons for later. With your alfsteel ingots, turn them into nuggets then upgrade 4 natura pylons to Alf Pylons, then upgrade to Gaia Pylons."]
+			dependencies: ["22E97E8D8E949E34"]
+			id: "69D837DC46090DE7"
+			tasks: [
+				{
+					id: "6EEDF693C646AB8F"
+					type: "item"
+					item: "mythicbotany:alfsteel_pylon"
+					count: 4L
+				}
+				{
+					id: "3701610E492C1851"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "123A4090C6AABF9A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Wisdom of the Aesir"
+			x: 8.0d
+			y: 1.5d
+			subtitle: "Drinking this won't be bad.... Right? Right!?"
+			description: [
+				"Create a Gjallahorn. It uses Horn of the Wild dipped into a Mana Pool. Then create Branch of Yggdrasil. Shoot mana at it, and after a while, use the Gjallahorn to drink from it."
+				"-This is an important step before fighting Gaia Guardian 2."
+			]
+			dependencies: ["69D837DC46090DE7"]
+			id: "54891ACA25E3002B"
+			tasks: [
+				{
+					id: "2D38F630E06C4453"
+					type: "item"
+					item: "mythicbotany:gjallar_horn_empty"
+				}
+				{
+					id: "2829A4B8064D0C79"
+					type: "item"
+					item: "mythicbotany:yggdrasil_branch"
+				}
+			]
+		}
+		{
+			title: "Gaia Showdown 1"
+			x: 8.0d
+			y: 0.5d
+			subtitle: "Gaia only rewards the daring..."
+			description: [
+				"You need to have killed a Wither for a Nether Star. As you need a Beacon powered (9 iron blocks, level 1) with the 4 Gaia Pylons set."
+				"Use the Lexicas visual."
+				"This fight is tough, so come prepared with your best gear, and only Melee (physical) attacks work."
+				"When Ready, shift right click a Terrasteel ingot on the Beacon."
+			]
+			dependencies: ["54891ACA25E3002B"]
+			id: "6E3CF406D3EEE73F"
+			tasks: [{
+				id: "51E305EE95E76836"
+				type: "kill"
+				icon: "botania:life_essence"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+			rewards: [{
+				id: "160783F30C40BCFE"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "Mana Collector"
+			x: 9.0d
+			y: -0.5d
+			subtitle: "All your mana are belong to us."
+			description: [
+				"With your gaia spirits (may need more), make 2 Gaia Spirit Ingots. These use terrasteel ingots."
+				"Now create a rune of Vanaheim, its needed for the Mana Collector"
+				"Now craft the Mana Collector. This block alone holds a lot of mana. To use it, place in the world, place a Recessive Spark on it. Then attach all of your Mana Generating Flowers to it."
+				"All of your mana generated will spread amongst all of your Spark'd Pools. The kicker of this, it can handle Thermalillies mana generation."
+			]
+			dependencies: ["6E3CF406D3EEE73F"]
+			id: "326C53051675EC82"
+			tasks: [
+				{
+					id: "0FDF70A91D25632C"
+					type: "item"
+					item: "botania:gaia_ingot"
+					count: 2L
+				}
+				{
+					id: "0791E516709C4253"
+					type: "item"
+					item: "mythicbotany:vanaheim_rune"
+				}
+				{
+					id: "0CFA078714E5DA20"
+					type: "item"
+					item: "mythicbotany:mana_collector"
+					only_from_crafting: false
+				}
+			]
+			rewards: [
+				{
+					id: "2842A79C77F0CE3A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E30C70C6C9A2CE5"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			subtitle: "Gaia brings life. Her Gaurdian brings Death."
+			description: [
+				"When you are prepared, sacrifice a Gaia Spirit Ingot in the Beacon. Be warned, the fight is even tougher."
+				"Should you fell her Gaurdian in this manner, both a Dice of Fate and Rune Tablet will drop."
+				"-This is why you needed to drink from the Branch of Yggdrasil, this tablet is used in several special rituals."
+			]
+			dependencies: ["326C53051675EC82"]
+			id: "31733CBFF9727474"
+			tasks: [
+				{
+					id: "4B427B1AF0DCFB32"
+					type: "item"
+					item: {
+						id: "botania:dice"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "14474E60EFFCFC33"
+					type: "item"
+					item: "mythicbotany:fimbultyr_tablet"
+				}
+			]
+			rewards: [{
+				id: "48325D923DC11F57"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["31733CBFF9727474"]
+			id: "0251B1C449775B88"
+			tasks: [{
+				id: "2F307AE1C0CE3355"
+				type: "item"
+				item: {
+					id: "botania:loki_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["31733CBFF9727474"]
+			id: "3F558DE72F76F3CE"
+			tasks: [{
+				id: "25D12489876A7CD2"
+				type: "item"
+				item: {
+					id: "botania:odin_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -7202459712062929311L
+						baubleUUIDLeast: -5051245617570771103L
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			dependencies: ["31733CBFF9727474"]
+			id: "3688ED73F1EFBE55"
+			tasks: [{
+				id: "75DD755853187672"
+				type: "item"
+				item: {
+					id: "botania:thor_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.0d
+			dependencies: ["31733CBFF9727474"]
+			id: "46F307DDCCC5DC77"
+			tasks: [{
+				id: "52CDFB0023B3A165"
+				type: "item"
+				item: {
+					id: "botania:infinite_fruit"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			dependencies: ["31733CBFF9727474"]
+			id: "2472BE70C580B2CD"
+			tasks: [{
+				id: "27728385797FCDCA"
+				type: "item"
+				item: {
+					id: "botania:king_key"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			dependencies: ["31733CBFF9727474"]
+			id: "618B6104765ACCD5"
+			tasks: [{
+				id: "7F38650F7DE157DA"
+				type: "item"
+				item: {
+					id: "botania:flugel_eye"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Into.. Alfheim! For Real!"
+			x: 12.0d
+			y: 1.5d
+			subtitle: "Yo, thats whack. Too bad it's Addon only and not base Botania."
+			description: [
+				"Build yourself a section on Ritual Rune Holders (make enough for the largest ritual), and 1 Master Ritual Rune Holder. Follow the directions of the ritual by placing the runes in the respective slots."
+				"When everything is in place, throw on the ground Soulscribe, Managlass vial, and Alfsteel nugget. Right click with Wand on the Master Ritual with a Wandering Trader near."
+				"If all has gone well, you get the Blood of Kvasir, Craft it with a vial of honey, and then drink it."
+				"You can walk into the Alfheim portal. When you're in the new world, gather 6 elementium ore, and shear 12 dreamwood leaves. Also Dragonstones are this worlds diamonds, so Fortune It!"
+			]
+			dependencies: ["31733CBFF9727474"]
+			id: "2D9CCD6E7A36809D"
+			tasks: [
+				{
+					id: "785FF70203867D86"
+					type: "item"
+					item: "mythicbotany:elementium_ore"
+					count: 6L
+				}
+				{
+					id: "0BC121177F3234CC"
+					type: "item"
+					item: "mythicbotany:dreamwood_leaves"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "1569324CC00CB22C"
+					type: "item"
+					item: "mythicbotany:dragonstone_ore"
+					count: 3
+				}
+				{
+					id: "1960C6DDA6DA9874"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

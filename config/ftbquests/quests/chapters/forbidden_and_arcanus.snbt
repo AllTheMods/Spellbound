@@ -1,0 +1,373 @@
+{
+	id: "7DAE0912A85164A7"
+	group: "2869CB12B4663D25"
+	order_index: 6
+	filename: "forbidden_and_arcanus"
+	title: "Forbidden and Arcanus"
+	icon: "forbidden_arcanus:arcane_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Forbidden and Arcanus"
+			icon: "forbidden_arcanus:forbiddenmicon"
+			x: 0.0d
+			y: 0.0d
+			description: ["I hope you’re prepared to go end hunting or murdering the dragon repeatedly and the wither too. This is more of a decoration and utility mod than actual magic, but we’ve got some items here you’ll want to make the ATM star."]
+			id: "5FFE92C6473CAA33"
+			tasks: [{
+				id: "1FBE1CF921664B74"
+				type: "checkmark"
+				title: "WIP"
+			}]
+		}
+		{
+			title: "Plant Hunt"
+			icon: "forbidden_arcanus:mysterywood_sapling"
+			x: 1.5d
+			y: -1.0d
+			description: ["Plains biomes for cherry trees, and flower forests for mysterywood trees. Edelwood has no leaves or saplings but the logs are so worth it, in dark forests. Let the mysterywood leaves despawn NATURALLY, they drop golden apples! Don’t forget the yellow orchids from the flower forest!"]
+			dependencies: ["5FFE92C6473CAA33"]
+			id: "03436DE1D931968A"
+			tasks: [
+				{
+					id: "55E4F76EFCD17EAE"
+					type: "item"
+					item: "forbidden_arcanus:cherrywood_sapling"
+				}
+				{
+					id: "5BB916D77BED1F18"
+					type: "item"
+					item: "forbidden_arcanus:mysterywood_sapling"
+				}
+				{
+					id: "78FB1ABC6757386B"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_log"
+				}
+				{
+					id: "670232D34B49357C"
+					type: "item"
+					item: "forbidden_arcanus:yellow_orchid"
+				}
+			]
+		}
+		{
+			title: "Orespawn? "
+			icon: "forbidden_arcanus:xpetrified_orb"
+			x: 1.5d
+			y: 0.0d
+			description: ["Collect these ores,  you'll need them. Caution, stellarite explodes when mined!"]
+			dependencies: ["5FFE92C6473CAA33"]
+			id: "00E478AA3D7C64E3"
+			tasks: [
+				{
+					id: "713E31175AA9189B"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal"
+				}
+				{
+					id: "1CCEA845B5BDEBD3"
+					type: "item"
+					item: "forbidden_arcanus:xpetrified_orb"
+				}
+				{
+					id: "54C3F3A21305471C"
+					type: "item"
+					item: "forbidden_arcanus:stellarite_piece"
+				}
+				{
+					id: "63ECA12CED6D23A6"
+					type: "item"
+					item: "forbidden_arcanus:rune"
+				}
+				{
+					id: "4F99D406C5E89C13"
+					type: "item"
+					item: "forbidden_arcanus:dark_rune"
+				}
+			]
+			rewards: [{
+				id: "4252BA99DD1A7798"
+				type: "item"
+				item: "forbidden_arcanus:xpetrified_orb"
+				count: 16
+			}]
+		}
+		{
+			title: "Dusting the Shelves"
+			x: 2.5d
+			y: -0.5d
+			description: ["Mundabitur dust, corrupti dust, arcane crystal dust. Very important dust, yes. "]
+			dependencies: ["00E478AA3D7C64E3"]
+			id: "201A4714F2CBE385"
+			tasks: [
+				{
+					id: "2E3BE288E645ED08"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+				}
+				{
+					id: "0AB9A9B70F8D9270"
+					type: "item"
+					item: "forbidden_arcanus:mundabitur_dust"
+				}
+				{
+					id: "6929E383F8E0384F"
+					type: "item"
+					item: "forbidden_arcanus:corrupti_dust"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: ["You need mundabitur dust and gold to make arcane gold. This is required in many recipes. You can combine it with that yellow orchid from earlier to get golden orchid seeds. On harvest, that gives you arcane gold nuggets. "]
+			dependencies: ["201A4714F2CBE385"]
+			id: "2B299C8A04D83DE1"
+			tasks: [{
+				id: "28EA321D18A11107"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["Create obsidian with iron using iron nuggets around a block of obsidian on the cardinal directions, and smelt it for an obsidian ingot. This is a major ingredient in this mod. "]
+			dependencies: ["2B299C8A04D83DE1"]
+			id: "2196B532B3253599"
+			tasks: [
+				{
+					id: "5B3DDEC5F3A8BCEB"
+					type: "item"
+					item: "forbidden_arcanus:obsidian_ingot"
+				}
+				{
+					id: "6C67F18C407391B0"
+					type: "item"
+					item: "forbidden_arcanus:obsidian_with_iron"
+				}
+			]
+		}
+		{
+			title: "The nether ain't got nothing on me!"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Until the Fire Nation attacked..."
+			description: ["Craft a skull, and upgrade it for the obsidian skull. Keep it in your inventory for constant fire resistance for 30 seconds. It will start counting down if you are in fire damage. If you craft it into a obsidian skull shield, you get resistance and fire resistance for 30 seconds. Blazes got nothin’ on you now. Right?"]
+			dependencies: ["2196B532B3253599"]
+			id: "28C991F54E411FFB"
+			tasks: [
+				{
+					id: "4CC6B6391763A499"
+					type: "item"
+					item: "forbidden_arcanus:obsidian_skull"
+				}
+				{
+					id: "17A7996F5616A704"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_skull_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dark Matter for Babies"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Anjelica grew up to be a dark mage. "
+			description: ["Smelt edelwood logs for dark matter. This is needed in other recipes. "]
+			dependencies: ["2B299C8A04D83DE1"]
+			id: "62F928485451ED41"
+			tasks: [{
+				id: "1618BD2E61BEE9DF"
+				type: "item"
+				item: "forbidden_arcanus:dark_matter"
+			}]
+		}
+		{
+			title: "Scales?"
+			icon: {
+				id: "forbidden_arcanus:mystical_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 0.5d
+			description: ["Dragon scales are crafted by using a mystical dagger with a dragon head for three scales. Craft a mystical dagger, and get scales. "]
+			dependencies: ["62F928485451ED41"]
+			id: "05C41CD3BEAA832D"
+			tasks: [
+				{
+					id: "4A0ABD6B1DCC50C8"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 3L
+				}
+				{
+					id: "25F2A57E70C38CD9"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mystical_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7682A7D07FFEAFFA"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+			]
+		}
+		{
+			title: "Fancy Scales"
+			icon: "forbidden_arcanus:golden_dragon_scale"
+			x: 3.5d
+			y: -0.5d
+			description: ["Expensive variants of dragon scales. Used in armor recipes, and in the ATM star."]
+			dependencies: ["05C41CD3BEAA832D"]
+			id: "2DAFF12AF12935C4"
+			tasks: [
+				{
+					id: "73752D7CD4333F9E"
+					type: "item"
+					item: "forbidden_arcanus:golden_dragon_scale"
+				}
+				{
+					id: "47F03D136AC32499"
+					type: "item"
+					item: "forbidden_arcanus:silver_dragon_scale"
+				}
+				{
+					id: "6428FC9D71C0106C"
+					type: "item"
+					item: "forbidden_arcanus:aquatic_dragon_scale"
+				}
+			]
+		}
+		{
+			title: "Ghostbusters!"
+			icon: "forbidden_arcanus:soul"
+			x: 4.5d
+			y: -0.5d
+			description: ["Craft a soul extractor and get yourself some soul sand. This is how you obtain those white floaty souls, pull them out of the soul sand with your soul extractor. Leaves you with soulless sand, which makes some interesting sandstone blocks for decoration. "]
+			dependencies: ["03436DE1D931968A"]
+			id: "154E50E00D92C5DE"
+			tasks: [
+				{
+					id: "13ED479073A8BB02"
+					type: "item"
+					item: "forbidden_arcanus:soul"
+				}
+				{
+					id: "7DEA71BA57D30318"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:soul_extractor"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5979C0D0409EF596"
+					type: "item"
+					item: "forbidden_arcanus:soulless_sand"
+				}
+			]
+		}
+		{
+			title: "Dark Souls 4"
+			icon: "forbidden_arcanus:dark_soul"
+			x: 4.5d
+			y: 0.5d
+			shape: "gear"
+			description: ["    Corrupti dust + soul = dark soul! You will need some of these for the ATM star crafting."]
+			dependencies: [
+				"201A4714F2CBE385"
+				"154E50E00D92C5DE"
+			]
+			id: "04593E5D11CCE455"
+			tasks: [{
+				id: "2DBFE17037353D90"
+				type: "item"
+				item: "forbidden_arcanus:dark_soul"
+			}]
+		}
+		{
+			title: "Death Star"
+			icon: "forbidden_arcanus:dark_nether_star"
+			x: 4.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "Dark Star Flex"
+			description: ["A Dark nether star! You will need SO many of these. "]
+			dependencies: ["2196B532B3253599"]
+			id: "223E5A67A7A4CB7B"
+			tasks: [
+				{
+					id: "58E9FCC90863E12D"
+					type: "item"
+					item: "forbidden_arcanus:dark_nether_star"
+				}
+				{
+					id: "0EAFB2401ECD3455"
+					type: "item"
+					item: "forbidden_arcanus:dark_nether_star_block"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			shape: "gear"
+			description: ["You need this to make the ATM star. When wearing it, you can see if a mob is passive, neutral or hostile through walls. "]
+			dependencies: [
+				"223E5A67A7A4CB7B"
+				"04593E5D11CCE455"
+			]
+			id: "4E9C087BF950C0D9"
+			tasks: [{
+				id: "682E9933475CE1EE"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: "forbidden_arcanus:runic_tenebris_core"
+			x: 2.0d
+			y: 2.5d
+			description: ["Apparently a way to get more dark runes, if you’re having issues finding it. Needs a lot of darkstone smelted, halved, chiseled, runed, and such to create this item. Insert a dark nether star, and it starts. Feed it the purple runes, and it gives you dark runes in return. "]
+			dependencies: ["223E5A67A7A4CB7B"]
+			id: "55886B80AA04C1FF"
+			tasks: [
+				{
+					id: "256DDA202BF5F2DE"
+					type: "item"
+					item: "forbidden_arcanus:runic_tenebris_frame"
+				}
+				{
+					id: "346B3FCF685ABC6C"
+					type: "item"
+					item: "forbidden_arcanus:runic_tenebris_core"
+				}
+			]
+		}
+	]
+}

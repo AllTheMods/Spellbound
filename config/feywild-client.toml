@@ -1,0 +1,8 @@
+#Use the Feywild background.
+menu_screen = false
+
+#Performance config.
+[Performance]
+	#Spawn tree particles.
+	spawnTreeParticles = true
+

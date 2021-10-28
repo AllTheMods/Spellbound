@@ -1,0 +1,551 @@
+{
+	id: "75F0B965517D735D"
+	group: "3B6EB8546211E897"
+	order_index: 4
+	filename: "turtlemancy"
+	title: "Turtlemancy"
+	icon: "turtlemancy:mine_turtle"
+	subtitle: ["Magic of the most patient animal in the realms"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "Every turtle mage starts someplace"
+			description: ["Craft yourself a turtlenomicon, your gateway to all things Turtle."]
+			dependency_requirement: "one_completed"
+			id: "0D580F8E01BA5730"
+			tasks: [{
+				id: "6F5801F59FA0A784"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "turtlemancy:turtlenomicon"
+					}
+				}
+			}]
+		}
+		{
+			title: "Beachcombing"
+			icon: "turtlemancy:oyster"
+			x: -4.5d
+			y: -1.0d
+			description: ["Collect 16x turtle scutes and 32x oysters. Oysters appear as blocks on the beach to right click and get a shell. Turtle scutes are a 34/1000 chance of dropping when breaking a block of sand. Certainly faster then breeding turtles and waiting for the hatch and grow cycles. "]
+			dependencies: ["0D580F8E01BA5730"]
+			id: "5B1928877DAC6E85"
+			tasks: [
+				{
+					id: "2F6F2418DF653965"
+					type: "item"
+					item: "minecraft:scute"
+					count: 16L
+				}
+				{
+					id: "389689151C49EE3F"
+					type: "item"
+					item: "turtlemancy:oyster"
+					count: 32L
+				}
+			]
+		}
+		{
+			title: "Turtlemy? Oh, turtle ALCHEMY!"
+			icon: "turtlemancy:turtle_cauldron"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Every mage needs a sink-er, cauldron."
+			description: ["Craft a Turtlemancer's cauldron, and make 16 pearls. Toss those oysters into a filled turtlemancer's cauldron to obtain pearls and cooked oysters. Tasty!"]
+			dependencies: ["5B1928877DAC6E85"]
+			id: "531E7F70CEF65C49"
+			tasks: [
+				{
+					id: "365001FD9542378E"
+					type: "item"
+					item: "turtlemancy:turtle_cauldron"
+				}
+				{
+					id: "6CC8036D8A778EE3"
+					type: "item"
+					item: "turtlemancy:pearl"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Turtle's Blessings"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Bow to your masters."
+			description: ["Collect 5x turtle blessings. Bow(sneak) and look a turtle in the eye when it looks at you. You will need a lot of these blessings for this mod."]
+			dependencies: ["531E7F70CEF65C49"]
+			id: "3C2E765C61682DB7"
+			tasks: [{
+				id: "014A2A02BC31D0F1"
+				type: "item"
+				item: "turtlemancy:turtle_bless"
+				count: 5L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "See JEI for some examples of Turtlemy"
+			description: ["Turtlemy can make certain resources easier to get. For example, duplicating ender pearls. You need enderman essence, an ender pearl and an empty pearl. "]
+			dependencies: ["531E7F70CEF65C49"]
+			id: "39A3D39AD6C15450"
+			tasks: [{
+				id: "3441D651BCFD34C4"
+				type: "checkmark"
+				title: "Cool Turtlemy things"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Craft a shell of encapsulation!"
+			description: ["This is needed for the ATM Star. Make more then one."]
+			dependencies: ["3A181C1D7203B14A"]
+			id: "440B404E8B582A7F"
+			tasks: [{
+				id: "6516BF511BF6AEAD"
+				type: "item"
+				item: "turtlemancy:shell_of_encapsulation"
+			}]
+		}
+		{
+			title: "The wand every turtlemancer starts with"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Basic Turtlemancer's wand"
+			description: ["Use turtle blessings to refuel the wand, the durability represents the 'magical fuel'. "]
+			dependencies: ["3C2E765C61682DB7"]
+			id: "32DB44B937C93285"
+			tasks: [{
+				id: "5D768C2EEE2FF3F9"
+				type: "item"
+				item: {
+					id: "turtlemancy:turtlemancer_basic_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "27F63EB39902AB21"
+				type: "item"
+				item: "minecraft:seagrass"
+				count: 8
+			}]
+		}
+		{
+			title: "Egg?"
+			x: -0.5d
+			y: -1.0d
+			subtitle: "My Sweet! This is a Triwizard's Clue! It belonged to a School Champion!"
+			description: ["Collect some turtle eggs with your basic turtlemancer's wand by holding right click on the eggs. No silk touch required! "]
+			dependencies: ["32DB44B937C93285"]
+			id: "2D8FFCA77F996092"
+			tasks: [{
+				id: "0FEB1C3FE75C6FB8"
+				type: "item"
+				item: "minecraft:turtle_egg"
+				count: 4L
+			}]
+		}
+		{
+			title: "Turtlemancer's next steps"
+			icon: {
+				id: "turtlemancy:turtlemancer_wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			description: ["Upgrade your turtlemancer's wand."]
+			dependencies: ["32DB44B937C93285"]
+			id: "2CD8746BC0AE583C"
+			tasks: [
+				{
+					id: "4C0A509AEA24D6D0"
+					type: "item"
+					item: "turtlemancy:empty_pearl"
+				}
+				{
+					id: "56973CECD744F63C"
+					type: "item"
+					item: "turtlemancy:blessed_pearl"
+				}
+				{
+					id: "0F5FF2B19234B43E"
+					type: "item"
+					item: {
+						id: "turtlemancy:turtlemancer_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The power to destroy worlds... wait, what?"
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Sorry, no Infinity gauntlet"
+			description: ["Use your turtlemancer's wand to obtain bedrock shards, 16 of them. Each shard takes the entire durability of the wand, so bring extra turtle blessings. "]
+			dependencies: ["2CD8746BC0AE583C"]
+			id: "446209455165EAD6"
+			tasks: [{
+				id: "2216DEA8FDE135E3"
+				type: "item"
+				item: "turtlemancy:little_fragment_of_bedrock"
+				count: 16L
+			}]
+			rewards: [{
+				id: "3759F870E72663B3"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2
+			}]
+		}
+		{
+			title: "Bedrock Breaker!"
+			x: 0.5d
+			y: 0.5d
+			subtitle: "WHAT?!"
+			description: ["Those bedrock shards from earlier? Craft them into a bedrock pickaxe. Congratulations, you can legitly break bedrock to reach the nether roof without ender pearls adn ladders, and get down again."]
+			dependencies: ["446209455165EAD6"]
+			id: "346E67DFD2ECCCD2"
+			tasks: [{
+				id: "60863C2C795E90C1"
+				type: "item"
+				item: {
+					id: "turtlemancy:bedrock_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Fueled by turtle blessings. "]
+			dependencies: ["7AB592A8CD1370C4"]
+			id: "6C8BED440CC3DFF2"
+			tasks: [{
+				id: "0ECE2EEF6A8D31BB"
+				type: "item"
+				item: "turtlemancy:turtle_altar"
+			}]
+		}
+		{
+			title: "Indestructible..."
+			x: 2.0d
+			y: -0.5d
+			description: ["Craft an indestructible pearl. "]
+			dependencies: ["446209455165EAD6"]
+			id: "10187A1773620AC0"
+			tasks: [{
+				id: "31BF5765DBEB58D4"
+				type: "item"
+				item: "turtlemancy:indestructible_pearl"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["Upgrade that wand of yours with the indestructible pearl at your altar. "]
+			dependencies: [
+				"446209455165EAD6"
+				"6C8BED440CC3DFF2"
+				"10187A1773620AC0"
+			]
+			id: "3A181C1D7203B14A"
+			tasks: [{
+				id: "44943C90D3371096"
+				type: "item"
+				item: {
+					id: "turtlemancy:turtlemancer_advanced_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Cursed!"
+			x: -3.5d
+			y: 1.0d
+			description: ["This is the result of you killing a turtle or looking a magma turtle in the eye while bowing. I hope you didn't just kill a turtle, for your sake. "]
+			dependencies: ["3C2E765C61682DB7"]
+			id: "1F566E898B3FAC65"
+			tasks: [{
+				id: "767E66CDC06B7F96"
+				type: "item"
+				item: "turtlemancy:turtle_curse"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["Craft some improved scutes with those bedrock shards."]
+			dependencies: [
+				"531E7F70CEF65C49"
+				"446209455165EAD6"
+			]
+			id: "7AB592A8CD1370C4"
+			tasks: [{
+				id: "5598D27B89EDC5C4"
+				type: "item"
+				item: "turtlemancy:improved_scute"
+			}]
+		}
+		{
+			title: "Nether turtles? No, this is how you play God."
+			icon: "turtlemancy:magma_turtle_egg"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Magmatic scoots... er, scutes!"
+			description: ["Create magmatic scutes in your turtlemy cauldron. Use those to make a magmatic turtle egg. Magmatic turtles do not spawn in the nether, you must craft their eggs and scutes if you don’t wish to breed them. If you do wish to breed magmatic turtles (why), they breed with warped/crimson roots and lay eggs on netherrack. "]
+			dependencies: ["1F566E898B3FAC65"]
+			id: "45BF6FBF1FFD0FCB"
+			tasks: [
+				{
+					id: "66315C84A0C72648"
+					type: "item"
+					item: "turtlemancy:magma_scute"
+				}
+				{
+					id: "60F640D7BBED310C"
+					type: "item"
+					item: "turtlemancy:magma_turtle_egg"
+				}
+				{
+					id: "26B8C61874A62D4C"
+					type: "item"
+					item: "turtlemancy:improved_magma_scute"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			optional: true
+			id: "63EADE25EBA541BF"
+			tasks: [{
+				id: "3F593A78C9D974D6"
+				type: "item"
+				item: "turtlemancy:turtle_essence"
+			}]
+		}
+		{
+			title: "\"Improper\" Magic"
+			icon: {
+				id: "turtlemancy:dark_turtlemancer_wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 2.0d
+			description: ["If you wish to travel this path, craft a dark turtlemancer’s wand. Dark turtlemancers get some different spells, and can do some of the original spells. You can get the advanced dark turtlemancer’s wand with the same ritual as the regular wand. These wands are fueled by turtle curses."]
+			dependencies: ["1F566E898B3FAC65"]
+			id: "09CECEBC2B315210"
+			tasks: [
+				{
+					id: "6A7355263B3DE544"
+					type: "item"
+					item: {
+						id: "turtlemancy:dark_turtlemancer_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3329C4B3DB5A7713"
+					type: "item"
+					item: {
+						id: "turtlemancy:dark_turtlemancer_advanced_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Forgive me Mother, for I have sinned..."
+			icon: "turtlemancy:nether_star_of_forgiveness"
+			x: -4.5d
+			y: 1.0d
+			description: ["Those turtlemancers who have killed a turtle can be forgiven, but you have to use a nether star and a ghast tear on an altar fueled by curses to create the Nether Star of Forgiveness. Eat that, and your Turtle Mom will forgive your sin, Dark Turtlemancer."]
+			optional: true
+			id: "768BC4F026F20B4F"
+			tasks: [{
+				id: "7009C4C36C88B198"
+				type: "checkmark"
+				title: "Seek Forgiveness!"
+			}]
+		}
+		{
+			icon: "endergetic:green_bolloom_balloon"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Nobody said Turtles were a peaceful mob out of the public eye."
+			description: ["Turtlemancers are able to use their wands to blow up chickens, sheep, cows and squid to get extra resources. Dark turtlemancers can blow up villagers and once advanced, turtles for extra resources. This kills the mob, but hey, ‘free’ feathers, wool, leather, ink, emeralds and scutes!"]
+			optional: true
+			id: "455B2F37DAE090AE"
+			tasks: [{
+				id: "7AFFF2508A539BA4"
+				type: "checkmark"
+				title: "Popping Balloon Animals"
+			}]
+		}
+		{
+			title: "Curioser and Curiouser..."
+			x: 4.5d
+			y: -1.5d
+			description: ["Rumor has it that master turtlemancers have a cool collection of turtle related curios baubles."]
+			optional: true
+			id: "4310933A287ADC12"
+			tasks: [{
+				id: "3D57D28DC9DE7399"
+				type: "item"
+				item: "turtlemancy:deep_blue_charm"
+			}]
+		}
+		{
+			title: "Reparo!"
+			x: 6.0d
+			y: -1.5d
+			description: ["Using redstone, items can be repaired at the turtlemancer altar. How much? Ask your turtle masters."]
+			optional: true
+			id: "39FB6E9DD95BB8F3"
+			tasks: [{
+				id: "7394AC43C6D7A405"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			title: "Armor up!"
+			icon: {
+				id: "turtlemancy:turtle_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 1.0d
+			description: ["Show your appreciation for your turtle brethren by wearing their sheds on your skin."]
+			optional: true
+			id: "007AFF00F9198775"
+			tasks: [
+				{
+					id: "39CB79B9697184BF"
+					type: "item"
+					item: {
+						id: "turtlemancy:turtle_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6745CE452C7DFDDB"
+					type: "item"
+					item: {
+						id: "turtlemancy:turtle_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "457CB09EDF2664B2"
+					type: "item"
+					item: {
+						id: "turtlemancy:turtle_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01CFD726AAC5C065"
+					type: "item"
+					item: {
+						id: "turtlemancy:turtle_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18F272B3FB17E140"
+					type: "item"
+					item: {
+						id: "turtlemancy:magmatic_turtle_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0089D5D5BB9A2FE9"
+					type: "item"
+					item: {
+						id: "turtlemancy:magmatic_turtle_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D805CFEA8AF3B30"
+					type: "item"
+					item: {
+						id: "turtlemancy:magmatic_turtle_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66E9A210029AFAA6"
+					type: "item"
+					item: {
+						id: "turtlemancy:magmatic_turtle_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

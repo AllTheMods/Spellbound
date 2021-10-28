@@ -1,0 +1,309 @@
+{
+	id: "2DE2DCB9F8311244"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 2
+	filename: "blue_skies"
+	title: "Blue Skies"
+	icon: {
+		id: "blue_skies:zeal_lighter"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Hermit in the Hills"
+			x: 0.0d
+			y: 0.0d
+			description: ["Blue Skies spawns a villager home outside in the world that is either one or two buildings. He wears black trimmed in gold and offers the blue lore book for a book and the zeal lighter for 8 emeralds. Obtain both of these items, and right click the lore book. It becomes tabs in your inventory! Not only that, there is a portal of either turquoise bricks or lunar bricks to steal from him in the house’s attic or the side house. These blocks aren’t makeable in the overworld so you’ll have to get lucky to find both, thankfully the zeal lighter is just like a flint and steel, and doens’t break immediately."]
+			id: "07F925C1AC5C2A26"
+			tasks: [
+				{
+					id: "47E4F06E402C9D0C"
+					type: "item"
+					item: "blue_skies:blue_journal"
+				}
+				{
+					id: "1DCA62632E2FB284"
+					type: "item"
+					item: {
+						id: "blue_skies:zeal_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79262CBB8316F8F9"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+					count: 14L
+				}
+				{
+					id: "0D7D13D4EBD1E12A"
+					type: "item"
+					item: "blue_skies:turquoise_stonebrick"
+					count: 14L
+				}
+			]
+			rewards: [{
+				id: "005E6D5BD741ED51"
+				type: "item"
+				item: "blue_skies:moonstone_shard"
+				count: 12
+			}]
+		}
+		{
+			title: "The realm of ice and snow"
+			x: 1.0d
+			y: -1.5d
+			id: "3568BE3CEEF4D199"
+			tasks: [{
+				id: "509E08BBD4681DAB"
+				type: "dimension"
+				title: "Visit the Everbright"
+				dimension: "blue_skies:everbright"
+			}]
+		}
+		{
+			title: "The realm of eternal dusk"
+			x: 1.0d
+			y: 2.0d
+			id: "7DFED08EFFA59B6A"
+			tasks: [{
+				id: "63A4F50EF77BB672"
+				type: "dimension"
+				title: "Visit the Everdawn"
+				dimension: "blue_skies:everdawn"
+			}]
+		}
+		{
+			title: "EB: This tool feels weaker in my hand..."
+			x: 2.5d
+			y: -1.5d
+			description: ["Non BSkies tools/weapons are less effective in this dimension. Time to gear up again. Make a wooden set of BSkies tools. Note: Everdawn tools work fine here. "]
+			id: "41B7CCB5E612E5F0"
+			tasks: [{
+				id: "7C8B126B81F1E735"
+				type: "item"
+				item: {
+					id: "blue_skies:starlit_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "ED: This tool feels weaker in my hand...."
+			x: 2.5d
+			y: 2.0d
+			description: ["Non BSkies tools/weapons are less effective in this dimension. Time to gear up again. Make a wooden set of BSkies tools. Note: Everbright tools work fine here."]
+			id: "61136A6ED7289B00"
+			tasks: [{
+				id: "503687D247D2300F"
+				type: "item"
+				item: {
+					id: "blue_skies:maple_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Blue Rocks"
+			x: 4.0d
+			y: -1.5d
+			description: ["Instead of normal stone, we’ve got turquoise stone. Make some turquoise stone tools. I think ventium is the top tier metal in this realm. Ventium makes buckets and shears."]
+			id: "1A46CBBA4B75AA5A"
+			tasks: [
+				{
+					id: "264DDF6FD701BFB7"
+					type: "item"
+					item: {
+						id: "blue_skies:turquoise_stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2830AD7260977B4E"
+					type: "item"
+					item: "blue_skies:ventium_ore"
+				}
+			]
+		}
+		{
+			title: "Black rocks"
+			x: 4.0d
+			y: 2.0d
+			description: ["Instead of normal stone, we’ve got lunar stone. Make some lunar stone tools. I think horizonite is the top tier metal in this realm. "]
+			id: "70760AE3B6F9CD31"
+			tasks: [
+				{
+					id: "6190D30DE8357A8B"
+					type: "item"
+					item: {
+						id: "blue_skies:lunar_stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4501819021DFBE30"
+					type: "item"
+					item: "blue_skies:horizonite_ore"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			id: "3790AAF00A63EA14"
+			tasks: [{
+				id: "70A7F7BECB70F72E"
+				type: "kill"
+				title: "Ice Monsters"
+				entity: "blue_skies:armored_frost_spirit"
+				value: 5L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "221D662BC9AA39DE"
+			tasks: [{
+				id: "4D5B87045C51A235"
+				type: "kill"
+				title: "BUGS!"
+				entity: "blue_skies:nyctofly"
+				value: 5L
+			}]
+		}
+		{
+			title: "The Summoner's Castle"
+			x: 8.0d
+			y: -1.5d
+			description: ["There is a massive castle rarely discovered here, where lives the Summoner. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."]
+			id: "333D7614C9764F6D"
+			tasks: [{
+				id: "64EEC127DF9BCE70"
+				type: "item"
+				item: "blue_skies:summoning_table"
+			}]
+		}
+		{
+			title: "The Alchemist's Castle"
+			x: 8.0d
+			y: 2.0d
+			description: ["There is a massive castle rarely discovered here, where lives the Alchemist. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."]
+			id: "5C2CBB1B54BA5A4E"
+			tasks: [{
+				id: "36259675DE82453D"
+				type: "item"
+				item: "blue_skies:alchemy_table"
+			}]
+		}
+		{
+			title: "Nature Dungeon"
+			x: 10.0d
+			y: -1.5d
+			description: ["    New to 1.16.5, there is a nature dungeon now. Defeat the boss here. Take his trophy. "]
+			id: "34D333FBF845717A"
+			tasks: [{
+				id: "46191F823285DA18"
+				type: "item"
+				item: "blue_skies:nature_key"
+			}]
+		}
+		{
+			title: "Poison Dungeon"
+			x: 10.0d
+			y: 2.0d
+			description: ["New to 1.16.5, there is a giant spider dungeon now. Defeat the boss here. Take her trophy. "]
+			id: "4FC19142B392DC91"
+			tasks: [{
+				id: "1EF850245BCC5786"
+				type: "item"
+				item: "blue_skies:poison_key"
+			}]
+		}
+		{
+			title: "Trophies of the Realm"
+			x: 12.5d
+			y: 0.0d
+			shape: "gear"
+			id: "105CE51FED230C61"
+			tasks: [
+				{
+					id: "0EDCC1D69F20C7B8"
+					type: "item"
+					item: {
+						id: "blue_skies:summoner_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "bronze"
+							}
+						}
+					}
+				}
+				{
+					id: "4EA6E57F88FF660D"
+					type: "item"
+					item: {
+						id: "blue_skies:alchemist_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "bronze"
+							}
+						}
+					}
+				}
+				{
+					id: "5243097FF9DAD031"
+					type: "item"
+					item: {
+						id: "blue_skies:starlit_crusher_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "bronze"
+							}
+						}
+					}
+				}
+				{
+					id: "0A41F25B6FA387B2"
+					type: "item"
+					item: {
+						id: "blue_skies:arachnarch_trophy"
+						Count: 1b
+						tag: {
+							BlockStateTag: {
+								tier: "bronze"
+							}
+						}
+					}
+				}
+				{
+					id: "67A2833E6829D17B"
+					type: "item"
+					item: "lootr:trophy"
+				}
+			]
+		}
+	]
+}

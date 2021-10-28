@@ -1,0 +1,563 @@
+{
+	id: "7732CF7AAA63DB3A"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 5
+	filename: "twilight_forest"
+	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	subtitle: ["Also known as Lag"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Twilight Forest"
+			x: -3.5d
+			y: -1.5d
+			description: ["Welcome to the Twilight Forest. To enter, please create a 2x2 pool of water, surrounded by flowers. Sacrifice a diamond, and hop in after the lightning strikes to form the portal."]
+			id: "4193303999597249"
+			tasks: [{
+				id: "0BE434855BC64A56"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["Slay a native creature of the twilight forest."]
+			dependencies: ["4193303999597249"]
+			id: "575E405B270BBCBC"
+			tasks: [{
+				id: "49C77D4CDAE03481"
+				type: "advancement"
+				title: "The Silence of the Forest"
+				icon: "twilightforest:deer_spawn_egg"
+				advancement: "twilightforest:twilight_hunter"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "Snakes and Ladders, but without the ladders"
+			description: ["Slay the Naga, who lives in the courtyards to begin your boss murdering journey. Wizards aren't all peaceful. "]
+			dependencies: [
+				"575E405B270BBCBC"
+				"57940981E8DE55D4"
+			]
+			id: "459779D9B2150C07"
+			tasks: [
+				{
+					id: "33E9B4D6A88C5127"
+					type: "advancement"
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+				}
+				{
+					id: "29FE1516A9FDBCBD"
+					type: "kill"
+					entity: "twilightforest:naga"
+					value: 1L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:lich_tower_miniature_structure"
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["459779D9B2150C07"]
+			id: "2FE3268CF73FDF4B"
+			tasks: [
+				{
+					id: "39A7A0CFF534C066"
+					type: "advancement"
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+				}
+				{
+					id: "190524231C74EE02"
+					type: "kill"
+					entity: "twilightforest:lich"
+					value: 1L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:meef_stroganoff"
+			x: 4.0d
+			y: -2.5d
+			description: ["Swamp Maze in the Twilight Swamp. On the bottom level is the Minoshroom. His death lets us enter the Fire Swamp"]
+			dependencies: ["2FE3268CF73FDF4B"]
+			id: "634D159DCE2A56C9"
+			tasks: [
+				{
+					id: "3E893B0C149DD280"
+					type: "advancement"
+					title: "Mighty Stroganoff"
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+				}
+				{
+					id: "7FC91E4FBBCB8264"
+					type: "kill"
+					entity: "twilightforest:minoshroom"
+					value: 1L
+				}
+			]
+		}
+		{
+			title: "Hail Hydra"
+			icon: "twilightforest:hydra_trophy"
+			x: 6.5d
+			y: -3.0d
+			description: ["Deep in the heart of the Fire Swamp, is a giant hill. Living three is hydra. Death you bring swift, before the world burns. "]
+			dependencies: ["634D159DCE2A56C9"]
+			id: "17FB58E50B1D50CB"
+			tasks: [
+				{
+					id: "698CD53372AEA60D"
+					type: "kill"
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+				{
+					id: "6D340E7CC715A203"
+					type: "advancement"
+					advancement: "twilightforest:progress_hydra"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["Settle the phantom knights restless souls at the bottom of the Goblin Stronghold. "]
+			dependencies: ["2FE3268CF73FDF4B"]
+			id: "71EE80E59A3F1763"
+			tasks: [{
+				id: "2E43E502122E6142"
+				type: "advancement"
+				title: "Phantom Knights of the Goblin Stronghold"
+				icon: "twilightforest:knight_phantom_trophy"
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Ur-ghastly"
+			icon: "twilightforest:ur_ghast_trophy"
+			x: 6.5d
+			y: -1.0d
+			description: ["Scale the Dark Tower in the heart of the Dark Forest to slay the Ur-ghast. "]
+			dependencies: ["71EE80E59A3F1763"]
+			id: "1ADE067CD168F704"
+			tasks: [
+				{
+					id: "01FAC065A614B7B0"
+					type: "kill"
+					entity: "twilightforest:ur_ghast"
+					value: 1L
+				}
+				{
+					id: "6E99CEBE45B1F278"
+					type: "advancement"
+					title: "Tears of Fire"
+					advancement: "twilightforest:progress_ur_ghast"
+					criterion: ""
+				}
+			]
+		}
+		{
+			icon: "twilightforest:alpha_fur"
+			x: 4.0d
+			y: 0.5d
+			description: ["The alpha yeti stands between you and the Glacier. Slay them. "]
+			dependencies: ["2FE3268CF73FDF4B"]
+			id: "143750A46FCC7BFE"
+			tasks: [{
+				id: "1F9726449B91F144"
+				type: "advancement"
+				title: "Alpha Yeti"
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Let it Go... let it Go...."
+			icon: "twilightforest:snow_queen_trophy"
+			x: 6.5d
+			y: 1.0d
+			description: ["Your final task is you slay the Snow queen at the top of her Aurora Palace in the Glacier biome, at the heart of the snow. "]
+			dependencies: ["143750A46FCC7BFE"]
+			id: "1FCA599066486134"
+			tasks: [
+				{
+					id: "63569BE09A83A603"
+					type: "advancement"
+					advancement: "twilightforest:progress_glacier"
+					criterion: ""
+				}
+				{
+					id: "0EE785C2A6CBA747"
+					type: "kill"
+					entity: "twilightforest:snow_queen"
+					value: 1L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "twilightforest:lamp_of_cinders"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.0d
+			y: -1.0d
+			subtitle: "Burning the Foliage for my Valentine"
+			description: ["I wish for more burning of thorns. Bring me the lamp of cinders, and a dozen of those roses from the thornlands."]
+			dependencies: [
+				"17FB58E50B1D50CB"
+				"1ADE067CD168F704"
+				"1FCA599066486134"
+			]
+			id: "4464488B43113EE7"
+			tasks: [
+				{
+					id: "760AD16BCCDA7BCD"
+					type: "advancement"
+					icon: {
+						id: "twilightforest:lamp_of_cinders"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					advancement: "twilightforest:progress_troll"
+					criterion: ""
+				}
+				{
+					id: "6FCAB9654FCF6ED1"
+					type: "item"
+					item: "twilightforest:thorn_rose"
+					count: 12L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:castle_brick"
+			x: 11.0d
+			y: -1.0d
+			shape: "rsquare"
+			description: ["Gotchernose! Twilight forest only has a named kobold at the top of the deadrock plateau in the giant castle. Grab those fancy doors instead. Obtain 6 of each color castle door. "]
+			dependencies: ["4464488B43113EE7"]
+			dependency_requirement: "all_started"
+			id: "420158B1736A1354"
+			tasks: [
+				{
+					id: "086AAFD8D9F5EDFA"
+					type: "biome"
+					title: "Final Boss time?"
+					icon: "twilightforest:castle_brick"
+					biome: "twilightforest:final_plateau"
+				}
+				{
+					id: "0BB84A1074D7D214"
+					type: "item"
+					item: "twilightforest:castle_door_pink"
+					count: 12L
+				}
+				{
+					id: "02D55A14580DBDE9"
+					type: "item"
+					item: "twilightforest:castle_door_yellow"
+					count: 12L
+				}
+				{
+					id: "24BB0DB1D0CEE3AE"
+					type: "item"
+					item: "twilightforest:castle_door_blue"
+					count: 12L
+				}
+				{
+					id: "3011B112DB273913"
+					type: "item"
+					item: "twilightforest:castle_door_purple"
+					count: 12L
+				}
+			]
+		}
+		{
+			title: "Ramification"
+			icon: "twilightforest:quest_ram_trophy"
+			x: 9.5d
+			y: 1.0d
+			description: ["The questing ram is missing its belts. Feed it each color of wool till it looks like wearing a Pride Day dachshund sweater. "]
+			optional: true
+			id: "5548DAA69FD592EB"
+			tasks: [
+				{
+					id: "6C81B6482C4CDEFF"
+					type: "advancement"
+					advancement: "twilightforest:quest_ram"
+					criterion: ""
+				}
+				{
+					id: "05216CF6078A9D21"
+					type: "item"
+					item: {
+						id: "twilightforest:crumble_horn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fancy Noms"
+			icon: "minecraft:bowl"
+			x: 9.5d
+			y: -3.0d
+			description: ["Try all the foods of the Twilight Forest diet. "]
+			optional: true
+			id: "604F2B68B27885BF"
+			tasks: [
+				{
+					id: "5D1D9C6EE805BD76"
+					type: "item"
+					item: "twilightforest:raw_venison"
+				}
+				{
+					id: "70A3CED85106362F"
+					type: "item"
+					item: "twilightforest:cooked_venison"
+				}
+				{
+					id: "6E028B1374EB57AB"
+					type: "item"
+					item: "twilightforest:maze_wafer"
+				}
+				{
+					id: "5C45FA316EFFACC5"
+					type: "item"
+					item: "twilightforest:raw_meef"
+				}
+				{
+					id: "07581F27FE61BBB0"
+					type: "item"
+					item: "twilightforest:cooked_meef"
+				}
+				{
+					id: "45A70662D54D46F7"
+					type: "item"
+					item: "twilightforest:experiment_115"
+				}
+				{
+					id: "3039460B9A037CFD"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+				}
+				{
+					id: "01531CEF33729679"
+					type: "advancement"
+					advancement: "twilightforest:twilight_dinner"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Why is a raven like a writing desk?"
+			icon: "twilightforest:raven_feather"
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["575E405B270BBCBC"]
+			dependency_requirement: "one_completed"
+			id: "57940981E8DE55D4"
+			tasks: [
+				{
+					id: "6CDB5FB3000FB0AE"
+					type: "item"
+					item: "twilightforest:raven_feather"
+				}
+				{
+					id: "56430716CC52DFBE"
+					type: "item"
+					item: "twilightforest:magic_map_focus"
+				}
+				{
+					id: "788D4FD0881BC184"
+					type: "item"
+					item: "twilightforest:magic_map_empty"
+				}
+				{
+					id: "1609858CDD2EA47F"
+					type: "advancement"
+					advancement: "twilightforest:magic_map_focus"
+					criterion: ""
+				}
+				{
+					id: "7B2B43ACF0394F9E"
+					type: "advancement"
+					advancement: "twilightforest:magic_map"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Mazebreaker and their Amazing Utility Friends"
+			icon: {
+				id: "twilightforest:mazebreaker_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 4s
+							id: "minecraft:efficiency"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 2s
+							id: "minecraft:fortune"
+						}
+					]
+				}
+			}
+			x: 3.0d
+			y: -4.0d
+			description: ["Brave the tnt-laden traps of the hidden room of the mazebreaker to get the pickaxe of your dreams. The other tools are loot you can find in hollow hills, scattered across the dimension. "]
+			dependencies: ["634D159DCE2A56C9"]
+			id: "3AD0F7F55A7414CE"
+			tasks: [
+				{
+					id: "00164273E4476002"
+					type: "item"
+					item: {
+						id: "twilightforest:mazebreaker_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 4s
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 2s
+									id: "minecraft:fortune"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4C78A4479236902D"
+					type: "item"
+					item: {
+						id: "twilightforest:peacock_fan"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70AE387C51928E5A"
+					type: "item"
+					item: {
+						id: "twilightforest:moonworm_queen"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "160FE3F13CE19537"
+					type: "item"
+					item: {
+						id: "twilightforest:ore_magnet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0ECA2AC0FA0B4CBC"
+					type: "item"
+					item: "twilightforest:transformation_powder"
+				}
+			]
+		}
+		{
+			title: "Time to find some Plants"
+			icon: "twilightforest:time_sapling"
+			x: 13.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "Arborist in training"
+			description: ["Collect the special saplings available in the twilight forest. The Tree of Time is very important, as its wood is required to make the ATM star. "]
+			dependencies: ["420158B1736A1354"]
+			id: "0ED7B25DC1AA767B"
+			tasks: [
+				{
+					id: "51F100B03CBC2ACF"
+					type: "item"
+					item: "twilightforest:time_sapling"
+				}
+				{
+					id: "0E97645EAF951F5A"
+					type: "item"
+					item: "twilightforest:sorting_sapling"
+				}
+				{
+					id: "753E61230A8790AF"
+					type: "item"
+					item: "twilightforest:mining_sapling"
+				}
+				{
+					id: "3A0864AC406C3417"
+					type: "item"
+					item: "twilightforest:darkwood_sapling"
+				}
+				{
+					id: "63ABA495C733F036"
+					type: "item"
+					item: "twilightforest:transformation_sapling"
+				}
+				{
+					id: "00BCD6D26FF8C5AB"
+					type: "item"
+					item: "twilightforest:hollow_oak_sapling"
+				}
+				{
+					id: "17907B83354736E3"
+					type: "item"
+					item: "twilightforest:twilight_oak_sapling"
+				}
+				{
+					id: "154371E4F6CA240D"
+					type: "item"
+					item: "twilightforest:rainboak_sapling"
+				}
+				{
+					id: "237DCD58FBD8DA9E"
+					type: "item"
+					item: "twilightforest:mangrove_sapling"
+				}
+			]
+		}
+	]
+}

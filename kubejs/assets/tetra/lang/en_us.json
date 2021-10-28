@@ -1,0 +1,40 @@
+{
+	"tetra.material.allthemodium" : "AlltheModium",
+	"tetra.material.allthemodium.prefix" : "AlltheModium",
+	"tetra.material.vibranium" : "Vibranium",
+	"tetra.material.vibranium.prefix" : "Vibranium",
+	"tetra.material.unobtainium" : "Unobtainium",
+	"tetra.material.unobtainium.prefix" : "Unobtainium",
+	
+	"tetra.module.sword/tyrving.item_name": "Tyrving",
+	"tetra.module.sword/tyrving.name": "Tyrving",
+	"tetra.module.sword/tyrving.description": "A Blade That Cuts Through Armor With Ease.",
+	"tetra.variant.tyrving/tyrving": "Tyrving",
+	"tetra.variant.sword_socket/tainted": "Socket [§5Tainted Rock§r]",
+	"tetra.material.runewood": "Runewood",
+	"tetra.material.runewood.prefix": "Runewood",
+	"tetra.material.soul_stained": "Soul Stained Steel",
+	"tetra.material.soul_stained.prefix": "Soul Stained",
+	"tetra.material.hallowed_gold": "Hallowed Gold",
+	"tetra.material.hallowed_gold.prefix": "Hallowed",
+	
+	"tetra.material.archwood": "Archwood",
+	"tetra.material.archwood.prefix": "Archwood",
+	"tetra.material.mana_fiber": "Mana Fiber",
+	"tetra.material.mana_fiber.prefix": "Mana Fiber",
+	"tetra.material.blaze_fiber": "Blaze Fiber",
+	"tetra.material.blaze_fiber.prefix": "Blaze Fiber",
+	"tetra.material.end_fiber": "End Fiber",
+	"tetra.material.end_fiber.prefix": "End Fiber",
+    "tetra.variant.double_socket/mana_gem": "Socket [Mana Gem]",
+    "tetra.variant.single_socket/mana_gem": "Socket [Mana Gem]",
+    "tetra.variant.sword_socket/mana_gem": "Socket [Mana Gem]",
+	
+	"tetra.material.alfsteel" : "Alfsteel",
+	"tetra.material.alfsteel.prefix" : "Alfsteel",
+
+	"tetra.material.dark_matter" : "Dark Matter",
+	"tetra.material.dark_matter.prefix" : "Dark Matter",
+	"tetra.material.red_matter" : "Red Matter",
+	"tetra.material.red_matter.prefix" : "Red Matter"
+}

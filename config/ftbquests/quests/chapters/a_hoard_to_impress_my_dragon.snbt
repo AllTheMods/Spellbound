@@ -1,0 +1,463 @@
+{
+	id: "2FD65B2E3DB628D8"
+	group: "39F979C9278EDB85"
+	order_index: 1
+	filename: "a_hoard_to_impress_my_dragon"
+	title: "A hoard to impress my dragon"
+	subtitle: ["For the collectors of blocks and items, this is for you. "]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "I'm not a hoarder, I promise. ^_^ WIP"
+			x: 0.0d
+			y: -8.5d
+			subtitle: "I'm an opportunistic creature"
+			description: ["This is the chapter where collectors will come to show off their wares to the Dragon Hoard Council of Wizards. "]
+			optional: true
+			id: "71CF3AC44897B56E"
+			tasks: [{
+				id: "7F9BDD8C36577C92"
+				type: "item"
+				item: "twilightforest:naga_stone_head"
+			}]
+		}
+		{
+			title: "Armor Collector: Twilight Forest"
+			icon: "minecraft:armor_stand"
+			x: -5.0d
+			y: -7.0d
+			description: ["Collect all the armor available in the Twilight Forest. Bonus points if its on an armor stand when you're done. "]
+			id: "1605E3200B26CC84"
+			tasks: [
+				{
+					id: "60EA57BD6C76DACB"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E50AA8B52EB4FA7"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E47CB24B3A47072"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C474E852C366E49"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "243EE0267E64D0A3"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7841C2E668085BCA"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33275E4CB92E5006"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "31769E633AE351AA"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46189F12F4FAF2F4"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4848C235F7A9485E"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1DE93E5CCEC2690B"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "152AA801EFA4169A"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "40A8BDAF416B5FEB"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4AC949E345210E9F"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "7FF5052BCAB86852"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4A5398FD5D3F62D5"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2DCA0EABFD86E7A6"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3B7C35F594EBF79C"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+				{
+					id: "330158230140E184"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+					}
+				}
+				{
+					id: "477D3FED7EFAE45F"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "68AABC948F8F17EB"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3536CD9D301242B9"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+				{
+					id: "52E3C99474EC4744"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "234C5B418CDFE3FD"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "53EF92302DD5A3E5"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "143783AAA9C91C2D"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E55128971E9C2F4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "604A1EBBEF70E22F"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4C745365AB19A7C2"
+				type: "item"
+				item: "minecraft:armor_stand"
+				count: 8
+			}]
+		}
+		{
+			title: "Botanist Collector: Saplings from across the realms"
+			x: -4.0d
+			y: -6.0d
+			id: "7A3D78900DDEBD62"
+			tasks: [{
+				id: "4F9B330262268B3C"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			title: "Weapons Collector: Weapons Merchant"
+			x: -5.0d
+			y: -8.5d
+			id: "5CCE02FCF696BA2C"
+			tasks: [{
+				id: "5704BE09F9560594"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:draco_arcanus_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Mining Hoard: Ore Collection"
+			x: -4.0d
+			y: -9.5d
+			description: ["Not gems, not dusts, ORE."]
+			id: "10AC4D92DACE5F3C"
+			tasks: [{
+				id: "2AF28499ED18C7DA"
+				type: "item"
+				item: "minecraft:gold_ore"
+			}]
+		}
+		{
+			title: "Miner's Hoard: Gems and Dusts"
+			x: -3.0d
+			y: -10.5d
+			id: "6BDC54532B25133F"
+			tasks: [{
+				id: "6CFDF1CE39E58FBD"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+	]
+}

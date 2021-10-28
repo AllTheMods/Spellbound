@@ -1,0 +1,19 @@
+{
+    "type": "occultism:miner",
+    "ingredient": {
+      "tag": "occultism:miners/ores"
+    },
+    "result":{
+      "item": "forge:ores/vinteum"
+    },
+    "weight": 240,
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:tag_empty",
+          "tag": "forge:ores/vinteum"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,1007 @@
+{
+	id: "69D91A905C5D2BDD"
+	group: "2869CB12B4663D25"
+	order_index: 5
+	filename: "eidalon_and_malum"
+	title: "Eidolon and Malum"
+	icon: "eidolon:shadow_gem"
+	subtitle: ["Reaping of the heart, Reaping of the soul, both are dangerous, under your control."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Eidolon"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Secrets of the Dark Arts"
+			description: [
+				"This is Eidolon. A Dark Magic Mod that encompasses rituals through Braziers and Soul Harvesting."
+				"Not to confuse with Malum, Malum has multiple spirits, Eidolon is singular soul gem."
+			]
+			id: "2E750291C0543B61"
+			tasks: [{
+				id: "2C886C86485DBCFA"
+				type: "checkmark"
+				title: "WIP"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Reaping, it's whats for dinner."
+			description: [
+				"Welcome to Malum."
+				""
+				"This mod is about utilizing the souls of various creatures into new objects, or even rituals to grow plants faster."
+			]
+			id: "0804386295A32FAF"
+			tasks: [{
+				id: "41066F7A01F80E34"
+				type: "checkmark"
+				title: "Welcome to Malum"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			subtitle: "The start of the Harbinger"
+			description: ["The start of the mod requires this ore, found underground at all Y Levels."]
+			dependencies: ["0804386295A32FAF"]
+			id: "6473F499159ECBFA"
+			tasks: [{
+				id: "6195E8A383074F2F"
+				type: "item"
+				item: "malum:soulstone"
+			}]
+		}
+		{
+			title: "Runewood"
+			x: -6.0d
+			y: 2.0d
+			subtitle: "Even malice requires a touch of nature"
+			description: ["You will need this wood in order to make instruments of the mod."]
+			dependencies: ["6473F499159ECBFA"]
+			id: "7E76EDBDC71DDDE4"
+			tasks: [
+				{
+					id: "1E04B81855DF701B"
+					type: "item"
+					icon: "malum:runewood_sapling"
+					item: "malum:runewood_sapling"
+					count: 4L
+				}
+				{
+					id: "068F97B270B81891"
+					type: "item"
+					item: "malum:runewood_log"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			subtitle: "Don't fear the reaper."
+			description: [
+				"In order to get started with the mod, you need a Scythe, with soulstone and iron. Crude but effective."
+				"It is recommended to Enchant this with Spirit Plunder, Haunting, and Mending/Indestructable. Slay various mobs for the 8 different shards."
+				"Spirit Plunder causes mobs to drop more souls to use."
+			]
+			dependencies: ["6473F499159ECBFA"]
+			id: "054F5113A8B757A2"
+			tasks: [{
+				id: "44F8AC9EE7769741"
+				type: "item"
+				item: {
+					id: "malum:crude_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Soul Spirits"
+			x: -5.5d
+			y: 3.0d
+			subtitle: "The inner makings of the being"
+			description: [
+				"As you slay different mobs, they drop certain souls. Some more common then others."
+				"Your best source of Sacred Spirits will be from farm animals or the Piglins (not zombie, or Brute) or Hoglin."
+				"Eldritch come from Endermen, Mites and Shulkers, quite possibly the hardest to obtain outside of Spawners."
+				"Aerial Spirits aren't the worst to come by, but easiest method is to kill Phantoms."
+			]
+			dependencies: [
+				"7E76EDBDC71DDDE4"
+				"054F5113A8B757A2"
+			]
+			id: "44A0B8EDB77F5EEA"
+			tasks: [
+				{
+					id: "5A8B8E2F36B1A8E0"
+					type: "item"
+					item: "malum:sacred_spirit"
+				}
+				{
+					id: "71D3608F0B0AE54E"
+					type: "item"
+					item: "malum:eldritch_spirit"
+				}
+				{
+					id: "0B608B729A8FC62C"
+					type: "item"
+					item: "malum:earthen_spirit"
+				}
+				{
+					id: "3B528A9ABD353544"
+					type: "item"
+					item: "malum:aquatic_spirit"
+				}
+				{
+					id: "425B45F578AD1ADF"
+					type: "item"
+					item: "malum:wicked_spirit"
+				}
+				{
+					id: "4C7EF920E7872270"
+					type: "item"
+					item: "malum:arcane_spirit"
+				}
+				{
+					id: "5F60622E579DD73A"
+					type: "item"
+					item: "malum:infernal_spirit"
+				}
+				{
+					id: "66277FF3DA4470E2"
+					type: "item"
+					item: "malum:aerial_spirit"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			subtitle: "Deep Dive Beauty Crafting"
+			description: [
+				"For the next crafting step, we need the Spirit Altar and 6 Pedestals."
+				"The majority of recipes in this mod require \"central\" item in the main Device (altar), while others materials on the Pedestals. Place near the Altar."
+				"-Spirits required for recipes can just be right clicked on, they will spin around."
+				"-Crafting times vary between recipes."
+			]
+			dependencies: ["44A0B8EDB77F5EEA"]
+			id: "573D3D79C93D85FD"
+			tasks: [
+				{
+					id: "14A9F09D6AA44F22"
+					type: "item"
+					item: "malum:spirit_altar"
+				}
+				{
+					id: "1A6511FFC40AF394"
+					type: "item"
+					item: "malum:runewood_item_pedestal"
+					count: 6L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 6.0d
+			description: [
+				"Can be made for decoration, but has some use in actual recipes in the mod. It's pedastals can be used for crafting."
+				"Or just use decoratively."
+			]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "595A08E6DF06AFC7"
+			tasks: [{
+				id: "7E7FE6886447B2C3"
+				type: "item"
+				item: "malum:tainted_rock"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			description: [
+				"Like Tainted rock, it has some uses in the mod."
+				"It's pedestals can be used in the extended crafting, or used decoratively."
+			]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "30ED3E26559020D9"
+			tasks: [{
+				id: "0CBB266E47D27937"
+				type: "item"
+				item: "malum:twisted_rock"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			description: [
+				"Diorites spirit infused outcome. It's pedestals can be used in altar crafting."
+				"Or just decorative."
+			]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "39DB8EB4CEC1C318"
+			tasks: [{
+				id: "6FB939C9CDA21A07"
+				type: "item"
+				item: "malum:purified_rock"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["573D3D79C93D85FD"]
+			id: "4EF157A9630C91E8"
+			tasks: [{
+				id: "0537EB3869854D7B"
+				type: "item"
+				item: "malum:cleansed_rock"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			dependencies: ["573D3D79C93D85FD"]
+			id: "74E62484E8E399D3"
+			tasks: [{
+				id: "655535F7830F1D9E"
+				type: "item"
+				item: "malum:eroded_rock"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			subtitle: "I put a spell on... wait, nope, just ash."
+			description: ["We need this for multiple recipes, but on its own can be used to speed up the altar for recipes that are slower."]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "136540A0D776DF03"
+			tasks: [{
+				id: "741B1C59F690B6B7"
+				type: "item"
+				item: "malum:hex_ash"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			subtitle: "C'mon man, just a little bit more!"
+			description: ["Unlike the Scythe, this weapon works for Single targets. Can drop an extra spirit outside of Enchanting it like the Scythe."]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "44646CFD749CC9CA"
+			tasks: [{
+				id: "37DE6969F3CB2C3B"
+				type: "item"
+				item: {
+					id: "malum:sacrificial_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			subtitle: "Druuum roll!"
+			description: [
+				"The totem will the basis of rituals."
+				"In order to get the ritual going, you place the amount of Runewood logs ontop the base to the amount of the Ritual."
+				"-If you want to have all the rituals, you'll need multiple Bases."
+				"In JEI, the bottom most Spirit of the totem is first. To use the spirits on the Log, right click with it."
+				"If you misplace a spirit, right click with an axe to strip the spirit, but not the log."
+				"All of the spirit signs have to face the same direction."
+			]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "59D53EB189AB7F5F"
+			tasks: [{
+				id: "71F98C536FFAF611"
+				type: "item"
+				item: "malum:totem_base"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			description: [
+				"This is the 2nd piece that goes with the Totem. The totem recipe the Rune Table needs is \"Rite of Assembly\". This will allow the creation of Hallowed Gold and Soul Stained Steel."
+				""
+				"The Totem does not dissappear on use, so it can be used multiple times. Do note it the ritual can take time or be instant."
+				"This table can also create \"catalyst\" styled items, like Blaze powder, phantom membranes, and coveted Ghast Tears."
+			]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "19A2B83F76F568A9"
+			tasks: [{
+				id: "7124773832613CC1"
+				type: "item"
+				item: "malum:rune_table"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.5d
+			subtitle: "Power of Darkness!"
+			description: ["Soul stained steel is a strong metal used for weapons and armor."]
+			dependencies: ["19A2B83F76F568A9"]
+			id: "7E559F38887B4945"
+			tasks: [{
+				id: "5574256E5D3DF574"
+				type: "item"
+				item: "malum:soul_stained_steel_ingot"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 8.5d
+			subtitle: "In holy matrimony we bless thy gold in the name of... Whelp, still darkness."
+			description: [
+				"This gold is used for special curios/baubles/rings."
+				""
+			]
+			dependencies: ["19A2B83F76F568A9"]
+			id: "399C2DC66922EF9B"
+			tasks: [{
+				id: "143FA337B0A4A5AA"
+				type: "item"
+				item: "malum:hallowed_gold_ingot"
+			}]
+		}
+		{
+			title: "Soul Stained Armor"
+			x: -3.5d
+			y: 8.5d
+			description: ["This set of armor is slightly stronger then Iron."]
+			dependencies: ["7E559F38887B4945"]
+			id: "1B4A8A18F80C53F5"
+			tasks: [
+				{
+					id: "580EC2B3BAC6161F"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20198B77F91F3CA0"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "222CF431A15D90C1"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F51EBC7E073014E"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			subtitle: "Cheaper Netherite"
+			description: ["and also a point stronger in armor. Looks kind of cool not going to lie."]
+			dependencies: ["1B4A8A18F80C53F5"]
+			id: "369105A562F72602"
+			tasks: [
+				{
+					id: "2FC0AB9C92C824A9"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_stronghold_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58B624DA429876A8"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_stronghold_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "033E84EE9FE7FC6A"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_stronghold_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BA2912108B550AF"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_stronghold_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Soul Stained Sword"
+			x: -4.0d
+			y: 9.5d
+			description: ["Slightly better then iron."]
+			dependencies: ["7E559F38887B4945"]
+			id: "2E7BFB17E46E2BB1"
+			tasks: [{
+				id: "23150AFF6BC34DA7"
+				type: "item"
+				item: {
+					id: "malum:soul_stained_steel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			description: ["Equal or slightly better then Diamond."]
+			dependencies: ["2E7BFB17E46E2BB1"]
+			id: "51593E838B22A6EC"
+			tasks: [{
+				id: "148F8A8F7EF352A5"
+				type: "item"
+				item: {
+					id: "malum:tyrving"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.5d
+			description: ["Slightly better then Netherite."]
+			dependencies: ["51593E838B22A6EC"]
+			id: "4F7A8E5F44A40A23"
+			tasks: [{
+				id: "792636027CB472BE"
+				type: "item"
+				item: {
+					id: "malum:awakened_tyrving"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.5d
+			subtitle: "Break it into more!"
+			description: [
+				"This is one of the few cases that Soul Stained steel is used properly as a Curio."
+				"This allows the creature to give more souls on kill."
+			]
+			dependencies: ["7E559F38887B4945"]
+			id: "5EE9377F80FCB1D1"
+			tasks: [{
+				id: "088176AA9DE931B9"
+				type: "item"
+				item: "malum:ring_of_arcane_spoil"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 8.0d
+			description: [
+				"A single jar with near infinite storage for 1 spirit."
+				""
+			]
+			dependencies: ["399C2DC66922EF9B"]
+			id: "4B092E3448C62913"
+			tasks: [{
+				id: "51F69ADC825AF97D"
+				type: "item"
+				item: "malum:spirit_jar"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.0d
+			description: [
+				"Think of a Magnet Ring, but for spirits."
+				"Spirits get kind of messy, but with this is should help with the clean up."
+			]
+			dependencies: ["399C2DC66922EF9B"]
+			id: "3D61A9BFE9E73D53"
+			tasks: [{
+				id: "18BB91224770A5B8"
+				type: "item"
+				item: "malum:ring_of_arcane_reach"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 8.5d
+			description: [
+				"In the case you are tired of normal spirits, thsi ring will convert them into Brilliance spirits."
+				"That means more epxerience in the long run."
+			]
+			dependencies: ["399C2DC66922EF9B"]
+			id: "5B63B7C7A4A8EFDA"
+			tasks: [{
+				id: "572FF9AB53A47CC1"
+				type: "item"
+				item: "malum:ring_of_prowess"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			description: [
+				"This is needed in several recipes. 2 Recipes to make, one cheaper then the other."
+				"It is best used on the Spirit Altar, as the 2nd recipe uses Diamonds."
+			]
+			dependencies: ["573D3D79C93D85FD"]
+			id: "376870F5C2769400"
+			tasks: [{
+				id: "7FE1005E22906597"
+				type: "item"
+				item: "malum:radiant_soulstone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"You may have this book in the Akashic Tome, but creating this book will serve a special purpose."
+				"You will need to throw this book at a Witch (yes, that hostile one), she'll add a Sign needed for later."
+				"And then throw the book at a Cleric Villager. Your best bet of this is finding/crafting a Brewing Stand and placing a bed next to it for a Villager to change jobs."
+			]
+			dependencies: ["2E750291C0543B61"]
+			id: "63E611810240C792"
+			tasks: [{
+				id: "578D4F3AF9668E1C"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "A dense alloy ingot with magic in every bite."
+			description: [
+				"Disregard the above text, you cannot eat the ingot."
+				"But you will need Pewter, an alloy of Iron and Lead. Craft the 2 ingots together and then smelt it. This ingot is the basis of the mod."
+			]
+			dependencies: ["63E611810240C792"]
+			id: "14E7D8E642DE7463"
+			tasks: [{
+				id: "158C7AED9CD3E86A"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "A rumbly in my tumbleys that only hands may satisfy."
+			description: [
+				"To start our first ritual, you'll need Soul Shards."
+				"Craft a Brazier, this will burn the \"important\" item to start a ritual. "
+				"Craft 8 hands. These will serve as outside method of added items for rituals. Or decorative if you like hands."
+			]
+			dependencies: ["14E7D8E642DE7463"]
+			id: "158F13367C2E0C6D"
+			tasks: [
+				{
+					id: "031FAAB3C7C5C8DB"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "148FCAF279EB2ED4"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			subtitle: "Also works as a normal Workbench"
+			description: [
+				"With this special workbench, you can craft magical items. "
+				"Inlays can be crafted in a normal bench, but here is just fine."
+			]
+			dependencies: ["158F13367C2E0C6D"]
+			id: "1F317D3C47F4543B"
+			tasks: [
+				{
+					id: "578D3B745F4E4831"
+					type: "item"
+					item: "eidolon:worktable"
+				}
+				{
+					id: "2E8C05046A579ED3"
+					type: "item"
+					item: "eidolon:pewter_inlay"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Only the undead give these vibes. Dead ones."
+			description: [
+				"With the Ritual of Crystallization. We sacrifice bonemeal in the Brazier with 2 redstone on 2 hands."
+				"Light the Brazier, it will consume the items."
+				"Make sure you're surrounded with Undead enemies (piglin zombies work too), and the Ritual will instantly kill them, and give Soul Shards."
+			]
+			dependencies: ["158F13367C2E0C6D"]
+			id: "19E0397F810D8787"
+			tasks: [{
+				id: "238EAD6EF1ACEF40"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			subtitle: "It's complicated. "
+			description: [
+				"Crucible requires a heat source beneath. Netherrack or a campfire will suffice."
+				"When following recipes, they are to the exact, you cannot throw a full stack and expect a full stack."
+				""
+				"General help: if it requires 2 items dropped before next step, it means both items together (within a second), changes color, then drop in next item(s) and it should give the new item."
+				"-If it requires stirring, the stirring is done before the current step items dissolve (so throw item in, stir 2 times then it changes color for next step)"
+				"-If left alone for more then 4 seconds, it will boil off, any materials put in are wasted."
+			]
+			dependencies: ["1F317D3C47F4543B"]
+			id: "704184F62CA78E1E"
+			tasks: [{
+				id: "1852A283F796E3F8"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			subtitle: "Magical Gold"
+			description: [
+				"Your first item with the Crucible is Arcane Gold."
+				"First fill with bucket of water, wait to boil."
+				"Once boiling, drop 2 redstone and a Soul Shard."
+				"Once it changes color, throw in your 2 Gold Ingots. If all is well, you should get 2 Arcane Gold Ingots."
+				"You may need a bunch of this."
+			]
+			dependencies: ["704184F62CA78E1E"]
+			id: "4224CC1F101E4069"
+			tasks: [{
+				id: "25257D6AE74BDAE8"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+		}
+		{
+			title: "Dark Worship"
+			x: 4.0d
+			y: 3.5d
+			subtitle: "HAY HOO ZAE LA"
+			description: [
+				"In this portion, chanting to the gods to get power (well, not actual super powers)."
+				"First make an Effigy, 6 Altar tables. Place on them 2 Candlesticks, Effigy, wither (or best skull), Goblet and 2 Potted wither roses (or best \"flower\" you can from book)."
+				"Be a lesson to tell you that these can only be done once a day."
+				"Start with clicking Wicked Sign 3 times, then click Chant."
+				"You will get a new symbol if done right, with the Effigy's eyes glow."
+			]
+			dependencies: ["704184F62CA78E1E"]
+			id: "54423ED491F170B5"
+			tasks: [
+				{
+					id: "5252EBBF0EAAAA46"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+				{
+					id: "229DCAEB0CCEB98D"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 6L
+				}
+				{
+					id: "58932969AB4DC25C"
+					type: "item"
+					item: "eidolon:goblet"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			subtitle: "Let the darkness flow!"
+			description: [
+				"Once you've learned the Soul symbol, you can do \"animal\" sacrifice. Kill an animal while near the altar, its blood will fill the Goblet."
+				"Then chant \"Animal Sacrifice\" on a new day, you should learn how to make Unholy Symbols."
+				"Drop a Pewter Inlay on the ground, then Chant on it, should turn into a Unholy Symbol."
+				"You only need 1 for all your crafting needs. Can make more if you like putting them in frames."
+			]
+			dependencies: ["54423ED491F170B5"]
+			id: "4699B9569F9E65A0"
+			tasks: [{
+				id: "4FEA60CE9D5B55D0"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			subtitle: "Authentic Stone from Deep South"
+			description: [
+				"With some smooth stone slabs, stone, soul shards and your unholy smybol (portrayed in book), you will upgrade your altar and Effigy."
+				"Your effigy requires the Unholy Symbol and Gold inlays with the stone, to make Elder Statue"
+				"Wiht soul shard, stone slabs, stone and Pewter Inlay, make some Altars."
+			]
+			dependencies: ["4699B9569F9E65A0"]
+			id: "29ED1116682B0D10"
+			tasks: [
+				{
+					id: "663CAF4D8465C3EA"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "576A96AD2808C6D3"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			subtitle: "I'm burning, I'm burning, I'm Burning for yooooou"
+			description: [
+				"(does not inflict fire damage, just song theme)"
+				"Disregarding that, this Scythe is unique. It allows you to get Soul shards with out the Crystallization Ritual."
+				"It is affected by Looting. Please apply Smite with Sharpness (Apotheosis only), Looting and Mending to get the most out of it."
+			]
+			dependencies: ["4699B9569F9E65A0"]
+			id: "609DC65F437B72F1"
+			tasks: [{
+				id: "6C74160C4B74BE50"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			subtitle: "Gives head yo."
+			description: ["Creating this axe allows it's user to dish more damage, and occassionally drop the enemies skull."]
+			dependencies: ["4699B9569F9E65A0"]
+			id: "2CA71999959C0184"
+			tasks: [{
+				id: "3E7EFAF49B775EE7"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			dependencies: ["704184F62CA78E1E"]
+			id: "75903AEA7C36C209"
+			tasks: [{
+				id: "3B8ED7645C39F42F"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			description: ["You need one or two of these to make the ATM star."]
+			dependencies: ["704184F62CA78E1E"]
+			id: "691A7545CC65BEAE"
+			tasks: [{
+				id: "6205A7CD340F55EC"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+		}
+		{
+			title: "Warlock's Suit"
+			x: 5.5d
+			y: 4.5d
+			subtitle: "You do the work, now you gotta look the part!"
+			description: ["This special armor increases your mobility, reduces effectiveness of enemy magic, and heals you if you inflict Wither on enemies."]
+			dependencies: ["19741B9F0C926D68"]
+			id: "3FB61F95260D6B7B"
+			tasks: [
+				{
+					id: "7089173717BAE4EB"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5FCBCFBD2BFF4DE8"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AB3C0AD792A8AD3"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: [
+				"4699B9569F9E65A0"
+				"75903AEA7C36C209"
+			]
+			id: "19741B9F0C926D68"
+			tasks: [{
+				id: "4D34FF4F4E5B076C"
+				type: "item"
+				item: "eidolon:wicked_weave"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			subtitle: "Terraria's Wand of Sparking got nothing on this."
+			dependencies: ["691A7545CC65BEAE"]
+			id: "17740696B9284520"
+			tasks: [{
+				id: "05B7B38C6F1C626A"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			subtitle: "Chill of the thrill"
+			dependencies: ["691A7545CC65BEAE"]
+			id: "5DC9848CC15DCACB"
+			tasks: [{
+				id: "5507C36A909C47F6"
+				type: "item"
+				item: {
+					id: "eidolon:bonechill_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			subtitle: "Reach out and Touch Faith. With your personal... Jesus."
+			description: ["This charm will increase your Reach distance."]
+			dependencies: ["19741B9F0C926D68"]
+			id: "1F09F091F5CF4711"
+			tasks: [{
+				id: "16645F2195151BDD"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			subtitle: "I WOULD NOT SUGGEST USING THIS WITH CURSED RING CHALLENGE"
+			description: ["For real, this would be for normal play. It increases your damage by double, but you take 5 times more damage."]
+			dependencies: ["691A7545CC65BEAE"]
+			id: "56CD54A4422FF473"
+			tasks: [{
+				id: "63B1DB35E2D14E6F"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Consider this your gateway to Apotheosis"
+			description: [
+				"This special Enchanter enchants using the shards. It uses your levels and shards."
+				"It lets you decide enchants to put on. And lets you level them up."
+				"If you end up not able to use anymore, it may be \"completed\", consider using this in tandem of Apotheosis enchanting for absurd enchants."
+			]
+			dependencies: ["4224CC1F101E4069"]
+			id: "04C01A5FF3DAC326"
+			tasks: [{
+				id: "5DADA59471D036E5"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+		}
+	]
+}

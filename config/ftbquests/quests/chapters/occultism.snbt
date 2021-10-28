@@ -1,0 +1,715 @@
+{
+	id: "4096945C4FE25076"
+	group: "2869CB12B4663D25"
+	order_index: 2
+	filename: "occultism"
+	title: "Occultism"
+	icon: "occultism:candle_white"
+	subtitle: ["Demons and Dreams.."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -4.5d
+			subtitle: "Just DO IT"
+			description: [
+				"This mod is all about Occult styled summoning, sacrifice, and Demonic slave labor."
+				"This should be one of your first Mods to get early Ore doubling capabilities."
+				"-We do not endorse the worship of Herobrine. "
+			]
+			id: "5EFCCF50E7193C00"
+			tasks: [{
+				id: "63D9810D70F5B6FF"
+				type: "checkmark"
+				title: "Welcome to Occultism!"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			subtitle: "Full belly and a fruit of demonic dreams makes you see funny colors."
+			description: [
+				"In order to start this mod, we need get Demon's Dream Fruit and Seeds."
+				"To start, punch grass. Much like Wheat and some other seeds, Demon's Dream will be in the mix."
+				"Once seeds have been gained, they grow like normal farm plants."
+			]
+			dependencies: ["5EFCCF50E7193C00"]
+			id: "57EA0FBB5EB53296"
+			tasks: [
+				{
+					id: "6D60F86A43D86E00"
+					type: "item"
+					item: "occultism:datura_seeds"
+				}
+				{
+					id: "23DD0F1D3EAFC47D"
+					type: "item"
+					item: "occultism:datura"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			subtitle: "Hommuna hommuna hommuna"
+			description: [
+				"Crafting this book with a Book and Demon's Dream Seeds is necessary for crafting needs."
+				"You start with an Akashic tome, and can use that for the crafting, but the seperate book makes for easier crafting while recipe searching."
+			]
+			dependencies: ["57EA0FBB5EB53296"]
+			id: "0F79289E76EEEAB1"
+			tasks: [{
+				id: "1883C06C9CD8913F"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			title: "Spirit Flames and Otherworldly Goods"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Purple flames may burn the items, but they can't hurt me."
+			description: [
+				"Now you've grew some Demon's Dream Fruits, now you shall construct a purifying flame, a Spirit Flame."
+				"First you place a log wood (type dont matter, oak), then drop a Demon fruit on it, then light it on fire. A Purple flame should show."
+				"You can throw some items in the fire, they will turn into something else. The Chalks to write your runes require this flame."
+				"The main items you will throw in most of the time will be Andesite and Oak Saplings. Throw them in. You'll repeat this until you reach first few rituals pentacles."
+				""
+			]
+			dependencies: ["0F79289E76EEEAB1"]
+			id: "195EA8F77BFF3847"
+			tasks: [
+				{
+					id: "6B8407B97CB14926"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "7EC49E8AEA9FA8CB"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_sapling_natural"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Sacrificial Bowls"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Bowls of Stone and Darkness."
+			description: [
+				"Before we can do any rituals, we need Sacrificial Bowls. 10 (max) of Otherstone Bowls and 1 Golden. "
+				"Your 10 bowls will be for items to sacrifice, like a placeable crafting table ingredient. The Golden Bowl is filled with special books that call the Demons to this plane. When all items are placed, you shift right click the golden bowl to activate."
+			]
+			dependencies: ["195EA8F77BFF3847"]
+			id: "30A5B53F91A15600"
+			tasks: [
+				{
+					id: "16B8014F3148BABA"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+					count: 10L
+				}
+				{
+					id: "07CA2F0A2F3BDC91"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			title: "White Chalk"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "The runes don't matter. Just the placement. DON'T GET RUNE PICKY WITH ME."
+			description: [
+				"For your most basic and most used Runes, we need White chalk. 3 Otherstone burnt in a Furnace, and 3 Otherwood logs thrown in Spiritfire yield the basics of chalk making."
+				"You crafted impure chalk. It needs purifying. Throw it in the Spirit Fire."
+			]
+			dependencies: ["30A5B53F91A15600"]
+			id: "13D7729FEB653F89"
+			tasks: [{
+				id: "4308F08D2E8EBADD"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Ms Crabapple is best teacher *scrub* Principle Skinner is a sucker. *scrub*"
+			description: ["This item will scrub your chalk mistakes, misplaced a rune? Scrub it. Does not apply to your forehead."]
+			dependencies: ["13D7729FEB653F89"]
+			id: "668FAF89E91634D5"
+			tasks: [{
+				id: "410AC8891C574745"
+				type: "item"
+				item: "occultism:brush"
+			}]
+		}
+		{
+			title: "Knife of bad chops and Candles."
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Please insure your fingers aren't under the blade."
+			description: [
+				"Yes, another before ritual speech. We need Tallow. The way you get it is with the Butcher's Knife. All animals larger then a chicken killed with the Knife will drop Tallow."
+				"Eidolon, Quark and Occultism Tallow is acceptable for the 6 tallow Candle Recipe. You will need alot for the Pentacle Rituals"
+			]
+			dependencies: ["30A5B53F91A15600"]
+			id: "66C52BC9C390DC0E"
+			tasks: [
+				{
+					id: "4A518BA71FC2E55F"
+					type: "item"
+					item: {
+						id: "occultism:butcher_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4747F456A4733C77"
+					type: "item"
+					item: "occultism:candle_white"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "Aviar's Circle (Ore Crusher)"
+			x: 5.0d
+			y: 0.5d
+			subtitle: "Ore doubling through demon power."
+			description: [
+				"For our first Ritual, you will need to visualize the Pentacle \"Aviar's Circle\". Your Golden Bowl has to be in the Center, and within 8 blocks place the other bowls."
+				""
+				"In the bowls are the 4 Ores, then the Bound Book in the golden bowl. Shift right click with the Golden Bowl to start the ritual."
+				""
+				"When the Demon has summoned, give it your Ores. Its slow, but works. The quest will end with each of the 4 ore dusts."
+				"Foliot level Demons don't last long in the world, and will Decay."
+			]
+			dependencies: ["5FB7CA7F4F8E6190"]
+			id: "747D1BA98CCBA867"
+			tasks: [
+				{
+					id: "73C41D5555278194"
+					type: "item"
+					item: "alltheores:copper_dust"
+				}
+				{
+					id: "0EA169EB6F7CA105"
+					type: "item"
+					item: "alltheores:silver_dust"
+				}
+				{
+					id: "08ECC800385C39A7"
+					type: "item"
+					item: "alltheores:iron_dust"
+				}
+				{
+					id: "08E289787D90BA14"
+					type: "item"
+					item: "alltheores:gold_dust"
+				}
+				{
+					id: "46EAA994F9D687B2"
+					type: "item"
+					item: "occultism:obsidian_dust"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Foliot Summoning Book"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "Lowest level Spirit"
+			description: [
+				"An important piece to bind Demons to our world or into an item is the Book that calls their name."
+				""
+				"Foliots are the lowest Level Spirit you can summon. But even then they help with your needs."
+			]
+			dependencies: [
+				"66C52BC9C390DC0E"
+				"13D7729FEB653F89"
+			]
+			id: "5FB7CA7F4F8E6190"
+			tasks: [{
+				id: "62D5D5F79D0BC88B"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_foliot"
+					Count: 1b
+					tag: {
+						spiritName: "Krairaeus"
+					}
+				}
+			}]
+		}
+		{
+			title: "Next Tier Up"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "Say goodbye to Diamonds. This stuff get reeeal diamond heavy."
+			description: [
+				"You'll need to make Golden Chalk, make impure white chalk, then add a Gold dust and Glowstone dust. Throw into fire."
+				""
+				"Now throw diamonds into the Spirit fire. They will turn into Spirit Attuned Gems. We'll need a bit, plus 2x2 crafting into 2 Attuned Crystals."
+			]
+			dependencies: ["747D1BA98CCBA867"]
+			id: "484BB3312F33A917"
+			tasks: [
+				{
+					id: "08F9731403E9B6BB"
+					type: "item"
+					item: {
+						id: "occultism:chalk_gold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DB91D63BFB14706"
+					type: "item"
+					item: "occultism:spirit_attuned_gem"
+					count: 12L
+				}
+				{
+					id: "501EC8502D792274"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "The seeds of the Dream fruit get stuck in your teeth, make some Goggles to oggle with."
+			description: [
+				"With \"Ezevius' Spectral Compulsion\" Pentacle, we will create a much needed item, Otherworld Goggles."
+				""
+				"Make Lense with 8 glass panes and a Spirit Gem. Then enchant with ritual 2 silver ingots, gold ingot and lense. "
+				""
+				"With these on, you will never need to eat the demon fruit to see Otherworld materials."
+				"The main use of these goggles is in the Nether to find iesnium ore."
+			]
+			dependencies: ["484BB3312F33A917"]
+			id: "2AEFD56D78BFC60E"
+			tasks: [{
+				id: "28F2B2B0EE85CE1E"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			subtitle: "Tippin and a tappin, your search becomes found, Kooloo-Limpah!"
+			description: [
+				"Another tool to help search for specific blocks is the Divination Rod."
+				"When you shift right click a block (Occultism Andesite for example), it will cause it to glow when you and point to Otherstone."
+				"Craft this and search for Otherstone while Goggles are on. Now when you enter the nether, find iesnium ore. Divining that will help tremendously"
+			]
+			dependencies: ["2AEFD56D78BFC60E"]
+			id: "0B675B3A3FA276DE"
+			tasks: [{
+				id: "4A7279ABC029E951"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			subtitle: "Creeper Explosions be damned, Skulls for EVERYONE"
+			description: [
+				"With \"Hedyrin's Lure\" Pentacle, you will summon special Skeletons that will drop their skulls."
+				"4 Bones sacrificed, a book of foliot, and when blakc particals show up, slay a Chicken. Then kill the skeleton fast, for it will not last long in the world."
+			]
+			dependencies: ["2AEFD56D78BFC60E"]
+			id: "27B3A6D6DE2D458E"
+			tasks: [{
+				id: "0861C184C1A2E446"
+				type: "item"
+				item: "minecraft:skeleton_skull"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			subtitle: "End stone. Yeah. that stuff, from the END, duh."
+			description: [
+				"With Hedyrin's Lure, you will sacrifice 2 stone and 2 dirt, when Gray particals spawn, drop an Egg."
+				"An Endermite will spawn, kill it fast for it will not last in the world."
+				"The Endermite will drop End stone. Need it for Purple Chalk."
+			]
+			dependencies: ["2AEFD56D78BFC60E"]
+			id: "58F34CCD13EC5038"
+			tasks: [{
+				id: "36BBAB67E18F28ED"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: [
+				"58F34CCD13EC5038"
+				"27B3A6D6DE2D458E"
+			]
+			id: "7E33B46B868E9B72"
+			tasks: [{
+				id: "009C90DFE3BCB114"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			subtitle: "A weak pick for higher purposes"
+			description: [
+				"You'll need to make \"Strigeor's Higher Binding\" to make this. This pick is necessary to mine Iesnium."
+				"This will require your first Bound Djinni utilized."
+			]
+			dependencies: ["7E33B46B868E9B72"]
+			id: "662105574D9722D3"
+			tasks: [{
+				id: "2C98E38222C26AA7"
+				type: "item"
+				item: {
+					id: "occultism:infused_pickaxe"
+					Count: 1b
+					tag: {
+						spiritName: "Zorkmurder"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			subtitle: "It's Eyes knee um, not Les-knee um"
+			description: [
+				"With your Goggles, enter the Nether and find Iesnium. Without goggles it will be Netherrack from this mod, not Minecraft."
+				"Once you found one ore, Divinate with your rod to find more. Use up the Attuned pick till it breaks."
+				"Once you gotten a good haul of the ore, run it through your Crusher demon (by now Djinn should be available), and craft a Pickaxe. This pick is Diamond Tier but can mine your Iesnium if more is needed."
+				""
+				"Iesnium is needed for future recipes, including sacrificing Iesnium Pickaxes and Lamps."
+			]
+			dependencies: ["662105574D9722D3"]
+			id: "29050C91455DEE93"
+			tasks: [{
+				id: "1E8F27D3FDAB8464"
+				type: "item"
+				item: {
+					id: "occultism:iesnium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Stable Otherworld Sapling"
+			x: 3.5d
+			y: -2.5d
+			subtitle: "Sight with out sight, show me the way!"
+			description: [
+				"If you're tired of having to wear the Goggles to getting Otherwood."
+				"Do the Ritual for the Otherworld Trader. They Decay extroadinarly fast, but give it Normal Stone to get Otherstone, and the Unstable \"oak\" sapling to get a Otherworld Sapling."
+				""
+				"The stable Otherworld sapling will grow a tree without the need of goggles/dream fruit, and drops it's own saplings, so no more throwing oak saplings for unstable ones."
+			]
+			dependencies: ["2AEFD56D78BFC60E"]
+			id: "049400164643D064"
+			tasks: [{
+				id: "7B531E335550A01E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			subtitle: "You could use a lasso... But a soul gem is so much more badass."
+			description: ["Utilizing Strigeor's Pentacle, you can craft a Soul gem. 2 will be the most you need. These can transport sacrificial beings, like a Villager, made easier."]
+			dependencies: ["29050C91455DEE93"]
+			id: "456450FD1916C279"
+			tasks: [{
+				id: "510A252FF9E550B6"
+				type: "item"
+				item: {
+					id: "occultism:soul_gem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			subtitle: "Dueling Fates"
+			description: [
+				"The fighting is not done."
+				"We will be summoning an Unbound Demon. Yes. A physical Demon to fight."
+				"Create the pentacle \"Abra' Open Conjure\"."
+				"acrifice 1 Netherrack, 1 Netherquartz, 1 Gunpowder, and 1 Flint and Steel. When Black particals show, slay a Cow. An Afrit will spawn with 3 Blazes. Still be prepared. You may need to slay the Afrit multiple times before it drops Afrit Essence."
+				"Once an Essence has dropped, craft the last chalk. Red Chalk."
+			]
+			dependencies: ["098703567425DE31"]
+			id: "0121C0AEC924FD96"
+			tasks: [{
+				id: "1F951152B6C45A4C"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			subtitle: "Cranky Burnt Boys"
+			description: [
+				"While you can kill Wither Skeletons mercilessly for their heads, which is fine. But what if you want a quick and easy 100% drop?"
+				"Create the Pentacle \"Osirin's Unbound Calling\"."
+				"Sacrifice Copper Block, Silver Block, Gold Block, a Diamond, Netherack, and Soul Sand. A Skeleton skull in the golden bowl."
+				"You will need to sacrifice a villager after Ritual initiation. When the Black particals show, slay the Villager."
+				"But bewarned, you ARE summoning Greater Beings inhabiting Wither Skeletons, so prepare for a fight."
+			]
+			dependencies: ["29050C91455DEE93"]
+			id: "098703567425DE31"
+			tasks: [{
+				id: "5E48BAB60B7352C7"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 2L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			subtitle: "Damn. Works its magic by crushing really fast.... and..?"
+			description: [
+				"With \"Fatmas Incentivized Attraction\", we will invoke the strongest tier Crusher. A Marid Ore Crusher. Diamond Block, a Emerald Block, a Iesnium Block, and a Ghast Tear and Bound Marid in Golden Bowl."
+				"This tier crusher not only blazes through a stack of ores, it also multiplies it by 6. So 1 = 6 vs the Foliots 1 = 2."
+				"The kicker? This Demon is strong enough to stay on the earth forever."
+			]
+			dependencies: [
+				"0121C0AEC924FD96"
+				"098703567425DE31"
+			]
+			id: "07253777904B29E4"
+			tasks: [{
+				id: "445FBD83F314179E"
+				type: "checkmark"
+				title: "Marid Ore Crusher"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			subtitle: "A Dimensional Storage device... But it's not AppliedEnergistics."
+			description: [
+				"This device when made and placed acts like a AE like block."
+				"The Storage Stabalizers have to point towards the \"Matrix\" block portion of this to enhance the Storage Capabilities."
+				"-Up to 6 Stabalizers can be placed facing 1 Actuator."
+			]
+			dependencies: ["662105574D9722D3"]
+			id: "4E1F9BFACAEA17AA"
+			tasks: [{
+				id: "1D4B04972E6F2DAF"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: ["4E1F9BFACAEA17AA"]
+			id: "279292B0BB0589FC"
+			tasks: [{
+				id: "2A52259DF35C35B1"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["279292B0BB0589FC"]
+			id: "7D9A68C7ED28C211"
+			tasks: [{
+				id: "3A705BEF1259265F"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier2"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			subtitle: "Void Mining in a Magical World"
+			description: [
+				"The vessel of which holds your miner will be a Lamp."
+				"In order for your Miner Lamp to mine, you need a Dimensional Mineshaft."
+				"The lamps as they mine will take durability damage. But can be enchanted to use less durability, effectively more ores per \"cycle\"."
+			]
+			dependencies: ["662105574D9722D3"]
+			id: "3D726214A35CEF49"
+			tasks: [
+				{
+					id: "784BAAEE327B962B"
+					type: "item"
+					item: "occultism:magic_lamp_empty"
+				}
+				{
+					id: "5418156A35158D6B"
+					type: "item"
+					item: "occultism:dimensional_mineshaft"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: ["7D9A68C7ED28C211"]
+			id: "5C3C6AB000FA4C32"
+			tasks: [{
+				id: "086998060AA585A6"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier3"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			dependencies: ["5C3C6AB000FA4C32"]
+			id: "2AEFFA5DE5660FD5"
+			tasks: [{
+				id: "0B0F860C65FCEF15"
+				type: "item"
+				item: "occultism:storage_stabilizer_tier4"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			description: [
+				"Foliot miner will mine a multitude of blocks. Lasts longer initially for the Demon magical power wont cause much harm to the vessel."
+				"Junk blocks and Ores."
+			]
+			dependencies: ["3D726214A35CEF49"]
+			id: "63015CCCF21165C0"
+			tasks: [{
+				id: "699732838CF3E1E8"
+				type: "item"
+				item: {
+					id: "occultism:miner_foliot_unspecialized"
+					Count: 1b
+					tag: {
+						spiritName: "Marlorimur"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			description: ["This Miner dedicates its time to more finess, more effeciency. It has less durability due to it's power, but you get Ores and Otherstone."]
+			dependencies: ["3D726214A35CEF49"]
+			id: "2981F21DEFD51279"
+			tasks: [{
+				id: "599510FCC252F87F"
+				type: "item"
+				item: {
+					id: "occultism:miner_djinni_ores"
+					Count: 1b
+					tag: {
+						spiritName: "Madcloes"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "Remote Storage Access, no RF required! SUCK IT AE AND RS!"
+			description: [
+				"When you make this device, you shift right click the Actuator Base to gain access. "
+				"Cross Dimensions and no unnecessary upgrades required."
+			]
+			dependencies: ["4E1F9BFACAEA17AA"]
+			id: "59EBBFE332FBDCD9"
+			tasks: [{
+				id: "23B9FA72888E3A06"
+				type: "item"
+				item: {
+					id: "occultism:storage_remote"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Seperate crafting capabilities, no crafting competition"
+			description: [
+				"This special block is placed anywhere and anyone can access the Actuator (after wormhole shift-right clicked). "
+				"The best part of this is if you're working as a Team, you all can have your own Wormhole to put items and take items out, AND each wormhole has it's own \"crafting\" table, so it doesn't fight for crafting... unlike AE2 and RS."
+			]
+			dependencies: ["4E1F9BFACAEA17AA"]
+			id: "4929C1FFCB917106"
+			tasks: [{
+				id: "2F2DDBCCEE20CB1A"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

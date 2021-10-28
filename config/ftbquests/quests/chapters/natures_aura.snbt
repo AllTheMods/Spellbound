@@ -1,0 +1,374 @@
+{
+	id: "7A72E12C3839D165"
+	group: "3B6EB8546211E897"
+	order_index: 2
+	filename: "natures_aura"
+	title: "Nature's Aura"
+	icon: "naturesaura:aura_bloom"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 1.5d
+			id: "7B26D6008FA99796"
+			tasks: [{
+				id: "6B62D4255CAE9669"
+				type: "advancement"
+				title: "Glowy Fields"
+				icon: "naturesaura:aura_bloom"
+				advancement: "naturesaura:positive_imbalance"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Golden Foliage"
+			x: -0.5d
+			y: 0.0d
+			description: ["You will need a lot of this gold leaf for this mod. Brilliant fibers is made with gold nuggets, leaves and grass. Right click it on any leaf block, and let turn gold. Break to get a high chance of a gold leaf. "]
+			id: "4F9D6109EEA5D26A"
+			tasks: [
+				{
+					id: "67C15C724DA4B2EA"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+					count: 4L
+				}
+				{
+					id: "0AD8C961617FD694"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Ritual of the Forest"
+			x: -0.5d
+			y: -1.5d
+			description: ["The rituals are begun by planting the corresponding sapling and growing it with bonemeal after adding the items required onto the stands. The powder is consumed with the ritual, so you’ll be making a lot. By default, each leaf makes 2 powder, but later on there is a more efficient method. "]
+			id: "497AE687B7E95DE8"
+			tasks: [
+				{
+					id: "529539C33E6C9BCA"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "50862F9BDF197528"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "An Eye on the environment"
+			x: -0.5d
+			y: -3.0d
+			description: ["This is a charm you can wear for monitoring the aura levels in the top left corner of the screen. Made with the ritual of the forest. "]
+			id: "12D3C7FC4B3DAB23"
+			tasks: [{
+				id: "217BA9B6365BB80A"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+		}
+		{
+			title: "Ancient Trees"
+			x: 0.5d
+			y: -2.5d
+			description: ["Make and plant some ancient saplings. When grown, these trees attempt to maintain the aura at normal levels (not too high or too low). If the aura drops, the leaves will start to decay to reverse the process. This is a slow process, so don’t dip your aura levels too badly. That is BAD NEWS. "]
+			id: "22ADCF96AE3E609B"
+			tasks: [{
+				id: "457413B665C31128"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+		}
+		{
+			title: "Tokens!"
+			x: -1.5d
+			y: -2.5d
+			id: "05E668CE6687AC64"
+			tasks: [
+				{
+					id: "250CD873FCE7202F"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+				{
+					id: "6B015EB8122011A3"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "7DDEA10DFBAF0E99"
+					type: "item"
+					item: "naturesaura:token_anger"
+				}
+				{
+					id: "44475EE31A2C2A29"
+					type: "item"
+					item: "naturesaura:token_sorrow"
+				}
+			]
+		}
+		{
+			title: "Bottling up the weather"
+			x: -0.5d
+			y: -4.5d
+			id: "5A011CE8EEA3F9D8"
+			tasks: [
+				{
+					id: "14AAACD99C84A762"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+				{
+					id: "140E65C5FC2C9D7B"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+				{
+					id: "712A66127AD69737"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Aura Creation"
+			x: -0.5d
+			y: -6.0d
+			description: ["Outline choices of aura creation here. Can link into Nature’s starlight here! "]
+			id: "71B6F013C8A60EB6"
+			tasks: [{
+				id: "7E80C1A891CB854B"
+				type: "item"
+				item: "naturesaura:oak_generator"
+			}]
+		}
+		{
+			title: "Caching in"
+			x: -0.5d
+			y: -7.5d
+			id: "0B6D35F5B3A11FD2"
+			tasks: [{
+				id: "1715E8DAFB3D3838"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+		}
+		{
+			title: "A trove of aura"
+			x: 1.0d
+			y: -7.5d
+			description: ["Upgrade the aura cache to an aura trove."]
+			id: "24599D45F5D1606E"
+			tasks: [{
+				id: "0785B90A3359EF21"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			description: ["Craft a natural altar, and set up its multiblock. Needs stone brick, golden stone brick (made with brilliant fiber), chiseled stone brick, wooden planks. This will use aura up when performing a crafting recipe, and CAN be automated. "]
+			id: "20F9EF925DB1CE05"
+			tasks: [{
+				id: "1C97A13C673C872C"
+				type: "item"
+				item: "naturesaura:nature_altar"
+			}]
+		}
+		{
+			title: "Crimson Altar"
+			x: 1.0d
+			y: -9.0d
+			description: ["    Build this same structure, in a crimson forest. You’ll need it for certain items. "]
+			id: "1767D7D6AD2D81F9"
+			tasks: [{
+				id: "70304DCA5256EF0B"
+				type: "item"
+				item: "naturesaura:nature_altar"
+			}]
+		}
+		{
+			title: "I've got my Eye on you"
+			x: 2.0d
+			y: -4.5d
+			shape: "gear"
+			description: ["Talk about the eye of the blaze, eye of the shulker, eye of the pillager which find structures. You need an eye of the shulker to make the ATM star"]
+			id: "3F8A5CBEAE024748"
+			tasks: [
+				{
+					id: "003FDFEA1DD8502E"
+					type: "item"
+					item: "naturesaura:end_city_finder"
+				}
+				{
+					id: "4BAF39071F43655E"
+					type: "item"
+					item: "naturesaura:fortress_finder"
+				}
+				{
+					id: "78363A5BFED389F3"
+					type: "item"
+					item: "naturesaura:outpost_finder"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			description: ["Craft some infused iron on the natural altar. "]
+			id: "3C2F5AB815A6C949"
+			tasks: [{
+				id: "687BAA9990A67C2E"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+		}
+		{
+			title: "Taint that gold"
+			x: 1.0d
+			y: -10.5d
+			description: ["Make some tainted gold on the crimson altar."]
+			id: "3EC90ADA4E322B14"
+			tasks: [{
+				id: "076D4BEB697AA55A"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+		}
+		{
+			title: "Offering the gods a birdbath in a forest of poppies"
+			x: -0.5d
+			y: -12.5d
+			description: ["The offering to the gods multiblock. You use spirits of calling to run it. Make some. "]
+			id: "5C990F7E5D345A6F"
+			tasks: [
+				{
+					id: "5FCFEA59AF1636DE"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "032F57551BF3BED3"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+					count: 3L
+				}
+			]
+		}
+		{
+			title: "Top tier metal?"
+			x: -0.5d
+			y: -14.0d
+			description: ["Made on the offering table with infused iron and a spirit of calling. "]
+			id: "1D39634260A47C9A"
+			tasks: [{
+				id: "32333C6D1AD96106"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -12.5d
+			description: ["Upgrade your tokens on the offering table. "]
+			id: "4AD4FDF70B9BFCC9"
+			tasks: [
+				{
+					id: "18E1687150A37F37"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+				{
+					id: "03ED1F9B3A7E3CCD"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+				{
+					id: "7CEE6E6829D2BC96"
+					type: "item"
+					item: "naturesaura:token_rage"
+				}
+				{
+					id: "5362B4DA434BDFF2"
+					type: "item"
+					item: "naturesaura:token_grief"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -9.0d
+			description: ["New pillar toppers for your natural altar. Turns things into different things or breaks them down. "]
+			id: "54F7AD64A403C9BF"
+			tasks: [
+				{
+					id: "12FF35B444D5F641"
+					type: "item"
+					item: "naturesaura:crushing_catalyst"
+				}
+				{
+					id: "67583A940E7BA925"
+					type: "item"
+					item: "naturesaura:conversion_catalyst"
+				}
+			]
+		}
+		{
+			title: "Netherite dousing"
+			x: 1.0d
+			y: -14.0d
+			id: "74E7A32B5CD483F0"
+			tasks: [{
+				id: "38B24F32EE6CA1D4"
+				type: "item"
+				item: "naturesaura:netherite_finder"
+			}]
+		}
+		{
+			title: "Makin' babies with magic"
+			x: -0.5d
+			y: -15.5d
+			description: ["Can't find any specific mob? You can make most vanilla mobs and such with an altar of birthing. Spirits of birthing come from breeding animals in an aura positive area. "]
+			id: "0FD26FD88E801C0E"
+			tasks: [
+				{
+					id: "14BDAD1D8EF6D754"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "48828EAA097984AD"
+					type: "item"
+					item: "naturesaura:birth_spirit"
+				}
+			]
+		}
+	]
+}

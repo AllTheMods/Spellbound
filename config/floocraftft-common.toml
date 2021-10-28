@@ -1,0 +1,14 @@
+
+[tp]
+	#If true, villagers who wander into Floo fires MAY teleport to a random fireplace. Never consumes Floo Powder.
+	villagers = false
+	#If true, fires from craftable Floo Powder will allow a limited number of teleports before reverting to normal fire.
+	deplete = true
+	#If true, dropped items that touch Floo fires WILL teleport to a random fireplace. Never consumes Floo Powder.
+	items = false
+	#As with villagers, but for Sheep, Cows, Spiders, Silverfish, Zombies etc. Never consumes Floo Powder.
+	miscmobs = false
+	#When arriving in a normal fire, the fire converts to Floo fire temporarily. It will stay like that for this many ticks, before returning to normal.
+	#Range: 1 ~ 100
+	safety = 50
+

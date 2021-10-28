@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 512
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 8192
+    },
+    {
+      "item": "allthemodium:allthemodium_ingot",
+      "emc": 229376
+    },
+    {
+      "item": "allthemodium:vibranium_ingot",
+      "emc": 458752
+    },
+    {
+      "item": "allthemodium:unobtainium_ingot",
+      "emc": 917504
+    },
+    {
+      "item": "occultism:iesnium_ingot",
+      "emc": 28672
+    },
+    {
+      "item": "mana-and-artifice:vinteum_dust",
+      "emc": 128
+    },
+    {
+      "item": "ars_nouveau:mana_gem",
+      "emc": 3456
+    },
+    {
+      "item": "malum:soulstone",
+      "emc": 2048
+    },
+    {
+      "item": "botania:manasteel_ingot",
+      "emc": 384
+    },
+    {
+      "item": "botania:mana_pearl",
+      "emc": 1536
+    },
+    {
+      "item": "botania:mana_diamond",
+      "emc": 12288
+    },
+    {
+      "item": "botania:terrasteel_ingot",
+      "emc": 21312
+    },
+    {
+      "item": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}",
+      "emc": 0
+    },
+    {
+      "item": "botania:entropinnyum",
+      "emc": 0
+    },
+    {
+      "item": "xreliquary:magazines/neutral_magazine",
+      "emc": 0
+    },
+    {
+      "item": "xreliquary:bullets/neutral_bullet{effects:[{duration:350,potency:0,name:\"minecraft:night_vision\"}]}",
+      "emc": 0
+    },
+    {
+      "item": "xreliquary:bullets/neutral_bullet",
+      "emc": 0
+    },
+    {
+      "item": "resourcefulbees:bee_jar",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:wither_aconite",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:exoblaze",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:aquapanthus",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:raindeleteia",
+      "emc": 0
+    },
+    {
+      "item": "projecte:dark_matter",
+      "emc": 3194880
+    },
+    {
+      "item": "projecte:red_matter",
+      "emc": 64020480
+    },
+    {
+      "item": "astral:key_of_enlightenment",
+      "emc": 18432
+    }
+  ]
+}

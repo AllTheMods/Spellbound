@@ -1,0 +1,509 @@
+{
+	id: "18CB6387FD28AEB8"
+	group: "2869CB12B4663D25"
+	order_index: 4
+	filename: "mana_and_artifice"
+	title: "Mana and Artifice"
+	icon: "mana-and-artifice:ritual_focus_greater"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mana and Artifice"
+			x: 0.0d
+			y: 0.0d
+			id: "43CD96141AC97A58"
+			tasks: [{
+				id: "17AB9A539DDD805D"
+				type: "checkmark"
+				title: "WIP"
+			}]
+		}
+		{
+			title: "A strange powder"
+			x: 0.0d
+			y: 1.5d
+			description: ["There are crackly blue ore blocks down in the earth. Collect 32x of them. You’re going to want to smelt them too. "]
+			id: "45364A54D6E58231"
+			tasks: [
+				{
+					id: "1C1AB9ECEC57F0F3"
+					type: "item"
+					item: "mana-and-artifice:vinteum_dust"
+					count: 32L
+				}
+				{
+					id: "6A12C2DB6836F1E4"
+					type: "item"
+					item: "mana-and-artifice:vinteum_ore"
+					count: 32L
+				}
+			]
+		}
+		{
+			title: "Vinteum Iron"
+			x: 1.0d
+			y: 1.5d
+			description: ["Combine some vinteum dust with iron ingots and cook it to make vinteum iron. 16x should be enough to start, maybe. "]
+			id: "1C1AF461D0BA7100"
+			tasks: [
+				{
+					id: "668A7EAE90CDA549"
+					type: "item"
+					item: "mana-and-artifice:vinteum_coated_iron"
+					count: 16L
+				}
+				{
+					id: "08B91F3CDB4B5F93"
+					type: "item"
+					item: "mana-and-artifice:vinteum_ingot"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Yer' a wizard, Harry"
+			x: 0.0d
+			y: 3.0d
+			description: ["Get and open the mana and artifice book. If you didn’t get it from the akashic tome, you can either find one as loot in structures or the mod villager in a starry outfit for vinteum iron ingots. If you read this in the daytime, be prepared to sleep, as this event will make it nighttime. Long book. "]
+			id: "7349FFA8EB9D4E6E"
+			tasks: [{
+				id: "013881A920CE6DF9"
+				type: "item"
+				item: "mana-and-artifice:guide_book"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["Please see Mischief of Mice’s Bit by Bit on Mana and Artifice. Its an excellent reference and 5 parts. https://www.youtube.com/watch?v=Hy4PxYEnyCE "]
+			id: "041DAEF9259D46AD"
+			tasks: [{
+				id: "2E36BCA9CA42E989"
+				type: "checkmark"
+				title: "For our Auditory wizards"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["There are factions of magic within this mod, and each faction has some special mobs that spawn. The ones more frequently seen are the hulking zombie and the skeleton assassin from the undead faction, lantern wraiths and imps from the nether faction, and mushroom soldiers from the fey faction. There are also witchunters and shieldbearers, those may be factioned too. Later on you will choose a faction to join. There are perks and setbacks to each, and the enemies of that faction will attack you more often."]
+			id: "32EF3F69970CC03A"
+			tasks: [{
+				id: "0FD0A1573509263E"
+				type: "checkmark"
+				title: "Monsters! Faction marks?"
+			}]
+		}
+		{
+			title: "Magic Flowers"
+			x: 0.0d
+			y: 4.0d
+			description: ["Collect some magic flowers. 16x of one mod flower, but you might want to seek them all. Cerublossom, tarma root, desert nova, aum, and wakebloom. "]
+			id: "0761CA2DC01E4F88"
+			tasks: [{
+				id: "7BF51B834091908E"
+				type: "item"
+				item: "mana-and-artifice:cerublossom"
+				count: 16L
+			}]
+		}
+		{
+			title: "Eye of the Council"
+			x: 0.0d
+			y: 5.0d
+			description: ["Craft and place an oculus, this will be your guide through each tier of the mod. "]
+			id: "4AEBE194AC74B162"
+			tasks: [{
+				id: "27F1A69F17A17CCB"
+				type: "item"
+				item: "mana-and-artifice:occulus"
+			}]
+		}
+		{
+			title: "Baby's first wand and cantrip"
+			x: 0.0d
+			y: 6.0d
+			description: ["Craft a manaweaver’s wand. You’ll be using this to draw shapes with your mana and cast spells. Sneak right click and choose the shapes you will use for your first cantrip, ignite. Draw those shapes, and cast your spell. Watch your mana bar because if you try to repeatedly cast, drawing the shapes will run out fast. The mana replenishes moderately fast though. Try to reach lv 5 of magic by casting ignite. There’s a dark blue bar under the mana bar in the top left, that is your magical experience. "]
+			id: "2F5E5E50A20E8F06"
+			tasks: [{
+				id: "06C09A4224D62106"
+				type: "item"
+				item: "mana-and-artifice:manaweaver_wand"
+			}]
+		}
+		{
+			title: "Wizards aren't vegan"
+			x: 0.0d
+			y: 7.5d
+			description: ["If you don’t have a cow farm, a paper farm, a dye farm, an easy way to get sand, etc, you might want to look into that. Leather is heavily used in this mod. Try right clicking some leather into a source block of water to obtain some vellum, the spell paper to write spells on. Collect 16x vellum. "]
+			id: "4CF48435889BC711"
+			tasks: [{
+				id: "75C10020DA1C3289"
+				type: "item"
+				item: "mana-and-artifice:vellum"
+				count: 16L
+			}]
+		}
+		{
+			title: "Glyphs"
+			x: 1.0d
+			y: 7.5d
+			subtitle: "Runes, glyphs. Same difference. "
+			description: ["Make some blank glyphs with regular stone. You can put colors on them by crafting a rune with a vanilla dye. How about a rune bag to keep your colored runes in too."]
+			id: "3B52FCD6F0364C0C"
+			tasks: [
+				{
+					id: "2421B0C91251DB69"
+					type: "item"
+					item: "mana-and-artifice:stone_rune_blank"
+					count: 16L
+				}
+				{
+					id: "1620AF0B18FAAC50"
+					type: "item"
+					item: "mana-and-artifice:stone_rune_bag"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			description: ["    Make or steal a runeforge. Runeforges are a villager profession for a spellweaver. "]
+			id: "178AF2D9218BA3F5"
+			tasks: [{
+				id: "4AA6CC8FFDC9DE1B"
+				type: "item"
+				item: "mana-and-artifice:runeforge"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			description: ["Craft some arcane compound and smelt it in the runeforge. Runeforges need no fuel, burn up to 16 items at once, but they are SLOW. 1 arcane compound smelts into 4 arcane ash. You’ll need a lot of this. 32x arcane ash. "]
+			id: "47F3AF066FEEC6AC"
+			tasks: [
+				{
+					id: "6051638FCADB002D"
+					type: "item"
+					item: "mana-and-artifice:arcane_ash"
+					count: 32L
+				}
+				{
+					id: "79EB89FD32820BF3"
+					type: "item"
+					item: "mana-and-artifice:arcane_compound"
+					count: 32L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			description: ["Make one, and some arcanists ink. This is the item you’ll use to craft your spells. Spells, depending on what you make will require vellum, some durability on your arcanists ink, and arcane ash to make the spell’s crafting recipe. "]
+			id: "174BFCF672B30822"
+			tasks: [
+				{
+					id: "6BCC83275065C8F5"
+					type: "item"
+					item: "mana-and-artifice:inscription_table"
+				}
+				{
+					id: "18B65374381B7A92"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:arcanist_ink"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			description: ["Make or steal a manaweaving altar. This makes many magical items you’ll need, and you draw the shapes it wants with the manaweavers wand. Try making some infused silk. 1x infused silk. This item is a crafting element of some items for the ATM star. "]
+			id: "5567310CC38983AE"
+			tasks: [{
+				id: "4421EF4F0EA708EA"
+				type: "item"
+				item: "mana-and-artifice:manaweaving_altar"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			description: ["Make some wizard's chalk. "]
+			id: "7E7930655C1487E5"
+			tasks: [{
+				id: "0CCA32F09FE4B109"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:wizard_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			description: ["No, not a workbench on a stick. That’s so medieval. Make a touch - summon workbench spell, and craft it. You can place a workbench down any place within touch range with this spell. The Ritual of Arcana is how you craft spells, in a 9x9 area. You’ll need your manaweaver’s wand and that wizards chalk. Follow the instructions in the book, and you should have a spell made in no time. "]
+			id: "1CF5BF8D54849949"
+			tasks: [{
+				id: "4CFADBD370B04566"
+				type: "checkmark"
+				title: "A portable workbench"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.5d
+			description: ["Rote means you’ve mastered the component of the spell. If you have a rote spell, it can be kept in a spellbook and costs less mana to cast each time."]
+			id: "2E80B2A049E8F0CD"
+			tasks: [{
+				id: "237C01B0A3EB51CC"
+				type: "checkmark"
+				title: "Rote?"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.5d
+			description: ["So you’ve noticed the little glowy symbol with percentage at the bottom right of your screen. All spells have some sort of elemental affinity, and as you cast it, you gain affinity. Higher affinity means the spell is cheaper to cast. Once you reach 100% affinity in one element, you can’t change that, to the best of the questwriter’s knowledge."]
+			id: "2F40FB34A9C87906"
+			tasks: [{
+				id: "54DF58EAF3A92232"
+				type: "checkmark"
+				title: "Affinity?"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			description: ["Follow the oculus’ guide to reach tier 2 of magic. Highly recommended to reach lv 15 in magic experience, just spam your summon workbench as much as possible. "]
+			id: "36E976F54156C1A6"
+			tasks: [{
+				id: "585B6F623CB5F953"
+				type: "checkmark"
+				title: "Tier 2 wizard"
+			}]
+		}
+		{
+			title: "New Cantrip: Dispel"
+			x: 0.0d
+			y: 13.5d
+			subtitle: "Stronger Spellcasting"
+			description: ["The new cantrip a t2 wizard can cast is Dispel, which you can use to get rid of bad potion effects, like poison or wither or mining fatigue. Uses 3 shapes. "]
+			id: "48D3253AE2814D74"
+			tasks: [{
+				id: "3E722ACC7B4E90EE"
+				type: "checkmark"
+				title: "New Cantrip: Dispel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.5d
+			description: ["T2 wizards can upgrade their spells with a ritual and by getting rote their specific component, such as touch. Upgrades unlock at t2, like speed, range and delay. "]
+			id: "7FABE12DD2FBFD18"
+			tasks: [{
+				id: "1FA95CF72A7FF23D"
+				type: "checkmark"
+				title: "Stronger spellcasting"
+			}]
+		}
+		{
+			title: "Chimerite"
+			x: 0.0d
+			y: 15.5d
+			description: ["Chimerite is a byproduct of mining certain ores. At lv 5 of magic experience, it drops alongside emeralds. Lv 10, alongside diamonds. Finally at lv 20, it will drop alongside coal as well. Fortune affects it, you’ll want a lot."]
+			id: "024B8F7E5C5ABD47"
+			tasks: [{
+				id: "75CC17824EB6958E"
+				type: "item"
+				item: "mana-and-artifice:chimerite_gem"
+				count: 32L
+			}]
+		}
+		{
+			title: "Weird see-through plates with marks?"
+			x: 0.0d
+			y: 16.5d
+			description: ["These are unfired rune plates. You can make them yourself by crafting a rune of any color with 4 clay balls around it. Put them in the runeforge to smelt to get rune plates. You will want MANY of these. 32x runic plates (the orange ones). "]
+			id: "46DAD71B7633800D"
+			tasks: [
+				{
+					id: "75E91150F4E0BD84"
+					type: "item"
+					item: "mana-and-artifice:rune_clay_plate"
+				}
+				{
+					id: "48E208CB573A7C08"
+					type: "item"
+					item: "mana-and-artifice:rune_pattern"
+					count: 32L
+				}
+			]
+		}
+		{
+			title: "Patterns"
+			x: 0.0d
+			y: 17.5d
+			subtitle: "Air drawing is hard. "
+			description: ["As loot in structures or as trades from the mod’s villagers, you can get rune patterns. These are used if you want to make an item called a manaweave projector that you can click on to produce the shape of marking you want during manaweaving. If you have trouble making a circle in the air (like I do), this may help. It's called Orbeus. Find or procure an Orbeus rune pattern. "]
+			id: "4AB06876971CA916"
+			tasks: [{
+				id: "1F9EDF1EDCEF9CAF"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+					Count: 1b
+					tag: {
+						manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/knot3"
+					}
+				}
+			}]
+		}
+		{
+			title: "Runesmith"
+			x: 0.0d
+			y: 18.5d
+			description: ["Make a runic anvil, runescribing table, runesmith hammer and runesmith chisel. These are the gateway into golemancy and enchanting later on. Some spells ask for a runic hammer as a spell ingredient too. "]
+			id: "5C9AE5CBE7C22191"
+			tasks: [
+				{
+					id: "10256B6913B120D0"
+					type: "item"
+					item: "mana-and-artifice:runic_anvil"
+				}
+				{
+					id: "28A679E2365E3FEA"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:runesmith_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F61AAE03BBCD127"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:runesmith_chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2ED4709D0FD5D04F"
+					type: "item"
+					item: "mana-and-artifice:runescribing_table"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 19.5d
+			description: ["Get to tier 3 by the oculus’ guidance. Highly recommended to reach lv 30 in magic experience as part of that. Spam some new spells as much as possible."]
+			id: "41E84AC7DC439F42"
+			tasks: [{
+				id: "0E1F389B15D446C0"
+				type: "checkmark"
+				title: "Tier 3 wizard"
+			}]
+		}
+		{
+			icon: "mana-and-artifice:mark_of_the_fey"
+			x: 0.0d
+			y: 20.5d
+			description: ["There are a number of factions in this mod, all who do different perks and setbacks. The Council of Wizards, The Fey Courts, The Nether (demons), and the undead. You’ll pick a faction and perform the ritual to join them. This lets you get to lv 45 magic experience+. Caution; if you pick the undead faction, your mana does not return naturally. It returns when you kill something else for its soul. Souls fuel your mana now. Undead do the least return, and players do the most. (check how many factions there are). Each faction has its own generated structure too, so be on the lookout for those, but they are rare. Haven’t found one yet."]
+			id: "190DDB00DD4873C0"
+			tasks: [{
+				id: "01AACB83DC3E23AA"
+				type: "checkmark"
+				title: "Factions"
+			}]
+		}
+		{
+			title: "Chimerite, again"
+			x: 0.0d
+			y: 21.5d
+			description: ["Make some chimerite crystals to put on the ground or the wall around your golemancy workshop, 8 to be precise. Some colors of chimerite crystals also have special properties. Check your codex arcana for more information. "]
+			id: "0D0F662930A34B70"
+			tasks: [{
+				id: "636895B4289E0E97"
+				type: "item"
+				item: "mana-and-artifice:chimerite_crystal_red"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 22.5d
+			description: ["Golems have parts, and you need rune plates of those parts. Make each rune plate by drawing out the pattern on an orange rune plate with a runic chisel. Careful not to screw up because you’ll lose the plate and need to start again on a new one. Golems have a head, a torso, legs, left arm and right arm, and parts range from wood to diamond and obsidian. Each material has its own perks and setbacks. For example, wood can float, but is flammable. You’ll be building each part using the resulting rune plate and the piece on your rune anvil, and than finishing the job on a golemancy bench. Attach a spell of a specific affinity to each of the 8 crystals to give the golem extra perks, like carry capacity, damage, speed, etc, and right click with a manaweaver’s wand to start. You’ll want a lodestar and a few rune markings for telling your new friend what to do. (check this) Material parts can mix and match, far as I know, but you still need a head, torso, legs, l.arm and r.arm. "]
+			id: "054507D7759CF68A"
+			tasks: [{
+				id: "7D38E8C8B7DB8DE3"
+				type: "checkmark"
+				title: "Golemancy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 23.5d
+			description: ["Reach tier 4 of magic. I think you have to perform your faction ritual in order to gain in tier here."]
+			id: "4BF62EC0846D978E"
+			tasks: [{
+				id: "281CBA3D51031D0C"
+				type: "checkmark"
+				title: "Tier 4 wizard"
+			}]
+		}
+		{
+			title: "Mote'ive"
+			x: 0.0d
+			y: 24.5d
+			shape: "gear"
+			description: ["Now you can create magical motes. It takes a ritual and several bits of recipe and being in specific places, but you’ll need these for advanced stuff. Make a mote of fire for me. In the Nether of course. You’ll need at least one mote of something to make the ATM star. "]
+			id: "06569DDC48D18E53"
+			tasks: [{
+				id: "5B189624F59A1021"
+				type: "item"
+				item: "mana-and-artifice:enchantment_focus_fire"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 25.5d
+			description: [
+				"Reach tier 5 of magic, and perform the faction tier gain ritual. Lv 60 magic gain +? Yes please. I hope you’ve made more cool spells by now instead of just a spectral workbench. "
+				"You also need tier 5 to craft some ATM star materials."
+			]
+			id: "4D3EEE9B6947FF40"
+			tasks: [{
+				id: "5CA4DEB26841BFC6"
+				type: "checkmark"
+				title: "Tier 5 wizard"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 24.5d
+			description: ["Make one, and upgrade your runeforge to a brimstone forge. Smelts A LOT faster. "]
+			id: "5C2771AD61023A72"
+			tasks: [{
+				id: "4D1105144AAEBC41"
+				type: "item"
+				item: "mana-and-artifice:brimstone_charm"
+			}]
+		}
+	]
+}

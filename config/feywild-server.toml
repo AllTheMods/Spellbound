@@ -1,0 +1,204 @@
+#How long fey dust effect lasts:
+#Range: 0 ~ 180
+fey_dust_duration = 15
+#Should the Feywild Lexicon be avialable on login: 
+spawn_with_book = false
+#This may not work, expect fatal errors, here be dragons!
+# Activate beta features:
+beta = false
+#Note: This requires the mod: Mythic Botany. 0: feywild biomes spawn in overworld, default alfheim, 1: feywild biomes spawn in overworld, feywild features spawn in alfheim, 2: feywild biomes not active, feywild features spawn in alfheim 
+#Range: 0 ~ 2
+mythic = 1
+
+#Fey Gem ore config.
+["Fey Gem Ore"]
+	#Chance to spawn.
+	#Range: 0 ~ 100
+	spawnChance = 10
+	#Size of an ore vein.
+	#Range: 0 ~ 24
+	size = 5
+	#Min y value at which the ore can spawn.
+	#Range: 0 ~ 64
+	minHeight = 11
+	#Max y value at which the ore can spawn.
+	#Range: 0 ~ 64
+	maxHeight = 48
+
+#Spring Pixie spawn config.
+["Spring Pixie Spawn"]
+	#Chance to spawn (set to 0 to disable).
+	#Range: 0 ~ 256
+	spawnChance = 20
+	#Min to spawn in a group.
+	#Range: 0 ~ 256
+	min = 1
+	#Max to spawn in a group.
+	#Range: 0 ~ 256
+	max = 1
+	#List of biome types to spawn.
+	biomes = "RIVER,FOREST,PLAINS,MAGICAL,"
+
+#Summer Pixie spawn config.
+["Summer Pixie Spawn"]
+	#Chance to spawn (set to 0 to disable).
+	#Range: 0 ~ 256
+	spawnChance = 20
+	#Min to spawn in a group.
+	#Range: 0 ~ 256
+	min = 1
+	#Max to spawn in a group.
+	#Range: 0 ~ 256
+	max = 1
+	#List of biome types to spawn.
+	biomes = "LUSH,HOT,MAGICAL,"
+
+#Autumn Pixie spawn config.
+["Autumn Pixie Spawn"]
+	#Chance to spawn (set to 0 to disable).
+	#Range: 0 ~ 256
+	spawnChance = 20
+	#Min to spawn in a group.
+	#Range: 0 ~ 256
+	min = 1
+	#Max to spawn in a group.
+	#Range: 0 ~ 256
+	max = 1
+	#List of biome types to spawn.
+	biomes = "SWAMP,MUSHROOM,SPOOKY,FOREST,MAGICAL,"
+
+#Winter Pixie spawn config.
+["Winter Pixie Spawn"]
+	#Chance to spawn (set to 0 to disable).
+	#Range: 0 ~ 256
+	spawnChance = 20
+	#Min to spawn in a group.
+	#Range: 0 ~ 256
+	min = 1
+	#Max to spawn in a group.
+	#Range: 0 ~ 256
+	max = 1
+	#List of biome types to spawn.
+	biomes = "DEAD,SNOWY,COLD,MAGICAL,"
+
+#Dwarf spawn config.
+["Dwarf Spawn"]
+	#Chance to spawn (set to 0 to disable).
+	#Range: 0 ~ 256
+	spawnChance = 20
+	#Min to spawn in a group.
+	#Range: 0 ~ 256
+	min = 1
+	#Max to spawn in a group.
+	#Range: 0 ~ 256
+	max = 1
+	#List of biome types to spawn.
+	biomes = "ALL,"
+
+#Average distance should always be higher then the Minimum distance, and cannot be the same.
+["Spring World Tree Structure"]
+	#Average distance between structure.
+	#Range: 0 ~ 500
+	averageDistance = 100
+	#Minimum distance between structure.
+	#Range: 0 ~ 500
+	minDistance = 50
+
+#Average distance should always be higher then the Minimum distance, and cannot be the same.
+["Summer World Tree Structure"]
+	#Average distance between structure.
+	#Range: 0 ~ 500
+	averageDistance = 100
+	#Minimum distance between structure.
+	#Range: 0 ~ 500
+	minDistance = 50
+
+#Average distance should always be higher then the Minimum distance, and cannot be the same.
+["Autumn World Tree Structure"]
+	#Average distance between structure.
+	#Range: 0 ~ 500
+	averageDistance = 100
+	#Minimum distance between structure.
+	#Range: 0 ~ 500
+	minDistance = 50
+
+#Average distance should always be higher then the Minimum distance, and cannot be the same.
+["Winter World Tree Structure"]
+	#Average distance between structure.
+	#Range: 0 ~ 500
+	averageDistance = 100
+	#Minimum distance between structure.
+	#Range: 0 ~ 500
+	minDistance = 50
+
+#Average distance should always be higher then the Minimum distance, and cannot be the same.
+["Blacksmith Structure"]
+	#Average distance between structure.
+	#Range: 0 ~ 500
+	averageDistance = 50
+	#Minimum distance between structure.
+	#Range: 0 ~ 500
+	minDistance = 40
+
+#Average distance should always be higher then the Minimum distance, and cannot be the same.
+["Library Structure"]
+	#Average distance between structure.
+	#Range: 0 ~ 500
+	averageDistance = 35
+	#Minimum distance between structure.
+	#Range: 0 ~ 500
+	minDistance = 25
+
+#Tree Patches Config
+["Tree Patches"]
+	#Spawn spring tree.
+	spawnSpringTree = true
+	#Spawn autumn tree.
+	spawnAutumnTree = true
+	#Spawn summer tree.
+	spawnSummerTree = true
+	#Spawn spring tree.
+	spawnWinterTree = true
+	#Tree patch spawn chance.
+	#Range: 0.0 ~ 1.0
+	spawnChance = 0.01
+	#Tree patch size.
+	#Range: 0 ~ 10
+	spawnSize = 3
+
+#Blossoming Wealds biome config.
+["Blossoming Wealds Biome"]
+	#Chance to spawn.
+	#Range: 0 ~ 256
+	spawnChance = 15
+	#Size of a biome.
+	#Range: 0.0 ~ 1.0
+	size = 0.005
+
+#Golden Seelie Fields biome config.
+["Golden Seelie Fields Biome"]
+	#Chance to spawn.
+	#Range: 0 ~ 256
+	spawnChance = 15
+	#Size of a biome.
+	#Range: 0.0 ~ 1.0
+	size = 0.005
+
+#Eternal Fall biome config.
+["Eternal Fall Biome"]
+	#Chance to spawn.
+	#Range: 0 ~ 256
+	spawnChance = 15
+	#Size of a biome.
+	#Range: 0.0 ~ 1.0
+	size = 0.005
+
+#Frozen Retreat biome config.
+["Frozen Retreat Biome"]
+	#Chance to spawn.
+	#Range: 0 ~ 256
+	spawnChance = 15
+	#Size of a biome.
+	#Range: 0.0 ~ 1.0
+	size = 0.005
+

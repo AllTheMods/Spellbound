@@ -1,0 +1,724 @@
+{
+	id: "293E149AC6DC5829"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 4
+	filename: "storage"
+	title: "Storage"
+	icon: "minecraft:chest"
+	subtitle: ["Barrels? Chests? Drawers? It's yours my f.r.i.e.n.d, if only you got the Rubies."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Classic Storage"
+			x: 1.0d
+			y: -4.5d
+			description: [
+				"This doesn't need any introduction. Everyone knows what a chest does."
+				""
+				"But it's a box to hold your stuff. Just don't block the top with a full block. Glass, Other chests, and partial blocks will not prevent it to be open."
+			]
+			id: "4718C291648D6C9E"
+			tasks: [{
+				id: "066B128EAC69EC6F"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "Not a vanilla tank?"
+			x: 1.0d
+			y: -2.5d
+			description: ["Unlike it's counterpart this storage block won't combine with another, yet will still open even with a full block on top."]
+			id: "4FBBE976F275AD0A"
+			tasks: [{
+				id: "12632F2F2A103A66"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			title: "The Classic Ironic Mod"
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["4718C291648D6C9E"]
+			id: "1DC08B4002B97456"
+			tasks: [{
+				id: "609F3BEFCB1C4117"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			title: "Goldylocks"
+			x: 1.0d
+			y: -7.5d
+			description: [""]
+			dependencies: ["1DC08B4002B97456"]
+			id: "53E41FB740965273"
+			tasks: [{
+				id: "7A2ACBE34805D5D5"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			title: "Shine bright like a diamond"
+			x: 1.0d
+			y: -9.0d
+			dependencies: ["53E41FB740965273"]
+			id: "685E8BA279EC9D02"
+			tasks: [{
+				id: "073008F85979CB8B"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			title: "Obsidian Obsessed"
+			x: 0.0d
+			y: -10.0d
+			description: [""]
+			dependencies: ["685E8BA279EC9D02"]
+			id: "59CD26EDC18F69B6"
+			tasks: [{
+				id: "4D235A30824AED32"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+		}
+		{
+			title: "Clear Path"
+			x: 2.0d
+			y: -10.0d
+			description: [""]
+			dependencies: ["685E8BA279EC9D02"]
+			id: "0B2FB8DD2FFDEB8E"
+			tasks: [{
+				id: "3E9C218E0107A48B"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+		{
+			title: "An ironic twist"
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["4FBBE976F275AD0A"]
+			id: "0CDC24C7DD153413"
+			tasks: [{
+				id: "3491347C764C4B53"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+		}
+		{
+			title: "Goldeneye"
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["0CDC24C7DD153413"]
+			id: "03014FDBE447BAAB"
+			tasks: [{
+				id: "5149228FDBA63011"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+		}
+		{
+			title: "Like a diamond in the sky"
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["03014FDBE447BAAB"]
+			id: "30898E6A5B43DF6E"
+			tasks: [{
+				id: "39DB17F09DA029FA"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+		}
+		{
+			title: "Clear Ridges"
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["30898E6A5B43DF6E"]
+			id: "30E8C5B14A269F56"
+			tasks: [{
+				id: "5507856454E8D6B3"
+				type: "item"
+				item: "metalbarrels:crystal_barrel"
+			}]
+		}
+		{
+			title: "Observed Obsidian"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["30898E6A5B43DF6E"]
+			id: "5590E88755BB40E9"
+			tasks: [{
+				id: "3B2E1E20CD1CBA16"
+				type: "item"
+				item: "metalbarrels:obsidian_barrel"
+			}]
+		}
+		{
+			title: "It came from the nether region"
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["5590E88755BB40E9"]
+			id: "6F7A035746AFCEB1"
+			tasks: [{
+				id: "371E26985136A6C1"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+		}
+		{
+			title: "Drawers for years"
+			x: 1.0d
+			y: -3.5d
+			description: ["Drawers are great storages early game, especially when it comes to certain upgrades for control in automations."]
+			dependencies: ["4718C291648D6C9E"]
+			id: "0E463B85C9342584"
+			tasks: [{
+				id: "7C431B74195FA9DD"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				count: 4L
+			}]
+		}
+		{
+			title: "To make a system"
+			x: 2.5d
+			y: -4.5d
+			description: [
+				"This drawer block will combine every drawers attached to it as one. It can be connected by \"Storage plug\" type system to see the whole inventory."
+				""
+				"When a key is used on a controller, it will affect all connected drawers."
+			]
+			dependencies: ["0E463B85C9342584"]
+			id: "1146355F7739C7AE"
+			tasks: [{
+				id: "46958408A7D84351"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			title: "Slave to the drawers"
+			x: 2.5d
+			y: -3.5d
+			description: ["This is more of an Extension to the Controller, the Controller has a limited range but the Slave extends it's range when placed at it's edges."]
+			dependencies: ["0E463B85C9342584"]
+			id: "50DC868B62F703C0"
+			tasks: [{
+				id: "04E41E4CF1EB2120"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			title: "Automatic Compactibility"
+			x: 2.5d
+			y: -2.5d
+			description: ["This block will automatically compact anything that can be compacted and reverted. Such as ingots, clay balls, and such to their block version and vice versa."]
+			dependencies: ["0E463B85C9342584"]
+			id: "16E4544F74123C1F"
+			tasks: [{
+				id: "63AC4DD0816FCF91"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			title: "The key to filtering a drawer"
+			x: 3.5d
+			y: -4.0d
+			description: [
+				"This key can be used in two ways:"
+				""
+				"1- When in offhand; When placing drawers it will automatically lock them. This is pretty useful if you have a drawer system connected to a farm and you don't want anything to pump while placing."
+				""
+				"2- Using key on drawer will lock/unlock it."
+				""
+				"When a drawer is lock it will save it's inventory in memory even when it hits zero. A lock drawer with an empty slot can still be filled if placed manually."
+			]
+			dependencies: ["0E463B85C9342584"]
+			id: "488A1987071E9B48"
+			tasks: [{
+				id: "25A984075D83E0D5"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			title: "A visual count"
+			x: 3.5d
+			y: -3.0d
+			description: ["This key pretty much adds inventory quantity directly to the drawers. This is pretty useful if you want to know how many you have without relying to jei to see."]
+			dependencies: ["0E463B85C9342584"]
+			id: "3586AF99E323BF1C"
+			tasks: [{
+				id: "374A3B9B2EA94886"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			title: "To a-void a mess"
+			x: -0.5d
+			y: -4.5d
+			description: ["A very important upgrade when it comes as voiding stuff that surpasses it's limit."]
+			dependencies: ["0E463B85C9342584"]
+			id: "55CE84165FBD4C71"
+			tasks: [{
+				id: "1CC53480AFDB305E"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			title: "Less is more"
+			x: -0.5d
+			y: -3.5d
+			description: ["Basically a storage downgrade to a stack. Very useful for certain automations with a redstone upgrade."]
+			dependencies: ["0E463B85C9342584"]
+			id: "4F7F32DDAF82DC98"
+			tasks: [{
+				id: "1328A9A38902CB3B"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			title: "The Green mile"
+			x: -0.5d
+			y: -2.5d
+			description: ["Part of a series of Storage upgrade for drawers."]
+			dependencies: ["0E463B85C9342584"]
+			id: "16B59FE0949336A8"
+			tasks: [{
+				id: "2C6D2ADC3ED6A956"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			title: "And now I see"
+			x: -1.5d
+			y: -4.0d
+			description: ["This drawer upgrade will make it's display glow."]
+			dependencies: ["0E463B85C9342584"]
+			id: "285E3344E94190DD"
+			tasks: [{
+				id: "28E97C020D0AB695"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+		{
+			title: "Emiting your Storage"
+			x: -1.5d
+			y: -3.0d
+			description: ["Redstone upgrade will emit a signal depending on how full they are, it can be useful when combined with a storage downgrade, for certain automations."]
+			dependencies: ["0E463B85C9342584"]
+			id: "6AA5870D4DE4EC30"
+			tasks: [{
+				id: "1CD6427E79C06CFD"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -11.0d
+			description: ["The first Backpack you will make. Each tier has enhanced storage slots and more upgrade slots to further enhance your capabilities."]
+			id: "6A1BE13BA67A19B9"
+			tasks: [{
+				id: "192985BEAB192171"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.5d
+			dependencies: ["6A1BE13BA67A19B9"]
+			id: "43534E310B8C59A6"
+			tasks: [{
+				id: "3AAADD058183A476"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "73F37CAF25D766DD"
+			tasks: [{
+				id: "23D4E81D14D3505C"
+				type: "item"
+				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -9.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "3AE016266837DB4D"
+			tasks: [{
+				id: "0264D672578C8CE2"
+				type: "item"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.0d
+			dependencies: ["3AE016266837DB4D"]
+			id: "252E257565EDD5B2"
+			tasks: [{
+				id: "6D5CC60766D04D1A"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "576E84B0139E787E"
+			tasks: [{
+				id: "3C53F23C5DC0B43F"
+				type: "item"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "4B34CC384F13DF08"
+			tasks: [{
+				id: "3CF5F287FC186C9C"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.0d
+			dependencies: ["4B34CC384F13DF08"]
+			id: "12ED692A547BD9C5"
+			tasks: [{
+				id: "34E36490CB5E3814"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "08FAB7338A6330A3"
+			tasks: [{
+				id: "6C7C01A4390C5A21"
+				type: "item"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.0d
+			dependencies: ["08FAB7338A6330A3"]
+			id: "3235D4A190C7CF07"
+			tasks: [{
+				id: "4363DF75A5EAA9DB"
+				type: "item"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "6E224B2F7E03E20D"
+			tasks: [{
+				id: "3B331F0C9B1D8BB5"
+				type: "item"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "473E3DDC270DF90A"
+			tasks: [{
+				id: "3A06562BD471239B"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "5180BEC3846900EB"
+			tasks: [{
+				id: "6227AC8DC0203EC0"
+				type: "item"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "3C9FE02C2C7217CF"
+			tasks: [{
+				id: "055FA7A8F35D5848"
+				type: "item"
+				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "6B3C4D5CABBD989A"
+			tasks: [{
+				id: "5C2029B8968F8DBF"
+				type: "item"
+				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			dependencies: ["6B3C4D5CABBD989A"]
+			id: "1EF120B04CFA133E"
+			tasks: [{
+				id: "1B0B59F9A298C903"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "5685C8AAAF5FC76B"
+			tasks: [{
+				id: "36928607CB4D797D"
+				type: "item"
+				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			dependencies: ["5685C8AAAF5FC76B"]
+			id: "097C2E3933F1F6D9"
+			tasks: [{
+				id: "7ACDF622655C2D4F"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "7A139D1DA04CA922"
+			tasks: [{
+				id: "3B84C15A6095428F"
+				type: "item"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			dependencies: ["7A139D1DA04CA922"]
+			id: "70F94B0C5D421D90"
+			tasks: [{
+				id: "37CE4DD637FB21DD"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "71B7198FF9D0EE89"
+			tasks: [{
+				id: "0BCF02E0A235C07D"
+				type: "item"
+				item: "sophisticatedbackpacks:refill_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "5B856BE54364E968"
+			tasks: [{
+				id: "266BBE22F9A7E347"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["5B856BE54364E968"]
+			id: "48B3D5D97A036E30"
+			tasks: [{
+				id: "64CE15A621B25054"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "30FB622208BF945B"
+			tasks: [{
+				id: "3B4269A9603098A2"
+				type: "item"
+				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			dependencies: ["30FB622208BF945B"]
+			id: "0FA7EEC19855A185"
+			tasks: [{
+				id: "2611AD2A09D1FB1E"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "0E21483BA71D8B33"
+			tasks: [{
+				id: "1165BEC191A6E0FE"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["0E21483BA71D8B33"]
+			id: "61A06BC333BB19E4"
+			tasks: [{
+				id: "4EF54C16092BE2EC"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["43534E310B8C59A6"]
+			id: "0E4B87040E024E36"
+			tasks: [{
+				id: "25033D5203A37A71"
+				type: "item"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["0E4B87040E024E36"]
+			id: "665A1F305E000382"
+			tasks: [{
+				id: "534F89058BBF56FF"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -8.0d
+			dependencies: ["4B4EBF6AEA3F59EF"]
+			id: "12BDD8844A19CAA5"
+			tasks: [{
+				id: "2ECE26AE6A39F1CE"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -8.0d
+			dependencies: ["12ED692A547BD9C5"]
+			id: "4B4EBF6AEA3F59EF"
+			tasks: [{
+				id: "0514582EDA90CAFB"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -11.0d
+			dependencies: ["6A1BE13BA67A19B9"]
+			id: "45C739DE271E288E"
+			tasks: [{
+				id: "483837744AFBABDB"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -11.0d
+			dependencies: ["45C739DE271E288E"]
+			id: "2040B5154969A046"
+			tasks: [{
+				id: "51B7E9D448C88958"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -11.0d
+			dependencies: ["2040B5154969A046"]
+			id: "319F061B694B1D00"
+			tasks: [{
+				id: "585A6799703425CF"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -11.0d
+			dependencies: ["319F061B694B1D00"]
+			id: "302C3C9530EDBED4"
+			tasks: [{
+				id: "5C48309E670D3EA4"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+	]
+}

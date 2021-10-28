@@ -1,0 +1,297 @@
+{
+	id: "2636669A5474B767"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 7
+	filename: "tetra"
+	title: "Tetra"
+	icon: "tetra:forged_workbench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "Customizeable weapons to fit you."
+			description: ["This quest line is all about exploration and making great tools. Hammers, pickaxes. But not busted like Tinkers."]
+			id: "04B938420D8D7200"
+			tasks: [{
+				id: "66C792BA28B1C07C"
+				type: "checkmark"
+				title: "Welcome to Tetra!"
+			}]
+		}
+		{
+			title: "Hammer time"
+			x: -1.5d
+			y: -2.0d
+			description: ["Make a wooden or stone hammer from Tetra. This will give you the holosphere, the ‘book’ of this mod. More a collection of materials and stats than an actual guide. Hang onto this holosphere in a safe place, you’ll need it later on. "]
+			id: "2FA379C3D836DC02"
+			tasks: [
+				{
+					id: "6A4C77693185EF33"
+					type: "item"
+					item: {
+						id: "tetra:modular_double"
+						Count: 1b
+						tag: {
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "5b5adf3f-d2eb-46d1-ba73-f33dbd2311b0"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							Damage: 0
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+						}
+					}
+				}
+				{
+					id: "0C6D30BFC69CB5A3"
+					type: "advancement"
+					advancement: "tetra:upgrades/root"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "1E5D9B58625AA155"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "5b5adf3f-d2eb-46d1-ba73-f33dbd2311b0"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		}
+		{
+			title: "Workbench mk2"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Upgrading your Tools"
+			description: ["Right click a vanilla crafting table with your hammer, and access the gui. Tetra makes tools similar to Tinkers, but not. They do not break forever on losing all durability, are easily repairable, and very customizable. Either you can create a tool from scratch in the table, or upgrade a vanilla tool by repairing it (yes, even full durability tools can be repaired here). The repair material changes, depending on what you used to create it in the first place, so watch what it asks for. Make yourself a tetra pickaxe, sword, axe, shovel and hoe from vanilla tools. "]
+			id: "1F26E712089AAA2A"
+			tasks: [{
+				id: "0D9B22A7D5B1D2B1"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["Tetra tools level in two ways; honing and settling. Honing and settling occur with usage. Settling increases the stats of the tool’s part that settled, and honing lets you add a certain ability to that tool part. Pickaxes can do speed, durability and mining efficiency, for example. Certain parts do not upgrade past a point, like emeralds, you will have an ability called ‘arrested’ instead. Can’t upgrade a part further than that."]
+			id: "6C742359FD16AC83"
+			tasks: [{
+				id: "117782CFF4F6084A"
+				type: "checkmark"
+				title: "Leveling up?"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			description: ["Tetra double head tools can do multiple things; for example a pickaxe can have a pick head and an axe head. The tool gets a fancy name, like carpenter’s hammer, if you have an axe and a hammer head on the same tool."]
+			id: "4ACC948826228CA4"
+			tasks: [{
+				id: "0B58267E01E93BDF"
+				type: "checkmark"
+				title: "Dual-purpose tools?"
+			}]
+		}
+		{
+			title: "Mk 2 Hammer"
+			x: -1.5d
+			y: 1.5d
+			description: ["Create a mk2 hammer with any kind of vanilla stone. In order to upgrade the ‘tier’ of the tool, both sides of a double headed tool must be the same tier. For example, iron pickaxe can’t be stone on one side and iron on the other, it has to be fully iron heads. "]
+			id: "35D2ED228DF837F3"
+			tasks: [{
+				id: "6DE91A5466A30948"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+		}
+		{
+			icon: {
+				id: "mysticalworld:cactus_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 1.5d
+			description: ["Any axe and any sword/knife has a ‘tier’ of what material they can work with. An axe works with wood, swords deal with materials that need to be cut, like leather or string."]
+			id: "43CC4EA7EE5355DF"
+			tasks: [{
+				id: "046CE8612BE9CB94"
+				type: "checkmark"
+				title: "What's with the axe and knife symbols when making my tool better?"
+			}]
+		}
+		{
+			title: "Mk 3 Hammer"
+			x: -1.5d
+			y: 3.5d
+			description: ["Create a mk 3 hammer, out of iron or a similar material. Mk 3 hammer unlocks the tempering of weapons. Sword blades can be honed further than the initial leveling, and each ‘temper’ has a special purpose. Temper, for example, adds armor piercing."]
+			id: "742997A2F022515D"
+			tasks: [{
+				id: "68E2D777D6ABBE8C"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 1.5d
+			description: ["Yep."]
+			id: "61B8854708EE8A4E"
+			tasks: [{
+				id: "3B7B9D6C6549DE8D"
+				type: "checkmark"
+				title: "Ranged?"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -4.0d
+			y: 3.5d
+			id: "64B0BCD30EB010F2"
+			tasks: [{
+				id: "33FA9CCE2B0D387C"
+				type: "checkmark"
+				title: "Enchantable?"
+			}]
+		}
+		{
+			title: "Mk 4 Hammer"
+			x: -1.5d
+			y: 5.5d
+			description: ["    Create a mk 4 hammer, out of blackstone or a similar tier. "]
+			id: "26A30020D04FB30E"
+			tasks: [{
+				id: "4FCCE5F7C0DC1A7B"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+		}
+		{
+			icon: {
+				id: "tetra:holo"
+				Count: 1b
+				tag: {
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/core": "holo/core"
+					"holo/frame_material": "core/ancient"
+				}
+			}
+			x: -1.5d
+			y: 7.5d
+			description: ["The holosphere can be upgraded once you have a mk3+ hammer with an ender eye, and it can detect ancient ruins deep in the earth in COLD BIOMES. It will make a humming ping noise when you get close, and doesn’t stop until you put it away. Sadly this effect doesn’t turn off. "]
+			id: "0B8C7A0DCA693353"
+			tasks: [{
+				id: "24EF0CA7660B615E"
+				type: "checkmark"
+				title: "The holosphere's potential"
+			}]
+		}
+		{
+			title: "Tool belts!"
+			x: 0.0d
+			y: -2.5d
+			description: ["Make a tool belt. It can be upgraded with pouches and such."]
+			id: "6507944C0A493D8D"
+			tasks: [{
+				id: "007C91767EFF1CBF"
+				type: "advancement"
+				advancement: "tetra:upgrades/toolbelt"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Ancient Ruins beneath the earth"
+			x: 0.5d
+			y: 7.5d
+			description: ["This is how you can create mk5 hammers, tools and extra. There’s certain items we need from these ruins. Forge hammer, etc."]
+			id: "376D3832EC37A533"
+			tasks: [{
+				id: "57A9DB277805D4CE"
+				type: "advancement"
+				advancement: "tetra:spelunking/scanner"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Mk 5 Hammer"
+			x: 0.5d
+			y: 9.0d
+			description: ["Use that forge hammer structure to make a mk5 hammer of obsidian or another same tier material."]
+			id: "49B5EA0C64958A04"
+			tasks: [{
+				id: "39E7DB496C6B4A17"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Higher tier then obsidian?"
+			x: 2.5d
+			y: 9.0d
+			description: ["Use that forge hammer structure to make a mk5 hammer of obsidian or another same tier material."]
+			id: "61A9094AD3EF59C1"
+			tasks: [{
+				id: "2BA7C3C5F3B36356"
+				type: "advancement"
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "tetra:metal_scrap"
+			x: 2.5d
+			y: 7.5d
+			description: ["Crates can be broken into if you can match the tool and tier symbols with what is in your hotbar. Can get a bunch of different materials out of those crates. Find: 1x earthpiercer. "]
+			id: "633DB7EBFCF48B5C"
+			tasks: [
+				{
+					id: "3296CC8718D254E7"
+					type: "checkmark"
+					title: "Crates?"
+				}
+				{
+					id: "724995C0B0E3E9D5"
+					type: "item"
+					item: "tetra:earthpiercer"
+				}
+			]
+		}
+	]
+}
