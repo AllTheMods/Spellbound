@@ -10,6 +10,8 @@ onEvent('item.tags', e => {
     e.add('forge:tallow', 'eidolon:tallow')
     e.add('allthemagic:dragon_blood', ['iceandfire:fire_dragon_blood', 'iceandfire:ice_dragon_blood', 'iceandfire:lightning_dragon_blood'])
 	e.add('forge:dusts/obsidian', 'create:powdered_obsidian')
+	e.add('minecraft:wooden_buttons', '/forbidden_arcanus:.+_button/')
+	e.add('minecraft:planks', '/forbidden_arcanus:.+_planks/')
 
     const colors = ['red', 'green', 'bronze', 'gray', 'blue', 'white', 'sapphire', 'silver', 'electric', 'amythest', 'copper', 'black']
     colors.forEach(color => {

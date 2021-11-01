@@ -61,6 +61,7 @@
 			title: "The realm of ice and snow"
 			x: 1.0d
 			y: -1.5d
+			dependencies: ["07F925C1AC5C2A26"]
 			id: "3568BE3CEEF4D199"
 			tasks: [{
 				id: "509E08BBD4681DAB"
@@ -73,6 +74,7 @@
 			title: "The realm of eternal dusk"
 			x: 1.0d
 			y: 2.0d
+			dependencies: ["07F925C1AC5C2A26"]
 			id: "7DFED08EFFA59B6A"
 			tasks: [{
 				id: "63A4F50EF77BB672"
@@ -86,6 +88,7 @@
 			x: 2.5d
 			y: -1.5d
 			description: ["Non BSkies tools/weapons are less effective in this dimension. Time to gear up again. Make a wooden set of BSkies tools. Note: Everdawn tools work fine here. "]
+			dependencies: ["3568BE3CEEF4D199"]
 			id: "41B7CCB5E612E5F0"
 			tasks: [{
 				id: "7C8B126B81F1E735"
@@ -104,6 +107,7 @@
 			x: 2.5d
 			y: 2.0d
 			description: ["Non BSkies tools/weapons are less effective in this dimension. Time to gear up again. Make a wooden set of BSkies tools. Note: Everbright tools work fine here."]
+			dependencies: ["7DFED08EFFA59B6A"]
 			id: "61136A6ED7289B00"
 			tasks: [{
 				id: "503687D247D2300F"
@@ -122,6 +126,7 @@
 			x: 4.0d
 			y: -1.5d
 			description: ["Instead of normal stone, we’ve got turquoise stone. Make some turquoise stone tools. I think ventium is the top tier metal in this realm. Ventium makes buckets and shears."]
+			dependencies: ["41B7CCB5E612E5F0"]
 			id: "1A46CBBA4B75AA5A"
 			tasks: [
 				{
@@ -147,6 +152,7 @@
 			x: 4.0d
 			y: 2.0d
 			description: ["Instead of normal stone, we’ve got lunar stone. Make some lunar stone tools. I think horizonite is the top tier metal in this realm. "]
+			dependencies: ["61136A6ED7289B00"]
 			id: "70760AE3B6F9CD31"
 			tasks: [
 				{
@@ -170,6 +176,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
+			dependencies: ["1A46CBBA4B75AA5A"]
 			id: "3790AAF00A63EA14"
 			tasks: [{
 				id: "70A7F7BECB70F72E"
@@ -182,6 +189,7 @@
 		{
 			x: 6.0d
 			y: 2.0d
+			dependencies: ["70760AE3B6F9CD31"]
 			id: "221D662BC9AA39DE"
 			tasks: [{
 				id: "4D5B87045C51A235"
@@ -196,6 +204,7 @@
 			x: 8.0d
 			y: -1.5d
 			description: ["There is a massive castle rarely discovered here, where lives the Summoner. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."]
+			dependencies: ["3790AAF00A63EA14"]
 			id: "333D7614C9764F6D"
 			tasks: [{
 				id: "64EEC127DF9BCE70"
@@ -208,6 +217,7 @@
 			x: 8.0d
 			y: 2.0d
 			description: ["There is a massive castle rarely discovered here, where lives the Alchemist. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."]
+			dependencies: ["221D662BC9AA39DE"]
 			id: "5C2CBB1B54BA5A4E"
 			tasks: [{
 				id: "36259675DE82453D"
@@ -220,6 +230,7 @@
 			x: 10.0d
 			y: -1.5d
 			description: ["    New to 1.16.5, there is a nature dungeon now. Defeat the boss here. Take his trophy. "]
+			dependencies: ["333D7614C9764F6D"]
 			id: "34D333FBF845717A"
 			tasks: [{
 				id: "46191F823285DA18"
@@ -232,6 +243,7 @@
 			x: 10.0d
 			y: 2.0d
 			description: ["New to 1.16.5, there is a giant spider dungeon now. Defeat the boss here. Take her trophy. "]
+			dependencies: ["5C2CBB1B54BA5A4E"]
 			id: "4FC19142B392DC91"
 			tasks: [{
 				id: "1EF850245BCC5786"
@@ -244,6 +256,10 @@
 			x: 12.5d
 			y: 0.0d
 			shape: "gear"
+			dependencies: [
+				"34D333FBF845717A"
+				"4FC19142B392DC91"
+			]
 			id: "105CE51FED230C61"
 			tasks: [
 				{

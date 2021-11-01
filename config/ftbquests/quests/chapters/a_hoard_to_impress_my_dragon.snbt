@@ -13,7 +13,10 @@
 			x: 0.0d
 			y: -8.5d
 			subtitle: "I'm an opportunistic creature"
-			description: ["This is the chapter where collectors will come to show off their wares to the Dragon Hoard Council of Wizards. "]
+			description: [
+				"This is the chapter where collectors will come to show off their wares to the Dragon Hoard Council of Wizards. "
+				"Don't be too attached, they may want them for themselves."
+			]
 			optional: true
 			id: "71CF3AC44897B56E"
 			tasks: [{
@@ -413,11 +416,97 @@
 			x: -4.0d
 			y: -6.0d
 			id: "7A3D78900DDEBD62"
-			tasks: [{
-				id: "4F9B330262268B3C"
-				type: "item"
-				item: "minecraft:oak_sapling"
-			}]
+			tasks: [
+				{
+					id: "4F9B330262268B3C"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "063134A7EAA7EC7E"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "3CCB2D45D245A309"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "505A22538CABCA33"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "53213C6406309C30"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+				}
+				{
+					id: "653B7D1BDEC6FF03"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+				}
+				{
+					id: "0CDB2AEA50B1102B"
+					type: "item"
+					item: "upgrade_aquatic:river_sapling"
+				}
+				{
+					id: "2FC2A9136C1F15DE"
+					type: "item"
+					item: "quark:blue_blossom_sapling"
+				}
+				{
+					id: "2EAB69C66F46FF16"
+					type: "item"
+					item: "quark:lavender_blossom_sapling"
+				}
+				{
+					id: "56AFC611F74AF9CF"
+					type: "item"
+					item: "quark:orange_blossom_sapling"
+				}
+				{
+					id: "353C495B75010DF7"
+					type: "item"
+					item: "quark:pink_blossom_sapling"
+				}
+				{
+					id: "65F234DFBA6AD43C"
+					type: "item"
+					item: "quark:yellow_blossom_sapling"
+				}
+				{
+					id: "0A932285AB632A63"
+					type: "item"
+					item: "quark:red_blossom_sapling"
+				}
+				{
+					id: "696929035C206898"
+					type: "item"
+					item: "evilcraft:undead_sapling"
+				}
+				{
+					id: "1AE00DD35992C4D1"
+					type: "item"
+					item: "naturesaura:ancient_sapling"
+				}
+				{
+					id: "10E8F6F6A369716C"
+					type: "item"
+					item: {
+						id: "occultism:otherworld_sapling_natural"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "47D5BBEE6BC14A15"
+					type: "item"
+					item: "occultism:otherworld_sapling"
+				}
+			]
 		}
 		{
 			title: "Weapons Collector: Weapons Merchant"
@@ -458,6 +547,162 @@
 				type: "item"
 				item: "minecraft:coal_block"
 			}]
+		}
+		{
+			title: "Botanist Collector: Flowers/Plants"
+			x: -2.5d
+			y: -5.0d
+			id: "22F2BFBC59C43682"
+			tasks: [{
+				id: "481090098A35AE17"
+				type: "item"
+				item: "supplementaries:flower_box"
+			}]
+		}
+		{
+			title: "The world's pickiest Hungarian Horntail"
+			x: -1.0d
+			y: -5.0d
+			subtitle: "Someone stole too many eggs from the First Task. Return the eggs, or die trying. The world burns at the mercy of the Horntail Clan."
+			id: "7C4C1FAE1D02B28A"
+			tasks: [{
+				id: "030F06EBD8A6E103"
+				type: "item"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+			}]
+		}
+		{
+			title: "'Ello, my poppet"
+			x: 0.5d
+			y: -5.0d
+			subtitle: "Poppet collectors? Creepy. Don't taglock yourself to these. No telling what happens if you did. "
+			id: "305CDB2466832C72"
+			tasks: [{
+				id: "51DA55D454C6B977"
+				type: "item"
+				item: "witchery_rewitched:poppet"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Blood Bank"
+			x: 2.0d
+			y: -5.5d
+			subtitle: "A great catalysm occured with the recent Mage Wars. They need blood for infusion spells. Lots of it. "
+			id: "5B1D2B7ED72C1469"
+			tasks: [
+				{
+					id: "174399AF995D4242"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 16000
+							}
+							capacity: 16000
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "56C789731D027EAA"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "bloodmagic:life_essence_fluid"
+								Amount: 16000
+							}
+							capacity: 16000
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "39C75359A4FC96C9"
+					type: "item"
+					item: "twilightforest:fiery_blood"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "2B9384E0D6AD452B"
+					type: "item"
+					item: "mythicbotany:kvasir_blood"
+					consume_items: true
+				}
+				{
+					id: "64EFF7D3FCC7DEE1"
+					type: "item"
+					item: "iceandfire:fire_dragon_blood"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "06107C701F7D6B59"
+					type: "item"
+					item: "iceandfire:ice_dragon_blood"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "45CF35D85E49B41E"
+					type: "item"
+					item: "iceandfire:lightning_dragon_blood"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "379C4868E62C8A4F"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+					count: 16L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Bounty Hunter: Pixies must die!"
+			x: 3.5d
+			y: -7.0d
+			subtitle: "Wow, you've got an issue with pixies there buddy. Uh, yeah, slay some pixies for this wizard please. They've all fled to Alfheim. "
+			id: "7500521A06C9B578"
+			tasks: [
+				{
+					id: "435FA976FF3C4B5F"
+					type: "dimension"
+					dimension: "mythicbotany:alfheim"
+				}
+				{
+					id: "305EA1A445FF3DF1"
+					type: "kill"
+					entity: "feywild:spring_pixie"
+					value: 100L
+				}
+				{
+					id: "393E13F0EA71F289"
+					type: "kill"
+					entity: "feywild:summer_pixie"
+					value: 100L
+				}
+				{
+					id: "694DC2E5557B60F2"
+					type: "kill"
+					entity: "feywild:autumn_pixie"
+					value: 100L
+				}
+				{
+					id: "62AED0C22555AE51"
+					type: "kill"
+					entity: "feywild:winter_pixie"
+					value: 100L
+				}
+			]
 		}
 	]
 }
