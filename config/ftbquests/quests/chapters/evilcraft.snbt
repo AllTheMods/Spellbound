@@ -18,13 +18,18 @@
 				id: "192734D101DDEDD7"
 				type: "item"
 				item: "evilcraft:dark_gem"
+				count: 16L
 			}]
 		}
 		{
 			title: "Death by apple"
 			x: -8.0d
 			y: -0.5d
-			description: ["Craft an apple with a dark gem, and feed it to an innocent mob. From the result, toss a book into the anomaly, and get your Origins of darkness book. "]
+			description: [
+				"Craft an apple with a dark gem, and feed it to an innocent mob. From the result, toss a book into the anomaly, and get your Origins of darkness book. "
+				"There is also an origins of darkness book in your akashic tome, but in case you lose it, this is how you make one."
+			]
+			dependencies: ["36C4C17FA28F3D0C"]
 			id: "7BB25D8C0F1ECAC2"
 			tasks: [
 				{
@@ -44,6 +49,7 @@
 			x: -6.5d
 			y: -0.5d
 			description: ["Craft a syringe using dark gems, iron and glass. Keep it in your inventory and go kill some mobs. If you need more capacity in a syringe, craft two together, to double its capacity.  Detects empty syringe, full syringe."]
+			dependencies: ["36C4C17FA28F3D0C"]
 			id: "12902CEDB8DEB58C"
 			tasks: [
 				{
@@ -76,6 +82,7 @@
 			x: -5.0d
 			y: -0.5d
 			description: ["Right click the syringe in a space on the ground able to hold 5 blocks of liquid. Quickly before it hardens (and it will), toss in a dark gem to make a dark power gem. Now do the same thing again (this is why you want either a higher capacity syringe or multiples), and let the blood harden. Mine the block with a flint and steel or silk touch for hardened blood shards. Hardened blood block smelts for shards. Surround the dark power gem to get a blood infusion core. "]
+			dependencies: ["12902CEDB8DEB58C"]
 			id: "2CFF93267CCB620C"
 			tasks: [
 				{
@@ -101,6 +108,7 @@
 			x: -3.5d
 			y: -0.5d
 			description: ["Craft a blood chest like a regular chest, but around a blood infusion core, and craft a blood infuser like a furnace, around a blood infusion core. Using the blood infuser makes dark power gems much MUCH cheaper. You can right click on the item to fill it with blood. The blood chest repairs items inside it with blood. Fillable by blood extractor."]
+			dependencies: ["2CFF93267CCB620C"]
 			id: "19D482DC635AA54A"
 			tasks: [
 				{
@@ -127,6 +135,7 @@
 			x: -2.0d
 			y: -0.5d
 			description: ["Using the bowl of empty promises, one can make tenacity cores. There are three tiers; iron, gold and diamond. Putting these in certain blood machines increases speed, capacity and what recipes they can do. Make an iron tenacity core for now. "]
+			dependencies: ["19D482DC635AA54A"]
 			id: "1B5D7089474C454B"
 			tasks: [
 				{
@@ -160,6 +169,11 @@
 			x: -2.5d
 			y: 1.0d
 			description: ["Big blood chest. Recipe needs a gold tenacity core powered infuser. "]
+			dependencies: [
+				"44728DC2754E3738"
+				"19D482DC635AA54A"
+				"2CFF93267CCB620C"
+			]
 			id: "3C939097515156A7"
 			tasks: [{
 				id: "0D8ADB4B7721CDE6"
@@ -175,6 +189,7 @@
 			x: -2.5d
 			y: -2.0d
 			description: ["Run a dead bush through the blood infuser to get an undead sapling, and grow it on netherrack? The wood is what we want here. "]
+			dependencies: ["19D482DC635AA54A"]
 			id: "44728DC2754E3738"
 			tasks: [{
 				id: "48D89A33A7CC8174"
@@ -187,6 +202,7 @@
 			x: -0.5d
 			y: -1.5d
 			description: ["I hear the purifier can disenchant things with blood. "]
+			dependencies: ["2CFF93267CCB620C"]
 			id: "3DBA37226F4A54D4"
 			tasks: [{
 				id: "34486C8D829BCDF7"
@@ -203,6 +219,7 @@
 			x: -0.5d
 			y: 0.5d
 			description: ["Opening this releases a vengeance spirit. "]
+			dependencies: ["19D482DC635AA54A"]
 			id: "72D78F3C577A549C"
 			tasks: [
 				{
@@ -231,6 +248,7 @@
 			x: -1.5d
 			y: 2.0d
 			description: ["Dude, a moderately easy to get fortune 5 pickaxe? Just strip the enchantments, no vengeful spirits required. Requires dark sticks for the handle. "]
+			dependencies: ["72D78F3C577A549C"]
 			id: "1B2F756322F1DAC6"
 			tasks: [{
 				id: "2B8FC672800B8B92"
@@ -283,6 +301,7 @@
 			y: 1.5d
 			shape: "gear"
 			description: ["Needed to make the ATM star. "]
+			dependencies: ["72D78F3C577A549C"]
 			id: "0EAE5E9A415DF373"
 			tasks: [{
 				id: "5909159343D8444E"

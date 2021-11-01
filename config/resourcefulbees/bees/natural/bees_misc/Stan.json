@@ -1,7 +1,7 @@
 {
     "flower": "tag:forge:stone",
     "maxTimeInHive": 1200,
-    "traits": [""],
+    "traits": [],
     "hasHoneycomb": true,
     "baseLayerTexture": "misc/stan_bee",
     "ColorData": {
@@ -64,7 +64,7 @@
         "canSpawnInWorld": true,
         "biomeWhitelist": "TAG:Mountain, HILLS",
         "biomeBlacklist": "minecraft:desert_hills",
-        "spawnWeight": 2,
+        "spawnWeight": 5,
         "minYLevel": 0,
         "maxYLevel": 255,
         "minGroupSize": 1,

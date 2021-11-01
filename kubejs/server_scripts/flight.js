@@ -33,7 +33,7 @@ onEvent('recipes', e => {
     ],
     {
         M: 'magicfeather:magicfeather',
-		X: 'mana-and-artifice:enchantment_focus_air',
+		X: 'mana-and-artifice:ritual_focus_greater',
         B: '#forge:storage_blocks/allthemodium',
         A: 'xreliquary:angelic_feather',
 		G: 'botania:gaia_ingot',

@@ -79,7 +79,10 @@
 			x: -2.0d
 			y: 0.0d
 			subtitle: "Bow to your masters."
-			description: ["Collect 5x turtle blessings. Bow(sneak) and look a turtle in the eye when it looks at you. You will need a lot of these blessings for this mod."]
+			description: [
+				"Collect 5x turtle blessings. Bow(sneak) and look a turtle in the eye when it looks at you. You will need a lot of these blessings for this mod."
+				"Turtles are found as a passive mob on beaches. They aren't common, so it might take some time to find them. Don't want to find them? Dig up some scutes and get into midgame nature's aura to use the altar of birthing to summon one. "
+			]
 			dependencies: ["531E7F70CEF65C49"]
 			id: "3C2E765C61682DB7"
 			tasks: [{
