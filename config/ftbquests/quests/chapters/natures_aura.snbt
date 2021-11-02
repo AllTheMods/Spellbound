@@ -26,6 +26,7 @@
 			x: -0.5d
 			y: 0.0d
 			description: ["You will need a lot of this gold leaf for this mod. Brilliant fibers is made with gold nuggets, leaves and grass. Right click it on any leaf block, and let turn gold. Break to get a high chance of a gold leaf. "]
+			dependencies: ["7B26D6008FA99796"]
 			id: "4F9D6109EEA5D26A"
 			tasks: [
 				{
@@ -47,6 +48,7 @@
 			x: -0.5d
 			y: -1.5d
 			description: ["The rituals are begun by planting the corresponding sapling and growing it with bonemeal after adding the items required onto the stands. The powder is consumed with the ritual, so you’ll be making a lot. By default, each leaf makes 2 powder, but later on there is a more efficient method. "]
+			dependencies: ["4F9D6109EEA5D26A"]
 			id: "497AE687B7E95DE8"
 			tasks: [
 				{
@@ -68,6 +70,7 @@
 			x: -0.5d
 			y: -3.0d
 			description: ["This is a charm you can wear for monitoring the aura levels in the top left corner of the screen. Made with the ritual of the forest. "]
+			dependencies: ["497AE687B7E95DE8"]
 			id: "12D3C7FC4B3DAB23"
 			tasks: [{
 				id: "217BA9B6365BB80A"
@@ -80,6 +83,7 @@
 			x: 0.5d
 			y: -2.5d
 			description: ["Make and plant some ancient saplings. When grown, these trees attempt to maintain the aura at normal levels (not too high or too low). If the aura drops, the leaves will start to decay to reverse the process. This is a slow process, so don’t dip your aura levels too badly. That is BAD NEWS. "]
+			dependencies: ["497AE687B7E95DE8"]
 			id: "22ADCF96AE3E609B"
 			tasks: [{
 				id: "457413B665C31128"
@@ -91,6 +95,7 @@
 			title: "Tokens!"
 			x: -1.5d
 			y: -2.5d
+			dependencies: ["497AE687B7E95DE8"]
 			id: "05E668CE6687AC64"
 			tasks: [
 				{
@@ -117,8 +122,9 @@
 		}
 		{
 			title: "Bottling up the weather"
-			x: -0.5d
-			y: -4.5d
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["497AE687B7E95DE8"]
 			id: "5A011CE8EEA3F9D8"
 			tasks: [
 				{
@@ -161,6 +167,7 @@
 			x: -0.5d
 			y: -6.0d
 			description: ["Outline choices of aura creation here. Can link into Nature’s starlight here! "]
+			dependencies: ["5A011CE8EEA3F9D8"]
 			id: "71B6F013C8A60EB6"
 			tasks: [{
 				id: "7E80C1A891CB854B"
@@ -172,6 +179,10 @@
 			title: "Caching in"
 			x: -0.5d
 			y: -7.5d
+			dependencies: [
+				"20F9EF925DB1CE05"
+				"3C2F5AB815A6C949"
+			]
 			id: "0B6D35F5B3A11FD2"
 			tasks: [{
 				id: "1715E8DAFB3D3838"
@@ -184,6 +195,11 @@
 			x: 1.0d
 			y: -7.5d
 			description: ["Upgrade the aura cache to an aura trove."]
+			dependencies: [
+				"0B6D35F5B3A11FD2"
+				"20F9EF925DB1CE05"
+				"1D39634260A47C9A"
+			]
 			id: "24599D45F5D1606E"
 			tasks: [{
 				id: "0785B90A3359EF21"
@@ -195,6 +211,10 @@
 			x: -0.5d
 			y: -9.0d
 			description: ["Craft a natural altar, and set up its multiblock. Needs stone brick, golden stone brick (made with brilliant fiber), chiseled stone brick, wooden planks. This will use aura up when performing a crafting recipe, and CAN be automated. "]
+			dependencies: [
+				"497AE687B7E95DE8"
+				"05E668CE6687AC64"
+			]
 			id: "20F9EF925DB1CE05"
 			tasks: [{
 				id: "1C97A13C673C872C"
@@ -207,6 +227,7 @@
 			x: 1.0d
 			y: -9.0d
 			description: ["    Build this same structure, in a crimson forest. You’ll need it for certain items. "]
+			dependencies: ["20F9EF925DB1CE05"]
 			id: "1767D7D6AD2D81F9"
 			tasks: [{
 				id: "70304DCA5256EF0B"
@@ -220,6 +241,7 @@
 			y: -4.5d
 			shape: "gear"
 			description: ["Talk about the eye of the blaze, eye of the shulker, eye of the pillager which find structures. You need an eye of the shulker to make the ATM star"]
+			dependencies: ["5A011CE8EEA3F9D8"]
 			id: "3F8A5CBEAE024748"
 			tasks: [
 				{
@@ -243,6 +265,7 @@
 			x: -0.5d
 			y: -10.5d
 			description: ["Craft some infused iron on the natural altar. "]
+			dependencies: ["20F9EF925DB1CE05"]
 			id: "3C2F5AB815A6C949"
 			tasks: [{
 				id: "687BAA9990A67C2E"
@@ -255,6 +278,7 @@
 			x: 1.0d
 			y: -10.5d
 			description: ["Make some tainted gold on the crimson altar."]
+			dependencies: ["1767D7D6AD2D81F9"]
 			id: "3EC90ADA4E322B14"
 			tasks: [{
 				id: "076D4BEB697AA55A"
@@ -267,6 +291,10 @@
 			x: -0.5d
 			y: -12.5d
 			description: ["The offering to the gods multiblock. You use spirits of calling to run it. Make some. "]
+			dependencies: [
+				"3C2F5AB815A6C949"
+				"05E668CE6687AC64"
+			]
 			id: "5C990F7E5D345A6F"
 			tasks: [
 				{
@@ -287,6 +315,7 @@
 			x: -0.5d
 			y: -14.0d
 			description: ["Made on the offering table with infused iron and a spirit of calling. "]
+			dependencies: ["5C990F7E5D345A6F"]
 			id: "1D39634260A47C9A"
 			tasks: [{
 				id: "32333C6D1AD96106"
@@ -298,6 +327,7 @@
 			x: -2.5d
 			y: -12.5d
 			description: ["Upgrade your tokens on the offering table. "]
+			dependencies: ["5C990F7E5D345A6F"]
 			id: "4AD4FDF70B9BFCC9"
 			tasks: [
 				{
@@ -326,6 +356,7 @@
 			x: -2.5d
 			y: -9.0d
 			description: ["New pillar toppers for your natural altar. Turns things into different things or breaks them down. "]
+			dependencies: ["20F9EF925DB1CE05"]
 			id: "54F7AD64A403C9BF"
 			tasks: [
 				{
@@ -344,6 +375,7 @@
 			title: "Netherite dousing"
 			x: 1.0d
 			y: -14.0d
+			dependencies: ["1D39634260A47C9A"]
 			id: "74E7A32B5CD483F0"
 			tasks: [{
 				id: "38B24F32EE6CA1D4"
@@ -356,6 +388,10 @@
 			x: -0.5d
 			y: -15.5d
 			description: ["Can't find any specific mob? You can make most vanilla mobs and such with an altar of birthing. Spirits of birthing come from breeding animals in an aura positive area. "]
+			dependencies: [
+				"4AD4FDF70B9BFCC9"
+				"1D39634260A47C9A"
+			]
 			id: "0FD26FD88E801C0E"
 			tasks: [
 				{

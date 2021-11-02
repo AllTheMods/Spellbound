@@ -67,7 +67,7 @@ e.shaped('kubejs:oblivion_shard', [
 e.custom({type: 'naturesaura:tree_ritual', 
 ingredients:[
     {
-        item: 'pedestals:coin/void'
+        item: 'xreliquary:void_tear'
     },
     {
         item: 'ars_nouveau:void_jar'
@@ -322,7 +322,7 @@ e.shaped('kubejs:essence_of_eternal_life', [
 
 //Philosophers Fuel
 e.recipes.bloodmagic.alchemytable('kubejs:philosophers_fuel', [
-    'mana-and-artifice:enchantment_focus_fire',
+    'mana-and-artifice:ritual_focus_greater',
     'iceandfire:dragonsteel_fire_ingot',
     'theabyss:netherfire_ingot',
     'mysticalagradditions:insanium_coal_block',
@@ -345,7 +345,7 @@ e.recipes.create.mechanical_crafting('kubejs:atm_star', [
     B: 'kubejs:spark_of_knowledge',
     C: 'kubejs:dragon_soul',
     D: 'kubejs:clock_of_father_time',
-    E: 'allthemodium:alloy_paxel',
+    E: 'kubejs:pulsating_black_hole',
     F: 'kubejs:oblivion_shard',
     G: 'kubejs:eye_of_chaos',
     H: 'kubejs:essence_of_eternal_life',

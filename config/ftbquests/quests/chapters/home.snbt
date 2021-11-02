@@ -223,5 +223,21 @@
 				title: "Nature's Compass"
 			}]
 		}
+		{
+			x: 5.0d
+			y: -3.5d
+			shape: "pentagon"
+			subtitle: "Not just your average dragon"
+			description: [
+				"https://www.reddit.com/r/Wyrmroost/comments/lvfb1w/can_anyone_give_a_list_of_ways_to_tame_each_of/"
+				"Wyrmroost tames dragons differently then how you need to hatch ice and fire. This reddit link will take you to a general knowhow of how the dragon taming works. There is no wiki, and no real guide. "
+			]
+			id: "679B21858588D7BB"
+			tasks: [{
+				id: "49A3A6A914FB4978"
+				type: "checkmark"
+				title: "Wyrmroost"
+			}]
+		}
 	]
 }

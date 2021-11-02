@@ -31,6 +31,7 @@
 			x: 0.0d
 			y: 1.0d
 			description: ["Collect at least 40x loran crystals by breaking those two tall loran flower bushes out in overworld biomes. "]
+			dependencies: ["28E2C3AC48FFC3EF"]
 			id: "6DC2B95E48A8B571"
 			tasks: [{
 				id: "32A34184DE0A324C"
@@ -43,6 +44,7 @@
 			x: 0.0d
 			y: 2.0d
 			description: ["Required to read the guidebook. The guidebook is included in the patchouli books, and in your akashic tome."]
+			dependencies: ["6DC2B95E48A8B571"]
 			id: "5808988FB815264E"
 			tasks: [{
 				id: "240B4467E487ABB3"
@@ -54,6 +56,7 @@
 			x: 0.0d
 			y: 3.0d
 			description: ["Create the abyss portal. 10x portal blocks, and the portal activator."]
+			dependencies: ["6DC2B95E48A8B571"]
 			id: "32E952DCB830BC58"
 			tasks: [
 				{
@@ -79,6 +82,7 @@
 			x: 0.0d
 			y: 4.0d
 			description: ["This is not a dimension to start out in, it is dangerous. Get some enchanted gear of at least diamond level. Not only are there monsters, but the plants are dangerous too. "]
+			dependencies: ["32E952DCB830BC58"]
 			id: "360D1154B3FF5F3E"
 			tasks: [{
 				id: "21F159B2246BF512"
@@ -90,6 +94,7 @@
 			x: 0.0d
 			y: 5.0d
 			description: ["There are npcs here! Take their quests, decide the fate of the world. "]
+			dependencies: ["360D1154B3FF5F3E"]
 			id: "1343FB8E05978CA8"
 			tasks: [{
 				id: "2297671A2CCE4FA6"
@@ -103,6 +108,7 @@
 			y: 6.0d
 			shape: "gear"
 			description: ["Needed to make the ATM Star, have to kill the Roka to make it. "]
+			dependencies: ["360D1154B3FF5F3E"]
 			id: "1A3C2A4459DB87C9"
 			tasks: [{
 				id: "149EC2F0ABA1F01D"
@@ -115,6 +121,7 @@
 			y: 5.5d
 			shape: "gear"
 			description: ["Needed for the ATM star. "]
+			dependencies: ["360D1154B3FF5F3E"]
 			id: "773F71276D0CC764"
 			tasks: [
 				{
