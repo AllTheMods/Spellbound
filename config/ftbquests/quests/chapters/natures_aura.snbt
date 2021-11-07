@@ -11,6 +11,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
+			subtitle: "Welcome to Nature's Aura"
 			id: "7B26D6008FA99796"
 			tasks: [{
 				id: "6B62D4255CAE9669"
@@ -42,6 +43,12 @@
 					count: 16L
 				}
 			]
+			rewards: [{
+				id: "31E805D04AB2C0DB"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+				count: 16
+			}]
 		}
 		{
 			title: "Ritual of the Forest"
@@ -64,6 +71,11 @@
 					count: 16L
 				}
 			]
+			rewards: [{
+				id: "61ACEFC69DA023B1"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "An Eye on the environment"
@@ -76,6 +88,11 @@
 				id: "217BA9B6365BB80A"
 				type: "item"
 				item: "naturesaura:eye"
+			}]
+			rewards: [{
+				id: "0A4852F151AB36C1"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -90,6 +107,19 @@
 				type: "item"
 				item: "naturesaura:ancient_sapling"
 			}]
+			rewards: [
+				{
+					id: "44DC02C61576E6BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "675948A60DC8B1C9"
+					type: "item"
+					item: "naturesaura:ancient_log"
+					count: 32
+				}
+			]
 		}
 		{
 			title: "Tokens!"
@@ -119,6 +149,11 @@
 					item: "naturesaura:token_sorrow"
 				}
 			]
+			rewards: [{
+				id: "4546B04B39F5FB4C"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Bottling up the weather"
@@ -161,6 +196,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "37E8EBFD8FD9F263"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Aura Creation"
@@ -169,10 +209,22 @@
 			description: ["Outline choices of aura creation here. Can link into Nature’s starlight here! "]
 			dependencies: ["5A011CE8EEA3F9D8"]
 			id: "71B6F013C8A60EB6"
-			tasks: [{
-				id: "7E80C1A891CB854B"
-				type: "item"
-				item: "naturesaura:oak_generator"
+			tasks: [
+				{
+					id: "7E80C1A891CB854B"
+					type: "item"
+					item: "naturesaura:oak_generator"
+				}
+				{
+					id: "58E562C058F72AB0"
+					type: "item"
+					item: "naturesaura:flower_generator"
+				}
+			]
+			rewards: [{
+				id: "4F593D7EB9EFBE46"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -188,6 +240,11 @@
 				id: "1715E8DAFB3D3838"
 				type: "item"
 				item: "naturesaura:aura_cache"
+			}]
+			rewards: [{
+				id: "47A88269585432FD"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -206,6 +263,11 @@
 				type: "item"
 				item: "naturesaura:aura_trove"
 			}]
+			rewards: [{
+				id: "4ADD6320AE3F7575"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -0.5d
@@ -216,10 +278,23 @@
 				"05E668CE6687AC64"
 			]
 			id: "20F9EF925DB1CE05"
-			tasks: [{
-				id: "1C97A13C673C872C"
+			tasks: [
+				{
+					id: "1C97A13C673C872C"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "0CA0B32D52395A39"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "63CFF582371D7314"
 				type: "item"
-				item: "naturesaura:nature_altar"
+				item: "naturesaura:cave_finder"
 			}]
 		}
 		{
@@ -233,6 +308,11 @@
 				id: "70304DCA5256EF0B"
 				type: "item"
 				item: "naturesaura:nature_altar"
+			}]
+			rewards: [{
+				id: "32E40033D056CCDF"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -260,6 +340,11 @@
 					item: "naturesaura:outpost_finder"
 				}
 			]
+			rewards: [{
+				id: "6133B7A67DCB8AB1"
+				type: "item"
+				item: "naturesaura:light_staff"
+			}]
 		}
 		{
 			x: -0.5d
@@ -272,6 +357,19 @@
 				type: "item"
 				item: "naturesaura:infused_iron"
 			}]
+			rewards: [
+				{
+					id: "42B6559EA7424169"
+					type: "item"
+					item: "naturesaura:infused_iron"
+					count: 8
+				}
+				{
+					id: "34F56702E85D7350"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Taint that gold"
@@ -285,6 +383,19 @@
 				type: "item"
 				item: "naturesaura:tainted_gold"
 			}]
+			rewards: [
+				{
+					id: "450D7BC29FA41D3E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00F19C4E805C03DC"
+					type: "item"
+					item: "naturesaura:tainted_gold"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Offering the gods a birdbath in a forest of poppies"
@@ -309,6 +420,19 @@
 					count: 3L
 				}
 			]
+			rewards: [
+				{
+					id: "74F1DD1C144A0E40"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+					count: 3
+				}
+				{
+					id: "230A01C436EE6C93"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Top tier metal?"
@@ -322,6 +446,19 @@
 				type: "item"
 				item: "naturesaura:sky_ingot"
 			}]
+			rewards: [
+				{
+					id: "2AAC4FA2B688D3AB"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+					count: 8
+				}
+				{
+					id: "12E6AD811DDFB1BF"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -351,6 +488,11 @@
 					item: "naturesaura:token_grief"
 				}
 			]
+			rewards: [{
+				id: "385B0B21186AB845"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -2.5d
@@ -370,6 +512,11 @@
 					item: "naturesaura:conversion_catalyst"
 				}
 			]
+			rewards: [{
+				id: "05020267948C085C"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Netherite dousing"
@@ -382,6 +529,33 @@
 				type: "item"
 				item: "naturesaura:netherite_finder"
 			}]
+			rewards: [
+				{
+					id: "4416358AA39937B2"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_ancient_mask"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "272E0486FB15CC99"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D4205AB238A46E8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "potionsmaster:netherite_sight"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Makin' babies with magic"
@@ -405,6 +579,35 @@
 					item: "naturesaura:birth_spirit"
 				}
 			]
+			rewards: [
+				{
+					id: "15415DE6F7BA46A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "42F6896C5CA2EB44"
+					type: "item"
+					item: "naturesaura:birth_spirit"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			subtitle: "Aura from Starlight?"
+			id: "4BBDAC913A502F91"
+			tasks: [{
+				id: "1533E8BC78C085D2"
+				type: "item"
+				item: "naturesstarlight:crystal_generator"
+			}]
+			rewards: [{
+				id: "50FEF65084E905C8"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

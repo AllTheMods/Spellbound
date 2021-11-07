@@ -40,6 +40,11 @@
 					count: 32L
 				}
 			]
+			rewards: [{
+				id: "2804025D04F775D6"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Vinteum Iron"
@@ -62,6 +67,11 @@
 					count: 16L
 				}
 			]
+			rewards: [{
+				id: "6B37A0A680C10174"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Yer' a wizard, Harry"
@@ -74,6 +84,11 @@
 				id: "013881A920CE6DF9"
 				type: "item"
 				item: "mana-and-artifice:guide_book"
+			}]
+			rewards: [{
+				id: "2BECBD55D6814755"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -113,6 +128,11 @@
 				item: "mana-and-artifice:cerublossom"
 				count: 16L
 			}]
+			rewards: [{
+				id: "5534C28EC97D1A64"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Eye of the Council"
@@ -126,6 +146,11 @@
 				type: "item"
 				item: "mana-and-artifice:occulus"
 			}]
+			rewards: [{
+				id: "74481B3D88BB7762"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Baby's first wand and cantrip"
@@ -137,7 +162,18 @@
 			tasks: [{
 				id: "06C09A4224D62106"
 				type: "item"
-				item: "mana-and-artifice:manaweaver_wand"
+				item: {
+					id: "mana-and-artifice:manaweaver_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "020DC812FEBFCB53"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -153,6 +189,18 @@
 				item: "mana-and-artifice:vellum"
 				count: 16L
 			}]
+			rewards: [
+				{
+					id: "0D671F2DE9DC763B"
+					type: "item"
+					item: "minecraft:leather_horse_armor"
+				}
+				{
+					id: "008E17AFA138A7B4"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Glyphs"
@@ -175,6 +223,11 @@
 					item: "mana-and-artifice:stone_rune_bag"
 				}
 			]
+			rewards: [{
+				id: "30AB4D0345074F1D"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 0.0d
@@ -186,6 +239,11 @@
 				id: "4AA6CC8FFDC9DE1B"
 				type: "item"
 				item: "mana-and-artifice:runeforge"
+			}]
+			rewards: [{
+				id: "0DB79508E35E3585"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -208,6 +266,11 @@
 					count: 32L
 				}
 			]
+			rewards: [{
+				id: "5B3A23052CFFB744"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 0.0d
@@ -233,6 +296,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6E1B020BF840D167"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 1.0d
@@ -244,6 +312,11 @@
 				id: "4421EF4F0EA708EA"
 				type: "item"
 				item: "mana-and-artifice:manaweaving_altar"
+			}]
+			rewards: [{
+				id: "42E99155E0B70D19"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -351,6 +424,11 @@
 				item: "mana-and-artifice:chimerite_gem"
 				count: 32L
 			}]
+			rewards: [{
+				id: "7B2CFEFD3DF8B010"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Weird see-through plates with marks?"
@@ -375,6 +453,11 @@
 					count: 32L
 				}
 			]
+			rewards: [{
+				id: "012CA6DA5BC474ED"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Patterns"
@@ -387,16 +470,28 @@
 				"36E976F54156C1A6"
 			]
 			id: "4AB06876971CA916"
-			tasks: [{
-				id: "1F9EDF1EDCEF9CAF"
-				type: "item"
-				item: {
-					id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
-					Count: 1b
-					tag: {
-						manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/knot3"
+			tasks: [
+				{
+					id: "1F9EDF1EDCEF9CAF"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+						Count: 1b
+						tag: {
+							manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/knot3"
+						}
 					}
 				}
+				{
+					id: "306534AC692698E4"
+					type: "item"
+					item: "mana-and-artifice:manaweave_projector"
+				}
+			]
+			rewards: [{
+				id: "5BDEE63F224F3530"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -440,6 +535,11 @@
 					item: "mana-and-artifice:runescribing_table"
 				}
 			]
+			rewards: [{
+				id: "0D58DB9D7713AAE6"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 0.0d
@@ -484,6 +584,11 @@
 				type: "item"
 				item: "mana-and-artifice:chimerite_crystal_red"
 			}]
+			rewards: [{
+				id: "01835B91119621EA"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 0.0d
@@ -524,10 +629,22 @@
 			description: ["Now you can create magical motes. It takes a ritual and several bits of recipe and being in specific places, but you’ll need these for advanced stuff. Make a mote of fire for me. In the Nether of course. You’ll need at least one mote of something to make the ATM star. "]
 			dependencies: ["4BF62EC0846D978E"]
 			id: "06569DDC48D18E53"
-			tasks: [{
-				id: "5B189624F59A1021"
-				type: "item"
-				item: "mana-and-artifice:enchantment_focus_fire"
+			tasks: [
+				{
+					id: "5B189624F59A1021"
+					type: "item"
+					item: "mana-and-artifice:greater_mote_fire"
+				}
+				{
+					id: "3EE54F320539C8CD"
+					type: "item"
+					item: "mana-and-artifice:mote_fire"
+				}
+			]
+			rewards: [{
+				id: "5BDFEB5264626AFA"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -547,6 +664,11 @@
 				type: "checkmark"
 				title: "Tier 5 wizard"
 			}]
+			rewards: [{
+				id: "58B2F9F447FE3253"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 1.5d
@@ -558,6 +680,11 @@
 				id: "4D1105144AAEBC41"
 				type: "item"
 				item: "mana-and-artifice:brimstone_charm"
+			}]
+			rewards: [{
+				id: "092B95CB1018CFFA"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

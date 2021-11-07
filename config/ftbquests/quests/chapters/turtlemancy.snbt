@@ -50,6 +50,11 @@
 					count: 32L
 				}
 			]
+			rewards: [{
+				id: "38420DE99659B632"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Turtlemy? Oh, turtle ALCHEMY!"
@@ -73,6 +78,11 @@
 					count: 16L
 				}
 			]
+			rewards: [{
+				id: "392699BA65BBE981"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Turtle's Blessings"
@@ -91,6 +101,11 @@
 				item: "turtlemancy:turtle_bless"
 				count: 5L
 			}]
+			rewards: [{
+				id: "39B8ACAD0B8DED52"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -4.0d
@@ -103,6 +118,11 @@
 				id: "3441D651BCFD34C4"
 				type: "checkmark"
 				title: "Cool Turtlemy things"
+			}]
+			rewards: [{
+				id: "198E52EC85C579B0"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -118,6 +138,23 @@
 				type: "item"
 				item: "turtlemancy:shell_of_encapsulation"
 			}]
+			rewards: [
+				{
+					id: "38AA40CA55B03E9D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0F7FA9159227DB59"
+					type: "item"
+					item: "xreliquary:kraken_shell"
+				}
+				{
+					id: "6C121EA0F277975B"
+					type: "item"
+					item: "supplementaries:sack"
+				}
+			]
 		}
 		{
 			title: "The wand every turtlemancer starts with"
@@ -159,6 +196,11 @@
 				item: "minecraft:turtle_egg"
 				count: 4L
 			}]
+			rewards: [{
+				id: "55F86B154FF29190"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Turtlemancer's next steps"
@@ -197,6 +239,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "02A5D0A6732072EE"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "The power to destroy worlds... wait, what?"
@@ -238,6 +285,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "21FAA07104CA01DF"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 2.0d
@@ -249,6 +301,11 @@
 				id: "0ECE2EEF6A8D31BB"
 				type: "item"
 				item: "turtlemancy:turtle_altar"
+			}]
+			rewards: [{
+				id: "20DC84AC3656F5AE"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -262,6 +319,11 @@
 				id: "31BF5765DBEB58D4"
 				type: "item"
 				item: "turtlemancy:indestructible_pearl"
+			}]
+			rewards: [{
+				id: "4D2398225974A56C"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -285,6 +347,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "23790C44A168AE63"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Cursed!"
@@ -297,6 +364,11 @@
 				id: "767E66CDC06B7F96"
 				type: "item"
 				item: "turtlemancy:turtle_curse"
+			}]
+			rewards: [{
+				id: "0B7740DB22BC7890"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -312,6 +384,11 @@
 				id: "5598D27B89EDC5C4"
 				type: "item"
 				item: "turtlemancy:improved_scute"
+			}]
+			rewards: [{
+				id: "7AD522499C17F1EF"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -340,6 +417,11 @@
 					item: "turtlemancy:improved_magma_scute"
 				}
 			]
+			rewards: [{
+				id: "77C066A641057872"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: 2.5d
@@ -350,6 +432,11 @@
 				id: "3F593A78C9D974D6"
 				type: "item"
 				item: "turtlemancy:turtle_essence"
+			}]
+			rewards: [{
+				id: "7B1336ECF9DD63F7"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -390,6 +477,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "520BC40D4E62D76A"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Forgive me Mother, for I have sinned..."
@@ -403,6 +495,11 @@
 				id: "7009C4C36C88B198"
 				type: "checkmark"
 				title: "Seek Forgiveness!"
+			}]
+			rewards: [{
+				id: "7526F98C1F5FA3DE"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -418,6 +515,11 @@
 				type: "checkmark"
 				title: "Popping Balloon Animals"
 			}]
+			rewards: [{
+				id: "428992A01B3022D5"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Curioser and Curiouser..."
@@ -431,6 +533,11 @@
 				type: "item"
 				item: "turtlemancy:deep_blue_charm"
 			}]
+			rewards: [{
+				id: "27F44D3FEE21C66C"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Reparo!"
@@ -443,6 +550,11 @@
 				id: "7394AC43C6D7A405"
 				type: "item"
 				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "7255970AE7FD2FB9"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -549,6 +661,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2D308AF6F0CB1EA3"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

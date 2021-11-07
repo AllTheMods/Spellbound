@@ -1,8 +1,11 @@
 {
+  // Whether feywild music should be played in the fey biomes
+  "biome_music": true,
+  
   // Wether Fey Flowers particles should spawn.
   "flower_particles": true,
   
-  // Whether Feywild should replace the main menu
+  // Whether Feywild should replace the main menu and music
   "replace_menu": false,
   
   // Whether tree particles should spawn.

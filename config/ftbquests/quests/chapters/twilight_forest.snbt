@@ -20,9 +20,20 @@
 				type: "dimension"
 				dimension: "twilightforest:twilightforest"
 			}]
+			rewards: [{
+				id: "79245FFF6FAEB31E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "twilightforest:guide"
+					}
+				}
+			}]
 		}
 		{
-			x: -1.0d
+			x: -2.5d
 			y: -1.5d
 			description: ["Slay a native creature of the twilight forest."]
 			dependencies: ["4193303999597249"]
@@ -37,222 +48,12 @@
 			}]
 		}
 		{
-			icon: "twilightforest:naga_courtyard_miniature_structure"
-			x: 1.0d
-			y: -1.5d
-			subtitle: "Snakes and Ladders, but without the ladders"
-			description: ["Slay the Naga, who lives in the courtyards to begin your boss murdering journey. Wizards aren't all peaceful. "]
-			dependencies: [
-				"575E405B270BBCBC"
-				"57940981E8DE55D4"
-			]
-			id: "459779D9B2150C07"
-			tasks: [
-				{
-					id: "33E9B4D6A88C5127"
-					type: "advancement"
-					advancement: "twilightforest:progress_naga"
-					criterion: ""
-				}
-				{
-					id: "29FE1516A9FDBCBD"
-					type: "kill"
-					entity: "twilightforest:naga"
-					value: 1L
-				}
-			]
-		}
-		{
-			icon: "twilightforest:lich_tower_miniature_structure"
-			x: 2.5d
-			y: -1.5d
-			dependencies: ["459779D9B2150C07"]
-			id: "2FE3268CF73FDF4B"
-			tasks: [
-				{
-					id: "39A7A0CFF534C066"
-					type: "advancement"
-					advancement: "twilightforest:progress_lich"
-					criterion: ""
-				}
-				{
-					id: "190524231C74EE02"
-					type: "kill"
-					entity: "twilightforest:lich"
-					value: 1L
-				}
-			]
-		}
-		{
-			icon: "twilightforest:meef_stroganoff"
-			x: 4.0d
-			y: -2.5d
-			description: ["Swamp Maze in the Twilight Swamp. On the bottom level is the Minoshroom. His death lets us enter the Fire Swamp"]
-			dependencies: ["2FE3268CF73FDF4B"]
-			id: "634D159DCE2A56C9"
-			tasks: [
-				{
-					id: "3E893B0C149DD280"
-					type: "advancement"
-					title: "Mighty Stroganoff"
-					advancement: "twilightforest:progress_labyrinth"
-					criterion: ""
-				}
-				{
-					id: "7FC91E4FBBCB8264"
-					type: "kill"
-					entity: "twilightforest:minoshroom"
-					value: 1L
-				}
-			]
-		}
-		{
-			title: "Hail Hydra"
-			icon: "twilightforest:hydra_trophy"
-			x: 6.5d
-			y: -3.0d
-			description: ["Deep in the heart of the Fire Swamp, is a giant hill. Living three is hydra. Death you bring swift, before the world burns. "]
-			dependencies: ["634D159DCE2A56C9"]
-			id: "17FB58E50B1D50CB"
-			tasks: [
-				{
-					id: "698CD53372AEA60D"
-					type: "kill"
-					entity: "twilightforest:hydra"
-					value: 1L
-				}
-				{
-					id: "6D340E7CC715A203"
-					type: "advancement"
-					advancement: "twilightforest:progress_hydra"
-					criterion: ""
-				}
-			]
-		}
-		{
-			x: 4.0d
-			y: -1.0d
-			description: ["Settle the phantom knights restless souls at the bottom of the Goblin Stronghold. "]
-			dependencies: ["2FE3268CF73FDF4B"]
-			id: "71EE80E59A3F1763"
-			tasks: [{
-				id: "2E43E502122E6142"
-				type: "advancement"
-				title: "Phantom Knights of the Goblin Stronghold"
-				icon: "twilightforest:knight_phantom_trophy"
-				advancement: "twilightforest:progress_knights"
-				criterion: ""
-			}]
-		}
-		{
-			title: "Ur-ghastly"
-			icon: "twilightforest:ur_ghast_trophy"
-			x: 6.5d
-			y: -1.0d
-			description: ["Scale the Dark Tower in the heart of the Dark Forest to slay the Ur-ghast. "]
-			dependencies: ["71EE80E59A3F1763"]
-			id: "1ADE067CD168F704"
-			tasks: [
-				{
-					id: "01FAC065A614B7B0"
-					type: "kill"
-					entity: "twilightforest:ur_ghast"
-					value: 1L
-				}
-				{
-					id: "6E99CEBE45B1F278"
-					type: "advancement"
-					title: "Tears of Fire"
-					advancement: "twilightforest:progress_ur_ghast"
-					criterion: ""
-				}
-			]
-		}
-		{
-			icon: "twilightforest:alpha_fur"
-			x: 4.0d
-			y: 0.5d
-			description: ["The alpha yeti stands between you and the Glacier. Slay them. "]
-			dependencies: ["2FE3268CF73FDF4B"]
-			id: "143750A46FCC7BFE"
-			tasks: [{
-				id: "1F9726449B91F144"
-				type: "advancement"
-				title: "Alpha Yeti"
-				advancement: "twilightforest:progress_yeti"
-				criterion: ""
-			}]
-		}
-		{
-			title: "Let it Go... let it Go...."
-			icon: "twilightforest:snow_queen_trophy"
-			x: 6.5d
-			y: 1.0d
-			description: ["Your final task is you slay the Snow queen at the top of her Aurora Palace in the Glacier biome, at the heart of the snow. "]
-			dependencies: ["143750A46FCC7BFE"]
-			id: "1FCA599066486134"
-			tasks: [
-				{
-					id: "63569BE09A83A603"
-					type: "advancement"
-					advancement: "twilightforest:progress_glacier"
-					criterion: ""
-				}
-				{
-					id: "0EE785C2A6CBA747"
-					type: "kill"
-					entity: "twilightforest:snow_queen"
-					value: 1L
-				}
-			]
-		}
-		{
-			icon: {
-				id: "twilightforest:lamp_of_cinders"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 9.0d
-			y: -1.0d
-			subtitle: "Burning the Foliage for my Valentine"
-			description: ["I wish for more burning of thorns. Bring me the lamp of cinders, and a dozen of those roses from the thornlands."]
-			dependencies: [
-				"17FB58E50B1D50CB"
-				"1ADE067CD168F704"
-				"1FCA599066486134"
-			]
-			id: "4464488B43113EE7"
-			tasks: [
-				{
-					id: "760AD16BCCDA7BCD"
-					type: "advancement"
-					icon: {
-						id: "twilightforest:lamp_of_cinders"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					advancement: "twilightforest:progress_troll"
-					criterion: ""
-				}
-				{
-					id: "6FCAB9654FCF6ED1"
-					type: "item"
-					item: "twilightforest:thorn_rose"
-					count: 12L
-				}
-			]
-		}
-		{
 			icon: "twilightforest:castle_brick"
-			x: 11.0d
-			y: -1.0d
+			x: 8.0d
+			y: -0.5d
 			shape: "rsquare"
-			description: ["Gotchernose! Twilight forest only has a named kobold at the top of the deadrock plateau in the giant castle. Grab those fancy doors instead. Obtain 6 of each color castle door. "]
-			dependencies: ["4464488B43113EE7"]
+			description: ["Gotchernose! Twilight forest only has a named kobold at the top of the deadrock plateau in the giant castle. Grab those fancy doors instead. Obtain 12 of each color castle door. "]
+			dependencies: ["5CBA8C89FE717B9C"]
 			dependency_requirement: "all_started"
 			id: "420158B1736A1354"
 			tasks: [
@@ -288,40 +89,24 @@
 					count: 12L
 				}
 			]
-		}
-		{
-			title: "Ramification"
-			icon: "twilightforest:quest_ram_trophy"
-			x: 9.5d
-			y: 1.0d
-			description: ["The questing ram is missing its belts. Feed it each color of wool till it looks like wearing a Pride Day dachshund sweater. "]
-			optional: true
-			id: "5548DAA69FD592EB"
-			tasks: [
+			rewards: [
 				{
-					id: "6C81B6482C4CDEFF"
-					type: "advancement"
-					advancement: "twilightforest:quest_ram"
-					criterion: ""
+					id: "3E889B970E03E480"
+					type: "xp"
+					xp: 100
 				}
 				{
-					id: "05216CF6078A9D21"
+					id: "7BA35DB857763D81"
 					type: "item"
-					item: {
-						id: "twilightforest:crumble_horn"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "botania:mana_cookie"
 				}
 			]
 		}
 		{
 			title: "Fancy Noms"
 			icon: "minecraft:bowl"
-			x: 9.5d
-			y: -3.0d
+			x: 5.0d
+			y: -1.5d
 			description: ["Try all the foods of the Twilight Forest diet. "]
 			optional: true
 			id: "604F2B68B27885BF"
@@ -368,12 +153,17 @@
 					criterion: ""
 				}
 			]
+			rewards: [{
+				id: "55D53DC116C9824E"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin"
+			}]
 		}
 		{
 			title: "Why is a raven like a writing desk?"
 			icon: "twilightforest:raven_feather"
-			x: -1.0d
-			y: -3.0d
+			x: -2.5d
+			y: -2.5d
 			dependencies: ["575E405B270BBCBC"]
 			dependency_requirement: "one_completed"
 			id: "57940981E8DE55D4"
@@ -389,11 +179,6 @@
 					item: "twilightforest:magic_map_focus"
 				}
 				{
-					id: "788D4FD0881BC184"
-					type: "item"
-					item: "twilightforest:magic_map_empty"
-				}
-				{
 					id: "1609858CDD2EA47F"
 					type: "advancement"
 					advancement: "twilightforest:magic_map_focus"
@@ -406,6 +191,11 @@
 					criterion: ""
 				}
 			]
+			rewards: [{
+				id: "64746E59EAEAAFC2"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Mazebreaker and their Amazing Utility Friends"
@@ -430,10 +220,9 @@
 					]
 				}
 			}
-			x: 3.0d
-			y: -4.0d
+			x: 1.0d
+			y: 5.0d
 			description: ["Brave the tnt-laden traps of the hidden room of the mazebreaker to get the pickaxe of your dreams. The other tools are loot you can find in hollow hills, scattered across the dimension. "]
-			dependencies: ["634D159DCE2A56C9"]
 			id: "3AD0F7F55A7414CE"
 			tasks: [
 				{
@@ -500,12 +289,17 @@
 					item: "twilightforest:transformation_powder"
 				}
 			]
+			rewards: [{
+				id: "7DBAD00B0D0897B5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			title: "Time to find some Plants"
 			icon: "twilightforest:time_sapling"
-			x: 13.0d
-			y: -1.0d
+			x: 9.0d
+			y: -0.5d
 			shape: "gear"
 			subtitle: "Arborist in training"
 			description: ["Collect the special saplings available in the twilight forest. The Tree of Time is very important, as its wood is required to make the ATM star. "]
@@ -558,6 +352,1248 @@
 					item: "twilightforest:mangrove_sapling"
 				}
 			]
+			rewards: [{
+				id: "47723788BCBFAAAD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Time to Even the Scales"
+			x: -2.5d
+			y: -0.5d
+			description: [
+				"Inside the Courtyard is your first obstacle."
+				"Kill the Naga to clear the path to the Lich's Tower."
+			]
+			dependencies: ["4193303999597249"]
+			id: "3531B28F14CF72A2"
+			tasks: [{
+				id: "350E18035B933703"
+				type: "kill"
+				icon: "twilightforest:naga_trophy"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3C5710A433718359"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Bring out your Dead"
+			x: -1.5d
+			y: -0.5d
+			description: [
+				"Within its tower, a Lich of great power lives here."
+				"It is a 3 phase fight, but only 1 Phase is unique."
+				"Phase 1: It will have shields, the Ender pearlesque attack it send out has to be reflected back to break the 4 shields. As it loses shields, it may make shadow duplicates to distract you."
+				"Phase 2 it will summon zombies, staying away from you. Can be attacked normally. Phase 3 it will come at you with a Gold Sword, same as Phase 2."
+			]
+			dependencies: ["3531B28F14CF72A2"]
+			id: "0107D516E038E0DB"
+			tasks: [{
+				id: "7EA00975F45B4235"
+				type: "kill"
+				icon: "twilightforest:lich_trophy"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0DC4BD5632FA3748"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Mighty Stroganoff"
+			x: -0.5d
+			y: -0.5d
+			description: ["In the depths of the Labyrinth Swamp is a giant Minoshroom. It's quite a nuisance, but the Meef Stroganoff is needed to be eaten to continue."]
+			dependencies: ["0107D516E038E0DB"]
+			id: "04440BB2EFFD6DD9"
+			tasks: [{
+				id: "1D7043E5ABF7CCEF"
+				type: "kill"
+				icon: "twilightforest:minoshroom_trophy"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7DDF1FEFAE5F311F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Hydra Slayer"
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Firey Swamp"
+			description: ["Multiheaded fire breathing Boss. You can melee attack it, Range -can- work, but it has to be able to hit you, no far distance kills (it'll outheal your damage)."]
+			dependencies: ["04440BB2EFFD6DD9"]
+			id: "7026E46FD8B3A81D"
+			tasks: [{
+				id: "0459FBBEE86693E5"
+				type: "kill"
+				icon: "twilightforest:hydra_trophy"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [{
+				id: "185A446AAFA6CAD6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Carmanite acclimation"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "The darkest of forests"
+			description: [
+				"Before you can enter the Phantom Knights lair, you will need to sacrifice Trophys on Latent Trophy Pedestals. (you can get more by killing more of the bosses, look on wiki for required trophies to place)"
+				"The Phantom Knights are just floating bosses in its chamber, it's more annoying then anything. Required for Dark Tower (Ur-Ghast)"
+			]
+			dependencies: ["7026E46FD8B3A81D"]
+			id: "3DCF26B53AE1EBF6"
+			tasks: [{
+				id: "44707A4CE127AA40"
+				type: "kill"
+				icon: "twilightforest:knight_phantom_trophy"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2FDFDEDC63DBFACE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tears of Fire"
+			x: 2.5d
+			y: -0.5d
+			subtitle: "Dark Carmonite Tower"
+			description: [
+				"Within the Dark Forest is a tower, laden with carmonite contraptions. Take the Reappearing Blocks, cool as heck redstone blocks."
+				"The Boss is the Ur-Ghast, recommended to kill with Ranged. The 4 Ghast traps found on Boss floor is first charged with Ghastling kills, then activating with Redstone, not necessary, but helpful."
+			]
+			dependencies: ["3DCF26B53AE1EBF6"]
+			id: "688C911ECFB2F134"
+			tasks: [{
+				id: "31BFB8DB9D2AFA68"
+				type: "kill"
+				icon: "twilightforest:ur_ghast_trophy"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [{
+				id: "18258B0937EC3D75"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Alpha Fur"
+			x: 3.5d
+			y: -0.5d
+			description: [
+				"A giant burly Yeti. Throws ice blocks at you, or if you're too close, pick you up and throw you. With Fall Damage negation, this boss is just a glorified zombie on some sort of enhancement."
+				"Needed before you can enter the Ice Palace atop the massive Glacier."
+			]
+			dependencies: ["688C911ECFB2F134"]
+			id: "31BB7EB95CE73C1A"
+			tasks: [{
+				id: "65F15AC6D04757C2"
+				type: "kill"
+				icon: "twilightforest:yeti_trophy"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4A0F85570A9BB08F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Clear Skies"
+			x: 4.5d
+			y: -0.5d
+			description: [
+				"The Queen of Ice, Snow, of the Glacial Palace."
+				"She will throw dangerous icicles, or crush you with her ice platform."
+			]
+			dependencies: ["31BB7EB95CE73C1A"]
+			id: "6FD41DF7704466A4"
+			tasks: [{
+				id: "20F655127C5316FE"
+				type: "kill"
+				icon: "twilightforest:snow_queen_trophy"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7C737743505C71EA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "twilightforest:lamp_of_cinders"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.0d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"The lamp will burn the thorns blocking the hilltop Aurial Palace."
+				"-- do note, this mod is.. still unfinished. SERIOUSLY, IT'S BEEN 5 YEARS MAN, 5 DARN YEARS AND NO FINAL BOSS!?"
+				"Also retrieve a dozen roses. "
+			]
+			dependencies: ["20436AFCC7E6855D"]
+			id: "5CBA8C89FE717B9C"
+			tasks: [
+				{
+					id: "54FEB8B303070725"
+					type: "item"
+					item: {
+						id: "twilightforest:lamp_of_cinders"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "075644178F485691"
+					type: "item"
+					item: "twilightforest:thorn_rose"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "0F52769C5E3E7A98"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			icon: {
+				id: "twilightforest:giant_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: -0.5d
+			subtitle: "The giants look like me, but are nothing LIKE me. "
+			description: [
+				"Trolls underneath the thorny hills drop magical beans. Plant them atop special soil to reach the Cloudtops."
+				"Atop the Clouds is a Giants hut, kill the Pickaxe wielder for a Pick to open up the Giant Obsidian back where you found the Trolls and their vaults."
+			]
+			dependencies: ["6FD41DF7704466A4"]
+			id: "20436AFCC7E6855D"
+			tasks: [
+				{
+					id: "671EEE3BD0D051FD"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "290C908E83D8B056"
+					type: "item"
+					item: "twilightforest:magic_beans"
+				}
+			]
+			rewards: [{
+				id: "57BD859AC0E3617B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Naga Scale Armor"
+			x: 0.0d
+			y: -2.5d
+			description: ["From the scales of the Naga, you can craft some armor. Not super strong, but looks nice."]
+			id: "4D4AB60B3B1CD437"
+			tasks: [
+				{
+					id: "529D27B9675CBD7F"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3B252125FD56FC27"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "481E680F0F18B148"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["0107D516E038E0DB"]
+			id: "212EC1F41227184D"
+			tasks: [{
+				id: "54F8AB4DDD68C94A"
+				type: "item"
+				item: {
+					id: "twilightforest:twilight_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "45E2D1CD5953608A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["0107D516E038E0DB"]
+			id: "6CB1BFBA10DF24E4"
+			tasks: [{
+				id: "4FBA38F3FB4B7C28"
+				type: "item"
+				item: {
+					id: "twilightforest:lifedrain_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AB5BCBB96B2F409"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["0107D516E038E0DB"]
+			id: "3908F7C80154D9CA"
+			tasks: [{
+				id: "3146C0D222FADF31"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65B006EC088F5773"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["0107D516E038E0DB"]
+			id: "3371570F189DF994"
+			tasks: [{
+				id: "1DCCE2E7025B5169"
+				type: "item"
+				item: {
+					id: "twilightforest:shield_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "37272146953406F6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: [
+				"A Special map that will map your way around the Minoshroom Labyrinth. Nope, your minimap mod won't help here."
+				"This item needs a maze focus, found as a loot item in the Minoshroom Maze. "
+			]
+			id: "4B95D48D7525FFAD"
+			tasks: [{
+				id: "7AA9D1C39C51F20F"
+				type: "item"
+				item: "twilightforest:maze_map_empty"
+			}]
+			rewards: [{
+				id: "0EBC5DE2494689BB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			description: [
+				"This map will help you find specific structures in the Twilight Forest."
+				"You may have a Minimap, but it won't directly help you find exact structures."
+			]
+			dependencies: ["57940981E8DE55D4"]
+			dependency_requirement: "one_completed"
+			id: "0990D6CEE042F44E"
+			tasks: [{
+				id: "0EBD4A2BF8DE117D"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+			rewards: [{
+				id: "6D7C21A48CD96B58"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Steeleaf Armor"
+			x: 2.0d
+			y: -2.0d
+			description: ["Slightly stronger armor then Naga, a full set with varied enchants."]
+			id: "2BEBF66D7EA594FA"
+			tasks: [
+				{
+					id: "41286D909D0A6867"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "569238D13FE4BEDE"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "465948D752178FD8"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "29B138097231BC9F"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5DF56C2A6538CF49"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Ironwood Armor"
+			x: 1.0d
+			y: -3.0d
+			description: ["Slightly stronger then Naga by having a full set (not set effect), varied Enchants."]
+			id: "40258842B0359A2D"
+			tasks: [
+				{
+					id: "5B86279AE9E62F55"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+					}
+				}
+				{
+					id: "60033D60F21A2145"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "48D0CAE437234AC6"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "1D94DFBBCD46D84B"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3F15327EC89501A3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Fiery Armor"
+			x: 3.0d
+			y: -3.0d
+			description: ["From the blood (or tears) of the Hydra, you craft armor of fire."]
+			id: "1FF5906DF721D091"
+			tasks: [
+				{
+					id: "48F5F5BE01C792CE"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "761CF4D721CB22DF"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "384D339F85C2F6CC"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1559426B94209449"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "645C3DCEFD53C822"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: ["Chance of being found in Phantom Knight chests."]
+			id: "0A207A437AF153AA"
+			tasks: [
+				{
+					id: "2429F7C568231ED7"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C2C788F3061A7D3"
+					type: "item"
+					item: {
+						id: "twilightforest:phantom_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1BA06461A6CFA2A8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Knightmetal Armor"
+			x: 3.0d
+			y: -2.0d
+			description: ["Crafted or found in the Phantom Knight's chests."]
+			id: "25906B43A198B72F"
+			tasks: [
+				{
+					id: "095092712EA93AD4"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44E7089F08F757D4"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A137AF836AFC3C0"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33789178B086D262"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "73E3E17874A35218"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Ramification"
+			x: -3.5d
+			y: -0.5d
+			description: [
+				"Find the Questing Ram, for it bestows wealth for those who give it the Rainbow of Wool (16 colors)"
+				"Hint: There's a dispenser above your head in the ruins. Check it. "
+			]
+			dependencies: ["4193303999597249"]
+			id: "4DA0725E089D7C91"
+			tasks: [{
+				id: "0DC327E6F70EE1C1"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "6F67079A453DAABE"
+			tasks: [{
+				id: "5F7D02D164E85469"
+				type: "item"
+				item: "twilightforest:charm_of_life_1"
+			}]
+			rewards: [{
+				id: "0109DCAA3BD0CA82"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["6F67079A453DAABE"]
+			id: "15006CF73F8CAB7C"
+			tasks: [{
+				id: "1AF2A8D21E2C64FE"
+				type: "item"
+				item: "twilightforest:charm_of_life_2"
+			}]
+			rewards: [{
+				id: "3D2DA73A93E0D143"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "610F9E9D0B5131C7"
+			tasks: [{
+				id: "69F49433EDA8F189"
+				type: "item"
+				item: "twilightforest:charm_of_keeping_1"
+			}]
+			rewards: [{
+				id: "4CA93BA5E85DAA73"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["610F9E9D0B5131C7"]
+			id: "4665E6FD0AAED164"
+			tasks: [{
+				id: "146FE418E4077B1D"
+				type: "item"
+				item: "twilightforest:charm_of_keeping_2"
+			}]
+			rewards: [{
+				id: "5BAC92C56DB3B58E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["4665E6FD0AAED164"]
+			id: "3A3ED88027331A6C"
+			tasks: [{
+				id: "2FB00B8498F8E8E3"
+				type: "item"
+				item: "twilightforest:charm_of_keeping_3"
+			}]
+			rewards: [{
+				id: "757D67F1402CEA6E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "1464D45C474464DB"
+			tasks: [{
+				id: "13C31B864EC1DE9B"
+				type: "item"
+				item: {
+					id: "twilightforest:peacock_fan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25991402B38AFA2A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Yeti Armor"
+			x: 1.0d
+			y: -2.0d
+			description: ["Crafted from Alpha Yeti Fur."]
+			id: "3C8724C3A9459507"
+			tasks: [
+				{
+					id: "45D0FCAC69264C9B"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "4F6C2CBFE11B14D2"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "1D7E23359B11FB50"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "34E0A02434E3B41C"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5BA6C83E9E634D86"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Arctic Armor"
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Dyable!"
+			description: ["Small Yeti's and Winter Wolves drop fur to make this Armor."]
+			id: "2A0B3C91D72E8B75"
+			tasks: [
+				{
+					id: "74DE768958A1DF0E"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "28805490ED9B650D"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E45C2C500C51BCB"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "09422C5CD2A93FDD"
+					type: "item"
+					item: {
+						id: "twilightforest:arctic_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1561C0CA37248A7C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			subtitle: "Trapped chamber, do not enter?"
+			description: ["A special axe rarely found in Labyrinths. Can break Mazestone at a 1:1 ratio where normal picks take 16 durability for 1 Mazestone."]
+			id: "51BC981AB4CFAD95"
+			tasks: [{
+				id: "37FB4455E15C55FF"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "43613B9B3AED5AEC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			id: "53A79338994088FD"
+			tasks: [{
+				id: "64D192E45B9E8E6C"
+				type: "item"
+				item: {
+					id: "twilightforest:triple_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4998E36C6161772B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			id: "7509E4093010EA4C"
+			tasks: [{
+				id: "5423C2517A5D133B"
+				type: "item"
+				item: {
+					id: "twilightforest:seeker_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "61308BB9F304D0E4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			id: "49EE6D2A3684A510"
+			tasks: [{
+				id: "52E28B85293DE45A"
+				type: "item"
+				item: {
+					id: "twilightforest:ice_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BCB7D180D92A1AB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			id: "3D29EF7F150F5334"
+			tasks: [{
+				id: "37A1612D95C34DF2"
+				type: "item"
+				item: {
+					id: "twilightforest:ender_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3051ABF9B41E8CDA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["A Magnet that can pull up anything with Ore in name, except Coal."]
+			id: "5FE4DAE8F41B1437"
+			tasks: [{
+				id: "7B5C5A02D22359AF"
+				type: "item"
+				item: {
+					id: "twilightforest:ore_magnet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "73C722B92E712713"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			description: ["Only has 1 Durability, so if you wish to use this, make it Indestructable."]
+			id: "38ADDF7FF4E4892D"
+			tasks: [{
+				id: "68A6B72FD1DF6A75"
+				type: "item"
+				item: {
+					id: "twilightforest:glass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FFBA24EB9CD17E3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			id: "78CE2ECEF0B651DA"
+			tasks: [{
+				id: "2E37E73B5297E0F7"
+				type: "item"
+				item: {
+					id: "twilightforest:ice_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1EDFE99AD36463BB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["Crafted from Knight Metal."]
+			id: "4B0BC45FE5135B2E"
+			tasks: [{
+				id: "33F81243EAA4B9A4"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "17915A676D1130B8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			id: "60FC2DAEA954A849"
+			tasks: [{
+				id: "0BE7DD735B1FB717"
+				type: "item"
+				item: {
+					id: "twilightforest:moonworm_queen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "13A5729B3DF5AEAA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			description: ["Bring home some of the Twilight forest today. Found in hollow hills or twilight dungeon loot, you can turn cows, sheep and pigs into their twilight cownterparts. (Yes the typo is intentional.)"]
+			id: "0E9DE6293DF611E1"
+			tasks: [{
+				id: "220F1E09B54E7ECA"
+				type: "item"
+				item: "twilightforest:transformation_powder"
+			}]
+			rewards: [{
+				id: "585C6465B69B2781"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }
