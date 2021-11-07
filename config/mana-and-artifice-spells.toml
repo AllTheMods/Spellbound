@@ -2197,23 +2197,6 @@
 	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
 	dimensionBlacklists = ""
 
-	["mana-and-artifice:components/divination".MAGNITUDE]
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 1.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 7.0
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 15.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 1.0
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 1.0
-
 	["mana-and-artifice:components/divination".DELAY]
 		#Default Value
 		#Range: 0.0 ~ 9999.0
@@ -2247,6 +2230,23 @@
 		#Minimum Value
 		#Range: 0.0 ~ 9999.0
 		minimum = 30.0
+
+	["mana-and-artifice:components/divination".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 7.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 15.0
 
 ["mana-and-artifice:shapes/beam"]
 	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.

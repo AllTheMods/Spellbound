@@ -51,6 +51,11 @@
 					item: "forbidden_arcanus:yellow_orchid"
 				}
 			]
+			rewards: [{
+				id: "3B1410BCDC2EBF24"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Orespawn? "
@@ -87,12 +92,19 @@
 					item: "forbidden_arcanus:dark_rune"
 				}
 			]
-			rewards: [{
-				id: "4252BA99DD1A7798"
-				type: "item"
-				item: "forbidden_arcanus:xpetrified_orb"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "4252BA99DD1A7798"
+					type: "item"
+					item: "forbidden_arcanus:xpetrified_orb"
+					count: 16
+				}
+				{
+					id: "2528A562C6D2648A"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Dusting the Shelves"
@@ -118,6 +130,18 @@
 					item: "forbidden_arcanus:corrupti_dust"
 				}
 			]
+			rewards: [
+				{
+					id: "580613A50D523FF9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "753D18FD05DA64FB"
+					type: "item"
+					item: "tombstone:dust_of_vanishing"
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -129,6 +153,11 @@
 				id: "28EA321D18A11107"
 				type: "item"
 				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+			rewards: [{
+				id: "4D88D7EB30A8E781"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -189,6 +218,11 @@
 				id: "1618BD2E61BEE9DF"
 				type: "item"
 				item: "forbidden_arcanus:dark_matter"
+			}]
+			rewards: [{
+				id: "30850630AA05D298"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -287,6 +321,11 @@
 					item: "forbidden_arcanus:soulless_sand"
 				}
 			]
+			rewards: [{
+				id: "1F5305A5D602302B"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Dark Souls 4"
@@ -304,6 +343,11 @@
 				id: "2DBFE17037353D90"
 				type: "item"
 				item: "forbidden_arcanus:dark_soul"
+			}]
+			rewards: [{
+				id: "549D758ACBFD022A"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -328,6 +372,27 @@
 					item: "forbidden_arcanus:dark_nether_star_block"
 				}
 			]
+			rewards: [
+				{
+					id: "6FBC0840D97CAB24"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "009E8FC32BBA4897"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_questgiver_mark"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1AFEB8E89C189833"
+					type: "item"
+					item: "xreliquary:ice_magus_rod"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -348,6 +413,29 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "412FA26220335C01"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3206DF4159977C2D"
+					type: "item"
+					item: "upgrade_aquatic:elder_eye"
+				}
+				{
+					id: "1B3A01A86E87CE62"
+					type: "item"
+					item: {
+						id: "evilcraft:spectral_glasses"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "forbidden_arcanus:runic_tenebris_core"
@@ -368,6 +456,40 @@
 					item: "forbidden_arcanus:runic_tenebris_core"
 				}
 			]
+			rewards: [
+				{
+					id: "3589B6A27799996C"
+					type: "item"
+					item: "forbidden_arcanus:runestone"
+					count: 4
+				}
+				{
+					id: "748369D7680B28F9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "Eternally yours, or is it."
+			description: ["The recipe isn't so easy anymore. What will you pay to have an indestructible item now?"]
+			id: "719656BB522E5EE6"
+			tasks: [{
+				id: "7DA62EE94D9B8E22"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5EA07C3014A04EAB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 	]
 }

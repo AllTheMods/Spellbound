@@ -93,6 +93,11 @@
 					criterion: ""
 				}
 			]
+			rewards: [{
+				id: "669CB6B09D1F6998"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			x: 0.5d
@@ -105,6 +110,11 @@
 				type: "checkmark"
 				title: "Leveling up?"
 			}]
+			rewards: [{
+				id: "489AE40561E82528"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			x: -4.0d
@@ -116,6 +126,11 @@
 				id: "0B58267E01E93BDF"
 				type: "checkmark"
 				title: "Dual-purpose tools?"
+			}]
+			rewards: [{
+				id: "5F57EA62A85EE95D"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
@@ -130,6 +145,11 @@
 				type: "advancement"
 				advancement: "tetra:upgrades/hammer_2"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "5A5C34D266E314F9"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -150,6 +170,17 @@
 				type: "checkmark"
 				title: "What's with the axe and knife symbols when making my tool better?"
 			}]
+			rewards: [{
+				id: "2F5A170C6E4AC9E0"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "Mk 3 Hammer"
@@ -163,6 +194,11 @@
 				type: "advancement"
 				advancement: "tetra:upgrades/hammer_3"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "6448CED21A000649"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -183,6 +219,32 @@
 				type: "checkmark"
 				title: "Ranged?"
 			}]
+			rewards: [
+				{
+					id: "061CC02E3A9F5445"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 64
+				}
+				{
+					id: "33679811F4DF2B39"
+					type: "item"
+					item: "archers_paradox:prismarine_arrow"
+					count: 8
+				}
+				{
+					id: "22006D96BEFBD643"
+					type: "item"
+					item: "minecraft:spectral_arrow"
+					count: 16
+				}
+				{
+					id: "1329C306FEE8BAD7"
+					type: "item"
+					item: "archers_paradox:lightning_arrow"
+					count: 8
+				}
+			]
 		}
 		{
 			icon: {
@@ -204,6 +266,11 @@
 				type: "checkmark"
 				title: "Enchantable?"
 			}]
+			rewards: [{
+				id: "77E9B18AFF262304"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Mk 4 Hammer"
@@ -217,6 +284,11 @@
 				type: "advancement"
 				advancement: "tetra:upgrades/hammer_4"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "0CDA6AA7148F552F"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -240,6 +312,11 @@
 				type: "checkmark"
 				title: "The holosphere's potential"
 			}]
+			rewards: [{
+				id: "78E086A999AE42C0"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
 		}
 		{
 			title: "Tool belts!"
@@ -253,6 +330,11 @@
 				type: "advancement"
 				advancement: "tetra:upgrades/toolbelt"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "37FFAE0A71E0F85D"
+				type: "xp"
+				xp: 50
 			}]
 		}
 		{
@@ -268,6 +350,17 @@
 				advancement: "tetra:spelunking/scanner"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "17B263AE8FEBEEF6"
+				type: "item"
+				item: {
+					id: "tetra:magmatic_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			title: "Mk 5 Hammer"
@@ -282,6 +375,18 @@
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "1B26B8AD8D7AF3FD"
+					type: "item"
+					item: "minecraft:end_rod"
+				}
+				{
+					id: "4BC02479B2D1721D"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Higher tier then obsidian?"
@@ -295,6 +400,11 @@
 				type: "advancement"
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "176BB955C62FBE9C"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -316,6 +426,11 @@
 					item: "tetra:earthpiercer"
 				}
 			]
+			rewards: [{
+				id: "7B07A576351ADA7C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 	]
 }
