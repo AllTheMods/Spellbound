@@ -1068,6 +1068,11 @@
 					item: "mythicbotany:dreamwood_leaves"
 					count: 12L
 				}
+				{
+					id: "501BA37BB3B7DB06"
+					type: "item"
+					item: "mythicbotany:kvasir_blood"
+				}
 			]
 			rewards: [
 				{

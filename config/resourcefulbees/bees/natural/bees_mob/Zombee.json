@@ -1,5 +1,5 @@
 {
-    "flower": "biomesoplenty:flesh",
+    "flower": "farmersdelight:organic_compost",
     "maxTimeInHive": 1200,
     "traits": ["zombie"],
     "hasHoneycomb": true,

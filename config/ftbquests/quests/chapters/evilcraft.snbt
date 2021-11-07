@@ -20,6 +20,11 @@
 				item: "evilcraft:dark_gem"
 				count: 16L
 			}]
+			rewards: [{
+				id: "35B0875871046CA1"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Death by apple"
@@ -43,6 +48,11 @@
 					item: "evilcraft:origins_of_darkness"
 				}
 			]
+			rewards: [{
+				id: "035597BC9335C577"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "I thought these were only in doctor's offices"
@@ -76,6 +86,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4CAAEA6E9C86FF2B"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Blood Stars"
@@ -102,6 +117,11 @@
 					item: "evilcraft:blood_infusion_core"
 				}
 			]
+			rewards: [{
+				id: "0D68FEA463A44CD2"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Blood chest or blood furnace? How about both."
@@ -130,6 +150,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7D2E680831B29FC6"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
 		}
 		{
 			x: -2.0d
@@ -164,6 +189,11 @@
 					item: "evilcraft:promise_tier_1"
 				}
 			]
+			rewards: [{
+				id: "56BB43D30D400171"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -2.5d
@@ -184,6 +214,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5C67321928839AE4"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -2.5d
@@ -196,6 +231,19 @@
 				type: "item"
 				item: "evilcraft:undead_sapling"
 			}]
+			rewards: [
+				{
+					id: "1D25DC5FBEB3EA8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "21DD2CAADF1833B8"
+					type: "item"
+					item: "evilcraft:undead_log"
+					count: 32
+				}
+			]
 		}
 		{
 			title: "Stripping enchantments with my own blood"
@@ -243,6 +291,11 @@
 					item: "evilcraft:garmonbozia"
 				}
 			]
+			rewards: [{
+				id: "6436844A69BEF441"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -1.5d
@@ -271,6 +324,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "628B6C416D1D3AB3"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "7AC4A2855A9A23AA"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "Broom broom broooooommmmm"
@@ -295,6 +360,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7F394095AA7EE92B"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 1.0d
@@ -311,6 +381,56 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [
+				{
+					id: "1E99317D1806076D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3284C24D76A669FA"
+					type: "item"
+					item: "evilcraft:effortless_ring"
+				}
+				{
+					id: "5DC9C8BF2BADE8E8"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_devil_horns"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			subtitle: "Higher level promise of crafting prowess"
+			dependencies: ["1B5D7089474C454B"]
+			id: "7FE97CD6AE3C8DBF"
+			tasks: [
+				{
+					id: "3C5611540DAE62CC"
+					type: "item"
+					item: "evilcraft:promise_tier_3"
+				}
+				{
+					id: "74D4684C2129EB0C"
+					type: "item"
+					item: "evilcraft:promise_efficiency_0"
+				}
+				{
+					id: "2F84E7EBFB26E6D3"
+					type: "item"
+					item: "evilcraft:promise_speed_0"
+				}
+			]
+			rewards: [{
+				id: "096C9525549BA349"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]

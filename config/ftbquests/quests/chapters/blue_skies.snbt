@@ -101,6 +101,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "33DE4E4557A403F4"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "ED: This tool feels weaker in my hand...."
@@ -119,6 +124,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "0B6B7A4CDBBACE57"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -172,8 +182,14 @@
 					item: "blue_skies:horizonite_ore"
 				}
 			]
+			rewards: [{
+				id: "4EE1CE71E315F688"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
+			title: "Ice Monsters"
 			x: 6.0d
 			y: -1.5d
 			dependencies: ["1A46CBBA4B75AA5A"]
@@ -181,12 +197,18 @@
 			tasks: [{
 				id: "70A7F7BECB70F72E"
 				type: "kill"
-				title: "Ice Monsters"
+				title: "Armored Frost Spirit"
 				entity: "blue_skies:armored_frost_spirit"
 				value: 5L
 			}]
+			rewards: [{
+				id: "5644D5369395416A"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
+			title: "Bugs!"
 			x: 6.0d
 			y: 2.0d
 			dependencies: ["70760AE3B6F9CD31"]
@@ -194,9 +216,14 @@
 			tasks: [{
 				id: "4D5B87045C51A235"
 				type: "kill"
-				title: "BUGS!"
+				title: "Nyctofly"
 				entity: "blue_skies:nyctofly"
 				value: 5L
+			}]
+			rewards: [{
+				id: "51079169F7018795"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -211,6 +238,11 @@
 				type: "item"
 				item: "blue_skies:summoning_table"
 			}]
+			rewards: [{
+				id: "0F9A6E6EF47E8832"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			title: "The Alchemist's Castle"
@@ -223,6 +255,11 @@
 				id: "36259675DE82453D"
 				type: "item"
 				item: "blue_skies:alchemy_table"
+			}]
+			rewards: [{
+				id: "62B986B8441FD152"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -237,6 +274,11 @@
 				type: "item"
 				item: "blue_skies:nature_key"
 			}]
+			rewards: [{
+				id: "00AADED7D1EB4DEC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			title: "Poison Dungeon"
@@ -249,6 +291,11 @@
 				id: "1EF850245BCC5786"
 				type: "item"
 				item: "blue_skies:poison_key"
+			}]
+			rewards: [{
+				id: "04DAC2F9607EE755"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
