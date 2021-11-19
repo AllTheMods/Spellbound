@@ -17,4 +17,5 @@ onEvent('recipes', e => {
   multiCrush('netherite_scrap', 'minecraft:ancient_debris', 'minecraft:netherite_scrap', 2)
   multiCrush('dark_gem', 'evilcraft:dark_ore', 'evilcraft:dark_gem', 5)
   multiCrush('crushed_dark_gem', 'evilcraft:dark_gem', 'evilcraft:dark_gem_crushed', 1)
+  multiCrush('allthemodium', 'allthemodium:allthemodium_ore', 'allthemodium:crushed_allthemodium_ore', 2)
 })
