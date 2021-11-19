@@ -21,5 +21,9 @@
 [packversionminrev]
 	#Pack Minor Version Revision : X
 	#Range: 0 ~ 32768
+<<<<<<< Updated upstream
 	minorrev = 4
+=======
+	minorrev = 7
+>>>>>>> Stashed changes
 

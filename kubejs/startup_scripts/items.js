@@ -22,6 +22,9 @@ onEvent('item.registry', event => {
 })
 
 onEvent('block.registry', event => {
+	event.create('magical_soil').displayName('§bMagical Soil').material('grass').hardness(0.6)
+	event.create('atm_star_block').displayName('§eATM Star Block').material('iron').hardness(5).lightLevel(1)
+	event.create('nether_star_block').displayName('§eNether Star Block').material('iron').hardness(2).lightLevel(1)
 	// Register new blocks here
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
 })

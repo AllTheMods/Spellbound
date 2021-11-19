@@ -61,7 +61,7 @@
         "hasFluidOutput": false
     },
     "SpawnData": {
-        "canSpawnInWorld": false,
+        "canSpawnInWorld": true,
         "biomeWhitelist": "",
         "biomeBlacklist": "",
         "spawnWeight": 2,

@@ -1,10 +1,18 @@
 storagenetwork = true
 tconstruct = true
+<<<<<<< Updated upstream
+=======
+fastfurnaceminusreplacement = true
+>>>>>>> Stashed changes
 sophisticatedbackpacks = true
 fastfurnace = true
 craftingstation = true
 ironfurnaces = true
 jei = true
+<<<<<<< Updated upstream
+=======
+fastbenchminusreplacement = true
+>>>>>>> Stashed changes
 refinedstorageaddons = true
 craftingcraft = true
 toms_storage = true
