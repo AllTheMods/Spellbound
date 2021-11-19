@@ -561,11 +561,12 @@
 			}]
 		}
 		{
+			title: "Ring of Prowess"
 			x: -8.5d
 			y: 8.5d
 			description: [
-				"In the case you are tired of normal spirits, thsi ring will convert them into Brilliance spirits."
-				"That means more epxerience in the long run."
+				"In the case you are tired of normal spirits, this ring will convert them into Brilliance spirits."
+				"That means more experience in the long run."
 			]
 			dependencies: ["399C2DC66922EF9B"]
 			id: "5B63B7C7A4A8EFDA"

@@ -39,6 +39,12 @@
 				item: "theabyss:abyssloranitem"
 				count: 64L
 			}]
+			rewards: [{
+				id: "209B26B737B4C48E"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10
+			}]
 		}
 		{
 			x: 0.0d
@@ -50,6 +56,11 @@
 				id: "240B4467E487ABB3"
 				type: "item"
 				item: "theabyss:translationletter"
+			}]
+			rewards: [{
+				id: "4FF04B4221164BFE"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -77,6 +88,11 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "08B04E32CA5BEE77"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 0.0d
@@ -88,6 +104,11 @@
 				id: "21F159B2246BF512"
 				type: "dimension"
 				dimension: "theabyss:theabyssdim"
+			}]
+			rewards: [{
+				id: "0241E436A17C31F4"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -115,6 +136,11 @@
 				type: "item"
 				item: "theabyss:end_of_time_book"
 			}]
+			rewards: [{
+				id: "7A071F7FDAB594D0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: 1.0d
@@ -137,6 +163,11 @@
 					item: "theabyss:scorpioneye"
 				}
 			]
+			rewards: [{
+				id: "798DAF4C2324E3E0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 	]
 }

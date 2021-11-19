@@ -26,6 +26,8 @@ body:
       label: Modpack Version
       description: What version of the pack are you using?
       options:
+        - 2.1.4
+        - 2.1.2
         - 2.1.0
         - other
     validations:

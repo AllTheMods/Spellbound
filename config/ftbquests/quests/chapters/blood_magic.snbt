@@ -10,472 +10,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Starting Point"
-			icon: "bloodmagic:soulsnare"
-			x: 0.0d
-			y: 0.0d
-			description: ["1.16.5 Blood Magic has a lot of unimplemented items, but the majority of the mod is here. "]
-			id: "605245BED4C5C4A3"
-			tasks: [
-				{
-					id: "791070D6F5916871"
-					type: "item"
-					item: "bloodmagic:soulsnare"
-					count: 16L
-				}
-				{
-					id: "37F15615D294F101"
-					type: "item"
-					item: "bloodmagic:altar"
-				}
-				{
-					id: "274A997C1B690D16"
-					type: "item"
-					item: {
-						id: "bloodmagic:sacrificialdagger"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "32BAAD5F3790BDDB"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-				{
-					id: "23E64ACFCEF35AA9"
-					type: "item"
-					item: "bloodmagic:weakbloodorb"
-				}
-			]
-		}
-		{
-			title: "Willing?"
-			x: 1.5d
-			y: 0.5d
-			dependencies: ["605245BED4C5C4A3"]
-			id: "756227036DB6BD4E"
-			tasks: [
-				{
-					id: "02CC4BC10E05B9C9"
-					type: "item"
-					item: "bloodmagic:soulforge"
-				}
-				{
-					id: "2B573F9071CE889E"
-					type: "item"
-					item: {
-						id: "bloodmagic:soulgempetty"
-						Count: 1b
-						tag: {
-							souls: 64.0d
-						}
-					}
-				}
-				{
-					id: "4E0687051F89863D"
-					type: "item"
-					item: {
-						id: "bloodmagic:soulsword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Tartaric Tiering"
-			x: 1.5d
-			y: -1.0d
-			dependencies: ["756227036DB6BD4E"]
-			id: "3E49817A9FBB8B05"
-			tasks: [
-				{
-					id: "3A213C2FCC49A841"
-					type: "item"
-					item: {
-						id: "bloodmagic:soulgempetty"
-						Count: 1b
-						tag: {
-							souls: 64.0d
-						}
-					}
-				}
-				{
-					id: "653068345BEED04B"
-					type: "item"
-					item: {
-						id: "bloodmagic:soulgemlesser"
-						Count: 1b
-						tag: {
-							souls: 256.0d
-						}
-					}
-				}
-				{
-					id: "5B1F4FA043660DF8"
-					type: "item"
-					item: {
-						id: "bloodmagic:soulgemcommon"
-						Count: 1b
-						tag: {
-							souls: 1024.0d
-						}
-					}
-				}
-				{
-					id: "5F32964DCF8E4670"
-					type: "item"
-					item: {
-						id: "bloodmagic:soulgemgreater"
-						Count: 1b
-						tag: {
-							souls: 4096.0d
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Tier 2"
-			x: 1.5d
-			y: 2.0d
-			description: ["Blank runes are put here but you can use any you want. "]
-			dependencies: ["605245BED4C5C4A3"]
-			id: "62D550C71E0EAB0F"
-			tasks: [
-				{
-					id: "471F493DB6119320"
-					type: "item"
-					item: "bloodmagic:blankslate"
-					count: 16L
-				}
-				{
-					id: "72200672045068D7"
-					type: "item"
-					item: "bloodmagic:blankrune"
-					count: 8L
-				}
-				{
-					id: "0286B90B73942529"
-					type: "item"
-					item: "minecraft:redstone_block"
-				}
-				{
-					id: "601A9BDCCEB1BF7C"
-					type: "item"
-					item: "bloodmagic:apprenticebloodorb"
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 0.0d
-			dependencies: ["605245BED4C5C4A3"]
-			id: "68BA54BDB4F750DD"
-			tasks: [{
-				id: "5ED20D23FA80BA6E"
-				type: "item"
-				item: "bloodmagic:alchemytable"
-			}]
-		}
-		{
-			title: "Tiering for Dummies"
-			x: 3.0d
-			y: 1.5d
-			dependencies: ["62D550C71E0EAB0F"]
-			id: "49278FCB4BAF2511"
-			tasks: [
-				{
-					id: "5FF3A335250BC626"
-					type: "item"
-					item: {
-						id: "bloodmagic:arcaneashes"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "72247E0498ACC876"
-					type: "item"
-					item: "bloodmagic:divinationsigil"
-				}
-				{
-					id: "6E01A0801F0B9288"
-					type: "item"
-					item: {
-						id: "patchouli:guide_book"
-						Count: 1b
-						tag: {
-							"patchouli:book": "bloodmagic:guide"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Tier 3"
-			x: 1.5d
-			y: 3.5d
-			description: ["You can swap the glowstone blocks for sea lanterns. "]
-			dependencies: ["62D550C71E0EAB0F"]
-			id: "3FCF29FFF5D86BBD"
-			tasks: [
-				{
-					id: "6D03D3DB97D6A3D9"
-					type: "item"
-					item: "bloodmagic:blankrune"
-					count: 20L
-				}
-				{
-					id: "50F309A23416721E"
-					type: "item"
-					item: "minecraft:gold_block"
-				}
-				{
-					id: "11292D125FA62224"
-					type: "item"
-					item: "bloodmagic:magicianbloodorb"
-				}
-				{
-					id: "103D6331E8E91CE0"
-					type: "item"
-					item: "minecraft:glowstone"
-					count: 4L
-				}
-			]
-		}
-		{
-			title: "Ritualistic"
-			x: 3.0d
-			y: 3.5d
-			dependencies: ["3FCF29FFF5D86BBD"]
-			id: "2D2CC288030E60F1"
-			tasks: [
-				{
-					id: "186929EDA21AA600"
-					type: "item"
-					item: "bloodmagic:ritualdiviner"
-				}
-				{
-					id: "3147BBDE6A24D76E"
-					type: "item"
-					item: {
-						id: "bloodmagic:airscribetool"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "21F9AE0B12EF5379"
-					type: "item"
-					item: {
-						id: "bloodmagic:firescribetool"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "194A5A29277D76A8"
-					type: "item"
-					item: {
-						id: "bloodmagic:waterscribetool"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0F8E51713A80D744"
-					type: "item"
-					item: {
-						id: "bloodmagic:earthscribetool"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "55E5903E48FFBD78"
-					type: "item"
-					item: "bloodmagic:ritualstone"
-					count: 36L
-				}
-				{
-					id: "4CE1683848FD9B1B"
-					type: "item"
-					item: "bloodmagic:masterritualstone"
-				}
-				{
-					id: "219CE7E128CD6020"
-					type: "item"
-					item: "bloodmagic:ritualtinkerer"
-				}
-				{
-					id: "04532C81CF1526A7"
-					type: "item"
-					item: "bloodmagic:activationcrystalweak"
-				}
-			]
-		}
-		{
-			title: "Binding"
-			x: 3.0d
-			y: 5.0d
-			dependencies: ["3FCF29FFF5D86BBD"]
-			id: "2838B8D43EAE3ED4"
-			tasks: [
-				{
-					id: "04AD19DCE947E17A"
-					type: "item"
-					item: {
-						id: "bloodmagic:sanguinereverter"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3AF92D0B439FDC3A"
-					type: "item"
-					item: "bloodmagic:alchemicalreactionchamber"
-				}
-				{
-					id: "38B76EAEBFD139C1"
-					type: "item"
-					item: "bloodmagic:weakbloodshard"
-				}
-			]
-		}
-		{
-			title: "Tier 4"
-			x: 1.5d
-			y: 5.0d
-			dependencies: [
-				"3FCF29FFF5D86BBD"
-				"2838B8D43EAE3ED4"
-			]
-			id: "47E6E1CB6A4DF87E"
-			tasks: [
-				{
-					id: "195B0171E4F1817D"
-					type: "item"
-					item: "bloodmagic:masterbloodorb"
-				}
-				{
-					id: "2D13CA725FAED2C7"
-					type: "item"
-					item: "bloodmagic:blankrune"
-					count: 28L
-				}
-				{
-					id: "05930EB0CEA30D31"
-					type: "item"
-					item: "bloodmagic:weakbloodshard"
-				}
-				{
-					id: "129E1421562EB8DA"
-					type: "item"
-					item: "bloodmagic:largebloodstonebrick"
-					count: 4L
-				}
-			]
-		}
-		{
-			title: "Ritual Improvements"
-			x: 4.5d
-			y: 3.5d
-			dependencies: ["2D2CC288030E60F1"]
-			id: "585A934ABA18FAD4"
-			tasks: [
-				{
-					id: "6298D41518CDB431"
-					type: "item"
-					item: {
-						id: "bloodmagic:duskscribetool"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2CE9D7BCE55DE451"
-					type: "item"
-					item: "bloodmagic:ritualdivinerdusk"
-				}
-				{
-					id: "3A834729F2E7268C"
-					type: "item"
-					item: "bloodmagic:activationcrystalawakened"
-				}
-			]
-		}
-		{
-			title: "Demonic Will Farming"
-			x: 1.5d
-			y: 6.5d
-			shape: "gear"
-			subtitle: "Uses rituals"
-			description: ["You need crystallized corrosive demonic will clusters (green for our colorblind community) in order to create the ATM star. "]
-			dependencies: [
-				"47E6E1CB6A4DF87E"
-				"2838B8D43EAE3ED4"
-			]
-			id: "44E3B85BA28B9D2D"
-			tasks: [
-				{
-					id: "61A6D53ACB2BA894"
-					type: "item"
-					item: "bloodmagic:demoncrucible"
-				}
-				{
-					id: "2479B037D1A6A16D"
-					type: "item"
-					item: "bloodmagic:corrosivecrystal"
-					count: 5L
-				}
-				{
-					id: "680690159FF9022B"
-					type: "item"
-					item: "bloodmagic:corrosivedemoncrystal"
-				}
-				{
-					id: "462D02E2A967ACB2"
-					type: "item"
-					item: "bloodmagic:demoncrystallizer"
-				}
-				{
-					id: "45EF285F540216A5"
-					type: "item"
-					item: "bloodmagic:ritualstone"
-					count: 20L
-				}
-				{
-					id: "618DEDFE6B3AE64D"
-					type: "item"
-					item: "bloodmagic:masterritualstone"
-				}
-			]
-		}
-		{
 			title: "Inner Peace?"
+			icon: "bloodmagic:incensealtar"
 			x: -0.5d
 			y: 1.5d
 			subtitle: "One prick, lots of blood. Very peaceful. "
 			description: ["If you walk up to the altar while it's burning, the sacrificial knife glows, stand there till the flame goes out, and right click on your blood altar after that. You will give as much blood as possible in one go with a glowing blade. The amount of tranquility can be increased by planting trees and flowers and plants, water and lava, etc. around it in a…. 9x9 space, and separated into 3x3 chunks by this 3x3 path in cardinal directions. "]
-			dependencies: ["605245BED4C5C4A3"]
+			dependencies: ["3BF5C9D2775C0564"]
 			id: "586D50F091F49370"
 			tasks: [
 				{
@@ -487,9 +28,1391 @@
 					id: "5000D3FB4D5185DD"
 					type: "item"
 					item: "bloodmagic:woodbrickpath"
-					count: 36L
+					count: 12L
 				}
 			]
+			rewards: [{
+				id: "670123130EFD8A66"
+				type: "item"
+				item: "bloodmagic:stonebrickpath"
+				count: 12
+			}]
+		}
+		{
+			title: "Welcome to Blood Magic"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Blood for the Blood God!"
+			description: [
+				"This mod is centered around Blood, and magical aspect of Life Essence from it."
+				"Written by the past All The Magic dev, credit given"
+			]
+			id: "2D894DCCA51B9AD3"
+			tasks: [{
+				id: "66C71EB015A3B8C2"
+				type: "checkmark"
+				title: "WIP"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"This Altar is the center point of the entire mod. Most of the necessary crafting uses the Blood/Life Essence."
+				"- 2 will be needed for seperate reasons. Only 1 for initial crafting."
+				"-Apotheosis Mod Spawners will help tremendously if Self-Sacrifice isn't your shtick."
+				"[-The tiering up process is located in the Guide, with visuals.]"
+			]
+			id: "3BF5C9D2775C0564"
+			tasks: [{
+				id: "7E9B8EDD1D2ECCF2"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			subtitle: "Tier 1 Altar"
+			description: [
+				"With some blood through any means, you'll need to craft a Blood Orb."
+				"This weak one has some general crafting use."
+				"Once made, right click it to link it to your Life Point (LP) network."
+				"The LP network is for utilizing special tools to do work for you at the cost of LP. Rituals, Sigils, and for furnace fuel."
+			]
+			dependencies: ["3BF5C9D2775C0564"]
+			id: "3FB542A8395F2D93"
+			tasks: [{
+				id: "17FD74203BD62C83"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "251E507CC16813A5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["3FB542A8395F2D93"]
+			id: "63BDE72D9C134876"
+			tasks: [{
+				id: "6FE60ED3151685F6"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [{
+				id: "54F22B270A416C73"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["63BDE72D9C134876"]
+			id: "3F0112759FF109BC"
+			tasks: [{
+				id: "1C136108B752C17A"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+			rewards: [{
+				id: "2A6BD8750E6CCEC3"
+				type: "item"
+				item: "minecraft:stone"
+				count: 18
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			description: ["Makes Crafting with the Altar 20% faster. Does not work for Well of Suffering Ritual."]
+			dependencies: ["3F0112759FF109BC"]
+			id: "76E137662B5D825E"
+			tasks: [{
+				id: "16B8EAC7B2455AC8"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+			rewards: [{
+				id: "1BAA6188870BCF13"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			description: [
+				"Mobs killed with this rune on will give more LP."
+				"This works well with the Well of Suffering Ritual as the constant Tick damage gives more LP then it uses. Witches make for the best of unending, constant stream of LP."
+			]
+			dependencies: ["3F0112759FF109BC"]
+			id: "520E88589B4B279F"
+			tasks: [{
+				id: "3031E77DE2A01B1C"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+			rewards: [{
+				id: "3EEBD3D010B30E0B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			description: ["Every rune makes the Sacrificial Knife better, more LP without losing more health."]
+			dependencies: [
+				"3F0112759FF109BC"
+				"3EFBC472A9F04F9B"
+			]
+			id: "6A6082C749DA2F35"
+			tasks: [{
+				id: "53592912D78D1807"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+			rewards: [
+				{
+					id: "609C7DC801E0C655"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				}
+				{
+					id: "2A6A81DA1C54AA00"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["3F0112759FF109BC"]
+			id: "561D20E026AD79B7"
+			tasks: [{
+				id: "2BBE617199213E15"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+			rewards: [{
+				id: "45A5F0221C832FE9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			description: ["Adds more space to your altar, necessary for longer crafting periods."]
+			dependencies: ["3F0112759FF109BC"]
+			id: "07610F9FAC506BB2"
+			tasks: [{
+				id: "0828841E6411B7FA"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+			rewards: [
+				{
+					id: "0F64AE5103587B65"
+					type: "item"
+					item: "minecraft:bucket"
+					count: 3
+				}
+				{
+					id: "401F7E35B5AE78FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			description: ["This will add 10% more to your Altars Essence tank. Utilizing Tier 4's Rune space with these will show a substantial difference."]
+			dependencies: ["07610F9FAC506BB2"]
+			id: "6A6F833CF7ED75E5"
+			tasks: [{
+				id: "558997F57B81D8DB"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+			rewards: [{
+				id: "5965601211B5FC40"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			dependencies: ["3F0112759FF109BC"]
+			id: "00D4273740E78CDE"
+			tasks: [{
+				id: "7E5B16D9C5197527"
+				type: "item"
+				item: "bloodmagic:orbcapacityrune"
+			}]
+			rewards: [{
+				id: "1AB1037B28A103E0"
+				type: "item"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["Instead of a flat 20% faster craft, this reduces the maximum time it takes to craft. Only 4 would ever be needed with 8 Speed Runes."]
+			dependencies: ["76E137662B5D825E"]
+			id: "42EA919FA5A288BB"
+			tasks: [{
+				id: "675FA0A3D908097E"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["3F0112759FF109BC"]
+			id: "0E983BDD51208A48"
+			tasks: [{
+				id: "42BE2990E1B50FEF"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+			rewards: [{
+				id: "07E51EEC3D7F4AD1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Tier 2 Altar"
+			dependencies: ["3FB542A8395F2D93"]
+			id: "4FF458EE7742DCE6"
+			tasks: [{
+				id: "4759D7C8D81A8B9F"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [{
+				id: "4D9062A61C47CF15"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "Tier 3 Altar"
+			dependencies: ["4FF458EE7742DCE6"]
+			id: "108F29D4FCE03619"
+			tasks: [{
+				id: "03730D7B09374808"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [{
+				id: "533869123ACD5339"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			subtitle: "Tier 4 Altar"
+			description: ["The last tier orb. You'll want 2, as one for Crafting needs and 2nd one for Well of Suffering LP farming."]
+			dependencies: ["108F29D4FCE03619"]
+			id: "64F142F176E9E2F5"
+			tasks: [{
+				id: "56004B1DAD667C9E"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [{
+				id: "53D457FB92CDF3D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["4FF458EE7742DCE6"]
+			id: "03CED5BA189B5F86"
+			tasks: [{
+				id: "7084C86B1DFB7590"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [{
+				id: "4B118F8457FC6C2A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["108F29D4FCE03619"]
+			id: "2C987B0D9C2D0856"
+			tasks: [{
+				id: "5DCFE99A7A1E6B18"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [{
+				id: "18C447F0FF43351B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["64F142F176E9E2F5"]
+			id: "7F6C0669944B0FE6"
+			tasks: [{
+				id: "351FB17AD8CC3F67"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [{
+				id: "72E37BF65BA13A85"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Chest moving, non-silk touch cheesing bag."
+			description: [
+				"The only reason Bag of Yurting is in this line as the Life Flower from The Abyss mod (drops life nuggets on break) can be yurted, and grown yourself. "
+				"The context of this flower is to stand on while using the Self-Sacrificial knife as it keeps healing you to fill your Altars reservoirs."
+				"Use the Nature's Compass to find Ruma, Roggen or Flora Forest in the Overworld. (Ruma I believe is the one)"
+			]
+			id: "7D368746A32C78EE"
+			tasks: [{
+				id: "176D46AB252350AE"
+				type: "item"
+				item: {
+					id: "bagofyurting:bag_of_yurting"
+					Count: 1b
+					tag: {
+						radius: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "64904BC50E1E5EFD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Living Armor"
+			x: 6.0d
+			y: 5.5d
+			description: [
+				"This armor utilizes your LP to be armor, and it takes a while to grind up its best abilities."
+				"To be honest, the real reason of crafting this is part of endgame \"Mundane Armor\" for AlltheModium."
+			]
+			dependencies: ["5DCDC575445B1B32"]
+			id: "7EFAE4DF0649FB3B"
+			tasks: [
+				{
+					id: "23844A80FB0B61B9"
+					type: "item"
+					item: {
+						id: "bloodmagic:livinghelmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C8013C2C94ECBB6"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "26FAF5C615DB01BB"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingleggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AA58D00CDECE851"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "350B9B2A85761F15"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			subtitle: "Just little smackeral of blood, only a little please."
+			description: ["This knife will cut you on right click use, will give the altar essence."]
+			id: "3EFBC472A9F04F9B"
+			tasks: [{
+				id: "67618F9E8418DC14"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "78745F0BC4D8FAF5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "288BF031C859FC09"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			description: ["If you kill a mob within 2 blocks of the Altar, the mob will be instantly killed. Do note drops/exp may not happen due to this mechanic."]
+			dependencies: ["520E88589B4B279F"]
+			id: "1EE620C17A0A2B90"
+			tasks: [{
+				id: "46C01C7578A27BDE"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["A table to make specialized ingredients. "]
+			id: "0B43B92056085B70"
+			tasks: [{
+				id: "4A5ADDE59E083632"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "749998211A3E732D"
+					type: "item"
+					item: "bloodmagic:plantoil"
+				}
+				{
+					id: "7BFB0911349E4DC7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "With an array of alchemic symbols to create something new. No Humonculi."
+			description: ["This dust is necessary to create new items."]
+			dependencies: ["0B43B92056085B70"]
+			id: "41EF059315CEA346"
+			tasks: [{
+				id: "3B7654CE877A86A7"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C0C561E7E5968D8"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "4DFA2DB4323FE5D7"
+					type: "item"
+					item: "bloodmagic:blankslate"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			description: ["This Sigil will tell you the amount of LP is in your network."]
+			dependencies: ["56C3917719B534D8"]
+			id: "0F3EA774273F4606"
+			tasks: [{
+				id: "76918F0D8531D520"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+			rewards: [{
+				id: "31FD6DB31805EC95"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "45DBBFDB26464C8D"
+			tasks: [{
+				id: "5F56B419FB1C78DD"
+				type: "item"
+				item: {
+					id: "bloodmagic:growthsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "31E317EF6761B334"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Reagent Managerie"
+			x: 2.5d
+			y: 5.5d
+			dependencies: ["0B43B92056085B70"]
+			id: "56C3917719B534D8"
+			tasks: [
+				{
+					id: "75126CEEF4911DF7"
+					type: "item"
+					item: "bloodmagic:reagentwater"
+				}
+				{
+					id: "3DCFBB6CCB7C3C09"
+					type: "item"
+					item: "bloodmagic:reagentlava"
+				}
+				{
+					id: "7BDDA28AEBC9FC37"
+					type: "item"
+					item: "bloodmagic:reagentvoid"
+				}
+				{
+					id: "2B861D4C0ABF0ECB"
+					type: "item"
+					item: "bloodmagic:reagentgrowth"
+				}
+				{
+					id: "526C2E58D6852CF8"
+					type: "item"
+					item: "bloodmagic:reagentfastminer"
+				}
+				{
+					id: "36311BE723D7C2FB"
+					type: "item"
+					item: "bloodmagic:reagentmagnetism"
+				}
+				{
+					id: "59D81124FCBB6601"
+					type: "item"
+					item: "bloodmagic:reagentair"
+				}
+				{
+					id: "37D9D7F3D0C04013"
+					type: "item"
+					item: "bloodmagic:reagentbloodlight"
+				}
+				{
+					id: "3840E17C5144FF77"
+					type: "item"
+					item: "bloodmagic:reagentsight"
+				}
+				{
+					id: "5ACDBF2B63F31922"
+					type: "item"
+					item: "bloodmagic:reagentholding"
+				}
+			]
+			rewards: [{
+				id: "4861F95789116759"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["0B43B92056085B70"]
+			id: "5DCDC575445B1B32"
+			tasks: [{
+				id: "257B3CD4830422C0"
+				type: "item"
+				item: "bloodmagic:reagentbinding"
+			}]
+			rewards: [{
+				id: "1354BFF07C21DCFA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "4FB061E4BE115DCC"
+			tasks: [{
+				id: "1897BD3BC7DA58A8"
+				type: "item"
+				item: {
+					id: "bloodmagic:miningsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "76A704D558C04437"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "172E6E3853A8A57B"
+			tasks: [{
+				id: "356CD2C56D81FF2E"
+				type: "item"
+				item: {
+					id: "bloodmagic:sigilofmagnetism"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2F9A24DD4E1127A5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "7C110148906BDADF"
+			tasks: [{
+				id: "7040F216D89D4F25"
+				type: "item"
+				item: {
+					id: "bloodmagic:icesigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3DDDBE2C35B1F61A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "3562AA8158397E50"
+			tasks: [{
+				id: "23544CFD30D74621"
+				type: "item"
+				item: "bloodmagic:seersigil"
+			}]
+			rewards: [{
+				id: "18039A2FE04CE048"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "73F49E113D0BEDD5"
+			tasks: [{
+				id: "7D463B321D2EDE92"
+				type: "item"
+				item: "bloodmagic:watersigil"
+			}]
+			rewards: [{
+				id: "7D2DFAFD61F9F678"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "5255F01FA4E2AF31"
+			tasks: [{
+				id: "6FB9B21E794BA032"
+				type: "item"
+				item: "bloodmagic:voidsigil"
+			}]
+			rewards: [{
+				id: "22AD91E24D4D766D"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "2A62557EAD76DC90"
+			tasks: [{
+				id: "3DF5C963D8C095E1"
+				type: "item"
+				item: "bloodmagic:lavasigil"
+			}]
+			rewards: [{
+				id: "18B22AFBC355D41B"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "432FF6369BB74DD6"
+			tasks: [{
+				id: "46EF66469E9DEBC7"
+				type: "item"
+				item: "bloodmagic:airsigil"
+			}]
+			rewards: [{
+				id: "40FFA03B247E977C"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "4E006A6AE0521EA7"
+			tasks: [{
+				id: "7581B6D82A71F18F"
+				type: "item"
+				item: "bloodmagic:bloodlightsigil"
+			}]
+			rewards: [{
+				id: "593D43C8C9F4F905"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.5d
+			dependencies: ["56C3917719B534D8"]
+			id: "38733213C578D027"
+			tasks: [{
+				id: "3159DE9297D0AA91"
+				type: "item"
+				item: "bloodmagic:sigilofholding"
+			}]
+			rewards: [{
+				id: "437DFA3DA0F9E459"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			description: [
+				"This device will craft items with demonic will, obtained through slain mobs."
+				"-It uses Demon will to craft. Even if your gem has the right amount to craft, it has a BASE minimum before taking what is needed."
+				"Example will be for the Crucible- Uses 100, but the gem must have 400 before it drains."
+			]
+			dependencies: ["3BF5C9D2775C0564"]
+			id: "5C50C6831C919061"
+			tasks: [{
+				id: "3955BB674BF960F3"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "3D55557CD36C9A85"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.0d
+			description: [
+				"This will be needed for some items. Blood shards mainly."
+				"This can act as a Furnace if needed."
+			]
+			dependencies: ["5C50C6831C919061"]
+			id: "49C3214E41F3596A"
+			tasks: [{
+				id: "2E97B3C38805E23C"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [{
+				id: "2914DF68A13EF214"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.5d
+			dependencies: ["63D5CD3B276B1528"]
+			id: "7AEB6025131A3AFF"
+			tasks: [{
+				id: "557A09ECB8459A05"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+			rewards: [{
+				id: "3E55FFC0006E68C1"
+				type: "item"
+				item: "bloodmagic:demonwillgauge"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 13.0d
+			description: ["This will revert certain actions. Specifically accidental duplicate Orbs."]
+			dependencies: [
+				"49C3214E41F3596A"
+				"63D5CD3B276B1528"
+			]
+			id: "1BD37C52C326E80D"
+			tasks: [{
+				id: "43B8C0304C92F73E"
+				type: "item"
+				item: {
+					id: "bloodmagic:sanguinereverter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "18B9F7BDFB4F7D6F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: 13.0d
+			description: ["Needed for several recipes and to get your Altar to Tier 4."]
+			dependencies: ["1BD37C52C326E80D"]
+			id: "20CF7E0F799460CA"
+			tasks: [{
+				id: "0F8A9464194A87F2"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+			rewards: [{
+				id: "5A99339EF25DCC13"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			description: [
+				"This can be given demon will by right clicking a gem onto it."
+				"The will be evaporated and put in the \"chunk\"."
+				"This is used for the Crystallizer."
+				"You can put a lever on it (redstone signal) and can syphon back the Will back into the Gem if needed."
+			]
+			dependencies: [
+				"622138E9BE1D0D1C"
+				"63D5CD3B276B1528"
+			]
+			id: "2BEB7F9A7A65894A"
+			tasks: [{
+				id: "45F53C0F31E544D8"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			description: ["You'll will need this to throw onto undead creatures. When one is thrown and the mob is glowing white, kill it for Demon Will. You'll need enough to make 3 petty gems."]
+			dependencies: ["5C50C6831C919061"]
+			id: "54A19BA41EF98214"
+			tasks: [{
+				id: "0A02E5B230B14F0A"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+			rewards: [{
+				id: "4266E3ABB778771C"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+				count: 7
+			}]
+		}
+		{
+			x: 1.0d
+			y: 12.0d
+			dependencies: ["208E1A2E8D86F108"]
+			id: "6395DDEE2E7475F2"
+			tasks: [{
+				id: "78F285AFA2789D2B"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: {
+						souls: 256.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "4ABF0A06C5BA1936"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			description: [
+				"You'll want 3 of these. They will hold Demonic Will to use for crafting. 1 of these gems is used in the Sentient Sword."
+				"The other 2 gems will be interchangeably upgraded."
+			]
+			dependencies: ["54A19BA41EF98214"]
+			id: "208E1A2E8D86F108"
+			tasks: [{
+				id: "48EA694A963F345A"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "48BC369CD867CF39"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 13.0d
+			dependencies: ["6395DDEE2E7475F2"]
+			id: "63D5CD3B276B1528"
+			tasks: [{
+				id: "0A78312868D04E58"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 1024.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2414FEBC27241F74"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 14.0d
+			dependencies: ["63D5CD3B276B1528"]
+			id: "4363939D986FC09C"
+			tasks: [{
+				id: "26676CD741B04126"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 4096.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "7402491E5DD99DDF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			description: [
+				"A special sword that functions like a normal blade, but also eases the gain of Demonic Will."
+				"The more will it has sapped, the more powerful it becomes."
+				"Recommended to add Sharpness and Mending or Indestructable."
+			]
+			dependencies: [
+				"54A19BA41EF98214"
+				"208E1A2E8D86F108"
+			]
+			id: "622138E9BE1D0D1C"
+			tasks: [{
+				id: "345DAC49711E4390"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "344FBB0EDEDA0425"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.5d
+			description: ["After enough will has be put into the chunk. The crystallizer will sprout a crystal to be mined for future crafting."]
+			dependencies: ["7AEB6025131A3AFF"]
+			id: "06ADA12FA7D7E308"
+			tasks: [{
+				id: "2D5ED6F40A462492"
+				type: "item"
+				item: "bloodmagic:defaultcrystal"
+			}]
+			rewards: [{
+				id: "51303F8677ED7545"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 11.0d
+			description: ["Requires a Ritual to gain."]
+			dependencies: ["7AEB6025131A3AFF"]
+			id: "0A2C26CCAD3FF990"
+			tasks: [{
+				id: "2D12C5E166A2E573"
+				type: "item"
+				item: "bloodmagic:corrosivecrystal"
+			}]
+			rewards: [{
+				id: "7B24E6F06586874A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.5d
+			description: ["Requires a Ritual to gain."]
+			dependencies: ["7AEB6025131A3AFF"]
+			id: "6347F06FA396862B"
+			tasks: [{
+				id: "0BA9ECA6DBFF5C8F"
+				type: "item"
+				item: "bloodmagic:vengefulcrystal"
+			}]
+			rewards: [{
+				id: "05A3B959256A3E08"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			description: ["Requires a Ritual to gain."]
+			dependencies: ["7AEB6025131A3AFF"]
+			id: "4D0F7A13E7B4B713"
+			tasks: [{
+				id: "1B5ADE7353876918"
+				type: "item"
+				item: "bloodmagic:destructivecrystal"
+			}]
+			rewards: [{
+				id: "5ADD67D2F2E175DB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			description: ["Requires a Ritual to gain."]
+			dependencies: ["7AEB6025131A3AFF"]
+			id: "772DBB2065F64276"
+			tasks: [{
+				id: "44C662789BBE7A3E"
+				type: "item"
+				item: "bloodmagic:steadfastcrystal"
+			}]
+			rewards: [{
+				id: "3C7119E4F3986319"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["Many of the Sigils and items require LP to be in your network. Some items will refuse to work, some will give nausea, and some may outright kill you if you do not have the LP to maintain."]
+			id: "3542CB3EED666431"
+			tasks: [{
+				id: "7922C6B5919DCD7D"
+				type: "checkmark"
+				title: "Life Point (LP) Network"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: [
+				"This nifty crystal once right clicked on the ground/air and Linked to your LP network, will use LP as fuel for furnace."
+				"You may need a few, 1 for furnace fuel, others for crafting needs."
+				"Despite what it says, can be put into anything considered a furnace."
+			]
+			dependencies: ["3FB542A8395F2D93"]
+			id: "13F813DFC06C4D1A"
+			tasks: [{
+				id: "21BB48F5FE3DD476"
+				type: "item"
+				item: "bloodmagic:lavacrystal"
+			}]
+			rewards: [
+				{
+					id: "122788455AD512FE"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+				{
+					id: "346556E814984B40"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: [
+				"In order to activate Rituals, you will need this."
+				"Look inside the guide to see how much LP in your network for the Ritual to activate."
+			]
+			dependencies: ["13F813DFC06C4D1A"]
+			id: "18CECD2DDD8700A3"
+			tasks: [{
+				id: "3549AD9ACDEF72D1"
+				type: "item"
+				item: "bloodmagic:activationcrystalweak"
+			}]
+			rewards: [{
+				id: "62FFEAA41DA95ACB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Rituals"
+			x: 3.5d
+			y: 2.5d
+			description: [
+				"You will need the Dusk Ritual diviner for placing the Ritual stones for you."
+				"Rituals vary, a stack of the stones should suffice for most Rituals."
+				"-Shift right-click in the air to Select a Ritual."
+				"-Once a ritual has been selected, right click the placed Master Ritual Stone to start placing. It will not place a stone if a block exists in its place."
+				"-You only need 1 Master Ritual Stone per ritual."
+			]
+			dependencies: ["18CECD2DDD8700A3"]
+			id: "4F9FCC92C7E6F09E"
+			tasks: [
+				{
+					id: "7AFF0930E5D70A42"
+					type: "item"
+					item: "bloodmagic:ritualdivinerdusk"
+				}
+				{
+					id: "1E1BBC9944A1E6CE"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+				}
+				{
+					id: "313A54C12E667805"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+			]
+			rewards: [{
+				id: "472A5D1B81E2F709"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.5d
+			dependencies: ["6347F06FA396862B"]
+			id: "2F4E3F9735F3F541"
+			tasks: [{
+				id: "245DC5E95E4F2001"
+				type: "item"
+				item: "bloodmagic:vengefuldemoncrystal"
+			}]
+			rewards: [{
+				id: "3ED771129BC525A7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.5d
+			dependencies: ["06ADA12FA7D7E308"]
+			id: "4E7E6ED87095B7CE"
+			tasks: [{
+				id: "644B2F48FB1E533B"
+				type: "item"
+				item: "bloodmagic:rawdemoncrystal"
+			}]
+			rewards: [{
+				id: "1E222D6F9E136B0C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 11.0d
+			shape: "gear"
+			description: ["Corrosive Will Crystal Clusters are used in the ATM star recipe. "]
+			dependencies: ["0A2C26CCAD3FF990"]
+			id: "2A6F4AE62EF097C6"
+			tasks: [{
+				id: "6038665B3F68D59E"
+				type: "item"
+				item: "bloodmagic:corrosivedemoncrystal"
+			}]
+			rewards: [
+				{
+					id: "6AE08B9E1FDA0738"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "50D00D6D7EB26EC6"
+					type: "item"
+					item: "nethers_delight:stuffed_hoglin_item"
+				}
+				{
+					id: "61C126A459B987AE"
+					type: "item"
+					item: "bloodmagic:experiencebook"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 12.5d
+			dependencies: ["4D0F7A13E7B4B713"]
+			id: "3712FAE64DCD7E6E"
+			tasks: [{
+				id: "558D2538D4C3B714"
+				type: "item"
+				item: "bloodmagic:destructivedemoncrystal"
+			}]
+			rewards: [{
+				id: "74A2DF7DABBE91F0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.0d
+			y: 12.0d
+			dependencies: ["772DBB2065F64276"]
+			id: "0366F4702F916320"
+			tasks: [{
+				id: "23D2CCC1A8F80D8D"
+				type: "item"
+				item: "bloodmagic:steadfastdemoncrystal"
+			}]
+			rewards: [{
+				id: "25DF1F77BF887598"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }
