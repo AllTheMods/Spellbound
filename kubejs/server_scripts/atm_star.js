@@ -291,9 +291,9 @@ e.custom({type: 'mana-and-artifice:manaweaving-recipe', tier: 5, output: 'kubejs
     'xreliquary:eye_of_the_storm',
     'botania:third_eye',
     'forbidden_arcanus:spectral_eye_amulet',
-    'minecraft:fermeted_spider_eye',
+    'minecraft:fermented_spider_eye',
     'enigmaticlegacy:extradimensional_eye',
-    'xreliquary:salander_eye',
+    'xreliquary:salamander_eye',
     'theabyss:scorpioneye'
 ],
 patterns: [

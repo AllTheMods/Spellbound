@@ -72,5 +72,23 @@ experience: 2.0,
 smelttime: 1200
 })
 
+//ATM
+  e.shapeless('9x kubejs:atm_star', 'kubejs:atm_star_block')
+  e.shapeless('9x minecraft:nether_star', 'kubejs:nether_star_block')
+  e.shaped('kubejs:atm_star_block', [
+    'SSS',
+    'SSS',
+    'SSS'
+  ], {
+    S: 'kubejs:atm_star'
+  })
+  e.shaped('kubejs:nether_star_block', [
+    'SSS',
+    'SSS',
+    'SSS'
+  ], {
+    S: 'minecraft:nether_star'
+  })
+
 }
 )
