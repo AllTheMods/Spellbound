@@ -1,0 +1,27 @@
+{
+	id: "7F411EF7436319E4"
+	order_index: 4
+	title: "Malum Spirit Pile"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "malum:aquatic_spirit", count: 4 }
+		{ item: "malum:aerial_spirit", count: 4 }
+		{ item: "malum:infernal_spirit", count: 4 }
+		{ item: "malum:earthen_spirit", count: 4 }
+		{ item: "malum:eldritch_spirit", count: 4 }
+		{ item: "malum:arcane_spirit", count: 4 }
+		{ item: "malum:wicked_spirit", count: 4 }
+		{ item: "malum:sacred_spirit", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "malum_spirit_pile"
+	}
+}

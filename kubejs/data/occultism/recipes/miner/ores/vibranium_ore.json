@@ -4,7 +4,7 @@
       "tag": "occultism:miners/ores"
     },
     "result":{
-      "tag": "forge:ores/vibrainum"
+      "tag": "forge:ores/vibranium"
     },
     "weight": 20,
     "conditions": [
@@ -12,7 +12,7 @@
         "type": "forge:not",
         "value": {
           "type": "forge:tag_empty",
-          "tag": "forge:ores/vibrainum"
+          "tag": "forge:ores/vibranium"
         }
       }
     ]

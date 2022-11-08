@@ -1,7 +1,7 @@
 {
 	id: "69D91A905C5D2BDD"
 	group: "2869CB12B4663D25"
-	order_index: 5
+	order_index: 3
 	filename: "eidalon_and_malum"
 	title: "Eidolon and Malum"
 	icon: "eidolon:shadow_gem"
@@ -52,6 +52,11 @@
 				id: "6195E8A383074F2F"
 				type: "item"
 				item: "malum:soulstone"
+			}]
+			rewards: [{
+				id: "0D4BEDB8B6C34DFB"
+				type: "item"
+				item: "malum:soulstone_block"
 			}]
 		}
 		{
@@ -159,6 +164,11 @@
 					item: "malum:aerial_spirit"
 				}
 			]
+			rewards: [{
+				id: "794CC6104281E567"
+				type: "loot"
+				table_id: 9169644363639364068L
+			}]
 		}
 		{
 			x: -5.5d
@@ -185,6 +195,11 @@
 					count: 6L
 				}
 			]
+			rewards: [{
+				id: "3ECE1F02D41B6F7E"
+				type: "random"
+				table_id: 9169644363639364068L
+			}]
 		}
 		{
 			x: -6.5d
@@ -311,7 +326,7 @@
 			description: [
 				"This is the 2nd piece that goes with the Totem. The totem recipe the Rune Table needs is \"Rite of Assembly\". This will allow the creation of Hallowed Gold and Soul Stained Steel."
 				""
-				"The Totem does not dissappear on use, so it can be used multiple times. Do note it the ritual can take time or be instant."
+				"The Totem does not disappear on use, so it can be used multiple times. Do note it the ritual can take time or be instant. Make sure the totem symbols are pointed at the rune table and the logs are all in the same orientation."
 				"This table can also create \"catalyst\" styled items, like Blaze powder, phantom membranes, and coveted Ghast Tears."
 			]
 			dependencies: ["573D3D79C93D85FD"]
@@ -320,6 +335,11 @@
 				id: "7124773832613CC1"
 				type: "item"
 				item: "malum:rune_table"
+			}]
+			rewards: [{
+				id: "1EBC9EDC57ADCC6C"
+				type: "random"
+				table_id: 9169644363639364068L
 			}]
 		}
 		{
@@ -333,6 +353,12 @@
 				id: "5574256E5D3DF574"
 				type: "item"
 				item: "malum:soul_stained_steel_ingot"
+			}]
+			rewards: [{
+				id: "394BBD867459A6F3"
+				type: "item"
+				item: "malum:soul_stained_steel_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -349,6 +375,12 @@
 				id: "143FA337B0A4A5AA"
 				type: "item"
 				item: "malum:hallowed_gold_ingot"
+			}]
+			rewards: [{
+				id: "0F6CAC1BC9B57AD6"
+				type: "item"
+				item: "malum:hallowed_gold_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -513,6 +545,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "735F6A724E5CA71C"
+					type: "loot"
+					table_id: 9169644363639364068L
+				}
+				{
+					id: "46D2D023C3422807"
+					type: "loot"
+					table_id: 1539445375977315958L
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -622,6 +666,12 @@
 				type: "item"
 				item: "eidolon:pewter_ingot"
 			}]
+			rewards: [{
+				id: "6BFFDB1E54F3378C"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 8
+			}]
 		}
 		{
 			x: 2.0d
@@ -687,6 +737,12 @@
 				type: "item"
 				item: "eidolon:soul_shard"
 			}]
+			rewards: [{
+				id: "0DF6391080C32CAA"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 8
+			}]
 		}
 		{
 			x: 4.5d
@@ -725,6 +781,12 @@
 				id: "25257D6AE74BDAE8"
 				type: "item"
 				item: "eidolon:arcane_gold_ingot"
+			}]
+			rewards: [{
+				id: "614320CA7EE28596"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+				count: 4
 			}]
 		}
 		{

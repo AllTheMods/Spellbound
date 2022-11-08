@@ -1,0 +1,37 @@
+{
+	id: "57C9F018D3B7D1B9"
+	order_index: 0
+	title: "Nature's Aura"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "naturesaura:aura_bottle"
+				Count: 1b
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturesaura:aura_bottle"
+				Count: 1b
+				tag: {
+					stored_type: "naturesaura:nether"
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturesaura:aura_bottle"
+				Count: 1b
+				tag: {
+					stored_type: "naturesaura:end"
+				}
+			}
+		}
+	]
+}

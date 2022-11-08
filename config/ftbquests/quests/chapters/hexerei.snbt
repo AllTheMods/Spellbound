@@ -1,0 +1,263 @@
+{
+	id: "13F3ADD720FA627C"
+	group: "2869CB12B4663D25"
+	order_index: 6
+	filename: "hexerei"
+	title: "Hexerei"
+	icon: "xreliquary:witch_hat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "This chapter is under construction!"
+			description: [
+				"Welcome to Hexerei, a mod by joefoxe. "
+				"When Hexerei gets more material, this chapter will grow. "
+			]
+			id: "5404606D8CF57BB4"
+			tasks: [{
+				id: "7FD1A6AB17DA5068"
+				type: "checkmark"
+				title: "Witches rival"
+			}]
+			rewards: [{
+				id: "6BD03F40A58AA0F8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			description: [
+				"Go visit a hexerei coven village. If you haven’t gotten your wicked sign for eidolon yet, good place to get it if there are vanilla witches about. "
+				"Hexerei adds a new biome; willow swamp. The coven villages can be found in swamp biomes."
+			]
+			id: "60FF300E3C0B6860"
+			tasks: [{
+				id: "7D4DE4CFF02286D9"
+				type: "checkmark"
+				title: "Village of Witches"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Mixing Cauldron"
+			description: ["Make a mixing cauldron. Has jei support if you click on the bubbles in the middle of the gui! Can be filled with water or lava or tallow or blood."]
+			dependencies: [
+				"5404606D8CF57BB4"
+				"60FF300E3C0B6860"
+			]
+			id: "69EDA977B7AEBC28"
+			tasks: [{
+				id: "2EE42581036F7DA8"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [{
+				id: "5A617B318CC98AAB"
+				type: "choice"
+				table_id: 6122917225507007151L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["Make some tallow, a candle dipper, and use some string to make your first candles."]
+			dependencies: ["69EDA977B7AEBC28"]
+			id: "2AC0820DA6A0D5E2"
+			tasks: [
+				{
+					id: "137FB93FDEB20ADD"
+					type: "item"
+					item: "hexerei:candle_dipper"
+				}
+				{
+					id: "45D2D723768E9379"
+					type: "item"
+					item: "hexerei:candle"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "2F1483237A2B294A"
+				type: "choice"
+				table_id: 6122917225507007151L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: ["Collect black dye, string and 4 leather PER PIECE of infused fabric. Pretty expensive, I hope you have a cow farm BY NOW. Make yourself some witch’s clothes."]
+			dependencies: ["69EDA977B7AEBC28"]
+			id: "18EAB9FA603A1294"
+			tasks: [
+				{
+					id: "5CBD577BFD0D2C38"
+					type: "item"
+					item: "hexerei:infused_fabric"
+					count: 8L
+				}
+				{
+					id: "465E6A57E8A8D7AA"
+					type: "item"
+					item: {
+						id: "hexerei:witch_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5199CEBFAC2D469B"
+					type: "item"
+					item: {
+						id: "hexerei:witch_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BB13CE0A10C5246"
+					type: "item"
+					item: {
+						id: "hexerei:witch_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["Make a blood sigil, place it in the mixing cauldron (when empty) and hop inside a few times to be able to get a bottle of blood. "]
+			dependencies: ["69EDA977B7AEBC28"]
+			id: "11F0589E94AB080E"
+			tasks: [{
+				id: "5122229B31207230"
+				type: "item"
+				item: "hexerei:blood_sigil"
+			}]
+			rewards: [{
+				id: "306A05929FF2FD00"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Check out JEI for all the items that the mixing cauldron can make!"]
+			dependencies: ["69EDA977B7AEBC28"]
+			id: "6F6A94AEE05E12E9"
+			tasks: [{
+				id: "64EAB1BF2491136F"
+				type: "checkmark"
+				title: "Mad Mixologist"
+			}]
+			rewards: [{
+				id: "77A662EBC1576A0B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: [
+				"Collect some of the plants you see in swamps, like belladonna and mandrake. Make a jar to keep them in. Nameable!"
+				"Occasionally mandrake drops their root instead of the plant. Hold onto that. "
+			]
+			dependencies: [
+				"5404606D8CF57BB4"
+				"60FF300E3C0B6860"
+			]
+			id: "722300FF8C927D50"
+			tasks: [
+				{
+					id: "35550AF36AD3887F"
+					type: "item"
+					item: {
+						id: "hexerei:herb_jar"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "29A8F41189DAD8EF"
+					type: "item"
+					item: "hexerei:mandrake_flower"
+				}
+				{
+					id: "3504F09504956CE3"
+					type: "item"
+					item: "hexerei:mandrake_root"
+				}
+				{
+					id: "7C7CC1CD2A8EA1C6"
+					type: "item"
+					item: "hexerei:sage_seed"
+				}
+				{
+					id: "578F7C741608B9C3"
+					type: "item"
+					item: "hexerei:belladonna_flower"
+				}
+				{
+					id: "146FED43E98FF61A"
+					type: "item"
+					item: "hexerei:mugwort_bush"
+				}
+				{
+					id: "4B912567BDB8F397"
+					type: "item"
+					item: "hexerei:yellow_dock_bush"
+				}
+			]
+			rewards: [{
+				id: "7C4A2F7D568BBBA3"
+				type: "choice"
+				table_id: 414778086977979556L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["Requires netherite to create. Or get lucky and find it in the largest witch house in the swamps. Look up!"]
+			dependencies: [
+				"69EDA977B7AEBC28"
+				"11F0589E94AB080E"
+				"722300FF8C927D50"
+			]
+			id: "0AC998924FA8918E"
+			tasks: [{
+				id: "55B06CA2642A2D69"
+				type: "item"
+				item: "hexerei:broom"
+			}]
+			rewards: [
+				{
+					id: "55B742F99DBCB111"
+					type: "random"
+					table_id: 1539445375977315958L
+				}
+				{
+					id: "0210D4B35411E9E6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

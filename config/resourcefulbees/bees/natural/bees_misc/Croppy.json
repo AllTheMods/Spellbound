@@ -62,7 +62,7 @@
     },
     "SpawnData": {
         "canSpawnInWorld": true,
-        "biomeWhitelist": "tag:croppy",
+        "biomeWhitelist": "tag:plains",
         "biomeBlacklist": "",
         "spawnWeight": 5,
         "minYLevel": 0,

@@ -13,7 +13,7 @@
 	#Enable Silver Worldgen
 	silver = true
 	#Enable Aluminum Worldgen
-	aluminum = false
+	aluminum = true
 	#Enable Uranium Worldgen
 	uranium = false
 	#Enable Zinc Worldgen
@@ -54,10 +54,10 @@
 	[spawntuning.tin]
 		#Tin deposit size
 		#Range: 1 ~ 64
-		tin_deposit_size = 1
+		tin_deposit_size = 7
 		#Tin veins per chunk
 		#Range: 1 ~ 64
-		tin_vein_count = 1
+		tin_vein_count = 6
 		#Tin top Y level for spawn
 		#Range: 1 ~ 254
 		tin_max_y = 60
@@ -110,7 +110,7 @@
 	[spawntuning.aluminum]
 		#Aluminum deposit size
 		#Range: 1 ~ 64
-		aluminum_deposit_size = 1
+		aluminum_deposit_size = 6
 		#Aluminum bottom Y level for spawn
 		#Range: 1 ~ 254
 		aluminum_min_y = 40
@@ -119,7 +119,7 @@
 		aluminum_max_y = 70
 		#Aluminum veins per chunk
 		#Range: 1 ~ 64
-		aluminum_vein_count = 1
+		aluminum_vein_count = 4
 
 	[spawntuning.uranium]
 		#Uranium bottom Y level for spawn

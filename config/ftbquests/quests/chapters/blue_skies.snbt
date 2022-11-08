@@ -1,7 +1,7 @@
 {
 	id: "2DE2DCB9F8311244"
 	group: "441E2D2CD3ABE6DE"
-	order_index: 2
+	order_index: 6
 	filename: "blue_skies"
 	title: "Blue Skies"
 	icon: {
@@ -41,13 +41,13 @@
 					id: "79262CBB8316F8F9"
 					type: "item"
 					item: "blue_skies:lunar_stonebrick"
-					count: 14L
+					count: 12L
 				}
 				{
 					id: "0D7D13D4EBD1E12A"
 					type: "item"
 					item: "blue_skies:turquoise_stonebrick"
-					count: 14L
+					count: 12L
 				}
 			]
 			rewards: [{
@@ -59,29 +59,48 @@
 		}
 		{
 			title: "The realm of ice and snow"
+			icon: "blue_skies:everbright_portal"
 			x: 1.0d
 			y: -1.5d
+			description: ["Travel Advisory: Pack warm."]
 			dependencies: ["07F925C1AC5C2A26"]
 			id: "3568BE3CEEF4D199"
-			tasks: [{
-				id: "509E08BBD4681DAB"
-				type: "dimension"
-				title: "Visit the Everbright"
-				dimension: "blue_skies:everbright"
-			}]
+			tasks: [
+				{
+					id: "55B970BC038C75C5"
+					type: "dimension"
+					dimension: "blue_skies:everbright"
+				}
+				{
+					id: "57F8CCADBE6E5C4F"
+					type: "advancement"
+					advancement: "blue_skies:everbright/enter"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "The realm of eternal dusk"
+			icon: "blue_skies:everdawn_portal"
 			x: 1.0d
 			y: 2.0d
+			description: ["Travel advisory: Bring antidotes and burn cream."]
 			dependencies: ["07F925C1AC5C2A26"]
+			hide: true
 			id: "7DFED08EFFA59B6A"
-			tasks: [{
-				id: "63A4F50EF77BB672"
-				type: "dimension"
-				title: "Visit the Everdawn"
-				dimension: "blue_skies:everdawn"
-			}]
+			tasks: [
+				{
+					id: "35EC4FBBE92BEBF1"
+					type: "dimension"
+					dimension: "blue_skies:everdawn"
+				}
+				{
+					id: "398AC2C6C380465B"
+					type: "advancement"
+					advancement: "blue_skies:everdawn/enter"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "EB: This tool feels weaker in my hand..."
@@ -135,7 +154,10 @@
 			title: "Blue Rocks"
 			x: 4.0d
 			y: -1.5d
-			description: ["Instead of normal stone, we’ve got turquoise stone. Make some turquoise stone tools. I think ventium is the top tier metal in this realm. Ventium makes buckets and shears."]
+			description: [
+				"Instead of normal stone, we’ve got turquoise stone. Make some turquoise stone tools. I think ventium is the top tier metal in this realm. Ventium makes buckets and shears."
+				"Ventium is found in most nonmountainous biomes of the Everbright."
+			]
 			dependencies: ["41B7CCB5E612E5F0"]
 			id: "1A46CBBA4B75AA5A"
 			tasks: [
@@ -161,7 +183,10 @@
 			title: "Black rocks"
 			x: 4.0d
 			y: 2.0d
-			description: ["Instead of normal stone, we’ve got lunar stone. Make some lunar stone tools. I think horizonite is the top tier metal in this realm. "]
+			description: [
+				"Instead of normal stone, we’ve got lunar stone. Make some lunar stone tools. I think horizonite is the top tier metal in this realm. "
+				"Horizonite is found in the Crystal Dunes. "
+			]
 			dependencies: ["61136A6ED7289B00"]
 			id: "70760AE3B6F9CD31"
 			tasks: [
@@ -213,13 +238,21 @@
 			y: 2.0d
 			dependencies: ["70760AE3B6F9CD31"]
 			id: "221D662BC9AA39DE"
-			tasks: [{
-				id: "4D5B87045C51A235"
-				type: "kill"
-				title: "Nyctofly"
-				entity: "blue_skies:nyctofly"
-				value: 5L
-			}]
+			tasks: [
+				{
+					id: "4D5B87045C51A235"
+					type: "kill"
+					title: "Nyctofly"
+					entity: "blue_skies:nyctofly"
+					value: 5L
+				}
+				{
+					id: "652CC7A2F52BC1B2"
+					type: "kill"
+					entity: "blue_skies:emberback"
+					value: 10L
+				}
+			]
 			rewards: [{
 				id: "51079169F7018795"
 				type: "xp"
@@ -230,7 +263,10 @@
 			title: "The Summoner's Castle"
 			x: 8.0d
 			y: -1.5d
-			description: ["There is a massive castle rarely discovered here, where lives the Summoner. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."]
+			description: [
+				"There is a massive castle rarely discovered here, where lives the Summoner. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."
+				"Note: The summoning table is part of the loot bag table and not as common as I believed. You may need to perform this fight several times to get this item. "
+			]
 			dependencies: ["3790AAF00A63EA14"]
 			id: "333D7614C9764F6D"
 			tasks: [{
@@ -248,7 +284,10 @@
 			title: "The Alchemist's Castle"
 			x: 8.0d
 			y: 2.0d
-			description: ["There is a massive castle rarely discovered here, where lives the Alchemist. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."]
+			description: [
+				"There is a massive castle rarely discovered here, where lives the Alchemist. He is one of the bosses of this dimension. Obtain his four keys to fight him at the top of the tower."
+				"Note: The Alchemy table is part of the loot table and is not as common as I initially thought. You may need to perform this fight several times to get it. "
+			]
 			dependencies: ["221D662BC9AA39DE"]
 			id: "5C2CBB1B54BA5A4E"
 			tasks: [{
@@ -367,6 +406,22 @@
 					item: "lootr:trophy"
 				}
 			]
+			rewards: [{
+				id: "1B7C27CD52CCED43"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Each dungeon requires 4 keys to open the boss fight. Some are hidden trickily, open everything you see, kill all the hostiles. "]
+			id: "2F156B85BEFB822B"
+			tasks: [{
+				id: "65FD2D70B5BF3EC8"
+				type: "checkmark"
+				title: "Tricky Keyholes"
+			}]
 		}
 	]
 }

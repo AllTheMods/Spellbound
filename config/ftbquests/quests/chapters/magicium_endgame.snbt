@@ -633,36 +633,43 @@
 				"65433E875151C858"
 				"1696F699C7FE5C4C"
 				"1A541A66E62B439C"
+				"3CA03EFE2F5523D0"
 			]
 			id: "56B53A2B2924FE4A"
 			tasks: [
 				{
-					id: "46AED9CF395A2FEC"
+					id: "2AC7DD8997B6FB67"
 					type: "item"
-					item: "iceandfire:dragonforge_fire_input"
+					item: "iceandfire:dragonforge_fire_core_disabled"
 				}
 				{
-					id: "15EB127FB55C84FB"
+					id: "3F378ED6D01116C7"
 					type: "item"
-					item: "iceandfire:dragonforge_ice_input"
+					item: "iceandfire:dragonforge_ice_core_disabled"
 				}
 				{
-					id: "5436078CD1DC43FF"
+					id: "39834D087D81A85D"
 					type: "item"
-					item: "iceandfire:dragonforge_lightning_input"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+				}
+				{
+					id: "6C0B4B6FD375A2F3"
+					type: "item"
+					item: "kubejs:patrick_star"
+					consume_items: true
 				}
 			]
 		}
 		{
 			icon: "kubejs:patrick_star"
-			x: 6.5d
-			y: 1.5d
+			x: 6.0d
+			y: 0.0d
 			subtitle: "Hahah ahahah ahahah haha."
 			description: ["Allthemods has Patrick because he's loaded. Allthemagic has Patrick remembering Spongebob because he makes \"imagination\" magic."]
 			dependencies: [
-				"749F28B877B1593C"
-				"595C87A7813AB3A5"
-				"593D6BBA74118D83"
+				"324BA87B466871FA"
+				"65433E875151C858"
+				"1696F699C7FE5C4C"
 			]
 			id: "3CA03EFE2F5523D0"
 			tasks: [
@@ -682,13 +689,26 @@
 			x: 7.5d
 			y: 1.5d
 			subtitle: "The Eternal Struggle of Overpowered items"
-			description: ["The conglomeration of all things magical. "]
-			dependencies: ["3CA03EFE2F5523D0"]
+			description: [
+				"The conglomeration of all things magical. "
+				"Congratulations. Now you can make your own stars. "
+			]
+			dependencies: [
+				"3CA03EFE2F5523D0"
+				"593D6BBA74118D83"
+				"595C87A7813AB3A5"
+				"749F28B877B1593C"
+			]
 			id: "5952B426D3319B10"
 			tasks: [{
 				id: "06D2A8FB89F011B7"
 				type: "item"
 				item: "kubejs:atm_star"
+			}]
+			rewards: [{
+				id: "1815F9150C69A3A0"
+				type: "item"
+				item: "resourcefulbees:starry_bee_spawn_egg"
 			}]
 		}
 		{

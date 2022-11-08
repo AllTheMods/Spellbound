@@ -1,7 +1,7 @@
 {
 	id: "100C477F4E63F20A"
 	group: "441E2D2CD3ABE6DE"
-	order_index: 3
+	order_index: 2
 	filename: "create"
 	title: "Create"
 	icon: "create:large_cogwheel"
@@ -472,6 +472,12 @@
 				type: "item"
 				item: "create:andesite_casing"
 			}]
+			rewards: [{
+				id: "6C4FB00636BC38E9"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 4
+			}]
 		}
 		{
 			x: 10.5d
@@ -484,6 +490,12 @@
 				type: "item"
 				item: "create:brass_casing"
 			}]
+			rewards: [{
+				id: "5E419466C5BDD189"
+				type: "item"
+				item: "create:brass_casing"
+				count: 4
+			}]
 		}
 		{
 			x: 11.0d
@@ -495,6 +507,12 @@
 				id: "7FE62F264B4FA5DE"
 				type: "item"
 				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "453082E7B67B1ADF"
+				type: "item"
+				item: "create:copper_casing"
+				count: 4
 			}]
 		}
 		{
@@ -940,6 +958,12 @@
 				id: "07896B715ED0E04F"
 				type: "item"
 				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "39BC2FE0A8393733"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 8
 			}]
 		}
 		{

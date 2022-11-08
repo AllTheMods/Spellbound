@@ -1,7 +1,7 @@
 {
 	id: "46AEE70CB0048C39"
 	group: "2869CB12B4663D25"
-	order_index: 7
+	order_index: 4
 	filename: "evilcraft"
 	title: "Evilcraft"
 	icon: "evilcraft:dark_gem"
@@ -12,7 +12,10 @@
 		{
 			x: -9.5d
 			y: -0.5d
-			description: ["Mine some dark gems. Like any other gemstone, fortune increases the drops. You’ll also get crushed dark gems, a purple powder. "]
+			description: [
+				"Mine some dark gems. Like any other gemstone, fortune increases the drops. You’ll also get crushed dark gems, a purple powder. "
+				"If you are unlucky on getting crushed gems, give them to your occultism crusher spirit, or throw them in the create millstone/crushing wheels."
+			]
 			id: "36C4C17FA28F3D0C"
 			tasks: [{
 				id: "192734D101DDEDD7"
@@ -29,12 +32,12 @@
 		{
 			title: "Death by apple"
 			x: -8.0d
-			y: -0.5d
+			y: -1.5d
 			description: [
 				"Craft an apple with a dark gem, and feed it to an innocent mob. From the result, toss a book into the anomaly, and get your Origins of darkness book. "
 				"There is also an origins of darkness book in your akashic tome, but in case you lose it, this is how you make one."
 			]
-			dependencies: ["36C4C17FA28F3D0C"]
+			optional: true
 			id: "7BB25D8C0F1ECAC2"
 			tasks: [
 				{
@@ -341,6 +344,7 @@
 			title: "Broom broom broooooommmmm"
 			x: 1.5d
 			y: -0.5d
+			subtitle: "I heard you like fast travel"
 			description: [
 				"You can craft a broom that can fly! Takes three pieces, and is modular, so it can be changed up. "
 				"and its charged up by blood. "
@@ -360,11 +364,33 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7F394095AA7EE92B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7F394095AA7EE92B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AC0BCDA741BEAC4"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							capacity: 16000
+						}
+					}
+				}
+				{
+					id: "3F4EA8D304D17A01"
+					type: "item"
+					item: {
+						id: "evilcraft:sanguinary_pedestal_1"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: 1.0d

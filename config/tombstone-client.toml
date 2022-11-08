@@ -67,4 +67,9 @@
 	date_in_mc_time = false
 	#Allows the ghost to appear around you during Halloween [false/true|default:true]
 	allow_halloween_ghost = true
+	#Defines the type of marker when holding in hand some items like the Grave's Key [WING/SPARK/NOTE/BOX|default:WING]
+	#Allowed Values: WING, SPARK, NOTE, BOX
+	marker_type = "WING"
+	#Display an icon when fishing with the Rod of Misadventure showing if you're in openwater [false/true|default:true]
+	show_fishing_marker = true
 

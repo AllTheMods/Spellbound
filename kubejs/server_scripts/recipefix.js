@@ -15,7 +15,9 @@ onEvent('recipes', e => {
     e.replaceInput({}, 'minecraft:water_bucket', '#forge:buckets/water')
 
     e.remove({output: 'minecraft:chain'})
+	e.remove({output: 'eidolon:pewter_blend'})
     e.replaceInput({}, 'minecraft:chain', 'forbidden_arcanus:iron_chain')
+	e.shapeless('eidolon:pewter_blend', ['#forge:ingots/tin', '#forge:ingots/lead'])
     e.shapeless('minecraft:chain', ['forbidden_arcanus:iron_chain'])
     e.shapeless('forbidden_arcanus:iron_chain', ['minecraft:chain'])
 
@@ -71,6 +73,24 @@ result: 'twilightforest:time_sapling',
 experience: 2.0,
 smelttime: 1200
 })
+
+//ATM
+  e.shapeless('9x kubejs:atm_star', 'kubejs:atm_star_block')
+  e.shapeless('9x minecraft:nether_star', 'kubejs:nether_star_block')
+  e.shaped('kubejs:atm_star_block', [
+    'SSS',
+    'SSS',
+    'SSS'
+  ], {
+    S: 'kubejs:atm_star'
+  })
+  e.shaped('kubejs:nether_star_block', [
+    'SSS',
+    'SSS',
+    'SSS'
+  ], {
+    S: 'minecraft:nether_star'
+  })
 
 }
 )

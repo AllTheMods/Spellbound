@@ -1,0 +1,32 @@
+{
+	id: "05C19678F6F044A4"
+	order_index: 2
+	title: "Plants"
+	icon: {
+		id: "botania:dice"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "upgrade_aquatic:polar_kelp", count: 4 }
+		{ item: "upgrade_aquatic:ochre_kelp", count: 4 }
+		{ item: "upgrade_aquatic:thorny_kelp", count: 4 }
+		{ item: "upgrade_aquatic:tongue_kelp", count: 4 }
+		{ item: "minecraft:kelp", count: 9 }
+		{ item: "forbidden_arcanus:golden_orchid_seeds", count: 4 }
+		{ item: "theabyss:goldendeathplant" }
+		{ item: "minecraft:chorus_flower" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "plants"
+	}
+}

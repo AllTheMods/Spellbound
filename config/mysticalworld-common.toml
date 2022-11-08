@@ -87,23 +87,6 @@
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
-	#Amethyst ore generation.
-	[oregen.Amethyst_oregen]
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		oreChances = 0
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 0
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 24
-		#Max size of the vein.
-		#Range: 1 ~ 256
-		veinSize = 1
-		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
-
 	#Tin ore generation.
 	[oregen.Tin_oregen]
 		#Number of veins per chunk (set to 0 to disable).
@@ -118,6 +101,23 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 8
+		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
+		dimensions = ["minecraft:overworld"]
+
+	#Sapphire ore generation.
+	[oregen.Sapphire_oregen]
+		#Number of veins per chunk (set to 0 to disable).
+		#Range: 0 ~ 256
+		oreChances = 4
+		#Max size of the vein.
+		#Range: 1 ~ 256
+		veinSize = 3
+		#Number of veins per chunk (set to 0 to disable).
+		#Range: 0 ~ 256
+		minY = 0
+		#Number of veins per chunk (set to 0 to disable).
+		#Range: 0 ~ 256
+		maxY = 24
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
@@ -194,24 +194,6 @@
 		#Armor value for head piece
 		#Range: > 0
 		head_armor = 0
-
-	#Configuration for amethyst armor
-	[armor_config.amethyst_armor]
-		#Armor value for chest piece
-		#Range: > 0
-		chest_armor = 8
-		#Armor value for feet piece
-		#Range: > 0
-		feet_armor = 3
-		#Armor value for legs piece
-		#Range: > 0
-		legs_armor = 6
-		#Toughness for armor made of this material
-		#Range: 0.0 ~ 1.7976931348623157E308
-		toughness = 2.0
-		#Armor value for head piece
-		#Range: > 0
-		head_armor = 3
 
 	#Configuration for lead armor
 	[armor_config.lead_armor]
@@ -320,6 +302,24 @@
 		#Armor value for head piece
 		#Range: > 0
 		head_armor = 0
+
+	#Configuration for sapphire armor
+	[armor_config.sapphire_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 8
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 3
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 3
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 6
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 2.0
 
 #Hat Configuration
 [hat_config]
@@ -513,4 +513,27 @@
 		max = 4
 		#List of biome types to spawn.
 		biomes = "wet,swamp,river,beach,"
+
+	#Clam spawn config.
+	[mob_spawns.Clam_spawn]
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 2
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 1
+		#List of biome types to spawn.
+		biomes = "ocean,river,beach,swamp,wet,"
+		#the chance of a clam spawning as an ender clam [0 to disable ender clams]
+		#Range: > 0
+		enderChance = 31
+		#the upper value of initial age for a clam
+		#Range: > 0
+		initialAge = 2300
+		#the max age for a clam
+		#Range: > 0
+		maxAge = 5100
 

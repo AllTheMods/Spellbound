@@ -1,0 +1,347 @@
+{
+	id: "44E9C52B25D280CB"
+	group: "2869CB12B4663D25"
+	order_index: 7
+	filename: "mahou_tsukai"
+	title: "Mahou Tsukai (wip)"
+	icon: "mahoutsukai:mahoujin_projector"
+	subtitle: ["Fine, we added it, shut up already PIXIES"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "mahoutsukai:mahoujin_projector"
+			x: 0.5d
+			y: -3.0d
+			description: [
+				"Take some damage. You'll have a bleeding effect. before it fades, press m on a solid block to place your first mahou circle. "
+				"Otherwise, craft a dagger to inflict damage to yourself."
+			]
+			id: "5E598F78BFC0F0F6"
+			tasks: [{
+				id: "0C29A1EA4AA9DCD1"
+				type: "advancement"
+				icon: "mahoutsukai:mahoujin_projector"
+				advancement: "mahoutsukai:root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5B4DDE801680EA4D"
+				type: "item"
+				item: "mahoutsukai:guidebook"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Powder your materials to sprinkle on the blood circles"
+			dependencies: ["5E598F78BFC0F0F6"]
+			id: "2239673CCF5B5BF7"
+			tasks: [
+				{
+					id: "2242E76BC6D5C33A"
+					type: "item"
+					item: "mahoutsukai:mortar_and_pestle"
+				}
+				{
+					id: "34DFFD903C51FCCF"
+					type: "item"
+					item: "mahoutsukai:powdered_iron"
+				}
+			]
+			rewards: [
+				{
+					id: "790F29FE8D491758"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 2
+				}
+				{
+					id: "008BEF1160B075D4"
+					type: "random"
+					table_id: 6122917225507007151L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["Portable mahou on the go"]
+			dependencies: ["5E598F78BFC0F0F6"]
+			id: "3862FB1F6F76ED4F"
+			tasks: [
+				{
+					id: "7EED1E169B4B837A"
+					type: "item"
+					item: "mahoutsukai:spell_cloth"
+				}
+				{
+					id: "03653EBC3A7AC78D"
+					type: "item"
+					item: "mahoutsukai:dagger"
+				}
+			]
+			rewards: [
+				{
+					id: "1B0B722EF4B25FC2"
+					type: "random"
+					table_id: 6122917225507007151L
+				}
+				{
+					id: "5427F3079ACC4183"
+					type: "item"
+					item: "mahoutsukai:spell_cloth"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "The Dragon's blade"
+			x: 3.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "You may want more then one of these"
+			description: [
+				"Future ingredient to bring life to Frankenstein, I mean Patrick Star."
+				""
+			]
+			dependencies: ["5F902D645E3C2F5B"]
+			hide: true
+			id: "01160C5A8375FAF1"
+			tasks: [{
+				id: "038A3ED625E40F22"
+				type: "item"
+				item: {
+					id: "mahoutsukai:clarent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2DB27E143DA7AC94"
+					type: "item"
+					item: "apotheosis:draconic_endshelf"
+				}
+				{
+					id: "37D1FF2159C88D34"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "53758F62EDA196AA"
+					type: "random"
+					table_id: 1539445375977315958L
+				}
+				{
+					id: "707D71106D62984C"
+					type: "random"
+					table_id: 6122917225507007151L
+				}
+			]
+		}
+		{
+			title: "This is why you don't throw your trash sword in the lake!"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Pay your respects to the Lady of the Lake."
+			description: ["This ritual costs 5000 mahou, the Power Consolidation Ritual."]
+			dependencies: ["5F902D645E3C2F5B"]
+			hide: true
+			id: "0AAB33FA2609AD2F"
+			tasks: [{
+				id: "6BD28453C12779F8"
+				type: "item"
+				item: {
+					id: "mahoutsukai:caliburn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07873D65EC6309DB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DC2C7F3C5CFA843"
+					type: "item"
+					item: "xreliquary:holy_hand_grenade"
+				}
+				{
+					id: "0DBC70EA64307FC2"
+					type: "random"
+					table_id: 6122917225507007151L
+				}
+				{
+					id: "4C430E8BADC487B0"
+					type: "random"
+					table_id: 1539445375977315958L
+				}
+			]
+		}
+		{
+			title: "You reject your humanity with this"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Fido had so much high hope for you"
+			dependencies: [
+				"5F902D645E3C2F5B"
+				"0AAB33FA2609AD2F"
+			]
+			hide: true
+			id: "4EA0F9DE0A373761"
+			tasks: [{
+				id: "40639CBE133D1B30"
+				type: "item"
+				item: {
+					id: "mahoutsukai:morgan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2AFC0CFD262A4ED7"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "6233BF2A33FABE3A"
+					type: "item"
+					item: {
+						id: "tombstone:decorative_subaraki_grave"
+						Count: 1b
+						tag: {
+							model_texture: 1
+						}
+					}
+				}
+				{
+					id: "0AB56E96CF2EBC44"
+					type: "item"
+					item: "farmersrespite:purulent_tea"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Fae sight? WHY ARE THERE SQUIGGLES IN THE AIR"
+			description: [
+				"Then you go looking for faeries. You cast fae sight, find a nexus line, follow that to a sufficiently large (3 circles) nexus which you can only see while under the influence of fae sight. Then you stand in the middle of the nexus and wait for faeries to spawn."
+				"Once you have fae essence, the book unlocks higher tier rituals, and the famed weapons everyone's been gaga over. "
+			]
+			dependencies: [
+				"5E598F78BFC0F0F6"
+				"3862FB1F6F76ED4F"
+			]
+			id: "5F902D645E3C2F5B"
+			tasks: [
+				{
+					id: "6620A59F49D63DA6"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_fay_sight"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "1C0C3AEB36648B14"
+					type: "item"
+					item: "mahoutsukai:fae_essence"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "69E89D8D10018532"
+					type: "item"
+					item: "mahoutsukai:fae_essence"
+					count: 8
+				}
+				{
+					id: "6B4B355800194864"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Rewriting physics with a warped dinner knife"
+			dependencies: ["5F902D645E3C2F5B"]
+			hide: true
+			id: "0354A786BED93077"
+			tasks: [{
+				id: "1313BC5B7C7DF50A"
+				type: "item"
+				item: {
+					id: "mahoutsukai:rule_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DA04B4C33F27EBA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "How to grow your mahou"
+			x: -1.5d
+			y: -2.0d
+			description: [
+				"The simplest method is to keep spending it. Make yourself an attuned diamond/emerald and right click it a LOT until you've got at least two hundred mahou. Then might want to make a boundary of drain life. For every mob that dies in that boundary, you get 10 mahou back, but this is a SLOW process. "
+				"Or, make a durability exchange and toss strong (but not too strong, no chisels because the mod normalizes things to around a netherite shovel in terms of durability)"
+				"Another option is using Chronal exchange; gain mahou for 12 hours, then spend it for 12 hours. If you make a second Chronal exchange circle when the first starts spending, it becomes a loop. "
+				"Attuned Diamond/emeralds are mahou batteries. A full attuned emerald can be used for the 5000 mahou Caliburn ritual. "
+			]
+			dependencies: ["5E598F78BFC0F0F6"]
+			hide: true
+			id: "031E3B2E823C5CB7"
+			tasks: [{
+				id: "18DD9C15BAD8FF6E"
+				type: "item"
+				item: "mahoutsukai:attuner"
+			}]
+			rewards: [{
+				id: "68A6E05A70BB7F65"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+	]
+}

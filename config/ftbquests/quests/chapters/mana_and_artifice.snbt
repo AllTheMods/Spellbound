@@ -1,7 +1,7 @@
 {
 	id: "18CB6387FD28AEB8"
 	group: "2869CB12B4663D25"
-	order_index: 4
+	order_index: 8
 	filename: "mana_and_artifice"
 	title: "Mana and Artifice"
 	icon: "mana-and-artifice:ritual_focus_greater"
@@ -128,11 +128,18 @@
 				item: "mana-and-artifice:cerublossom"
 				count: 16L
 			}]
-			rewards: [{
-				id: "5534C28EC97D1A64"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5534C28EC97D1A64"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F78D59F6EB29D96"
+					type: "random"
+					table_id: 414778086977979556L
+				}
+			]
 		}
 		{
 			title: "Eye of the Council"
@@ -218,9 +225,14 @@
 					count: 16L
 				}
 				{
-					id: "1620AF0B18FAAC50"
+					id: "6978F8E49E9367BE"
 					type: "item"
-					item: "mana-and-artifice:stone_rune_bag"
+					item: "mana-and-artifice:practitioners_pouch"
+				}
+				{
+					id: "29D8B0897A79830C"
+					type: "item"
+					item: "mana-and-artifice:patch_glyph"
 				}
 			]
 			rewards: [{

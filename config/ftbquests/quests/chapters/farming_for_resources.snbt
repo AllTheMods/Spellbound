@@ -1,0 +1,76 @@
+{
+	id: "38FB90CFB15EC2BD"
+	group: "10AACBD4B06348B6"
+	order_index: 3
+	filename: "farming_for_resources"
+	title: "Farming for Resources"
+	icon: "blue_skies:mossy_turquoise_cobblestone"
+	subtitle: ["Info chapter"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -10.0d
+			subtitle: "Mystical Agriculture is lame"
+			id: "11DCD945795A8085"
+			tasks: [{
+				id: "29C55F0E562FC9D4"
+				type: "checkmark"
+				title: "Farming for your resources, forget mining"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -8.5d
+			subtitle: "Rocks!"
+			id: "62EEFFA5179E5D7B"
+			tasks: [{
+				id: "7652C9C9EAF187A3"
+				type: "checkmark"
+				title: "Mining"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			id: "6B579D0C74A00F14"
+			tasks: [{
+				id: "1C929D29B3AECEC9"
+				type: "checkmark"
+				title: "Mining Ores"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			subtitle: "Sand, gravel, flint..."
+			id: "75B4B635B58938F5"
+			tasks: [{
+				id: "3FFAF1B848C78376"
+				type: "checkmark"
+				title: "Earthworks"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			id: "38EE000C041B170A"
+			tasks: [{
+				id: "033BCA97BAA2FCEC"
+				type: "checkmark"
+				title: "Wood!"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.5d
+			id: "5687F43C9095DA72"
+			tasks: [{
+				id: "36B8274A1CB2F991"
+				type: "checkmark"
+				title: "Clay?!"
+			}]
+		}
+	]
+}

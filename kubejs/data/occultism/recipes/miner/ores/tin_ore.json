@@ -6,14 +6,5 @@
   "result":{
     "tag": "forge:ores/tin"
   },
-  "weight": 0,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/tin"
-      }
-    }
-  ]
+  "weight": 100
 }

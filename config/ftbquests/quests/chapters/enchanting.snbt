@@ -1,0 +1,82 @@
+{
+	id: "40E5A413D6248A77"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 5
+	filename: "enchanting"
+	title: "Enchanting"
+	icon: "eidolon:soul_enchanter"
+	subtitle: ["Info chapter!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -13.0d
+			subtitle: "Info chapter!"
+			description: ["With Champions, and other Apotheosis bosses and more dropping enchanted books and items left right and center, you're probably bursting at the seams for books. Right? So, what do you do with these."]
+			id: "4B4CED9EA3904FB8"
+			tasks: [{
+				id: "68233BC88F020C66"
+				type: "checkmark"
+				title: "Enchantments, and what to do with them"
+			}]
+			rewards: [{
+				id: "20613D018FDC564C"
+				type: "item"
+				item: "minecraft:writable_book"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			description: [
+				"1. Evilcraft with the purifier and blooks. Put a book in a blood infuser that has an iron or higher promise of tenacity, and get a blook. Put blook and enchanted item in the purifier, add 3k blood. Bubbles happen, and one enchantment has been stripped. Wash rinse repeat. "
+				"2. Corail tombstone: Plop down some simple decorative graves and wait until you see the floating purple soul around it. Make a book of disenchantment, hold that in your main hand, and the item to disenchant with your offhand. Right click, and the item is disenchanted. Knowledge of death points can increase the amount of enchantments stripped at once. "
+				"3. Vanilla disenchantment: You lose the enchantment, but get a smidge of xp in return. Put the item into a grindstone, and take it back out of the exp slot"
+			]
+			id: "11F657276015A6CF"
+			tasks: [{
+				id: "2652E5AC3B30D83C"
+				type: "checkmark"
+				title: "Stripping Enchantments"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.5d
+			description: [
+				"Couple of choices for your enchanting needs. "
+				"1. Vanilla Enchanting. Use the enchanting table, surrounded by up to 15 bookcases to get up to lv 30 enchants. "
+				"2. Apotheosis Apotheosis gives the ability to reach far beyond lv 30 enchantments. Up to 150, I've heard. But you need to upgrade those bookcases."
+				"3. Botania Mana Enchanter Make this, and use mana instead of levels to add LOTS of enchantments onto your gear at once. More enchants = more mana used. "
+				"4. Eidelon Soul Enchanter This is a COOL feature. Use soul shards and barely any levels to add a stupidly high amount of enchants to your gear. "
+				"5. Quark Matrix Enchanter Tetris in Minecraft!"
+				"6. Ars Nouveau Enchanting"
+				"7. Mana and Artifice Use runes to enchant! Uses at least t2!"
+			]
+			id: "56650AA6964220C1"
+			tasks: [{
+				id: "5F83E52EBB09B125"
+				type: "checkmark"
+				title: "Enchanting your stuff"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -9.5d
+			description: [
+				"Fight monsters! There's champions, affix dropping mobs, apotheosis bosses, and more. "
+				"Raid Towers! Just watch for TnT, and pick up all those books hanging up on the way up. "
+				"Dungeon Loot!"
+				"Twilight forest steeleaf and ironwood gear is naturally enchanted"
+				"Enchant it yourself!"
+			]
+			id: "368EE166A24221A5"
+			tasks: [{
+				id: "572BF2842C314EED"
+				type: "checkmark"
+				title: "Getting Shiny stuff!"
+			}]
+		}
+	]
+}

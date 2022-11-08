@@ -2,28 +2,10 @@
 [worldgeneration]
 
 	[worldgeneration.general]
-		#The amount of blocks per vein there should be.
-		silverfishBlocksPerVein = 4
-		#The amount of veins per chunk there should be.
-		silverfishVeinsPerChunk = 10
 		#Spawn extra silverfish blocks in all biomes.
 		extraSilverfish = false
 		#The spawn chance for loot chests in dark temples, set to zero to completely disable.
 		darkTempleChestChance = 0.15
-		#The Y end value for generation to end (larget Y value).
-		silverfishEndY = 66
-
-	[worldgeneration.dark_ore]
-		#Generation ends of this level.
-		endY = 66
-		#How much ores per vein.
-		blocksPerVein = 4
-		#How many veins per chunk.
-		veinsPerChunk = 7
-
-	[worldgeneration.infested_nether_soul_sand]
-		#How many veins per chunk.
-		veinsPerChunk = 10
 
 	[worldgeneration.dark_temple]
 		#Maximum blockState height at which a dark temple can spawn.
@@ -34,14 +16,8 @@
 		darkTempleSeparation = 16
 		#Average distance between dark temples in chunks.
 		darkTempleSpacing = 40
-
-	[worldgeneration.infested_nether_nether_bricks]
-		#How many veins per chunk.
-		veinsPerChunk = 10
-
-	[worldgeneration.infested_nether_netherrack]
-		#How many veins per chunk.
-		veinsPerChunk = 10
+		#If dark temple should be added to all dimensions (except for the end and nether).
+		enabled = true
 
 [general]
 

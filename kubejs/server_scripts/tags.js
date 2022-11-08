@@ -12,6 +12,7 @@ onEvent('item.tags', e => {
 	e.add('forge:dusts/obsidian', 'create:powdered_obsidian')
 	e.add('minecraft:wooden_buttons', '/forbidden_arcanus:.+_button/')
 	e.add('minecraft:planks', '/forbidden_arcanus:.+_planks/')
+	e.add('minecraft:flowers', ['hexerei:mandrake_flower', 'hexerei:belladonna_flower'])
 
     const colors = ['red', 'green', 'bronze', 'gray', 'blue', 'white', 'sapphire', 'silver', 'electric', 'amythest', 'copper', 'black']
     colors.forEach(color => {

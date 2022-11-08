@@ -1,7 +1,7 @@
 {
 	id: "7DAE0912A85164A7"
 	group: "2869CB12B4663D25"
-	order_index: 6
+	order_index: 5
 	filename: "forbidden_and_arcanus"
 	title: "Forbidden and Arcanus"
 	icon: "forbidden_arcanus:arcane_crystal"
@@ -51,11 +51,18 @@
 					item: "forbidden_arcanus:yellow_orchid"
 				}
 			]
-			rewards: [{
-				id: "3B1410BCDC2EBF24"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3B1410BCDC2EBF24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D1483BC2BBEEFC7"
+					type: "item"
+					item: "forbidden_arcanus:golden_orchid_seeds"
+				}
+			]
 		}
 		{
 			title: "Orespawn? "
@@ -154,11 +161,19 @@
 				type: "item"
 				item: "forbidden_arcanus:arcane_gold_ingot"
 			}]
-			rewards: [{
-				id: "4D88D7EB30A8E781"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4D88D7EB30A8E781"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3FF7AD88AC12CC2F"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -178,6 +193,12 @@
 					item: "forbidden_arcanus:obsidian_with_iron"
 				}
 			]
+			rewards: [{
+				id: "7D79EE6EB3CA194E"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_ingot"
+				count: 4
+			}]
 		}
 		{
 			title: "The nether ain't got nothing on me!"
@@ -236,7 +257,10 @@
 			}
 			x: 3.5d
 			y: 0.5d
-			description: ["Dragon scales are crafted by using a mystical dagger with a dragon head for three scales. Craft a mystical dagger, and get scales. "]
+			description: [
+				"Dragon scales are crafted by using a mystical dagger with a dragon head for three scales. Craft a mystical dagger, and get scales. "
+				"Hint: Look for those shipyards from Dungeons Arise, I heard rumor the runners a head hunters. "
+			]
 			dependencies: ["62F928485451ED41"]
 			id: "05C41CD3BEAA832D"
 			tasks: [

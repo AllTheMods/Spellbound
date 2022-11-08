@@ -1,0 +1,20 @@
+{
+	id: "155D3569C23EDE76"
+	order_index: 6
+	title: "Medium Win Curios Grabbag"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:scarf_of_invisibility" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:novelty_drinking_hat" }
+	]
+}
