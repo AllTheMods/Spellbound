@@ -33,12 +33,11 @@ e.shaped('forbidden_arcanus:eternal_stella', [
     U : 'theabyss:unorithe_ingot'
 })
 
-e.shapeless('kubejs:mundane_helmet', ['#allthemagic:dragon_helmet', 'mythicbotany:alfsteel_helmet', 'forbidden_arcanus:draco_arcanus_helmet', 'bloodmagic:livinghelmet', 'ars_nouveau:archmage_hood', 'betterendforge:aeternium_helmet', 'theabyss:abyss_fire_upg_armor_armor_helmet', 'blue_skies:charoite_helmet', 'twilightforest:knightmetal_helmet'])
-e.shapeless('kubejs:mundane_chestplate', ['#allthemagic:dragon_chestplate', 'mythicbotany:alfsteel_chestplate', 'forbidden_arcanus:draco_arcanus_chestplate', 'bloodmagic:livingplate', 'ars_nouveau:archmage_robes', 'betterendforge:aeternium_chestplate', 'theabyss:abyss_fire_upg_armor_armor_chestplate', 'blue_skies:charoite_chestplate', 'twilightforest:knightmetal_chestplate'])
-e.shapeless('kubejs:mundane_leggings', ['#allthemagic:dragon_leggings', 'mythicbotany:alfsteel_leggings', 'forbidden_arcanus:draco_arcanus_leggings', 'bloodmagic:livingleggings', 'ars_nouveau:archmage_leggings', 'betterendforge:aeternium_leggings', 'theabyss:abyss_fire_upg_armor_armor_leggings', 'blue_skies:charoite_leggings', 'twilightforest:knightmetal_leggings'])
-e.shapeless('kubejs:mundane_boots', ['#allthemagic:dragon_boots', 'mythicbotany:alfsteel_boots', 'forbidden_arcanus:draco_arcanus_boots', 'bloodmagic:livingboots', 'ars_nouveau:archmage_boots', 'betterendforge:aeternium_boots', 'theabyss:abyss_fire_upg_armor_armor_boots', 'blue_skies:charoite_boots', 'twilightforest:knightmetal_boots'])
+e.shapeless('kubejs:mundane_helmet', ['#allthemagic:dragon_helmet', 'mythicbotany:alfsteel_helmet', 'forbidden_arcanus:draco_arcanus_helmet', 'bloodmagic:livinghelmet', 'ars_nouveau:archmage_hood', 'betterendforge:aeternium_helmet', 'theabyss:fusioned_incorythe_armor_helmet', 'blue_skies:charoite_helmet', 'twilightforest:knightmetal_helmet'])
+e.shapeless('kubejs:mundane_chestplate', ['#allthemagic:dragon_chestplate', 'mythicbotany:alfsteel_chestplate', 'forbidden_arcanus:draco_arcanus_chestplate', 'bloodmagic:livingplate', 'ars_nouveau:archmage_robes', 'betterendforge:aeternium_chestplate', 'theabyss:fusioned_incorythe_armor_chestplate', 'blue_skies:charoite_chestplate', 'twilightforest:knightmetal_chestplate'])
+e.shapeless('kubejs:mundane_leggings', ['#allthemagic:dragon_leggings', 'mythicbotany:alfsteel_leggings', 'forbidden_arcanus:draco_arcanus_leggings', 'bloodmagic:livingleggings', 'ars_nouveau:archmage_leggings', 'betterendforge:aeternium_leggings', 'theabyss:fusioned_incorythe_armor_leggings', 'blue_skies:charoite_leggings', 'twilightforest:knightmetal_leggings'])
+e.shapeless('kubejs:mundane_boots', ['#allthemagic:dragon_boots', 'mythicbotany:alfsteel_boots', 'forbidden_arcanus:draco_arcanus_boots', 'bloodmagic:livingboots', 'ars_nouveau:archmage_boots', 'betterendforge:aeternium_boots', 'theabyss:fusioned_incorythe_armor_boots', 'blue_skies:charoite_boots', 'twilightforest:knightmetal_boots'])
 
-e.replaceInput({id: 'pedestals:upgrades/itempedestalupgradedefault'}, 'minecraft:gold_ingot', '#allthemagic:mystic_gold')
 e.replaceInput({id: 'torchmaster:feral_flare_lantern'}, '#forge:dusts/glowstone', 'ars_nouveau:jar_of_light')
 e.replaceInput({id: 'torchmaster:megatorch'}, 'minecraft:torch', ['xreliquary:interdiction_torch', 'projecte:interdiction_torch'])
 

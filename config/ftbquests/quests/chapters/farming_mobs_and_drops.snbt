@@ -1,0 +1,82 @@
+{
+	id: "688D55BAAA76288C"
+	group: "10AACBD4B06348B6"
+	order_index: 2
+	filename: "farming_mobs_and_drops"
+	title: "Farming Mobs and Drops"
+	icon: "iceandfire:hydra_heart"
+	subtitle: ["info chapter"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "32200043CA9770F3"
+			tasks: [{
+				id: "4CB4271B5DBC18DA"
+				type: "checkmark"
+				title: "farming Mobs and Drops"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			id: "70992422D88B35DE"
+			tasks: [{
+				id: "314761EF967B845B"
+				type: "checkmark"
+				title: "dark Utilities"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "0311D94D71049AAC"
+			tasks: [{
+				id: "567B6DBB30F3A35E"
+				type: "checkmark"
+				title: "Create"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "75E514C595DB78D4"
+			tasks: [{
+				id: "6D645D220291A945"
+				type: "checkmark"
+				title: "Blood Magic"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			id: "297B68E18A71A4E3"
+			tasks: [{
+				id: "2889CBAA9C22383D"
+				type: "checkmark"
+				title: "Botania"
+			}]
+		}
+		{
+			icon: "minecraft:leather"
+			x: -4.0d
+			y: 2.5d
+			subtitle: "Every magic mod requires leather in some way or form. From books ot vellum to witch’s clothes, and cows don’t drop it constantly. SO. How do we farm leather."
+			description: [
+				"1. Cows. Slowest method, because breeding takes 20 minutes to grow, 5 minute cooldown on breeding. With looting/scavenger/etc, you may get a higher yield, but this isn’t a constant. "
+				"2. Zombies. Zombie farm doesn’t have a cooldown and you can grab as many spawners as you wish. Zombie flesh can be converted into leather using Integrated dynamics drying basin, or with tannin bottles out of mystical world. "
+				"2a. Mystical world tannin comes from gall apples and three glass bottles. Gall apples come from a fully grown wasp attractant, placed on OAK wood to grow. Made with meat, bonemeal and sugar. Apples and fish work great. Makes 4 wasp attractant and the yield is at least one gall apple. I got lucky with 4 on one drop once, and it is a renewable resource with the right farms in place. "
+				"3. Rabbits. 4 rabbit hide = 1 leather. Not a constant drop, so about as slow as cows, and these suckers JUMP really high and can clear your fences. "
+				"4. Mystical agriculture. Cow, rabbit or zombie essence, make the above. "
+			]
+			id: "1DD3F6B8099D81A8"
+			tasks: [{
+				id: "55DB12F0E49F7CB7"
+				type: "checkmark"
+				title: "Leather!"
+			}]
+		}
+	]
+}

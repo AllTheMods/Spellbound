@@ -1,0 +1,37 @@
+{
+	id: "1E09C468A5142ACC"
+	group: "441E2D2CD3ABE6DE"
+	order_index: 9
+	filename: "the_undergarden"
+	title: "The Undergarden (wip)"
+	subtitle: ["This is deeper then Under the Sea ever went"]
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "One coin to hell please"
+		x: 0.0d
+		y: -0.5d
+		description: ["This isn't quite the nether, but is about as deep as it needs to be to reach there. Get a catalyst and smack it inside a portal of stone bricks to reach there. "]
+		id: "2C6C54023C5600A8"
+		tasks: [
+			{
+				id: "20B54203E5158F90"
+				type: "item"
+				item: "undergarden:catalyst"
+			}
+			{
+				id: "196A5495078D6435"
+				type: "advancement"
+				advancement: "undergarden:undergarden/catalyst"
+				criterion: ""
+			}
+			{
+				id: "1F09794CCD76D8D1"
+				type: "dimension"
+				icon: "undergarden:twistytwig"
+				dimension: "undergarden:undergarden"
+			}
+		]
+	}]
+}

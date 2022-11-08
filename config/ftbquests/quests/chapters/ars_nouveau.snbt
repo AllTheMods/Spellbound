@@ -1,7 +1,7 @@
 {
 	id: "6AEDA2F9BEB57759"
 	group: "2869CB12B4663D25"
-	order_index: 1
+	order_index: 0
 	filename: "ars_nouveau"
 	title: "Ars Nouveau"
 	icon: "ars_nouveau:creative_spell_book"
@@ -122,7 +122,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -10.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
@@ -158,7 +158,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.5d
 			y: -10.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
@@ -182,8 +182,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -5.5d
+			x: 4.5d
+			y: -6.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
 			id: "6C4E72C0BF98E8DD"
@@ -206,10 +206,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -6.5d
+			x: 1.0d
+			y: -9.5d
 			shape: "rsquare"
-			dependencies: ["441C0659ED28D935"]
+			dependencies: ["63DD7F5A4441ACE7"]
 			id: "295703FC5B92D0E6"
 			tasks: [{
 				id: "6A60A533BDBCCAD9"
@@ -218,7 +218,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.5d
 			y: -6.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
@@ -254,7 +254,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: -9.5d
 			shape: "rsquare"
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -363,10 +363,10 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: 7.5d
 			y: -6.5d
 			shape: "rsquare"
-			dependencies: ["6F3602F5600A6221"]
+			dependencies: ["441C0659ED28D935"]
 			id: "430CAC90C8B34A17"
 			tasks: [{
 				id: "312250C813E89B54"
@@ -423,7 +423,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 0.0d
 			y: -9.5d
 			shape: "rsquare"
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -483,7 +483,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -4.0d
 			y: -8.5d
 			shape: "rsquare"
 			dependencies: ["6F3602F5600A6221"]
@@ -615,7 +615,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: -10.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
@@ -760,7 +760,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: -10.5d
 			shape: "rsquare"
 			dependencies: ["441C0659ED28D935"]
@@ -1053,12 +1053,19 @@
 		{
 			x: 4.5d
 			y: 0.0d
+			subtitle: "Make a magebloom seed in the enchanting apparatus. "
 			dependencies: ["6E0E13806F388D7E"]
 			id: "542C6D76B579886C"
 			tasks: [{
 				id: "286A7E3D976A3BDF"
 				type: "item"
 				item: "ars_nouveau:mana_fiber"
+			}]
+			rewards: [{
+				id: "6A9ECBD7BE5D11D3"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+				count: 8
 			}]
 		}
 		{
@@ -1071,6 +1078,11 @@
 				type: "item"
 				item: "ars_nouveau:blaze_fiber"
 			}]
+			rewards: [{
+				id: "27E9C654AC0270A6"
+				type: "random"
+				table_id: 6122917225507007151L
+			}]
 		}
 		{
 			x: 8.5d
@@ -1081,6 +1093,11 @@
 				id: "25D5E65FCE720D11"
 				type: "item"
 				item: "ars_nouveau:end_fiber"
+			}]
+			rewards: [{
+				id: "2371FC857E98DF0F"
+				type: "random"
+				table_id: 1539445375977315958L
 			}]
 		}
 		{
@@ -1345,6 +1362,7 @@
 		{
 			x: -1.5d
 			y: 4.5d
+			subtitle: "Requires the wilden tribute drop from the wilden chimera boss to craft."
 			dependencies: ["0D330FAD6C993DBC"]
 			id: "17D7D34F519F7E5F"
 			tasks: [{
@@ -1398,6 +1416,256 @@
 				type: "item"
 				item: "ars_nouveau:potion_jar"
 			}]
+		}
+		{
+			x: -12.0d
+			y: 0.0d
+			subtitle: "Summons the wilden chimera boss."
+			dependencies: ["457DE8C154641437"]
+			id: "6105826DF494655E"
+			tasks: [{
+				id: "15E660D90BF9C895"
+				type: "item"
+				item: "ars_nouveau:ritual_wilden_summon"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.0d
+			dependencies: ["62371C7BB26ED207"]
+			id: "796B0DED6D47D44E"
+			tasks: [{
+				id: "1F7F17567EBDDDED"
+				type: "item"
+				item: "ars_nouveau:drygmy_charm"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.5d
+			shape: "rsquare"
+			dependencies: ["441C0659ED28D935"]
+			id: "58AEC25CDD1B8920"
+			tasks: [{
+				id: "0880E3F4E7EA67C3"
+				type: "item"
+				item: "ars_nouveau:glyph_evaporate"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -11.5d
+			shape: "rsquare"
+			dependencies: ["441C0659ED28D935"]
+			id: "711F63E9D30DD5C3"
+			tasks: [{
+				id: "209102A486A49743"
+				type: "item"
+				item: "ars_nouveau:glyph_sensitive"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.5d
+			shape: "rsquare"
+			dependencies: ["441C0659ED28D935"]
+			id: "629E70D10EFE054B"
+			tasks: [{
+				id: "2F0CBF71532DEEA4"
+				type: "item"
+				item: "ars_nouveau:glyph_toss"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -9.5d
+			shape: "rsquare"
+			dependencies: ["441C0659ED28D935"]
+			id: "5E5E19E3AF7E1C48"
+			tasks: [{
+				id: "541A48C90497DCB2"
+				type: "item"
+				item: "ars_nouveau:glyph_bounce"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			shape: "rsquare"
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "56CBA5678B0FAD79"
+			tasks: [{
+				id: "6FF4E9396BF211DB"
+				type: "item"
+				item: "ars_nouveau:glyph_sentientharm"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			shape: "rsquare"
+			dependencies: ["63DD7F5A4441ACE7"]
+			id: "0D2D5A378AD325FE"
+			tasks: [{
+				id: "7F5857ED6B6A1EA3"
+				type: "item"
+				item: "ars_nouveau:glyph_wind_shear"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			shape: "rsquare"
+			dependencies: ["6F3602F5600A6221"]
+			id: "172E91F3D2C665B8"
+			tasks: [{
+				id: "3DA094251358BA9C"
+				type: "item"
+				item: "ars_nouveau:glyph_linger"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			shape: "rsquare"
+			dependencies: ["6F3602F5600A6221"]
+			id: "3C8FB91D2921E3F9"
+			tasks: [{
+				id: "355B55AFC0082BC5"
+				type: "item"
+				item: "ars_nouveau:glyph_glide"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -10.5d
+			shape: "rsquare"
+			dependencies: ["6F3602F5600A6221"]
+			id: "7D54978E4E3C99CE"
+			tasks: [{
+				id: "1E2D0C7B79E8A7FB"
+				type: "item"
+				item: "ars_nouveau:glyph_orbit"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.0d
+			dependencies: ["457DE8C154641437"]
+			id: "3BC0BB2144472173"
+			tasks: [{
+				id: "4019591C35BDA5C3"
+				type: "item"
+				item: "ars_nouveau:ritual_awakening"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.5d
+			dependencies: ["457DE8C154641437"]
+			id: "796C90652368F2F4"
+			tasks: [{
+				id: "27AAAC6B6438DF1B"
+				type: "item"
+				item: "ars_nouveau:ritual_binding"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -1.0d
+			dependencies: ["457DE8C154641437"]
+			id: "0ED779567E513B89"
+			tasks: [{
+				id: "48F022A52ECDB277"
+				type: "item"
+				item: "ars_nouveau:ritual_scrying"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			dependencies: ["457DE8C154641437"]
+			id: "0CAF09E38BBCA50D"
+			tasks: [{
+				id: "6E6342CB89BA3517"
+				type: "item"
+				item: "ars_nouveau:ritual_flight"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Slow but steady creation of source gems. Source gems are gold level rarity that spawn in most y levels. They spawn more frequently underground in archwood forests."
+			dependencies: ["6E0E13806F388D7E"]
+			id: "007DA3BA3A3C0EB7"
+			tasks: [{
+				id: "304F3AADA11C6880"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+		}
+		{
+			title: "Wilden Clansmen"
+			icon: "ars_nouveau:wilden_horn"
+			x: -1.5d
+			y: -1.0d
+			subtitle: "Dangerous monsters"
+			description: ["Wilden hunters and stalkers spawn everywhere, guardians in colder biomes. Wilden horns can be given to drygmy to gain their shard, wilden wings convert to leather, and wilden spikes can be made into 32 arrows. "]
+			dependencies: ["6E0E13806F388D7E"]
+			id: "6B30C47FDD4C3702"
+			tasks: [
+				{
+					id: "75CE3F6E7BE3782D"
+					type: "item"
+					item: "ars_nouveau:wilden_horn"
+				}
+				{
+					id: "35B38D5109EDBC80"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
+				}
+				{
+					id: "55FC5CB83D58D31D"
+					type: "item"
+					item: "ars_nouveau:wilden_spike"
+				}
+			]
+			rewards: [{
+				id: "181441DD5FDFBB8F"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Dropped by defeating the Wilden Chimera boss"
+			description: ["Needed for the archmage spellbook. "]
+			dependencies: ["6B30C47FDD4C3702"]
+			id: "0C5CFE077346B3E4"
+			tasks: [{
+				id: "7972C29C25D729D8"
+				type: "item"
+				item: "ars_nouveau:wilden_tribute"
+			}]
+			rewards: [
+				{
+					id: "1896927A0D7D59F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "76C96C4C7D6203E2"
+					type: "random"
+					table_id: 1539445375977315958L
+				}
+				{
+					id: "4FDBE6124E63ECDB"
+					type: "random"
+					table_id: 6122917225507007151L
+				}
+			]
 		}
 	]
 }

@@ -50,11 +50,23 @@
 					count: 32L
 				}
 			]
-			rewards: [{
-				id: "38420DE99659B632"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "38420DE99659B632"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CB5DAF6FC76B642"
+					type: "random"
+					icon: {
+						id: "botania:dice"
+						Count: 1b
+						tag: { }
+					}
+					table_id: 414778086977979556L
+				}
+			]
 		}
 		{
 			title: "Turtlemy? Oh, turtle ALCHEMY!"
@@ -130,7 +142,10 @@
 			y: 0.0d
 			shape: "gear"
 			subtitle: "Craft a shell of encapsulation!"
-			description: ["This is needed for the ATM Star. Make more then one."]
+			description: [
+				"This is needed for the ATM Star. Make more then one."
+				"In exchange, get some kelp that can't be gotten in world gen!"
+			]
 			dependencies: ["3A181C1D7203B14A"]
 			id: "440B404E8B582A7F"
 			tasks: [{
@@ -153,6 +168,11 @@
 					id: "6C121EA0F277975B"
 					type: "item"
 					item: "supplementaries:sack"
+				}
+				{
+					id: "135738963066D62A"
+					type: "random"
+					table_id: 414778086977979556L
 				}
 			]
 		}
@@ -196,11 +216,18 @@
 				item: "minecraft:turtle_egg"
 				count: 4L
 			}]
-			rewards: [{
-				id: "55F86B154FF29190"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "55F86B154FF29190"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "714B8A1B89A5106F"
+					type: "random"
+					table_id: 414778086977979556L
+				}
+			]
 		}
 		{
 			title: "Turtlemancer's next steps"
@@ -302,11 +329,24 @@
 				type: "item"
 				item: "turtlemancy:turtle_altar"
 			}]
-			rewards: [{
-				id: "20DC84AC3656F5AE"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "20DC84AC3656F5AE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C81C8B84110ED68"
+					type: "random"
+					table_id: 414778086977979556L
+				}
+				{
+					id: "47AFFFCFF9F8EA6F"
+					type: "item"
+					item: "turtlemancy:turtle_bless"
+					count: 3
+				}
+			]
 		}
 		{
 			title: "Indestructible..."
@@ -417,11 +457,18 @@
 					item: "turtlemancy:improved_magma_scute"
 				}
 			]
-			rewards: [{
-				id: "77C066A641057872"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "77C066A641057872"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3D94E7CED5E3C4E7"
+					type: "random"
+					table_id: 414778086977979556L
+				}
+			]
 		}
 		{
 			x: 2.5d

@@ -1,7 +1,7 @@
 {
 	id: "7A72E12C3839D165"
 	group: "3B6EB8546211E897"
-	order_index: 2
+	order_index: 3
 	filename: "natures_aura"
 	title: "Nature's Aura"
 	icon: "naturesaura:aura_bloom"
@@ -12,6 +12,7 @@
 			x: -0.5d
 			y: 1.5d
 			subtitle: "Welcome to Nature's Aura"
+			description: ["Find one of those glowy fields and hang around in it a few minutes. "]
 			id: "7B26D6008FA99796"
 			tasks: [{
 				id: "6B62D4255CAE9669"
@@ -149,11 +150,18 @@
 					item: "naturesaura:token_sorrow"
 				}
 			]
-			rewards: [{
-				id: "4546B04B39F5FB4C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4546B04B39F5FB4C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "680CD15FCB93DCE7"
+					type: "random"
+					table_id: 5164025374197835343L
+				}
+			]
 		}
 		{
 			title: "Bottling up the weather"
@@ -172,6 +180,7 @@
 							stored_type: "naturesaura:overworld"
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "140E65C5FC2C9D7B"
@@ -183,6 +192,7 @@
 							stored_type: "naturesaura:nether"
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "712A66127AD69737"
@@ -194,13 +204,21 @@
 							stored_type: "naturesaura:end"
 						}
 					}
+					consume_items: true
 				}
 			]
-			rewards: [{
-				id: "37E8EBFD8FD9F263"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "37E8EBFD8FD9F263"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38CCD44C5BAD2BAC"
+					type: "choice"
+					table_id: 6325851141040492985L
+				}
+			]
 		}
 		{
 			title: "Aura Creation"
@@ -488,11 +506,18 @@
 					item: "naturesaura:token_grief"
 				}
 			]
-			rewards: [{
-				id: "385B0B21186AB845"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "385B0B21186AB845"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "10387D51F77F7B27"
+					type: "random"
+					table_id: 5164025374197835343L
+				}
+			]
 		}
 		{
 			x: -2.5d

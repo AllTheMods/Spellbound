@@ -1,7 +1,7 @@
 {
 	id: "4096945C4FE25076"
 	group: "2869CB12B4663D25"
-	order_index: 2
+	order_index: 9
 	filename: "occultism"
 	title: "Occultism"
 	icon: "occultism:candle_white"
@@ -296,6 +296,19 @@
 					count: 2L
 				}
 			]
+			rewards: [
+				{
+					id: "29CA78214E0DAB2F"
+					type: "item"
+					item: "occultism:spirit_attuned_crystal"
+					count: 2
+				}
+				{
+					id: "03969E1310A91069"
+					type: "random"
+					table_id: 1539445375977315958L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -350,7 +363,7 @@
 			subtitle: "Creeper Explosions be damned, Skulls for EVERYONE"
 			description: [
 				"With \"Hedyrin's Lure\" Pentacle, you will summon special Skeletons that will drop their skulls."
-				"4 Bones sacrificed, a book of foliot, and when blakc particals show up, slay a Chicken. Then kill the skeleton fast, for it will not last long in the world."
+				"4 Bones sacrificed, a book of foliot, and when black particles show up, slay a Chicken. Then kill the skeleton fast, for it will not last long in the world."
 			]
 			dependencies: ["2AEFD56D78BFC60E"]
 			id: "27B3A6D6DE2D458E"
@@ -365,7 +378,7 @@
 			y: -3.5d
 			subtitle: "End stone. Yeah. that stuff, from the END, duh."
 			description: [
-				"With Hedyrin's Lure, you will sacrifice 2 stone and 2 dirt, when Gray particals spawn, drop an Egg."
+				"With Hedyrin's Lure, you will sacrifice 2 stone and 2 dirt, when Gray particles spawn, drop an Egg."
 				"An Endermite will spawn, kill it fast for it will not last in the world."
 				"The Endermite will drop End stone. Need it for Purple Chalk."
 			]
@@ -467,7 +480,10 @@
 			x: 5.5d
 			y: -8.0d
 			subtitle: "You could use a lasso... But a soul gem is so much more badass."
-			description: ["Utilizing Strigeor's Pentacle, you can craft a Soul gem. 2 will be the most you need. These can transport sacrificial beings, like a Villager, made easier."]
+			description: [
+				"Utilizing Strigeor's Pentacle, you can craft a Soul gem. 2 will be the most you need. These can transport sacrificial beings, like a Villager, made easier."
+				"Cannot transport a feywild dwarf."
+			]
 			dependencies: ["29050C91455DEE93"]
 			id: "456450FD1916C279"
 			tasks: [{

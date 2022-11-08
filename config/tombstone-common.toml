@@ -79,8 +79,6 @@
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = -1
-	#Fishing treasures can only be found in open water [false/true|default:true]
-	fishing_treasure_in_open_water = true
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
 	cooldown_teleport_death = -1
@@ -151,6 +149,10 @@
 	lost_tablet_modded_structure = true
 	#Allows the merchant grave gardian [false/true|default:true]
 	allow_grave_gardian = true
+	#Damaged items can be recycled with the Book of Recycling
+	can_recycle_damaged_item = true
+	#The items that can't be recycled by the Book of Recycling
+	denied_item_to_recycle = []
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -204,7 +206,7 @@
 	#Range: 0 ~ 1000
 	chance_soul_receptacle_on_boss = 50
 	#Entities that can't found as loot in a Familiar Receptacle
-	unhandled_tameable_entities = []
+	unhandled_tameable_entities = ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon"]
 
 #Allows to enable some features related to others mods
 [compatibility]

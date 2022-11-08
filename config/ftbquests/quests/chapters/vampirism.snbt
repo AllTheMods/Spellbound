@@ -1,0 +1,450 @@
+{
+	id: "6F07A7D430B5D5E1"
+	group: "3B6EB8546211E897"
+	order_index: 5
+	filename: "vampirism"
+	title: "Vampirism"
+	icon: "vampirism:vampire_fang"
+	subtitle: ["Legion of the Undead"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "guideapi-vp:vampirism-guidebook"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Not your sparkly vampires."
+			id: "7B90D9858E5EC084"
+			tasks: [{
+				id: "49EB49A9A8022AE8"
+				type: "checkmark"
+				title: "Vampirism"
+			}]
+			rewards: [{
+				id: "4E05E1DC9B970DA4"
+				type: "item"
+				item: "guideapi-vp:vampirism-guidebook"
+			}]
+		}
+		{
+			icon: "artifacts:umbrella"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Addon for an item or bauble you can wear to help protect your delicate vampire hide from the sun. Varying qualities last longer. "
+			id: "75CFC7C64DC19C2E"
+			tasks: [{
+				id: "36FF94C29EA20447"
+				type: "checkmark"
+				title: "Vampires Need Umbrellas"
+			}]
+		}
+		{
+			title: "Werewolf!"
+			icon: "evilcraft:werewolf_fur"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "You can become a werewolf with this Vampirism addon! "
+			description: ["A word of warning: The mod is in alpha, and not finished. As such, the food list werewolves eat is very slim right now, and being worked on. Do your occultism demon dream fruit work before becoming a werewolf"]
+			id: "06428788BEEC8838"
+			tasks: [{
+				id: "189CA311161BF9B2"
+				type: "checkmark"
+				title: "Werewolf!"
+			}]
+		}
+		{
+			title: "Godly vampire? (not added)"
+			icon: {
+				id: "botania:goddess_charm"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Messes with the configs of Vampirism so the vampire is stronger and takes less damage from the sun. Handy!"
+			id: "0A3C39F3FEDC4F42"
+			tasks: [{
+				id: "48188B681ED502A9"
+				type: "checkmark"
+				title: "Godly Vampire?"
+			}]
+		}
+		{
+			icon: "vampirism:vampire_blood_bottle"
+			x: -6.5d
+			y: 1.0d
+			description: ["Path of power and blood. "]
+			dependencies: ["7B90D9858E5EC084"]
+			id: "06C8ECE29E99B2CA"
+			tasks: [{
+				id: "53C43F6705160A2F"
+				type: "checkmark"
+				title: "Vampire?"
+			}]
+		}
+		{
+			icon: "vampirism:human_heart"
+			x: -3.5d
+			y: 1.0d
+			description: ["The justice path? Or just I like pointy sticks. "]
+			dependencies: ["7B90D9858E5EC084"]
+			id: "737A1D7E4408843A"
+			tasks: [{
+				id: "022CD777AE40F0CB"
+				type: "checkmark"
+				title: "or Hunter?"
+			}]
+		}
+		{
+			title: "Becoming a Hunter"
+			x: -3.0d
+			y: 2.5d
+			description: ["Make or find an injection chair, and make a syringe. Craft it with a garlic for a garlic injection, and right click the chair with the garlic injection to become immune to being infected by vampires and gain your first level as a hunter. "]
+			dependencies: ["737A1D7E4408843A"]
+			id: "3716CA4351BD4BF5"
+			tasks: [{
+				id: "695D48035CA4DE7B"
+				type: "item"
+				item: "vampirism:injection_garlic"
+			}]
+			rewards: [{
+				id: "7E8E709D2131844B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "How to become a vampire"
+			x: -7.5d
+			y: 2.0d
+			description: ["Take one of the vampire fangs you looted from a village and stab yourself (right click with it in your hand) to acquire the vampire disease Sanguinare Vampire. After about 20 minutes you will convert into being a vampire. If that’s too squeamy for you, let a vampire mob sneak up behind you and bite you on the neck. That can also get you the disease. Once you become a vampire, your character will look somewhat different. Commands can change your eyes and fangs, or the handy vampirism menu in your inventory screen. Needless to say generic vampire players look pretty silly. "]
+			dependencies: ["06C8ECE29E99B2CA"]
+			id: "024438501FB1A0FC"
+			tasks: [{
+				id: "7D18952A2DBD466C"
+				type: "item"
+				item: "vampirism:vampire_fang"
+			}]
+			rewards: [
+				{
+					id: "6B9B62B47D9916EB"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 16
+				}
+				{
+					id: "496A6CC86D4F2148"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			description: ["So the first thing you’ll notice as a vampire are two things; in the daytime as a weak vampire you will have a bright yellow ring around your screen in the daytime. Daytime is your enemy. So is water. Second is your hunger bar is replaced by blood drops. Using a hotkey, you can approach mobs and drain them of their blood when you see a fang icon on your screen while near them. Once drained, if you keep feeding, the mob will either die or convert to being a vampire mob. Yes, a vampire cow is a thing. Vampires are stronger, faster and healthier  than the average player. You do not drown anymore as you do not breathe. Zombies don’t attack you anymore, but other mobs still can. "]
+			dependencies: ["024438501FB1A0FC"]
+			id: "0695C58636200D9B"
+			tasks: [{
+				id: "5A3664AB5A6DA07A"
+				type: "checkmark"
+				title: "Vampire 101"
+			}]
+			rewards: [
+				{
+					id: "36AC5F9CC629CC09"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CB2665CA28589FB"
+					type: "item"
+					item: "vampirism:human_heart"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["4D03873EC12C0443"]
+			id: "64B692D2D4BD4E3C"
+			tasks: [{
+				id: "04FBEE30EEA32533"
+				type: "checkmark"
+				title: "Hunter 101"
+			}]
+			rewards: [{
+				id: "6A6D51CD94231D9B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Garlic Farmer"
+			x: -4.0d
+			y: 2.0d
+			description: ["Not your witchery garlic. Find this behind a vampire trainers house, might want to keep some for yourself after replanting"]
+			dependencies: ["737A1D7E4408843A"]
+			id: "4A69AB803A488651"
+			tasks: [{
+				id: "78F35D943468B8D2"
+				type: "item"
+				item: "vampirism:item_garlic"
+				count: 16L
+			}]
+			rewards: [{
+				id: "670AF766D1E3F541"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Sorry, I was mi'stake'n!"
+			x: -4.0d
+			y: 3.5d
+			description: ["The night is no longer safe. Make a stake. "]
+			dependencies: ["3716CA4351BD4BF5"]
+			id: "4D03873EC12C0443"
+			tasks: [{
+				id: "0CA68C3D95C07F70"
+				type: "item"
+				item: {
+					id: "vampirism:stake"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B35A0CA450AD1AB"
+				type: "item"
+				item: "vampirism:vampire_fang"
+				count: 5
+			}]
+		}
+		{
+			icon: "vampirism:item_tent"
+			x: -4.0d
+			y: 5.0d
+			description: ["Find a hunter camp out in the world and speak to one of the hunters milling about. You’ll be asked to pay them in vampire blood, which is gotten by killing a vampire with your stake. Give that to them, and receive your second and subsequently third hunter levels. Use your levels to gain skills as a hunter, including better use of your stake. "]
+			dependencies: ["64B692D2D4BD4E3C"]
+			id: "140E402E5C289F2E"
+			tasks: [{
+				id: "04618BBFBA5CF817"
+				type: "checkmark"
+				title: "Leveling Up = Hunter"
+			}]
+			rewards: [{
+				id: "4E0FA4536BD21BFB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tabling the conversation"
+			x: -3.0d
+			y: 5.5d
+			description: ["Find a vampire hunter trainer’s house in a village. You are looking for the trainer and also a hunter table to continue leveling up. The max level is 14. "]
+			dependencies: ["140E402E5C289F2E"]
+			id: "115DE44263059FC2"
+			tasks: [{
+				id: "28E139333E6EB98F"
+				type: "item"
+				item: "vampirism:hunter_table"
+			}]
+			rewards: [{
+				id: "6FDC59C79CDFA5A9"
+				type: "item"
+				item: "vampirism:vampire_fang"
+				count: 5
+			}]
+		}
+		{
+			title: "Advanced Tabling"
+			x: -2.0d
+			y: 5.5d
+			description: ["Find or make a potion table, hunter weapon table and alchemical cauldron, place them around your hunter table to max it out. "]
+			dependencies: ["115DE44263059FC2"]
+			id: "4F9FA2E304870953"
+			tasks: [
+				{
+					id: "67959D2FB16F0F6F"
+					type: "item"
+					item: "vampirism:weapon_table"
+				}
+				{
+					id: "6BACC07B34AA85BF"
+					type: "item"
+					item: "vampirism:potion_table"
+				}
+				{
+					id: "4B495AB138230AD7"
+					type: "item"
+					item: "vampirism:alchemical_cauldron"
+				}
+			]
+			rewards: [
+				{
+					id: "3A5B8DC385D2E16C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4B76E3A9688E51FA"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Purebloods"
+			x: -3.0d
+			y: 6.5d
+			description: ["Vampire biome. Collect some pure blood by killing vampire barons. They wear capes and sprout fangs when angered. They also drop hunter intel occasionally as a rare drop. Might be worth it to make a mob farm here because you will need a LOT of vampire drops for leveling up as a hunter. "]
+			dependencies: ["140E402E5C289F2E"]
+			id: "2F93F72C855FC4ED"
+			tasks: [{
+				id: "08B9E139B2EE1765"
+				type: "biome"
+				icon: "vampirism:vampire_orchid"
+				biome: "vampirism:vampire_forest"
+			}]
+			rewards: [
+				{
+					id: "16CF38D27EA4666F"
+					type: "item"
+					item: "vampirism:pure_blood_0"
+				}
+				{
+					id: "6A6F25028DC2DC36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B04E35274D5032D"
+					type: "item"
+					item: "vampirism:vampire_fang"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Leveling up as a vampire"
+			x: -7.5d
+			y: 3.0d
+			description: ["Lv 2-4 is done by using an altar of inspiration. Lv 5 and further uses an altar of infusion. The max level is 14. You need to fill the altar up with blood and the amount varies by level. There are such things as altar pillars and altar tips to put around the altar to make it function. Turn down your sound while leveling up for ambient, because you will have LOUD lightning sounds upon leveling up. "]
+			dependencies: ["0695C58636200D9B"]
+			id: "08F0A956445DF57D"
+			tasks: [
+				{
+					id: "1426F4FD869855DE"
+					type: "item"
+					item: "vampirism:altar_inspiration"
+				}
+				{
+					id: "1A36B7DA67966106"
+					type: "item"
+					item: "vampirism:altar_infusion"
+				}
+			]
+			rewards: [
+				{
+					id: "259466EA1D1CDDF3"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 32
+				}
+				{
+					id: "53A01F586137D68A"
+					type: "item"
+					item: "vampirism:pure_blood_0"
+				}
+				{
+					id: "7731CC2BFB358FA2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			icon: "vampirism:totem_base"
+			x: -5.5d
+			y: 4.0d
+			description: ["Newly generated village in existing worlds may have a totem in the middle, mentioning the village is controlled by vampires or hunters or werewolves. If you are one or the other, you can click an opposing totem to spawn a 'insert faction here' village raid. By yourself, it does not do anything but swap the faction of who controls the village. "]
+			id: "0CF3F744BFFBCDF4"
+			tasks: [{
+				id: "27BC1A8238EB1C76"
+				type: "checkmark"
+				title: "Factions"
+			}]
+			rewards: [{
+				id: "4742F1B7B48693FC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "vampirism:vampire_cloak_red_black"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.5d
+			y: 5.5d
+			description: ["Vampires and hunters each have access to unique gear and weapons. Deck out and show  your faction pride. "]
+			id: "4374B3AD8A94F9B5"
+			tasks: [{
+				id: "4D83842C2B03A21F"
+				type: "checkmark"
+				title: "Neat Wears. I mean wares. "
+			}]
+		}
+		{
+			title: "Lilyliver'd"
+			x: -1.0d
+			y: 1.0d
+			description: ["To progress in lycanthropy (thats werewolf levels), you need livers and cracked bones."]
+			dependencies: ["06428788BEEC8838"]
+			id: "4264C997ED2021DE"
+			tasks: [
+				{
+					id: "38CA1872FA6CCCAB"
+					type: "item"
+					item: "werewolves:liver"
+				}
+				{
+					id: "3C34A7CAC47979DD"
+					type: "item"
+					item: "werewolves:bone"
+				}
+			]
+		}
+		{
+			title: "Just in case"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Get of out the dog pound free... just this once."
+			description: [
+				"In case you want to unwerewolf."
+				"Future reversals will require using an empty syringe on a werewolf, and use it on an injection chair. You will die, be prepared."
+			]
+			dependencies: ["06428788BEEC8838"]
+			id: "624F5BE89907F9EE"
+			tasks: [{
+				id: "64B085589AF1CD38"
+				type: "item"
+				item: "werewolves:wolfsbane"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7C89E16202B38558"
+				type: "item"
+				item: "werewolves:injection_un_werewolf"
+			}]
+		}
+	]
+}

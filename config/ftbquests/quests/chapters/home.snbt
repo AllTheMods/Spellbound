@@ -162,6 +162,11 @@
 				type: "checkmark"
 				title: "Thanks"
 			}]
+			rewards: [{
+				id: "4447C061BDEA3A5B"
+				type: "random"
+				table_id: 6122917225507007151L
+			}]
 		}
 		{
 			icon: {
@@ -237,6 +242,33 @@
 				id: "49A3A6A914FB4978"
 				type: "checkmark"
 				title: "Wyrmroost"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			description: ["Two ways. The Honey Generator or the Mana Fluxfield. "]
+			id: "0F501157CF35B285"
+			tasks: [{
+				id: "5F00083A832C4BEF"
+				type: "checkmark"
+				title: "RF?!"
+			}]
+			rewards: [{
+				id: "0F18A22CC8BA63E5"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["Take a look into Blaze and Caves Advancement expansion, and add it as a datapack. 750+ new advancements! "]
+			id: "19F80C158E4C5AAF"
+			tasks: [{
+				id: "29894F1F0338F2E7"
+				type: "checkmark"
+				title: "More fun? (Not added)"
 			}]
 		}
 	]

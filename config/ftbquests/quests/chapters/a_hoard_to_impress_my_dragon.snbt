@@ -17,6 +17,8 @@
 				"This is the chapter where collectors will come to show off their wares to the Dragon Hoard Council of Wizards. "
 				"Don't be too attached, they may want them for themselves."
 			]
+			dependencies: ["56B53A2B2924FE4A"]
+			hide_text_until_complete: true
 			optional: true
 			id: "71CF3AC44897B56E"
 			tasks: [{
@@ -30,7 +32,12 @@
 			icon: "minecraft:armor_stand"
 			x: -5.0d
 			y: -7.0d
+			subtitle: "Shiny for my closet"
 			description: ["Collect all the armor available in the Twilight Forest. Bonus points if its on an armor stand when you're done. "]
+			dependencies: [
+				"0ED7B25DC1AA767B"
+				"71CF3AC44897B56E"
+			]
 			id: "1605E3200B26CC84"
 			tasks: [
 				{
@@ -415,6 +422,8 @@
 			title: "Botanist Collector: Saplings from across the realms"
 			x: -4.0d
 			y: -6.0d
+			subtitle: "Shush, I know I have a problem. -fluffs the bonsai garden-"
+			dependencies: ["71CF3AC44897B56E"]
 			id: "7A3D78900DDEBD62"
 			tasks: [
 				{
@@ -512,46 +521,217 @@
 			title: "Weapons Collector: Weapons Merchant"
 			x: -5.0d
 			y: -8.5d
+			subtitle: "The pen is NOT mightier then the sword"
+			dependencies: ["71CF3AC44897B56E"]
 			id: "5CCE02FCF696BA2C"
-			tasks: [{
-				id: "5704BE09F9560594"
-				type: "item"
-				item: {
-					id: "forbidden_arcanus:draco_arcanus_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5704BE09F9560594"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "523902F1CCD1399E"
+					type: "item"
+					item: {
+						id: "malum:awakened_tyrving"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B5A516B4CCEA205"
+					type: "item"
+					item: {
+						id: "theabyss:nosaj_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5AC949FE4DC3FC24"
+					type: "item"
+					item: {
+						id: "thebeginning:florit_tool_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15032DE114CC619A"
+					type: "item"
+					item: {
+						id: "theabyss:abyss_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73A403B1882A14E9"
+					type: "item"
+					item: {
+						id: "allthemodium:alloy_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F10569D41F558B5"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "007839809FB75457"
+					type: "item"
+					item: {
+						id: "projecte:rm_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "4CFEBB84B9BB98AB"
+					type: "item"
+					item: {
+						id: "blue_skies:different_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FDD3506501469C3"
+					type: "item"
+					item: {
+						id: "blue_skies:infused_arc_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BD2FB77D7F421C1"
+					type: "item"
+					item: "mysticalagriculture:supremium_sword"
+				}
+				{
+					id: "4A80AE622809475D"
+					type: "item"
+					item: {
+						id: "botania:king_key"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6C5ED95146F83BD8"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E683C964EE21CFF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02D0ECE9684C8D05"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03E04F2DA96718AC"
+					type: "item"
+					item: {
+						id: "aiotbotania:alfsteel_aiot"
+						Count: 1b
+						tag: {
+							mana: 9999
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Mining Hoard: Ore Collection"
 			x: -4.0d
 			y: -9.5d
+			subtitle: "Feed me your ores"
 			description: ["Not gems, not dusts, ORE."]
+			dependencies: ["71CF3AC44897B56E"]
 			id: "10AC4D92DACE5F3C"
 			tasks: [{
 				id: "2AF28499ED18C7DA"
 				type: "item"
 				item: "minecraft:gold_ore"
+				consume_items: true
 			}]
 		}
 		{
 			title: "Miner's Hoard: Gems and Dusts"
 			x: -3.0d
 			y: -10.5d
+			subtitle: "Feed me your not-ores"
+			dependencies: ["71CF3AC44897B56E"]
 			id: "6BDC54532B25133F"
 			tasks: [{
 				id: "6CFDF1CE39E58FBD"
 				type: "item"
 				item: "minecraft:coal_block"
+				consume_items: true
 			}]
 		}
 		{
 			title: "Botanist Collector: Flowers/Plants"
 			x: -2.5d
 			y: -5.0d
+			subtitle: "You can transplant and grow anything with tenacity and a magic growth spell"
+			dependencies: ["71CF3AC44897B56E"]
 			id: "22F2BFBC59C43682"
 			tasks: [{
 				id: "481090098A35AE17"
@@ -561,14 +741,165 @@
 		}
 		{
 			title: "The world's pickiest Hungarian Horntail"
+			icon: "forbidden_arcanus:arcane_dragon_egg"
 			x: -1.0d
 			y: -5.0d
 			subtitle: "Someone stole too many eggs from the First Task. Return the eggs, or die trying. The world burns at the mercy of the Horntail Clan."
+			dependencies: [
+				"71CF3AC44897B56E"
+				"56B53A2B2924FE4A"
+			]
 			id: "7C4C1FAE1D02B28A"
-			tasks: [{
-				id: "030F06EBD8A6E103"
-				type: "item"
-				item: "forbidden_arcanus:arcane_dragon_egg"
+			tasks: [
+				{
+					id: "030F06EBD8A6E103"
+					type: "item"
+					item: "forbidden_arcanus:arcane_dragon_egg"
+					consume_items: true
+				}
+				{
+					id: "0A3459B819866AE1"
+					type: "item"
+					item: "iceandfire:dragonegg_red"
+					consume_items: true
+				}
+				{
+					id: "0566CD8F4CD44827"
+					type: "item"
+					item: "iceandfire:dragonegg_green"
+					consume_items: true
+				}
+				{
+					id: "59BAAD9DBE1EB35E"
+					type: "item"
+					item: "iceandfire:dragonegg_bronze"
+					consume_items: true
+				}
+				{
+					id: "5EB0F2A893FD1F72"
+					type: "item"
+					item: "iceandfire:dragonegg_gray"
+					consume_items: true
+				}
+				{
+					id: "2EF32ADBA4D3D967"
+					type: "item"
+					item: "iceandfire:dragonegg_blue"
+					consume_items: true
+				}
+				{
+					id: "72721D8F31D4C2B1"
+					type: "item"
+					item: "iceandfire:dragonegg_white"
+					consume_items: true
+				}
+				{
+					id: "5F8E7E17D6F24D0D"
+					type: "item"
+					item: "iceandfire:dragonegg_sapphire"
+					consume_items: true
+				}
+				{
+					id: "3CA51F0A11AC6126"
+					type: "item"
+					item: "iceandfire:dragonegg_silver"
+					consume_items: true
+				}
+				{
+					id: "65A47768697D3C1F"
+					type: "item"
+					item: "iceandfire:dragonegg_electric"
+					consume_items: true
+				}
+				{
+					id: "6EFA7FDBC6D3CB43"
+					type: "item"
+					item: "iceandfire:dragonegg_amythest"
+					consume_items: true
+				}
+				{
+					id: "5F488BB9ECB67316"
+					type: "item"
+					item: "iceandfire:dragonegg_copper"
+					consume_items: true
+				}
+				{
+					id: "42E01EB5893B5F54"
+					type: "item"
+					item: "iceandfire:dragonegg_black"
+					consume_items: true
+				}
+				{
+					id: "487E0C93246F13D4"
+					type: "item"
+					item: "minecraft:turtle_egg"
+					consume_items: true
+				}
+				{
+					id: "41FDC2426A4099F2"
+					type: "item"
+					item: "turtlemancy:magma_turtle_egg"
+					consume_items: true
+				}
+				{
+					id: "5601A00E058B8795"
+					type: "item"
+					item: {
+						id: "iceandfire:hippogryph_egg"
+						Count: 1b
+						tag: {
+							EggOrdinal: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3F415C9B7ECA5A8E"
+					type: "item"
+					item: "iceandfire:rotten_egg"
+					consume_items: true
+				}
+				{
+					id: "69969C3729F29325"
+					type: "item"
+					item: "iceandfire:deathworm_egg"
+					consume_items: true
+				}
+				{
+					id: "280A31E91215A9A1"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_egg"
+						Count: 1b
+						tag: {
+							EggOrdinal: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3225864A68038E70"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_egg"
+						Count: 1b
+						tag: {
+							EggOrdinal: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1D34F907FFDA8D6F"
+					type: "item"
+					item: "mysticalagradditions:dragon_egg_crux"
+				}
+			]
+			rewards: [{
+				id: "40FA4825C3460F99"
+				type: "toast"
+				title: "Egg Thief"
+				description: ""
 			}]
 		}
 		{
@@ -576,19 +907,28 @@
 			x: 0.5d
 			y: -5.0d
 			subtitle: "Poppet collectors? Creepy. Don't taglock yourself to these. No telling what happens if you did. "
+			dependencies: ["71CF3AC44897B56E"]
 			id: "305CDB2466832C72"
-			tasks: [{
-				id: "51DA55D454C6B977"
-				type: "item"
-				item: "witchery_rewitched:poppet"
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "51DA55D454C6B977"
+					type: "item"
+					item: "witchery_rewitched:poppet"
+					consume_items: true
+				}
+				{
+					id: "7342900DC19E960D"
+					type: "item"
+					item: "witchery_rewitched:taglock_kit"
+				}
+			]
 		}
 		{
 			title: "Blood Bank"
 			x: 2.0d
 			y: -5.5d
 			subtitle: "A great catalysm occured with the recent Mage Wars. They need blood for infusion spells. Lots of it. "
+			dependencies: ["71CF3AC44897B56E"]
 			id: "5B1D2B7ED72C1469"
 			tasks: [
 				{
@@ -664,6 +1004,12 @@
 					count: 16L
 					consume_items: true
 				}
+				{
+					id: "44667F0DAE5E0F97"
+					type: "item"
+					item: "vampirism:pure_blood_4"
+					consume_items: true
+				}
 			]
 		}
 		{
@@ -671,6 +1017,7 @@
 			x: 3.5d
 			y: -7.0d
 			subtitle: "Wow, you've got an issue with pixies there buddy. Uh, yeah, slay some pixies for this wizard please. They've all fled to Alfheim. "
+			dependencies: ["71CF3AC44897B56E"]
 			id: "7500521A06C9B578"
 			tasks: [
 				{
@@ -702,7 +1049,106 @@
 					entity: "feywild:winter_pixie"
 					value: 100L
 				}
+				{
+					id: "65B2E89C75ED61F7"
+					type: "kill"
+					entity: "botania:pixie"
+					value: 100L
+				}
+				{
+					id: "5EE072BAD45D841C"
+					type: "kill"
+					entity: "mahoutsukai:fae"
+					value: 100L
+				}
 			]
+			rewards: [{
+				id: "7A4EFFF83BDF3053"
+				type: "toast"
+				title: "Pixie Slayer"
+				description: ""
+			}]
+		}
+		{
+			title: "Star Eater"
+			x: 1.0d
+			y: -10.0d
+			subtitle: "You really don't think I'm going to have you sacrifice another star, do you?"
+			dependencies: ["71CF3AC44897B56E"]
+			id: "08FF5BDFA64D5314"
+			tasks: [
+				{
+					id: "1A92DCC0356A9656"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "792C7578C0E246BC"
+					type: "item"
+					item: "astralsorcery:shifting_star"
+					consume_items: true
+				}
+				{
+					id: "2CC4A5B631BBE310"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_omega"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6C311459878CA6CA"
+					type: "item"
+					item: "botania:manastar"
+					consume_items: true
+				}
+				{
+					id: "0D3CC109CEC9E009"
+					type: "item"
+					item: {
+						id: "botania:star_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5611E573BA06F385"
+					type: "item"
+					item: "mana-and-artifice:lodestar"
+					consume_items: true
+				}
+				{
+					id: "64E0650DE940AA5F"
+					type: "item"
+					item: "kubejs:patrick_star"
+					consume_items: true
+				}
+				{
+					id: "1B36D2D197ABB49B"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:eternal_stella"
+						Count: 1b
+						tag: { }
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "15C4D43309B9781C"
+				type: "toast"
+				title: "Psych!"
+				description: ""
+			}]
 		}
 	]
 }

@@ -1,0 +1,26 @@
+{
+	id: "54F8F8C6A7772AAF"
+	order_index: 3
+	title: "Farmer's Delight"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "farmersdelight:squid_ink_pasta", count: 16 }
+		{ item: "farmersdelight:barbecue_stick", count: 16 }
+		{ item: "farmersdelight:egg_sandwich", count: 16 }
+		{ item: "farmersdelight:fish_stew", count: 16 }
+		{ item: "farmersdelight:pasta_with_mutton_chop", count: 16 }
+		{ item: "farmersdelight:vegetable_soup", count: 16 }
+		{ item: "mysticalworld:fish_and_chips", count: 16 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "farmer_s_delight"
+	}
+}

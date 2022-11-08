@@ -1,0 +1,144 @@
+{
+	id: "1E43130D793243B5"
+	group: "10AACBD4B06348B6"
+	order_index: 1
+	filename: "farming_for_magic_juice"
+	title: "Farming for Magic Juice"
+	icon: {
+		id: "botania:mana_bottle"
+		Count: 1b
+		tag: { }
+	}
+	subtitle: ["Info chapter"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -0.5d
+			description: ["Attach this to your sand farm made with liquid starlight and lava"]
+			id: "114551DE0492F259"
+			tasks: [{
+				id: "0D61B29222F85A1A"
+				type: "checkmark"
+				title: "Liquid Starlight"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "033017B5971C40C8"
+			tasks: [{
+				id: "134FF693E8EC986F"
+				type: "checkmark"
+				title: "Mana"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			id: "27411262639820F0"
+			tasks: [{
+				id: "69EC8FA9597A1D0B"
+				type: "checkmark"
+				title: "Evilcraft Blood"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			id: "116752FA5A902D9F"
+			tasks: [{
+				id: "536B014E5700CE48"
+				type: "checkmark"
+				title: "Blood Magic Life Essence"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			id: "5789DFDD716C7B41"
+			tasks: [{
+				id: "49ABEE8E62ECF257"
+				type: "checkmark"
+				title: "Aura"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			id: "1D802AD073933E90"
+			tasks: [{
+				id: "53C5128837729C8F"
+				type: "checkmark"
+				title: "XP"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -0.5d
+			id: "477145447E07E4C7"
+			tasks: [{
+				id: "686E576BD8E78571"
+				type: "checkmark"
+				title: "Mana Source"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 1.0d
+			description: ["Found in colder biomes, source berries are a higher source creator in the agronomic sourcelink. Can be consumed for mana regen or brewed for potions. "]
+			dependencies: ["477145447E07E4C7"]
+			id: "2F3D01184E6B9FC5"
+			tasks: [{
+				id: "7382FFD4D3FC7A6A"
+				type: "item"
+				item: "ars_nouveau:mana_berry"
+				count: 16L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			id: "2B5F29FFA49C98C2"
+			tasks: [{
+				id: "1E40C7FFBF8258A7"
+				type: "checkmark"
+				title: "Mahou "
+			}]
+		}
+		{
+			title: "Mana and artifice mana"
+			x: 0.5d
+			y: 2.0d
+			id: "521226D2B02FD17E"
+			tasks: [{
+				id: "2EDAEEB6B5F2DFBA"
+				type: "checkmark"
+				title: "M&A Mana"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			subtitle: "Not really farming, but how to collect it"
+			id: "1CD81813CD96177D"
+			tasks: [{
+				id: "4AE5C90EEB5121C5"
+				type: "checkmark"
+				title: "Element Source"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			subtitle: "It's magically delicious!"
+			id: "07F7BDB8E854D150"
+			tasks: [{
+				id: "4DC3DBB861B1E74A"
+				type: "checkmark"
+				title: "Magical Juices"
+			}]
+		}
+	]
+}

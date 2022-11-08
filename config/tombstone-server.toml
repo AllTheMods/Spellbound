@@ -19,12 +19,12 @@
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
 	#Range: -1 ~ 100
 	chance_enchanted_grave_key = 0
-	#Required level in Knowledge of Death to craft Familiar Receptacle [0..20|default:10]
-	#Range: 0 ~ 20
-	familiar_receptacle_required_level = 10
 	#Defines the progression scale to be able to upgrade perks to higher level (based on the level in Knowledge of Death) [1..5|default:2]
 	#Range: 1 ~ 5
 	perk_progression_scale = 2
+	#Defines experience lost when storing experience in a Scroll of Knowledge
+	#Range: 0 ~ 90
+	scroll_of_knowledge_loss = 0
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -128,6 +128,14 @@
 	allow_scroll_of_frost_resistance = true
 	#Scroll of Aquatic Life [false/true|default:true]
 	allow_scroll_of_aquatic_life = true
+	#Book of Recycling [false/true|default:true]
+	allow_book_of_recycling = false
+	#Book of Repairing [false/true|default:true]
+	allow_book_of_repairing = true
+	#Book of Magic Impregnation [false/true|default:true]
+	allow_book_of_magic_impregnation = true
+	#Smoke Ball [false/true|default:true]
+	allow_smoke_ball = true
 
 #Allows to change the chance to drop some items
 [loot]

@@ -1,16 +1,10 @@
 {
 	id: "7A34A88FF7283E0F"
 	group: "441E2D2CD3ABE6DE"
-	order_index: 6
+	order_index: 7
 	filename: "the_abyss"
 	title: "The Abyss"
-	icon: {
-		id: "theabyss:theabyssdim"
-		Count: 1b
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "theabyss:guide_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -29,14 +23,14 @@
 		{
 			title: "A pocketful of loran daisies"
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 			description: ["Collect at least 40x loran crystals by breaking those two tall loran flower bushes out in overworld biomes. "]
-			dependencies: ["28E2C3AC48FFC3EF"]
+			dependencies: ["21B3B4A7D1F01548"]
 			id: "6DC2B95E48A8B571"
 			tasks: [{
 				id: "32A34184DE0A324C"
 				type: "item"
-				item: "theabyss:abyssloranitem"
+				item: "theabyss:loran"
 				count: 64L
 			}]
 			rewards: [{
@@ -48,44 +42,30 @@
 		}
 		{
 			x: 0.0d
-			y: 2.0d
-			description: ["Required to read the guidebook. The guidebook is included in the patchouli books, and in your akashic tome."]
-			dependencies: ["6DC2B95E48A8B571"]
-			id: "5808988FB815264E"
-			tasks: [{
-				id: "240B4467E487ABB3"
-				type: "item"
-				item: "theabyss:translationletter"
-			}]
-			rewards: [{
-				id: "4FF04B4221164BFE"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 0.0d
 			y: 3.0d
-			description: ["Create the abyss portal. 10x portal blocks, and the portal activator."]
+			description: [
+				"Create the abyss portal. 10x portal blocks, and the portal activator."
+				"A word of warning: Unstable portal will change the blocks around the portal, in an undetermined area. Either put yours up high or surrounded with stone. "
+			]
 			dependencies: ["6DC2B95E48A8B571"]
 			id: "32E952DCB830BC58"
 			tasks: [
 				{
-					id: "1929CC09644386DF"
+					id: "62BE03CE8F73E316"
+					type: "item"
+					item: "theabyss:unstable_obsidian"
+					count: 10L
+				}
+				{
+					id: "432C67814644DEF3"
 					type: "item"
 					item: {
-						id: "theabyss:theabyssdim"
+						id: "theabyss:the_abyss"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				}
-				{
-					id: "62BE03CE8F73E316"
-					type: "item"
-					item: "theabyss:abyssportalstone"
-					count: 10L
 				}
 			]
 			rewards: [{
@@ -103,7 +83,7 @@
 			tasks: [{
 				id: "21F159B2246BF512"
 				type: "dimension"
-				dimension: "theabyss:theabyssdim"
+				dimension: "theabyss:the_abyss"
 			}]
 			rewards: [{
 				id: "0241E436A17C31F4"
@@ -124,49 +104,34 @@
 			}]
 		}
 		{
-			title: "Chaos Written"
-			x: 0.0d
-			y: 6.0d
-			shape: "gear"
-			description: ["Needed to make the ATM Star, have to kill the Roka to make it. "]
-			dependencies: ["360D1154B3FF5F3E"]
-			id: "1A3C2A4459DB87C9"
-			tasks: [{
-				id: "149EC2F0ABA1F01D"
-				type: "item"
-				item: "theabyss:end_of_time_book"
-			}]
-			rewards: [{
-				id: "7A071F7FDAB594D0"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-		}
-		{
 			x: 1.0d
 			y: 5.5d
 			shape: "gear"
 			description: ["Needed for the ATM star. "]
 			dependencies: ["360D1154B3FF5F3E"]
 			id: "773F71276D0CC764"
-			tasks: [
-				{
-					id: "37FA519845578A70"
-					type: "kill"
-					icon: "theabyss:scorpioneye"
-					entity: "theabyss:nether_scorpion_lv_l_4"
-					value: 1L
-				}
-				{
-					id: "4993AC99AE0E36E8"
-					type: "item"
-					item: "theabyss:scorpioneye"
-				}
-			]
+			tasks: [{
+				id: "4993AC99AE0E36E8"
+				type: "item"
+				item: "theabyss:scorpion_eye"
+			}]
 			rewards: [{
 				id: "798DAF4C2324E3E0"
 				type: "xp_levels"
 				xp_levels: 5
+			}]
+		}
+		{
+			title: "Sleeping to the tune of my broken radio"
+			x: 0.0d
+			y: 1.0d
+			description: ["Sleep twice, you will find yourself in another dimension briefly each time. After the second dream, go to a plains or a forest to find a house with a broken radio. Visit the Radio Dimension."]
+			dependencies: ["28E2C3AC48FFC3EF"]
+			id: "21B3B4A7D1F01548"
+			tasks: [{
+				id: "3C939A02E71BABDF"
+				type: "dimension"
+				dimension: "theabyss:radio"
 			}]
 		}
 	]

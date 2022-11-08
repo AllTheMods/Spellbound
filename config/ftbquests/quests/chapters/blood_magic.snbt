@@ -1,7 +1,7 @@
 {
 	id: "61D9FECB31A43823"
 	group: "2869CB12B4663D25"
-	order_index: 3
+	order_index: 2
 	filename: "blood_magic"
 	title: "Blood Magic"
 	icon: "bloodmagic:altar"
@@ -103,11 +103,19 @@
 				type: "item"
 				item: "bloodmagic:blankslate"
 			}]
-			rewards: [{
-				id: "54F22B270A416C73"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "54F22B270A416C73"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71B744AA8D0994F5"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -137,11 +145,24 @@
 				type: "item"
 				item: "bloodmagic:speedrune"
 			}]
-			rewards: [{
-				id: "1BAA6188870BCF13"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1BAA6188870BCF13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CC10DC2D3F616B8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -360,11 +381,19 @@
 				type: "item"
 				item: "bloodmagic:reinforcedslate"
 			}]
-			rewards: [{
-				id: "4B118F8457FC6C2A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4B118F8457FC6C2A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F0DBD2EA7CC41D2"
+					type: "item"
+					item: "bloodmagic:reinforcedslate"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -375,12 +404,21 @@
 				id: "5DCFE99A7A1E6B18"
 				type: "item"
 				item: "bloodmagic:infusedslate"
+				count: 4L
 			}]
-			rewards: [{
-				id: "18C447F0FF43351B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "18C447F0FF43351B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7353B686891030B4"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -392,11 +430,19 @@
 				type: "item"
 				item: "bloodmagic:demonslate"
 			}]
-			rewards: [{
-				id: "72E37BF65BA13A85"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "72E37BF65BA13A85"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4782C80EE8CC2FEF"
+					type: "item"
+					item: "bloodmagic:demonslate"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -1060,11 +1106,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "48BC369CD867CF39"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "48BC369CD867CF39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A216855B29D22AD"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 10.0d
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -1104,11 +1163,24 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7402491E5DD99DDF"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "7402491E5DD99DDF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "69FE04B26B8CDFF7"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 10.0d
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 2.0d

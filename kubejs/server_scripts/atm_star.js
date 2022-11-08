@@ -248,7 +248,7 @@ e.custom({type: 'astralsorcery:altar', altar_type: 3, duration: 800, starlight: 
         item: 'minecraft:clock'
     },
     B : {
-        item : 'theabyss:end_of_time_book'
+        item : 'naturesaura:clock_hand'
     },
     S : {
         item : 'supplementaries:clock_block'
@@ -294,7 +294,7 @@ e.custom({type: 'mana-and-artifice:manaweaving-recipe', tier: 5, output: 'kubejs
     'minecraft:fermented_spider_eye',
     'enigmaticlegacy:extradimensional_eye',
     'xreliquary:salamander_eye',
-    'theabyss:scorpioneye'
+    'theabyss:scorpion_eye'
 ],
 patterns: [
     'mana-and-artifice:circle',
@@ -324,7 +324,7 @@ e.shaped('kubejs:essence_of_eternal_life', [
 e.recipes.bloodmagic.alchemytable('kubejs:philosophers_fuel', [
     'mana-and-artifice:ritual_focus_greater',
     'iceandfire:dragonsteel_fire_ingot',
-    'theabyss:netherfire_ingot',
+    'theabyss:loran_energy',
     'mysticalagradditions:insanium_coal_block',
     'elementalcraft:pristine_fire_gem',
     'malum:radiant_soulstone'

@@ -1,7 +1,7 @@
 {
 	id: "7732CF7AAA63DB3A"
 	group: "441E2D2CD3ABE6DE"
-	order_index: 5
+	order_index: 8
 	filename: "twilight_forest"
 	title: "Twilight Forest"
 	icon: "twilightforest:twilight_portal_miniature_structure"
@@ -352,11 +352,23 @@
 					item: "twilightforest:mangrove_sapling"
 				}
 			]
-			rewards: [{
-				id: "47723788BCBFAAAD"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "47723788BCBFAAAD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7CB2D623751987CE"
+					type: "choice"
+					table_id: 1539445375977315958L
+				}
+				{
+					id: "3B880AEEBDA88CD6"
+					type: "random"
+					table_id: 414778086977979556L
+				}
+			]
 		}
 		{
 			title: "Time to Even the Scales"
@@ -369,11 +381,9 @@
 			dependencies: ["4193303999597249"]
 			id: "3531B28F14CF72A2"
 			tasks: [{
-				id: "350E18035B933703"
-				type: "kill"
-				icon: "twilightforest:naga_trophy"
-				entity: "twilightforest:naga"
-				value: 1L
+				id: "5D567A4631D5D3A2"
+				type: "item"
+				item: "twilightforest:naga_trophy"
 			}]
 			rewards: [{
 				id: "3C5710A433718359"
@@ -394,11 +404,9 @@
 			dependencies: ["3531B28F14CF72A2"]
 			id: "0107D516E038E0DB"
 			tasks: [{
-				id: "7EA00975F45B4235"
-				type: "kill"
-				icon: "twilightforest:lich_trophy"
-				entity: "twilightforest:lich"
-				value: 1L
+				id: "4FB6BB3F61AD8D6B"
+				type: "item"
+				item: "twilightforest:lich_trophy"
 			}]
 			rewards: [{
 				id: "0DC4BD5632FA3748"
@@ -414,11 +422,9 @@
 			dependencies: ["0107D516E038E0DB"]
 			id: "04440BB2EFFD6DD9"
 			tasks: [{
-				id: "1D7043E5ABF7CCEF"
-				type: "kill"
-				icon: "twilightforest:minoshroom_trophy"
-				entity: "twilightforest:minoshroom"
-				value: 1L
+				id: "2CD3DF9A97F31897"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
 			}]
 			rewards: [{
 				id: "7DDF1FEFAE5F311F"
@@ -435,11 +441,9 @@
 			dependencies: ["04440BB2EFFD6DD9"]
 			id: "7026E46FD8B3A81D"
 			tasks: [{
-				id: "0459FBBEE86693E5"
-				type: "kill"
-				icon: "twilightforest:hydra_trophy"
-				entity: "twilightforest:hydra"
-				value: 1L
+				id: "6D9D134621F8FA36"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
 			}]
 			rewards: [{
 				id: "185A446AAFA6CAD6"
@@ -459,11 +463,9 @@
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "3DCF26B53AE1EBF6"
 			tasks: [{
-				id: "44707A4CE127AA40"
-				type: "kill"
-				icon: "twilightforest:knight_phantom_trophy"
-				entity: "twilightforest:knight_phantom"
-				value: 1L
+				id: "4E03E4FCB1B4DE05"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
 			}]
 			rewards: [{
 				id: "2FDFDEDC63DBFACE"
@@ -483,11 +485,9 @@
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "688C911ECFB2F134"
 			tasks: [{
-				id: "31BFB8DB9D2AFA68"
-				type: "kill"
-				icon: "twilightforest:ur_ghast_trophy"
-				entity: "twilightforest:ur_ghast"
-				value: 1L
+				id: "64B931AE43EA1E92"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
 			}]
 			rewards: [{
 				id: "18258B0937EC3D75"
@@ -506,11 +506,9 @@
 			dependencies: ["688C911ECFB2F134"]
 			id: "31BB7EB95CE73C1A"
 			tasks: [{
-				id: "65F15AC6D04757C2"
-				type: "kill"
-				icon: "twilightforest:yeti_trophy"
-				entity: "twilightforest:yeti_alpha"
-				value: 1L
+				id: "45C67776B86B2301"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
 			}]
 			rewards: [{
 				id: "4A0F85570A9BB08F"
@@ -529,11 +527,9 @@
 			dependencies: ["31BB7EB95CE73C1A"]
 			id: "6FD41DF7704466A4"
 			tasks: [{
-				id: "20F655127C5316FE"
-				type: "kill"
-				icon: "twilightforest:snow_queen_trophy"
-				entity: "twilightforest:snow_queen"
-				value: 1L
+				id: "1997CE8D805B6EB6"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
 			}]
 			rewards: [{
 				id: "7C737743505C71EA"
