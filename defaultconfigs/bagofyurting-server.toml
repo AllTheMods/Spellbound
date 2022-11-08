@@ -1,0 +1,11 @@
+
+[Permissions]
+	#Minimum permission level to yurt unyurtable blocks
+	#Range: > 0
+	minimum_permission_to_yurt_unyurtable_blocks = 2
+
+["Creative Mode"]
+	#Number of bag sizes to display in creative tabs and JEI
+	#Range: > 0
+	creative_upgrade_iteration = 7
+
