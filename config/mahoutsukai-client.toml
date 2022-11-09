@@ -12,10 +12,10 @@
 	FAE_NOISE = true
 	#X value of Mahou value on screen
 	#Range: 0 ~ 100000000
-	CLIENT_GUI_MAHOU_PLACEMENT_X = 10
+	CLIENT_GUI_MAHOU_PLACEMENT_X = 25
 	#Y value of Mahou value on screen
 	#Range: 0 ~ 100000000
-	CLIENT_GUI_MAHOU_PLACEMENT_Y = 20
+	CLIENT_GUI_MAHOU_PLACEMENT_Y = 24
 	#Ring speed for the Mystic Code
 	#Range: 0.0 ~ 1.0E8
 	MYSTIC_CODE_RING_SPEED = 1.0
