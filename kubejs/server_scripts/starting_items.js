@@ -29,8 +29,7 @@ const start_book = Item.of('akashictome:tome', {
         theoneprobe: { id: "theoneprobe:probenote", Count: 1 },
         turtlemancy: { id: "patchouli:guide_book", Count: 1, tag: { "patchouli:book": "turtlemancy:turtlenomicon" } },
         twilightforest: { id: "patchouli:guide_book", Count: 1, tag: { "patchouli:book": "twilightforest:guide" } },
-        vampirism: { id: "guideapi-vp:vampirism-guidebook", Count: 1, tag: { "G-API_Category_Page": 0 } },
-        witchery_rewitched: { id: "patchouli:guide_book", Count: 1, tag: { "patchouli:book": "witchery_rewitched:circles_and_rites" } },
+        vampirism: { id: "guideapi-vp:vampirism-guidebook", Count: 1, tag: { "G-API_Category_Page": 0 } }
     }
 })
 
