@@ -77,7 +77,7 @@
         "parent2": "",
         "breedWeight": 10,
         "breedChance": 0.8,
-        "feedItem": "tag:minecraft:clay_bal",
+        "feedItem": "tag:minecraft:clay_ball",
         "feedAmount": 5,
         "childGrowthDelay": -24000,
         "breedDelay": 6000
