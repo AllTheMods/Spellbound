@@ -1,5 +1,5 @@
 {
-    "flower": "tag:minecraft:clay",
+    "flower": "minecraft:clay",
     "maxTimeInHive": 1200,
     "traits": [],
     "hasHoneycomb": true,
