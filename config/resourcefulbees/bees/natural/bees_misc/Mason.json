@@ -1,5 +1,5 @@
 {
-    "flower": "tag:minecraft:clay",
+    "flower": "minecraft:clay",
     "maxTimeInHive": 1200,
     "traits": [],
     "hasHoneycomb": true,
@@ -77,7 +77,7 @@
         "parent2": "",
         "breedWeight": 10,
         "breedChance": 0.8,
-        "feedItem": "tag:minecraft:clay_bal",
+        "feedItem": "minecraft:clay_ball",
         "feedAmount": 5,
         "childGrowthDelay": -24000,
         "breedDelay": 6000

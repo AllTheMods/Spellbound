@@ -22,7 +22,7 @@ onEvent('recipes', e => {
         L : 'ars_nouveau:belt_of_levitation',
         B : 'forbidden_arcanus:dark_soul',
         R : 'naturesaura:death_ring',
-        M : 'astralsorcery:mantle'
+        M : Item.of('astralsorcery:mantle', {astralsorcery: {}, Damage: 0})
     }) 
     e.remove({output: 'angelring:itemring'})
     e.shaped('angelring:itemring',
