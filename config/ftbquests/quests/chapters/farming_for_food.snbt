@@ -10,8 +10,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
+			x: 1.0d
 			y: -4.0d
+			subtitle: "Eating Fancy!"
+			description: [
+				"Cook your food on a stove or with a skillet, or make delicious meals in the cooking pot."
+				"There's a few addons for Farmers Delight added too!"
+			]
 			id: "73ED909340527774"
 			tasks: [{
 				id: "1F645EE2E1948C47"
@@ -20,7 +25,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -4.0d
 			y: -2.5d
 			description: ["mechanical harvester"]
 			id: "5E5E88A8D3B4B73A"
@@ -31,9 +36,12 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -1.5d
 			y: -2.5d
-			description: ["Planting and harvest shrines. "]
+			description: [
+				"Planting and harvest shrines. "
+				"There is an upgrade to the planting shrine for planting mystical flowers."
+			]
 			id: "688C84257F86FED1"
 			tasks: [{
 				id: "66EB0B871993E09D"
@@ -44,7 +52,10 @@
 		{
 			x: 1.0d
 			y: -2.5d
-			description: ["Using golems and a magic broom, you can farm food easily. "]
+			description: [
+				"Using golems and a magic broom, you can farm food easily. "
+				"Golems get their orders from a nearby lodestar. The codex will tell all."
+			]
 			id: "14C7CF00EC3359F4"
 			tasks: [{
 				id: "2478B43D66EFBEF4"
@@ -53,7 +64,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 3.0d
 			y: -2.5d
 			description: ["agricarnation, horn/drum of gathering, daffomill"]
 			id: "29CE08B910C1CD80"
@@ -64,7 +75,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.5d
 			y: -2.5d
 			description: ["ritual of overgrowth, ritual of harvest, carbuncle transport"]
 			id: "515C72FBCFBCF197"

@@ -516,6 +516,12 @@
 					item: "occultism:otherworld_sapling"
 				}
 			]
+			rewards: [{
+				id: "38D4AA964861071E"
+				type: "toast"
+				title: "Botanist Tree Collector Approval"
+				description: ""
+			}]
 		}
 		{
 			title: "Weapons Collector: Weapons Merchant"
@@ -696,6 +702,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "088100011BD08A78"
+				type: "toast"
+				title: "Weapons Merchant Approval"
+				description: ""
+			}]
 		}
 		{
 			title: "Mining Hoard: Ore Collection"
@@ -705,11 +717,74 @@
 			description: ["Not gems, not dusts, ORE."]
 			dependencies: ["71CF3AC44897B56E"]
 			id: "10AC4D92DACE5F3C"
-			tasks: [{
-				id: "2AF28499ED18C7DA"
-				type: "item"
-				item: "minecraft:gold_ore"
-				consume_items: true
+			tasks: [
+				{
+					id: "2AF28499ED18C7DA"
+					type: "item"
+					item: "minecraft:gold_ore"
+					consume_items: true
+				}
+				{
+					id: "036008B37FCF7A9F"
+					type: "item"
+					item: "minecraft:iron_ore"
+				}
+				{
+					id: "5D1B35FD0995C201"
+					type: "item"
+					item: "minecraft:coal_ore"
+				}
+				{
+					id: "0F2AD5B511CD5F15"
+					type: "item"
+					item: "minecraft:lapis_ore"
+				}
+				{
+					id: "27EA44EE484C02E2"
+					type: "item"
+					item: "minecraft:diamond_ore"
+				}
+				{
+					id: "6350EDB964A910D6"
+					type: "item"
+					item: "minecraft:redstone_ore"
+				}
+				{
+					id: "0EFA40D2E4E90247"
+					type: "item"
+					item: "minecraft:emerald_ore"
+				}
+				{
+					id: "2885BD11CDC580C8"
+					type: "item"
+					item: "minecraft:nether_quartz_ore"
+				}
+				{
+					id: "25A9051A838DD096"
+					type: "item"
+					item: "minecraft:nether_gold_ore"
+				}
+				{
+					id: "173EEA4B0C6853C6"
+					type: "item"
+					item: "allthemodium:unobtainium_ore"
+				}
+				{
+					id: "0BF74D36A486A52F"
+					type: "item"
+					item: "allthemodium:vibranium_ore"
+				}
+				{
+					id: "60873BA991E3AF46"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+				}
+			]
+			rewards: [{
+				id: "3C83A1CE036CAFE9"
+				type: "toast"
+				title: "Ore Hoarder Approval"
+				description: ""
 			}]
 		}
 		{
@@ -719,11 +794,85 @@
 			subtitle: "Feed me your not-ores"
 			dependencies: ["71CF3AC44897B56E"]
 			id: "6BDC54532B25133F"
-			tasks: [{
-				id: "6CFDF1CE39E58FBD"
-				type: "item"
-				item: "minecraft:coal_block"
-				consume_items: true
+			tasks: [
+				{
+					id: "6CFDF1CE39E58FBD"
+					type: "item"
+					item: "minecraft:coal_block"
+					consume_items: true
+				}
+				{
+					id: "3AD99FB1C45B1AFD"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "18A9C5D5F622DFE9"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "6FFA0393A9882F98"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+				{
+					id: "2904F4DC591249EF"
+					type: "item"
+					item: "minecraft:emerald_block"
+				}
+				{
+					id: "18AD668DA55B163C"
+					type: "item"
+					item: "evilcraft:dark_block"
+				}
+				{
+					id: "685CDAF42C9A08E9"
+					type: "item"
+					item: "elementalcraft:inertcrystal_block"
+				}
+				{
+					id: "655988CD7457F570"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_block"
+				}
+				{
+					id: "60E1DEDC4F279CD8"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_obelisk"
+				}
+				{
+					id: "2DBACE12AB81BC41"
+					type: "item"
+					item: "mana-and-artifice:vinteum_dust_block"
+				}
+				{
+					id: "2F9BE2FB592C7458"
+					type: "item"
+					item: "mysticalagriculture:supremium_gemstone_block"
+				}
+				{
+					id: "200D1306F849996D"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:major_mana_gem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BE77489EFBD5AAC"
+					type: "item"
+					item: "feywild:brilliant_fey_gem"
+				}
+			]
+			rewards: [{
+				id: "250ADBB8D61056D2"
+				type: "toast"
+				title: "Gem Hoarder Approval"
+				description: ""
 			}]
 		}
 		{
@@ -903,30 +1052,10 @@
 			}]
 		}
 		{
-			title: "'Ello, my poppet"
+			title: "Blood Bank"
+			icon: "vampirism:pure_blood_4"
 			x: 0.5d
 			y: -5.0d
-			subtitle: "Poppet collectors? Creepy. Don't taglock yourself to these. No telling what happens if you did. "
-			dependencies: ["71CF3AC44897B56E"]
-			id: "305CDB2466832C72"
-			tasks: [
-				{
-					id: "51DA55D454C6B977"
-					type: "item"
-					item: "witchery_rewitched:poppet"
-					consume_items: true
-				}
-				{
-					id: "7342900DC19E960D"
-					type: "item"
-					item: "witchery_rewitched:taglock_kit"
-				}
-			]
-		}
-		{
-			title: "Blood Bank"
-			x: 2.0d
-			y: -5.5d
 			subtitle: "A great catalysm occured with the recent Mage Wars. They need blood for infusion spells. Lots of it. "
 			dependencies: ["71CF3AC44897B56E"]
 			id: "5B1D2B7ED72C1469"
@@ -1011,9 +1140,17 @@
 					consume_items: true
 				}
 			]
+			rewards: [{
+				id: "211D4FD9E5C3E654"
+				type: "toast"
+				title: "Anemic"
+				icon: "minecraft:crimson_sign"
+				description: ""
+			}]
 		}
 		{
 			title: "Bounty Hunter: Pixies must die!"
+			icon: "iceandfire:pixie_wings"
 			x: 3.5d
 			y: -7.0d
 			subtitle: "Wow, you've got an issue with pixies there buddy. Uh, yeah, slay some pixies for this wizard please. They've all fled to Alfheim. "

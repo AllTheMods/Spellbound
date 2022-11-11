@@ -27,6 +27,10 @@
 		{
 			x: -1.5d
 			y: -0.5d
+			description: [
+				"Try out a gourmaryllis farm with two types of food on a drop timer."
+				"Endoflames will get you started, but are very weak. "
+			]
 			id: "033017B5971C40C8"
 			tasks: [{
 				id: "134FF693E8EC986F"
@@ -37,6 +41,7 @@
 		{
 			x: 2.5d
 			y: -0.5d
+			description: ["With an undead tree and a sanguinary pedestal, its a slow but passive collection of evilcraft blood. Use dark tanks to empty out. "]
 			id: "27411262639820F0"
 			tasks: [{
 				id: "69EC8FA9597A1D0B"
@@ -47,6 +52,7 @@
 		{
 			x: 6.5d
 			y: -0.5d
+			description: ["Witches and a well of suffering. Before that, try a zombie farm and the dagger of sacrifice."]
 			id: "116752FA5A902D9F"
 			tasks: [{
 				id: "536B014E5700CE48"
@@ -57,6 +63,7 @@
 		{
 			x: 10.5d
 			y: -0.5d
+			description: ["If you have a good amount of mossy cobble, use a swamp homi to increase aura. Turtlemy allows mixing dirt and cobble for 1 mossy cobble."]
 			id: "5789DFDD716C7B41"
 			tasks: [{
 				id: "49ABEE8E62ECF257"
@@ -67,6 +74,11 @@
 		{
 			x: 14.5d
 			y: -0.5d
+			subtitle: "Everyone knows how to GET xp, but how do you store it?"
+			description: [
+				"Crystal of memories. Scroll of Ageless wisdom."
+				"Heroes Medallion. Tome of peritia."
+			]
 			id: "1D802AD073933E90"
 			tasks: [{
 				id: "53C5128837729C8F"
@@ -111,6 +123,7 @@
 			title: "Mana and artifice mana"
 			x: 0.5d
 			y: 2.0d
+			description: ["Craft some easy tier 1-2 spells and spam them. That will help level your magic. Each tier of oculus requires a new level of magic prowess."]
 			id: "521226D2B02FD17E"
 			tasks: [{
 				id: "2EDAEEB6B5F2DFBA"
@@ -122,6 +135,7 @@
 			x: 4.5d
 			y: 2.0d
 			subtitle: "Not really farming, but how to collect it"
+			description: ["With an element container and an element extractor, the container fills with the element. There is a cooldown if the element sources run out."]
 			id: "1CD81813CD96177D"
 			tasks: [{
 				id: "4AE5C90EEB5121C5"
@@ -130,6 +144,7 @@
 			}]
 		}
 		{
+			icon: "create:builders_tea"
 			x: 6.5d
 			y: -5.0d
 			subtitle: "It's magically delicious!"

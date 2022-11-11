@@ -24,6 +24,10 @@
 			x: -6.5d
 			y: -8.5d
 			subtitle: "Rocks!"
+			description: [
+				"Create powered cobblestone machine. Foliot miner for dimensional mineshaft."
+				"Conversion of netherrack to cobble with pure daisy."
+			]
 			id: "62EEFFA5179E5D7B"
 			tasks: [{
 				id: "7652C9C9EAF187A3"
@@ -34,6 +38,11 @@
 		{
 			x: -2.0d
 			y: -8.5d
+			subtitle: "Shiny metals and rocks"
+			description: [
+				"Mineralis ritual. Orechid. "
+				"Dimensional mineshaft. Orechid ingem."
+			]
 			id: "6B579D0C74A00F14"
 			tasks: [{
 				id: "1C929D29B3AECEC9"
@@ -45,6 +54,7 @@
 			x: 1.5d
 			y: -8.5d
 			subtitle: "Sand, gravel, flint..."
+			description: ["Interaction with lava and liquid starlight for sand. Running cobblestone through a crushing wheel to make gravel, gravel to sand. "]
 			id: "75B4B635B58938F5"
 			tasks: [{
 				id: "3FFAF1B848C78376"
@@ -55,6 +65,7 @@
 		{
 			x: 5.0d
 			y: -8.5d
+			description: ["Foliot lumberjack. create tree farm. Botania tree farm with bore lenses and force relays. "]
 			id: "38EE000C041B170A"
 			tasks: [{
 				id: "033BCA97BAA2FCEC"
@@ -65,6 +76,10 @@
 		{
 			x: 8.5d
 			y: -8.5d
+			description: [
+				"Sand conversion with astral sorcery or botania's clayconia to clay blocks."
+				"Washing sand with create or in the blood magic alchemy table with water for clay balls."
+			]
 			id: "5687F43C9095DA72"
 			tasks: [{
 				id: "36B8274A1CB2F991"

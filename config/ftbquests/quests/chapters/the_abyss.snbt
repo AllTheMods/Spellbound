@@ -1,30 +1,22 @@
 {
 	id: "7A34A88FF7283E0F"
 	group: "441E2D2CD3ABE6DE"
-	order_index: 7
+	order_index: 6
 	filename: "the_abyss"
 	title: "The Abyss"
 	icon: "theabyss:guide_book"
+	subtitle: ["The Final dimension. Not for the faint of heart, or of dull blade."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "The Abyss"
-			x: 0.0d
-			y: 0.0d
-			description: ["Not for a beginner wizard. Gear up first. You were warned. "]
-			id: "28E2C3AC48FFC3EF"
-			tasks: [{
-				id: "50C5B26B064DFA8B"
-				type: "checkmark"
-				title: "WIP"
-			}]
-		}
-		{
 			title: "A pocketful of loran daisies"
 			x: 0.0d
 			y: 2.0d
-			description: ["Collect at least 40x loran crystals by breaking those two tall loran flower bushes out in overworld biomes. "]
+			description: [
+				"Collect at least 40x loran crystals by breaking those two tall loran flower bushes out in overworld biomes. "
+				"You may need to visit the radio dimension at least once for enough loran flowers."
+			]
 			dependencies: ["21B3B4A7D1F01548"]
 			id: "6DC2B95E48A8B571"
 			tasks: [{
@@ -43,9 +35,11 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			subtitle: "A portal best left floating"
 			description: [
 				"Create the abyss portal. 10x portal blocks, and the portal activator."
 				"A word of warning: Unstable portal will change the blocks around the portal, in an undetermined area. Either put yours up high or surrounded with stone. "
+				"Note: this recipe needs crying obsidian. Start looking for ruined portals OR reach tier 2 in mana and artifice."
 			]
 			dependencies: ["6DC2B95E48A8B571"]
 			id: "32E952DCB830BC58"
@@ -104,17 +98,29 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.5d
+			x: 3.0d
+			y: 4.0d
 			shape: "gear"
-			description: ["Needed for the ATM star. "]
-			dependencies: ["360D1154B3FF5F3E"]
+			description: [
+				"Needed for the ATM star. "
+				"Scorpions are a rare hostile mob found in Blue biomes."
+			]
+			dependencies: ["133C0FB1E07217BE"]
+			hide: true
 			id: "773F71276D0CC764"
-			tasks: [{
-				id: "4993AC99AE0E36E8"
-				type: "item"
-				item: "theabyss:scorpion_eye"
-			}]
+			tasks: [
+				{
+					id: "4993AC99AE0E36E8"
+					type: "item"
+					item: "theabyss:scorpion_eye"
+				}
+				{
+					id: "6FE818DF84F6C519"
+					type: "kill"
+					entity: "theabyss:scorpion"
+					value: 5L
+				}
+			]
 			rewards: [{
 				id: "798DAF4C2324E3E0"
 				type: "xp_levels"
@@ -125,13 +131,336 @@
 			title: "Sleeping to the tune of my broken radio"
 			x: 0.0d
 			y: 1.0d
-			description: ["Sleep twice, you will find yourself in another dimension briefly each time. After the second dream, go to a plains or a forest to find a house with a broken radio. Visit the Radio Dimension."]
-			dependencies: ["28E2C3AC48FFC3EF"]
+			subtitle: "This dimension is not for starter wizards. Please take caution. The Abyss II is a very difficult, but profitable dimension mod, WITH A FINAL BOSS!"
+			description: ["Sleep twice, you will find yourself in another dimension briefly each time. After the second dream, go to a plains or a forest to find a house with a broken radio. Right click the radio dimension, and visit the Radio Dimension."]
 			id: "21B3B4A7D1F01548"
 			tasks: [{
-				id: "3C939A02E71BABDF"
-				type: "dimension"
-				dimension: "theabyss:radio"
+				id: "78E3D8B1F7EF5ED9"
+				type: "checkmark"
+				title: "Radio Dimension"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			subtitle: "Enhance your vision with the eye of the Elder"
+			description: ["Found in the Blue Forest"]
+			dependencies: ["5A01F75137DE9FA5"]
+			id: "38F71D1012EF228B"
+			tasks: [
+				{
+					id: "080671E1215DD51D"
+					type: "kill"
+					entity: "theabyss:elder"
+					value: 1L
+				}
+				{
+					id: "787AAD3F3889DC30"
+					type: "item"
+					item: "theabyss:elder_eye"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			subtitle: "Slay the roka, take its horn"
+			description: ["Found in the Blue Jungle"]
+			dependencies: ["5A01F75137DE9FA5"]
+			id: "302C7AE1CA76571D"
+			tasks: [
+				{
+					id: "754DBBE2C919D3AC"
+					type: "kill"
+					entity: "theabyss:the_roka"
+					value: 1L
+				}
+				{
+					id: "71AE0D92D75AA09C"
+					type: "item"
+					item: "theabyss:roka_horn"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Collect the hand of the crystal golem"
+			description: ["Found in the Slime Forest"]
+			dependencies: ["5A01F75137DE9FA5"]
+			id: "07D6908D44F7D972"
+			tasks: [
+				{
+					id: "689E959139A4CA8C"
+					type: "kill"
+					entity: "theabyss:crystal_golem"
+					value: 1L
+				}
+				{
+					id: "51E8311AD6B67D9D"
+					type: "item"
+					item: "theabyss:crystal_hand"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			subtitle: "Are you responsible for that infernal boss music that plays ALL THE TIME?!"
+			dependencies: ["5A01F75137DE9FA5"]
+			id: "2DCE80A5135A4EAC"
+			tasks: [{
+				id: "0F6B811AE360D85E"
+				type: "kill"
+				entity: "theabyss:magician"
+				value: 1L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			subtitle: "Clever girl..."
+			dependencies: ["5A01F75137DE9FA5"]
+			id: "6A3C667C313751C8"
+			tasks: [{
+				id: "308A6D3E2FBAD5FB"
+				type: "kill"
+				entity: "theabyss:abyssaur"
+				value: 1L
+			}]
+		}
+		{
+			icon: "evilcraft:blood_stain"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "Grab your sword and bow, and prepare to fight. and Die. A lot."
+			hide_dependency_lines: true
+			dependencies: ["1343FB8E05978CA8"]
+			id: "5A01F75137DE9FA5"
+			tasks: [{
+				id: "15CC6117BCC2BAC8"
+				type: "checkmark"
+				title: "Boss Run"
+			}]
+		}
+		{
+			title: "Endgame: Nightblade"
+			x: 4.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "Create the Eye of Abyss, light the altars with a soul heart from Soul Guards, and summon the Nightblade"
+			dependencies: [
+				"6A3C667C313751C8"
+				"07D6908D44F7D972"
+				"38F71D1012EF228B"
+				"2DCE80A5135A4EAC"
+				"302C7AE1CA76571D"
+			]
+			id: "133C0FB1E07217BE"
+			tasks: [
+				{
+					id: "289739A853AEF975"
+					type: "kill"
+					icon: {
+						id: "theabyss:abyss_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "theabyss:night_blade_boss_clone"
+					value: 1L
+				}
+				{
+					id: "20513F190C9BF008"
+					type: "item"
+					item: "theabyss:eye_of_abyss"
+				}
+				{
+					id: "77B7EA981D1CBFD1"
+					type: "item"
+					item: "theabyss:soul_heart"
+				}
+			]
+			rewards: [
+				{
+					id: "6EFC8AA754F396C2"
+					type: "random"
+					table_id: 5164025374197835343L
+				}
+				{
+					id: "73110C9A25A20E67"
+					type: "random"
+					table_id: 1539445375977315958L
+				}
+				{
+					id: "04A2BA0641ADC7A3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Abyssal Magic Workbench?"
+			x: 3.0d
+			y: 7.5d
+			description: [
+				"Part of creating the different items forged by the Abyss."
+				"There are 19 different rings!"
+			]
+			dependencies: ["133C0FB1E07217BE"]
+			id: "6BA6D11866015DC5"
+			tasks: [
+				{
+					id: "24F5C65EA0BE4E26"
+					type: "item"
+					item: "theabyss:arcane_workbench"
+				}
+				{
+					id: "45BBE2F8ACFE4F1D"
+					type: "item"
+					item: {
+						id: "theabyss:ring_of_ring"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "theabyss:somnium"
+			x: 3.0d
+			y: 6.0d
+			subtitle: "Consult your abyss book. This is the energy to power the different magical abyssal items. "
+			description: ["Its also those weird stomach shaped blobs above your hunger bar that overlaps breath bubbles."]
+			dependencies: ["6BA6D11866015DC5"]
+			id: "6D63F845B7D7526E"
+			tasks: [{
+				id: "1776D0558A2CA28F"
+				type: "checkmark"
+				title: "Somnium?"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			subtitle: "I can see you... THROUGH THE WALL!"
+			dependencies: [
+				"773F71276D0CC764"
+				"6BA6D11866015DC5"
+			]
+			id: "59F247623974009F"
+			tasks: [{
+				id: "0025A320465BFCAD"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_eagle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			subtitle: "Each new ore can help create new, stronger armor"
+			dependencies: ["1343FB8E05978CA8"]
+			id: "6380BFCBC20F04BA"
+			tasks: [{
+				id: "3295044B369D7EF8"
+				type: "checkmark"
+				title: "Armor!"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			subtitle: "New ores are found in this dimension!"
+			description: ["Most, if not all of these ores are found below y30, so some bedrock level mining is highly recommended."]
+			dependencies: ["1343FB8E05978CA8"]
+			id: "4E3DECC5BB88B3F3"
+			tasks: [{
+				id: "0DA251885D8FE73B"
+				type: "checkmark"
+				title: "Ores!"
+			}]
+		}
+		{
+			title: "Special Slime?"
+			x: 0.5d
+			y: 7.5d
+			subtitle: "Slime spiders in the Slime forest. Kill them all, collect their weird slime. 9 weird slime is 1 unstable slime. 9 Unstable slime makes 1 stable slime"
+			dependencies: [
+				"133C0FB1E07217BE"
+				"6380BFCBC20F04BA"
+			]
+			id: "6AAA0075F6B81C4D"
+			tasks: [
+				{
+					id: "00908855E31F6016"
+					type: "item"
+					item: "theabyss:slime_stage_1"
+				}
+				{
+					id: "4BA8914BE962A4CD"
+					type: "item"
+					item: "theabyss:slime_stage_2"
+				}
+				{
+					id: "1530B6C9B7972546"
+					type: "item"
+					item: "theabyss:slime_stage_3"
+				}
+				{
+					id: "444CF5F43E0D5E85"
+					type: "kill"
+					entity: "theabyss:slime_spider"
+					value: 100L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			shape: "heart"
+			subtitle: "and 9 STABLE slime makes slime fusion!"
+			description: ["Use this with netherite armor and your abyss armor to forge it together into something new, and stronger!"]
+			dependencies: [
+				"6AAA0075F6B81C4D"
+				"6380BFCBC20F04BA"
+			]
+			id: "78C101F04E8F18AC"
+			tasks: [{
+				id: "798E26C2CA8C7056"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.5d
+			subtitle: "What is this?"
+			description: [
+				"Go visit and cave in the Abyssal Mountains. You will find an ice cave, and the Key of ice. Use it on dark stone to create a portal to the Ice Abyss. Not much here."
+				"If you find dark stone and mine it, combine it with 2 Glacerythe gems for a Key of Ice"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1343FB8E05978CA8"]
+			id: "147A8BAABA071AFA"
+			tasks: [{
+				id: "0D1715FC1103ECCE"
+				type: "item"
+				item: {
+					id: "theabyss:frost_world"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

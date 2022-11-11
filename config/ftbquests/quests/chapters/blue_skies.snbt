@@ -1,7 +1,7 @@
 {
 	id: "2DE2DCB9F8311244"
 	group: "441E2D2CD3ABE6DE"
-	order_index: 6
+	order_index: 5
 	filename: "blue_skies"
 	title: "Blue Skies"
 	icon: {
@@ -11,12 +11,13 @@
 			Damage: 0
 		}
 	}
+	subtitle: ["A dimension mod that sends you to the land of ice and snow, or the land of eternal dusk and bugs. Choose wisely."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			title: "The Hermit in the Hills"
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 			description: ["Blue Skies spawns a villager home outside in the world that is either one or two buildings. He wears black trimmed in gold and offers the blue lore book for a book and the zeal lighter for 8 emeralds. Obtain both of these items, and right click the lore book. It becomes tabs in your inventory! Not only that, there is a portal of either turquoise bricks or lunar bricks to steal from him in the house’s attic or the side house. These blocks aren’t makeable in the overworld so you’ll have to get lucky to find both, thankfully the zeal lighter is just like a flint and steel, and doens’t break immediately."]
 			id: "07F925C1AC5C2A26"
@@ -103,49 +104,29 @@
 			]
 		}
 		{
-			title: "EB: This tool feels weaker in my hand..."
+			title: "This tool feels weaker in my hand..."
 			x: 2.5d
-			y: -1.5d
+			y: 0.0d
 			description: ["Non BSkies tools/weapons are less effective in this dimension. Time to gear up again. Make a wooden set of BSkies tools. Note: Everdawn tools work fine here. "]
-			dependencies: ["3568BE3CEEF4D199"]
+			dependencies: [
+				"3568BE3CEEF4D199"
+				"7DFED08EFFA59B6A"
+			]
 			id: "41B7CCB5E612E5F0"
 			tasks: [{
 				id: "7C8B126B81F1E735"
 				type: "item"
+				title: "Any #blue_skies:wooden_tools"
 				item: {
-					id: "blue_skies:starlit_pickaxe"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
+						value: "blue_skies:wooden_tools"
 					}
 				}
 			}]
 			rewards: [{
 				id: "33DE4E4557A403F4"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			title: "ED: This tool feels weaker in my hand...."
-			x: 2.5d
-			y: 2.0d
-			description: ["Non BSkies tools/weapons are less effective in this dimension. Time to gear up again. Make a wooden set of BSkies tools. Note: Everbright tools work fine here."]
-			dependencies: ["7DFED08EFFA59B6A"]
-			id: "61136A6ED7289B00"
-			tasks: [{
-				id: "503687D247D2300F"
-				type: "item"
-				item: {
-					id: "blue_skies:maple_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "0B6B7A4CDBBACE57"
 				type: "xp"
 				xp: 100
 			}]
@@ -187,7 +168,7 @@
 				"Instead of normal stone, we’ve got lunar stone. Make some lunar stone tools. I think horizonite is the top tier metal in this realm. "
 				"Horizonite is found in the Crystal Dunes. "
 			]
-			dependencies: ["61136A6ED7289B00"]
+			dependencies: ["41B7CCB5E612E5F0"]
 			id: "70760AE3B6F9CD31"
 			tasks: [
 				{
@@ -234,23 +215,26 @@
 		}
 		{
 			title: "Bugs!"
+			icon: "blue_skies:bug_guts"
 			x: 6.0d
 			y: 2.0d
+			subtitle: "Kill some bugs in the everdawn. Caution, emberbacks burn."
 			dependencies: ["70760AE3B6F9CD31"]
 			id: "221D662BC9AA39DE"
 			tasks: [
-				{
-					id: "4D5B87045C51A235"
-					type: "kill"
-					title: "Nyctofly"
-					entity: "blue_skies:nyctofly"
-					value: 5L
-				}
 				{
 					id: "652CC7A2F52BC1B2"
 					type: "kill"
 					entity: "blue_skies:emberback"
 					value: 10L
+				}
+				{
+					id: "766756769B041642"
+					type: "kill"
+					title: "5x Venom Spiders"
+					icon: "blue_skies:venom_spider_spawn_egg"
+					entity: "blue_skies:venom_spider"
+					value: 5L
 				}
 			]
 			rewards: [{

@@ -10,15 +10,17 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Vampirism"
 			icon: "guideapi-vp:vampirism-guidebook"
 			x: -5.0d
 			y: 0.0d
 			subtitle: "Not your sparkly vampires."
+			description: ["Kill a vampire to begin."]
 			id: "7B90D9858E5EC084"
 			tasks: [{
-				id: "49EB49A9A8022AE8"
-				type: "checkmark"
-				title: "Vampirism"
+				id: "2929259924F7A93D"
+				type: "item"
+				item: "vampirism:vampire_fang"
 			}]
 			rewards: [{
 				id: "4E05E1DC9B970DA4"
@@ -28,8 +30,8 @@
 		}
 		{
 			icon: "artifacts:umbrella"
-			x: -2.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 			subtitle: "Addon for an item or bauble you can wear to help protect your delicate vampire hide from the sun. Varying qualities last longer. "
 			id: "75CFC7C64DC19C2E"
 			tasks: [{
@@ -45,6 +47,7 @@
 			y: 0.0d
 			subtitle: "You can become a werewolf with this Vampirism addon! "
 			description: ["A word of warning: The mod is in alpha, and not finished. As such, the food list werewolves eat is very slim right now, and being worked on. Do your occultism demon dream fruit work before becoming a werewolf"]
+			dependencies: ["7B90D9858E5EC084"]
 			id: "06428788BEEC8838"
 			tasks: [{
 				id: "189CA311161BF9B2"
@@ -372,7 +375,10 @@
 			icon: "vampirism:totem_base"
 			x: -5.5d
 			y: 4.0d
-			description: ["Newly generated village in existing worlds may have a totem in the middle, mentioning the village is controlled by vampires or hunters or werewolves. If you are one or the other, you can click an opposing totem to spawn a 'insert faction here' village raid. By yourself, it does not do anything but swap the faction of who controls the village. "]
+			description: [
+				"Newly generated village in existing worlds may have a totem in the middle, mentioning the village is controlled by vampires or hunters or werewolves. If you are one or the other, you can click an opposing totem to spawn a 'insert faction here' village raid. By yourself, it does not do anything but swap the faction of who controls the village. "
+				"Unfactioned players cannot break anything inside a factioned village."
+			]
 			id: "0CF3F744BFFBCDF4"
 			tasks: [{
 				id: "27BC1A8238EB1C76"
@@ -405,10 +411,15 @@
 		}
 		{
 			title: "Lilyliver'd"
-			x: -1.0d
-			y: 1.0d
-			description: ["To progress in lycanthropy (thats werewolf levels), you need livers and cracked bones."]
-			dependencies: ["06428788BEEC8838"]
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"To progress in lycanthropy (thats werewolf levels), you need livers and cracked bones."
+				"Consult the vampirism book or their online wiki for proper amounts needed per level. "
+				"As well, werewolves must kill enough prey to fill their prey bar in the vampirism gui (the fangs on your inventory screen) With the proper amounts of cracked bones and livers, and a full prey bar, light the altar on fire at night, and gain a level."
+				"Livers come from werewolves and vampire hunters (rarely). Cracked bones come from werewolves and skeletons(rarely). Use looting."
+			]
+			dependencies: ["7BD301553F5529C8"]
 			id: "4264C997ED2021DE"
 			tasks: [
 				{
@@ -419,14 +430,14 @@
 				{
 					id: "3C34A7CAC47979DD"
 					type: "item"
-					item: "werewolves:bone"
+					item: "werewolves:cracked_bone"
 				}
 			]
 		}
 		{
 			title: "Just in case"
 			x: 0.0d
-			y: 0.5d
+			y: -0.5d
 			subtitle: "Get of out the dog pound free... just this once."
 			description: [
 				"In case you want to unwerewolf."
@@ -444,6 +455,54 @@
 				id: "7C89E16202B38558"
 				type: "item"
 				item: "werewolves:injection_un_werewolf"
+			}]
+		}
+		{
+			title: "Night Rituals"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "This is the setup you need to gain power of the werewolf."
+			description: ["In a 5x5 area, place the altar in the middle, and on the corners one block space away, place the firebowls. Light the bowls with a flint and steel, and access the altar at night. "]
+			dependencies: ["2CECADB85875F18C"]
+			id: "7BD301553F5529C8"
+			tasks: [
+				{
+					id: "58D3060A6136DCA7"
+					type: "item"
+					item: "werewolves:stone_altar"
+				}
+				{
+					id: "48A7476DDCE03F4F"
+					type: "item"
+					item: "werewolves:stone_altar_fire_bowl"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Contracting the wolf"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Kill an alpha werewolf or be bitten from behind by a werewolf. Right click the tooth in your main hand. Once infected, you need to sleep. Once the night passes, you are a lv 1 werewolf."
+			description: ["A word of caution, werewolves don't wear armor. So you may want to stow the gear somewhere safe. "]
+			dependencies: ["06428788BEEC8838"]
+			id: "2CECADB85875F18C"
+			tasks: [{
+				id: "570D7BE0944DFC42"
+				type: "item"
+				item: "werewolves:werewolf_tooth"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["While turned into a werewolf, skeletons will ignore you. vampire hunters ignore HUMANS, but will attack werewolves. If you are high enough over their heads, they can't reach you without crossbows."]
+			dependencies: ["2CECADB85875F18C"]
+			id: "12ADA9B97F5F0942"
+			tasks: [{
+				id: "69038CEE55FF571C"
+				type: "checkmark"
+				title: "I'm invisible?"
 			}]
 		}
 	]

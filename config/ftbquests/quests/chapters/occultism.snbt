@@ -10,31 +10,16 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Welcome to Occultism - Demon's Dream Seeds"
 			x: -3.5d
-			y: -4.5d
-			subtitle: "Just DO IT"
+			y: -4.0d
+			subtitle: "Just DO it. With a Full belly and a fruit of demonic dreams, it makes you see funny colors."
 			description: [
-				"This mod is all about Occult styled summoning, sacrifice, and Demonic slave labor."
-				"This should be one of your first Mods to get early Ore doubling capabilities."
-				"-We do not endorse the worship of Herobrine. "
-			]
-			id: "5EFCCF50E7193C00"
-			tasks: [{
-				id: "63D9810D70F5B6FF"
-				type: "checkmark"
-				title: "Welcome to Occultism!"
-			}]
-		}
-		{
-			x: -3.5d
-			y: -3.0d
-			subtitle: "Full belly and a fruit of demonic dreams makes you see funny colors."
-			description: [
+				"This mod is all about Occult styled summoning, sacrifice, and Demonic slave labor. This should be one of your first Mods to get early Ore doubling capabilities. -We do not endorse the worship of Herobrine. "
 				"In order to start this mod, we need get Demon's Dream Fruit and Seeds."
 				"To start, punch grass. Much like Wheat and some other seeds, Demon's Dream will be in the mix."
 				"Once seeds have been gained, they grow like normal farm plants."
 			]
-			dependencies: ["5EFCCF50E7193C00"]
 			id: "57EA0FBB5EB53296"
 			tasks: [
 				{
@@ -200,6 +185,7 @@
 				""
 				"When the Demon has summoned, give it your Ores. Its slow, but works. The quest will end with each of the 4 ore dusts."
 				"Foliot level Demons don't last long in the world, and will Decay."
+				"If you use a quantum catcher or a soul gem to catch your foliot, it won't decay while stored."
 			]
 			dependencies: ["5FB7CA7F4F8E6190"]
 			id: "747D1BA98CCBA867"
@@ -569,8 +555,12 @@
 				"This device when made and placed acts like a AE like block."
 				"The Storage Stabalizers have to point towards the \"Matrix\" block portion of this to enhance the Storage Capabilities."
 				"-Up to 6 Stabalizers can be placed facing 1 Actuator."
+				"If the quest isn't opening, check the Storage Chapter."
 			]
-			dependencies: ["662105574D9722D3"]
+			dependencies: [
+				"662105574D9722D3"
+				"75EA8250F9BFCC57"
+			]
 			id: "4E1F9BFACAEA17AA"
 			tasks: [{
 				id: "1D4B04972E6F2DAF"
@@ -725,6 +715,21 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			description: [
+				"Sometimes underground, you can find a grotto filled with andesite, oak trees, vines, grass, and glowstone. Pay attention to which mod the oak and andesite are from. Eat some demons dream fruit here to gain the effect third eye, and harvest the otherstone and otherworld logs. "
+				"Note: Werewolves can't eat demons dream fruit, so do this before you decide to pick a faction of vampirism."
+			]
+			dependencies: ["195EA8F77BFF3847"]
+			id: "15D6B868FC2D9ADA"
+			tasks: [{
+				id: "65CE90CB453D6F9A"
+				type: "checkmark"
+				title: "The underground groves"
 			}]
 		}
 	]

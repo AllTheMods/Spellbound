@@ -5,6 +5,7 @@
 	filename: "enigmatic_legacy"
 	title: "Enigmatic Legacy and Baubly Heart Canisters"
 	icon: "enigmaticlegacy:lore_inscriber"
+	subtitle: ["Artifacts to save you, or curse you forever. That means you, Nine-Fingers."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

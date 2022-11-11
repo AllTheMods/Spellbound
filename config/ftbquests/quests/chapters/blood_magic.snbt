@@ -800,10 +800,10 @@
 			dependencies: ["56C3917719B534D8"]
 			id: "7C110148906BDADF"
 			tasks: [{
-				id: "7040F216D89D4F25"
+				id: "3735B5E78D6A455B"
 				type: "item"
 				item: {
-					id: "bloodmagic:icesigil"
+					id: "bloodmagic:sigilofsuppression"
 					Count: 1b
 					tag: { }
 				}

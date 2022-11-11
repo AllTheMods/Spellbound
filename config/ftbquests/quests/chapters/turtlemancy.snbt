@@ -138,7 +138,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "Craft a shell of encapsulation!"
@@ -239,7 +239,7 @@
 				}
 			}
 			x: 0.5d
-			y: -1.5d
+			y: -2.0d
 			description: ["Upgrade your turtlemancer's wand."]
 			dependencies: ["32DB44B937C93285"]
 			id: "2CD8746BC0AE583C"
@@ -320,7 +320,7 @@
 		}
 		{
 			x: 2.0d
-			y: -1.5d
+			y: -2.0d
 			description: ["Fueled by turtle blessings. "]
 			dependencies: ["7AB592A8CD1370C4"]
 			id: "6C8BED440CC3DFF2"
@@ -351,7 +351,7 @@
 		{
 			title: "Indestructible..."
 			x: 2.0d
-			y: -0.5d
+			y: 0.0d
 			description: ["Craft an indestructible pearl. "]
 			dependencies: ["446209455165EAD6"]
 			id: "10187A1773620AC0"
@@ -395,10 +395,10 @@
 		}
 		{
 			title: "Cursed!"
-			x: -3.5d
-			y: 1.0d
+			x: -1.0d
+			y: 2.0d
 			description: ["This is the result of you killing a turtle or looking a magma turtle in the eye while bowing. I hope you didn't just kill a turtle, for your sake. "]
-			dependencies: ["3C2E765C61682DB7"]
+			dependencies: ["45BF6FBF1FFD0FCB"]
 			id: "1F566E898B3FAC65"
 			tasks: [{
 				id: "767E66CDC06B7F96"
@@ -412,7 +412,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -1.0d
 			y: 1.0d
 			description: ["Craft some improved scutes with those bedrock shards."]
 			dependencies: [
@@ -434,11 +434,15 @@
 		{
 			title: "Nether turtles? No, this is how you play God."
 			icon: "turtlemancy:magma_turtle_egg"
-			x: -1.5d
+			x: -2.5d
 			y: 2.0d
-			subtitle: "Magmatic scoots... er, scutes!"
+			shape: "hexagon"
+			subtitle: "Magmatic scoots... er, scutes! NETHER TURTLES DON'T SPAWN!"
 			description: ["Create magmatic scutes in your turtlemy cauldron. Use those to make a magmatic turtle egg. Magmatic turtles do not spawn in the nether, you must craft their eggs and scutes if you don’t wish to breed them. If you do wish to breed magmatic turtles (why), they breed with warped/crimson roots and lay eggs on netherrack. "]
-			dependencies: ["1F566E898B3FAC65"]
+			dependencies: [
+				"3C2E765C61682DB7"
+				"63EADE25EBA541BF"
+			]
 			id: "45BF6FBF1FFD0FCB"
 			tasks: [
 				{
@@ -471,9 +475,10 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
-			optional: true
+			x: -4.0d
+			y: 1.5d
+			subtitle: "Bottling the essence of animals?"
+			description: ["Check out the article in the turtlemancer's book about essences!"]
 			id: "63EADE25EBA541BF"
 			tasks: [{
 				id: "3F593A78C9D974D6"
@@ -533,9 +538,14 @@
 		{
 			title: "Forgive me Mother, for I have sinned..."
 			icon: "turtlemancy:nether_star_of_forgiveness"
-			x: -4.5d
-			y: 1.0d
+			x: -1.0d
+			y: 3.5d
 			description: ["Those turtlemancers who have killed a turtle can be forgiven, but you have to use a nether star and a ghast tear on an altar fueled by curses to create the Nether Star of Forgiveness. Eat that, and your Turtle Mom will forgive your sin, Dark Turtlemancer."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F566E898B3FAC65"
+				"09CECEBC2B315210"
+			]
 			optional: true
 			id: "768BC4F026F20B4F"
 			tasks: [{
@@ -594,9 +604,9 @@
 			optional: true
 			id: "39FB6E9DD95BB8F3"
 			tasks: [{
-				id: "7394AC43C6D7A405"
-				type: "item"
-				item: "minecraft:redstone"
+				id: "6459118B2BF0CBE0"
+				type: "checkmark"
+				icon: "minecraft:redstone"
 			}]
 			rewards: [{
 				id: "7255970AE7FD2FB9"

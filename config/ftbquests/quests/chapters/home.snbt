@@ -271,5 +271,17 @@
 				title: "More fun? (Not added)"
 			}]
 		}
+		{
+			x: 4.0d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "Check out the Farming for Wizards chapter group for some information farming materials. No reward but knowledge."
+			id: "6CC251F99FBC4347"
+			tasks: [{
+				id: "244D8F1BD4F2666C"
+				type: "checkmark"
+				title: "Info chapters"
+			}]
+		}
 	]
 }
