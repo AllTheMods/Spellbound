@@ -1,0 +1,28 @@
+
+#Settings
+[settings]
+	#Sometimes chickens will spawn feathers when taking damage (Default: true)
+	enablePunchChickenGetFeather = false
+	#Chickens will shed feathers every so often (Default: true)
+	enableChickenShed = false
+	#Cows, Chickens, and Rabbits will ALWAYS drop at least one item [If they were going to drop nothing, they will drop a Leather, Feather, or Rabbit Hide respectively] (Default: true)
+	enableFarmAnimalDrops = true
+	#Horses will follow apples and carrots; Llamas will follow hay blocks (Default: true)
+	enableTemptHorseAndLlama = true
+	#When being lead, a tamed llama will attack any foe who damages the player who is holding the lead (Default: true)
+	enableLlamaBodyguard = true
+	#When equipped with a carpet, llamas will take slightly less damage (Default: true)
+	enableLlamaArmor = true
+	#Llama spit has more knockback (Default: true)
+	enableLlamaSpitBuff = true
+	#Being spit on by a Llama will apply an effect that slows the target down (Default: true)
+	enableSlobberedEffect = true
+	#Crouch and face the sky while holding a Wandering Trader Spawn egg to summon a Wandering Trader with 2 llamas (Default: true)
+	enableWanderingTraderSquad = true
+	#Interact with a Wandering Trader while holding a Trader Llama spawn egg to attach a Trade Llama to it (Default: true)
+	enableAttachLlamasToWanderingTrader = true
+	#Breaking blocks while riding a mob or being in a Minecart/Boat won't be slow (Default: true)
+	enableRiderBreakSpeed = true
+	#Every Llama with a chest equipped will have the maximum number of chest slots (Default: true)
+	enableLlamaMaxChestSlots = true
+
