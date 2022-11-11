@@ -17,7 +17,7 @@ onEvent('recipes', e => {
     e.remove({output: 'minecraft:chain'})
 	e.remove({output: 'eidolon:pewter_blend'})
     e.replaceInput({}, 'minecraft:chain', 'forbidden_arcanus:iron_chain')
-	e.shapeless('eidolon:pewter_blend', ['#forge:ingots/tin', '#forge:ingots/lead'])
+	e.shapeless('eidolon:pewter_blend', ['#forge:ingots/iron', '#forge:ingots/lead'])
     e.shapeless('minecraft:chain', ['forbidden_arcanus:iron_chain'])
     e.shapeless('forbidden_arcanus:iron_chain', ['minecraft:chain'])
 
