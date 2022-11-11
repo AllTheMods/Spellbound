@@ -73,7 +73,7 @@
     },
     "BreedData": {
         "isBreedable": true,
-        "parent1": "Aluminum",
+        "parent1": "Quartz",
         "parent2": "Gold",
         "breedWeight": 10,
         "breedChance": 0.60,
