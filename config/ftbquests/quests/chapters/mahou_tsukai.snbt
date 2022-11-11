@@ -3,7 +3,7 @@
 	group: "2869CB12B4663D25"
 	order_index: 7
 	filename: "mahou_tsukai"
-	title: "Mahou Tsukai (wip)"
+	title: "Mahou Tsukai"
 	icon: "mahoutsukai:mahoujin_projector"
 	subtitle: ["Fine, we added it, shut up already PIXIES"]
 	default_quest_shape: ""
@@ -99,10 +99,9 @@
 			title: "The Dragon's blade"
 			x: 3.0d
 			y: -1.0d
-			shape: "gear"
-			subtitle: "You may want more then one of these"
+			subtitle: "A blade of a dragon's slayer"
 			description: [
-				"Future ingredient to bring life to Frankenstein, I mean Patrick Star."
+				""
 				""
 			]
 			dependencies: ["5F902D645E3C2F5B"]
@@ -245,7 +244,7 @@
 				{
 					id: "0AB56E96CF2EBC44"
 					type: "item"
-					item: "farmersrespite:purulent_tea"
+					item: "farmersdelight:honey_glazed_ham_block"
 				}
 			]
 		}
@@ -294,30 +293,6 @@
 					xp_levels: 5
 				}
 			]
-		}
-		{
-			x: -1.5d
-			y: 1.0d
-			subtitle: "Rewriting physics with a warped dinner knife"
-			dependencies: ["5F902D645E3C2F5B"]
-			hide: true
-			id: "0354A786BED93077"
-			tasks: [{
-				id: "1313BC5B7C7DF50A"
-				type: "item"
-				item: {
-					id: "mahoutsukai:rule_breaker"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4DA04B4C33F27EBA"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
 		}
 		{
 			title: "How to grow your mahou"

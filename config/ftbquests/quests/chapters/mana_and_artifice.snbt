@@ -5,26 +5,19 @@
 	filename: "mana_and_artifice"
 	title: "Mana and Artifice"
 	icon: "mana-and-artifice:ritual_focus_greater"
+	subtitle: ["Ars Magica's 3rd cousin, once removed, now for 1.16.5!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mana and Artifice"
-			x: 0.0d
-			y: 0.0d
-			id: "43CD96141AC97A58"
-			tasks: [{
-				id: "17AB9A539DDD805D"
-				type: "checkmark"
-				title: "WIP"
-			}]
-		}
-		{
 			title: "A strange powder"
 			x: 0.0d
 			y: 1.5d
-			description: ["There are crackly blue ore blocks down in the earth. Collect 32x of them. You’re going to want to smelt them too. "]
-			dependencies: ["43CD96141AC97A58"]
+			subtitle: "Welcome to Mana and Artifice. Mine some of this vinteum ore with an iron level pickaxe/spell to begin!"
+			description: [
+				"There are crackly blue ore blocks down in the earth. Collect 32x of them. You’re going to want to smelt them too. "
+				"Thanks to zettai ars, your mana and artifice level will boost your ars nouveau mana!"
+			]
 			id: "45364A54D6E58231"
 			tasks: [
 				{
@@ -117,7 +110,7 @@
 		}
 		{
 			title: "Magic Flowers"
-			x: 0.0d
+			x: -2.0d
 			y: 4.0d
 			description: ["Collect some magic flowers. 16x of one mod flower, but you might want to seek them all. Cerublossom, tarma root, desert nova, aum, and wakebloom. "]
 			dependencies: ["7349FFA8EB9D4E6E"]
@@ -144,7 +137,7 @@
 		{
 			title: "Eye of the Council"
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 			description: ["Craft and place an oculus, this will be your guide through each tier of the mod. "]
 			dependencies: ["0761CA2DC01E4F88"]
 			id: "4AEBE194AC74B162"
@@ -161,8 +154,8 @@
 		}
 		{
 			title: "Baby's first wand and cantrip"
-			x: 0.0d
-			y: 6.0d
+			x: 2.0d
+			y: 4.0d
 			description: ["Craft a manaweaver’s wand. You’ll be using this to draw shapes with your mana and cast spells. Sneak right click and choose the shapes you will use for your first cantrip, ignite. Draw those shapes, and cast your spell. Watch your mana bar because if you try to repeatedly cast, drawing the shapes will run out fast. The mana replenishes moderately fast though. Try to reach lv 5 of magic by casting ignite. There’s a dark blue bar under the mana bar in the top left, that is your magical experience. "]
 			dependencies: ["4AEBE194AC74B162"]
 			id: "2F5E5E50A20E8F06"
@@ -185,8 +178,8 @@
 		}
 		{
 			title: "Wizards aren't vegan"
-			x: 0.0d
-			y: 7.5d
+			x: -2.0d
+			y: 5.5d
 			description: ["If you don’t have a cow farm, a paper farm, a dye farm, an easy way to get sand, etc, you might want to look into that. Leather is heavily used in this mod. Try right clicking some leather into a source block of water to obtain some vellum, the spell paper to write spells on. Collect 16x vellum. "]
 			dependencies: ["2F5E5E50A20E8F06"]
 			id: "4CF48435889BC711"
@@ -211,8 +204,8 @@
 		}
 		{
 			title: "Glyphs"
-			x: 1.0d
-			y: 7.5d
+			x: 2.0d
+			y: 5.5d
 			subtitle: "Runes, glyphs. Same difference. "
 			description: ["Make some blank glyphs with regular stone. You can put colors on them by crafting a rune with a vanilla dye. How about a rune bag to keep your colored runes in too."]
 			dependencies: ["4CF48435889BC711"]
@@ -243,7 +236,7 @@
 		}
 		{
 			x: 0.0d
-			y: 8.5d
+			y: 5.5d
 			description: ["    Make or steal a runeforge. Runeforges are a villager profession for a spellweaver. "]
 			dependencies: ["4CF48435889BC711"]
 			id: "178AF2D9218BA3F5"
@@ -260,7 +253,7 @@
 		}
 		{
 			x: 0.0d
-			y: 9.5d
+			y: 7.0d
 			description: ["Craft some arcane compound and smelt it in the runeforge. Runeforges need no fuel, burn up to 16 items at once, but they are SLOW. 1 arcane compound smelts into 4 arcane ash. You’ll need a lot of this. 32x arcane ash. "]
 			dependencies: ["178AF2D9218BA3F5"]
 			id: "47F3AF066FEEC6AC"
@@ -286,7 +279,7 @@
 		}
 		{
 			x: 0.0d
-			y: 10.5d
+			y: 8.0d
 			description: ["Make one, and some arcanists ink. This is the item you’ll use to craft your spells. Spells, depending on what you make will require vellum, some durability on your arcanists ink, and arcane ash to make the spell’s crafting recipe. "]
 			dependencies: ["47F3AF066FEEC6AC"]
 			id: "174BFCF672B30822"
@@ -315,8 +308,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 10.5d
+			x: 1.5d
+			y: 7.5d
 			description: ["Make or steal a manaweaving altar. This makes many magical items you’ll need, and you draw the shapes it wants with the manaweavers wand. Try making some infused silk. 1x infused silk. This item is a crafting element of some items for the ATM star. "]
 			dependencies: ["174BFCF672B30822"]
 			id: "5567310CC38983AE"
@@ -332,8 +325,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 10.5d
+			x: -1.5d
+			y: 7.5d
 			description: ["Make some wizard's chalk. "]
 			dependencies: ["47F3AF066FEEC6AC"]
 			id: "7E7930655C1487E5"
@@ -351,7 +344,7 @@
 		}
 		{
 			x: 0.0d
-			y: 11.5d
+			y: 9.0d
 			description: ["No, not a workbench on a stick. That’s so medieval. Make a touch - summon workbench spell, and craft it. You can place a workbench down any place within touch range with this spell. The Ritual of Arcana is how you craft spells, in a 9x9 area. You’ll need your manaweaver’s wand and that wizards chalk. Follow the instructions in the book, and you should have a spell made in no time. "]
 			dependencies: ["174BFCF672B30822"]
 			id: "1CF5BF8D54849949"
@@ -362,8 +355,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 11.5d
+			x: 2.0d
+			y: 8.5d
 			description: ["Rote means you’ve mastered the component of the spell. If you have a rote spell, it can be kept in a spellbook and costs less mana to cast each time."]
 			dependencies: ["1CF5BF8D54849949"]
 			id: "2E80B2A049E8F0CD"
@@ -374,8 +367,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 11.5d
+			x: -2.0d
+			y: 8.5d
 			description: ["So you’ve noticed the little glowy symbol with percentage at the bottom right of your screen. All spells have some sort of elemental affinity, and as you cast it, you gain affinity. Higher affinity means the spell is cheaper to cast. Once you reach 100% affinity in one element, you can’t change that, to the best of the questwriter’s knowledge."]
 			dependencies: ["1CF5BF8D54849949"]
 			id: "2F40FB34A9C87906"
@@ -387,8 +380,11 @@
 		}
 		{
 			x: 0.0d
-			y: 12.5d
-			description: ["Follow the oculus’ guide to reach tier 2 of magic. Highly recommended to reach lv 15 in magic experience, just spam your summon workbench as much as possible. "]
+			y: 10.5d
+			description: [
+				"Follow the oculus’ guide to reach tier 2 of magic. Highly recommended to reach lv 15 in magic experience, just spam your summon workbench as much as possible. "
+				"New recipes and spells unlock at each tier of oculus, so check jei!"
+			]
 			dependencies: ["1CF5BF8D54849949"]
 			id: "36E976F54156C1A6"
 			tasks: [{
@@ -399,8 +395,8 @@
 		}
 		{
 			title: "New Cantrip: Dispel"
-			x: 0.0d
-			y: 13.5d
+			x: 1.0d
+			y: 10.0d
 			subtitle: "Stronger Spellcasting"
 			description: ["The new cantrip a t2 wizard can cast is Dispel, which you can use to get rid of bad potion effects, like poison or wither or mining fatigue. Uses 3 shapes. "]
 			dependencies: ["36E976F54156C1A6"]
@@ -412,8 +408,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 14.5d
+			x: -1.5d
+			y: 10.0d
 			description: ["T2 wizards can upgrade their spells with a ritual and by getting rote their specific component, such as touch. Upgrades unlock at t2, like speed, range and delay. "]
 			dependencies: ["36E976F54156C1A6"]
 			id: "7FABE12DD2FBFD18"
@@ -425,8 +421,8 @@
 		}
 		{
 			title: "Chimerite"
-			x: 0.0d
-			y: 15.5d
+			x: -1.5d
+			y: 11.5d
 			description: ["Chimerite is a byproduct of mining certain ores. At lv 5 of magic experience, it drops alongside emeralds. Lv 10, alongside diamonds. Finally at lv 20, it will drop alongside coal as well. Fortune affects it, you’ll want a lot."]
 			dependencies: ["36E976F54156C1A6"]
 			id: "024B8F7E5C5ABD47"
@@ -444,8 +440,8 @@
 		}
 		{
 			title: "Weird see-through plates with marks?"
-			x: 0.0d
-			y: 16.5d
+			x: 2.0d
+			y: 11.0d
 			description: ["These are unfired rune plates. You can make them yourself by crafting a rune of any color with 4 clay balls around it. Put them in the runeforge to smelt to get rune plates. You will want MANY of these. 32x runic plates (the orange ones). "]
 			dependencies: [
 				"178AF2D9218BA3F5"
@@ -473,8 +469,8 @@
 		}
 		{
 			title: "Patterns"
-			x: 0.0d
-			y: 17.5d
+			x: 3.0d
+			y: 10.0d
 			subtitle: "Air drawing is hard. "
 			description: ["As loot in structures or as trades from the mod’s villagers, you can get rune patterns. These are used if you want to make an item called a manaweave projector that you can click on to produce the shape of marking you want during manaweaving. If you have trouble making a circle in the air (like I do), this may help. It's called Orbeus. Find or procure an Orbeus rune pattern. "]
 			dependencies: [
@@ -508,8 +504,8 @@
 		}
 		{
 			title: "Runesmith"
-			x: 0.0d
-			y: 18.5d
+			x: -3.0d
+			y: 10.5d
 			description: ["Make a runic anvil, runescribing table, runesmith hammer and runesmith chisel. These are the gateway into golemancy and enchanting later on. Some spells ask for a runic hammer as a spell ingredient too. "]
 			dependencies: ["36E976F54156C1A6"]
 			id: "5C9AE5CBE7C22191"
@@ -555,7 +551,7 @@
 		}
 		{
 			x: 0.0d
-			y: 19.5d
+			y: 12.0d
 			description: ["Get to tier 3 by the oculus’ guidance. Highly recommended to reach lv 30 in magic experience as part of that. Spam some new spells as much as possible."]
 			dependencies: [
 				"36E976F54156C1A6"
@@ -570,8 +566,8 @@
 		}
 		{
 			icon: "mana-and-artifice:mark_of_the_fey"
-			x: 0.0d
-			y: 20.5d
+			x: 3.0d
+			y: 12.0d
 			description: ["There are a number of factions in this mod, all who do different perks and setbacks. The Council of Wizards, The Fey Courts, The Nether (demons), and the undead. You’ll pick a faction and perform the ritual to join them. This lets you get to lv 45 magic experience+. Caution; if you pick the undead faction, your mana does not return naturally. It returns when you kill something else for its soul. Souls fuel your mana now. Undead do the least return, and players do the most. (check how many factions there are). Each faction has its own generated structure too, so be on the lookout for those, but they are rare. Haven’t found one yet."]
 			dependencies: ["41E84AC7DC439F42"]
 			id: "190DDB00DD4873C0"
@@ -583,8 +579,8 @@
 		}
 		{
 			title: "Chimerite, again"
-			x: 0.0d
-			y: 21.5d
+			x: -3.5d
+			y: 12.0d
 			description: ["Make some chimerite crystals to put on the ground or the wall around your golemancy workshop, 8 to be precise. Some colors of chimerite crystals also have special properties. Check your codex arcana for more information. "]
 			dependencies: [
 				"41E84AC7DC439F42"
@@ -603,8 +599,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 22.5d
+			x: 1.0d
+			y: 12.0d
 			description: ["Golems have parts, and you need rune plates of those parts. Make each rune plate by drawing out the pattern on an orange rune plate with a runic chisel. Careful not to screw up because you’ll lose the plate and need to start again on a new one. Golems have a head, a torso, legs, left arm and right arm, and parts range from wood to diamond and obsidian. Each material has its own perks and setbacks. For example, wood can float, but is flammable. You’ll be building each part using the resulting rune plate and the piece on your rune anvil, and than finishing the job on a golemancy bench. Attach a spell of a specific affinity to each of the 8 crystals to give the golem extra perks, like carry capacity, damage, speed, etc, and right click with a manaweaver’s wand to start. You’ll want a lodestar and a few rune markings for telling your new friend what to do. (check this) Material parts can mix and match, far as I know, but you still need a head, torso, legs, l.arm and r.arm. "]
 			dependencies: [
 				"41E84AC7DC439F42"
@@ -620,7 +616,7 @@
 		}
 		{
 			x: 0.0d
-			y: 23.5d
+			y: 13.0d
 			description: ["Reach tier 4 of magic. I think you have to perform your faction ritual in order to gain in tier here."]
 			dependencies: [
 				"41E84AC7DC439F42"
@@ -635,8 +631,8 @@
 		}
 		{
 			title: "Mote'ive"
-			x: 0.0d
-			y: 24.5d
+			x: -2.5d
+			y: 13.5d
 			shape: "gear"
 			description: ["Now you can create magical motes. It takes a ritual and several bits of recipe and being in specific places, but you’ll need these for advanced stuff. Make a mote of fire for me. In the Nether of course. You’ll need at least one mote of something to make the ATM star. "]
 			dependencies: ["4BF62EC0846D978E"]
@@ -661,7 +657,7 @@
 		}
 		{
 			x: 0.0d
-			y: 25.5d
+			y: 14.0d
 			description: [
 				"Reach tier 5 of magic, and perform the faction tier gain ritual. Lv 60 magic gain +? Yes please. I hope you’ve made more cool spells by now instead of just a spectral workbench. "
 				"You also need tier 5 to craft some ATM star materials."
@@ -683,8 +679,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 24.5d
+			x: 2.5d
+			y: 13.5d
 			description: ["Make one, and upgrade your runeforge to a brimstone forge. Smelts A LOT faster. "]
 			dependencies: ["06569DDC48D18E53"]
 			id: "5C2771AD61023A72"

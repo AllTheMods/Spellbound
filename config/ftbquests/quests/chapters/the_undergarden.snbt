@@ -1,37 +1,26 @@
 {
-	id: "1E09C468A5142ACC"
+	id: "60A7075624EBC262"
 	group: "441E2D2CD3ABE6DE"
-	order_index: 9
+	order_index: 8
 	filename: "the_undergarden"
-	title: "The Undergarden (wip)"
-	subtitle: ["This is deeper then Under the Sea ever went"]
-	always_invisible: true
+	title: "The Undergarden"
+	subtitle: ["Don't expect a questline here"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
-		title: "One coin to hell please"
-		x: 0.0d
-		y: -0.5d
-		description: ["This isn't quite the nether, but is about as deep as it needs to be to reach there. Get a catalyst and smack it inside a portal of stone bricks to reach there. "]
-		id: "2C6C54023C5600A8"
-		tasks: [
-			{
-				id: "20B54203E5158F90"
-				type: "item"
-				item: "undergarden:catalyst"
-			}
-			{
-				id: "196A5495078D6435"
-				type: "advancement"
-				advancement: "undergarden:undergarden/catalyst"
-				criterion: ""
-			}
-			{
-				id: "1F09794CCD76D8D1"
-				type: "dimension"
-				icon: "undergarden:twistytwig"
-				dimension: "undergarden:undergarden"
-			}
+		title: "The Undergarden"
+		x: -0.5d
+		y: -1.0d
+		subtitle: "Through a portal of stone bricks, lies a dank cavish dimension of rot and mushrooms"
+		description: [
+			"New ores, trees, armor sets, mobs to fight and some shiny blocks to take home. The catalyst isn't a one time use portal opener."
+			"Deeper underground is the Forgotten Relic, with a miniboss Forgotten inside. Like a mechanical enderman, without the teleport."
 		]
+		id: "5F10112AF08C9CA2"
+		tasks: [{
+			id: "374722FC111CF167"
+			type: "item"
+			item: "undergarden:catalyst"
+		}]
 	}]
 }

@@ -16,6 +16,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Flower Picking - Welcome to Botania!"
 			icon: {
 				id: "botania:lexicon"
 				Count: 1b
@@ -25,31 +26,14 @@
 			}
 			x: 0.5d
 			y: -1.0d
-			shape: "circle"
-			subtitle: "Plants, Flowers, Mana!? Oh my"
+			subtitle: "Plants, Flowers, Mana!? Oh my. Pop drop mana stop"
 			description: [
-				"This Magical, Technical, Flower powered mod is powerful in it's own right. Utilize the power of mana, generated from varied sources, to using the mana for your crazed ideas."
+				"This Magical, Technical, Flower powered mod is powerful in it's own right. Utilize the power of mana, generated from varied sources, to using the mana for your crazed ideas. For starters we need Mystical Flowers. Gather 1 of each Flower."
+				""
+				"For a tip: You can place a flower petal on Grass, bonemeal it for a 2 block tall Flower, use shears and you'll obtain 4 petals per tall flower."
 				"Along with the normal progression of typical Botania, we will cover a tiny bit on Mythic Botany, an add-on."
 				"Do Note, this mod does not have a method of Ore Doubling. Suggested to do this after Occultism/Blood Magic/ElementalCraft/Create ore doubling has been achieved."
 			]
-			id: "4B2AFC583DEA6DC8"
-			tasks: [{
-				id: "7E7A11964B92A0E3"
-				type: "checkmark"
-				title: "Welcome to Botania!"
-			}]
-		}
-		{
-			title: "Flower Picking"
-			x: 0.5d
-			y: 0.0d
-			subtitle: "Pop drop mana stop"
-			description: [
-				"For starters we need Mystical Flowers. Gather 1 of each Flower."
-				""
-				"For a tip: You can place a flower petal on Grass, bonemeal it for a 2 block tall Flower, use shears and you'll obtain 4 petals per tall flower."
-			]
-			dependencies: ["4B2AFC583DEA6DC8"]
 			id: "410E21A900CECDCA"
 			tasks: [
 				{
@@ -280,13 +264,11 @@
 					id: "074E24E536653C00"
 					type: "item"
 					item: "botania:mana_pool"
-					only_from_crafting: true
 				}
 				{
 					id: "06C66EB845B47A0D"
 					type: "item"
 					item: "botania:mana_spreader"
-					only_from_crafting: true
 				}
 				{
 					id: "2BC0E0A1E6024A9C"
@@ -919,7 +901,7 @@
 		{
 			x: 12.0d
 			y: -1.0d
-			subtitle: "Gaia brings life. Her Gaurdian brings Death."
+			subtitle: "Gaia brings life. Her Guardian brings Death."
 			description: [
 				"When you are prepared, sacrifice a Gaia Spirit Ingot in the Beacon. Be warned, the fight is even tougher."
 				"Should you fell her Gaurdian in this manner, both a Dice of Fate and Rune Tablet will drop."
@@ -1087,6 +1069,56 @@
 					xp_levels: 5
 				}
 			]
+		}
+		{
+			title: "Corporea, not capoeira"
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Botania's chat based storage search. You need to have opened the elven gateway and visited the End to work with this."
+			description: [
+				"Each corporea 'system' needs a corporea master spark, a corporea spark for EACH storage container in the system, and a corporea index. Use chat to retrieve items. "
+				"Corporea sparks have a smaller distance limit then a regular spark (8 blocks), and connects to the same MASTER corporea spark without an inventory of the same color. "
+				"The corporea index lets you request items with typing the name and amount in chat. The named item and amount will spill out at your feet."
+				"If a corporea spark is dyed a different color then the master on the network, it will split off and not be attached to that network anymore."
+				"A note, corporea doesn't have an option to automatically feed items into the network. "
+				"Jansey has an excellent beginner corporea youtube tutorial. Also WinryPlays features corporea usage in her Floramancer Season 2 Skyblock series."
+				"https://www.youtube.com/watch?v=CzqQ3k640qc&list=PLhhEhPLz3aS2Cv4tztfj9Bsh20XQi7Op_"
+			]
+			dependencies: [
+				"52D26A278AD20F59"
+				"29A024AB7BA75230"
+			]
+			id: "7BCAC45EB515B326"
+			tasks: [
+				{
+					id: "0913DAD90361AEB3"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+				{
+					id: "6895DBEC74B93E9B"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+				{
+					id: "1341AA0CFDC8FB7F"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+			]
+		}
+		{
+			title: "Is there More?"
+			x: 4.0d
+			y: 7.5d
+			subtitle: "Right click this on a livingrock pedestal while holding your lexica in hand."
+			dependencies: ["52D26A278AD20F59"]
+			id: "00DE8C286518F4AB"
+			tasks: [{
+				id: "0FD65E709F39D960"
+				type: "item"
+				item: "extrabotany:spiritfuel"
+			}]
 		}
 	]
 }

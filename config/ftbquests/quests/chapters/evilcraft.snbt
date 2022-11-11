@@ -269,7 +269,10 @@
 			title: "About them Vengeance Spirits"
 			x: -0.5d
 			y: 0.5d
-			description: ["Opening this releases a vengeance spirit. "]
+			description: [
+				"Opening this releases a vengeance spirit. "
+				"Small vengeance ring allows seeing the spirit. The larger one allows freezing and pulling the spirit into an OPEN box of eternal closure. The piercing vengeance focus kills the spirit."
+			]
 			dependencies: ["19D482DC635AA54A"]
 			id: "72D78F3C577A549C"
 			tasks: [
@@ -292,6 +295,21 @@
 					id: "7C40F448EABEC5F8"
 					type: "item"
 					item: "evilcraft:garmonbozia"
+				}
+				{
+					id: "29F03FA2705749D3"
+					type: "item"
+					item: "evilcraft:vengeance_ring"
+				}
+				{
+					id: "0BCAC01D9EDE0BA9"
+					type: "item"
+					item: "evilcraft:vengeance_focus"
+				}
+				{
+					id: "79EBBE336F452F2E"
+					type: "item"
+					item: "evilcraft:piercing_vengeance_focus"
 				}
 			]
 			rewards: [{

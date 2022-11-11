@@ -5,6 +5,7 @@
 	filename: "mystical_agriculture"
 	title: "Mystical Agriculture"
 	icon: "mysticalagriculture:master_infusion_crystal"
+	subtitle: ["The choice people make for resources when bees get annoying."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -16,7 +17,7 @@
 				"In order to craft seeds, you need these placed down. Placing the Altar first will make a visual of where the Pedestals go."
 				"Once you're ready to craft seeds, place and activate a Lever right next to the Altar, and place your seeds on Altar, with essence and material on Pedestals."
 			]
-			dependencies: ["1357C71C28D8E325"]
+			dependencies: ["1706549E60C9A47B"]
 			id: "2362DEFEFE1E79D3"
 			tasks: [
 				{
@@ -33,19 +34,21 @@
 			]
 		}
 		{
+			title: "Mystical Agriculture - Inferium Essence"
 			x: -9.0d
-			y: -5.5d
+			y: -5.0d
 			subtitle: "I heard you like materials."
 			description: [
 				"This mod is Mystical Agriculture."
 				"It is a simple mod. You get inferium essence, you use some to make seeds of different materials."
 				"Lack in Iron? Got that, grow it! Lack of logs? I mean unless you're in a desert, sure!"
+				"This is the basic essence for the entire mod. Can be obtained through growing it, slaying monsters or mining. "
 			]
 			id: "1706549E60C9A47B"
 			tasks: [{
-				id: "2F3FA6BBAC85E363"
-				type: "checkmark"
-				title: "Welcome to Mystical Agriculture!"
+				id: "1E5F579E35BDCBEA"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
 			}]
 		}
 		{
@@ -57,7 +60,7 @@
 				"The cost of Inferium greatly rises per tier. 4 to 1 ratio. So best get growing that Essence!"
 				"Multiple may be needed during your course to making the Master Infusion Stone."
 			]
-			dependencies: ["1357C71C28D8E325"]
+			dependencies: ["1706549E60C9A47B"]
 			id: "0014BE0D4A9EA5AA"
 			tasks: [{
 				id: "77005F41E5A85246"
@@ -70,19 +73,6 @@
 					}
 				}
 				only_from_crafting: false
-			}]
-		}
-		{
-			x: -9.0d
-			y: -4.5d
-			subtitle: "Basic Essence"
-			description: ["This is the basic essence to start the whole mod. Can be obtained through Mining, Slaying Monsters, or growing it."]
-			dependencies: ["1706549E60C9A47B"]
-			id: "1357C71C28D8E325"
-			tasks: [{
-				id: "433DFBF0F3796C17"
-				type: "item"
-				item: "mysticalagriculture:inferium_essence"
 			}]
 		}
 		{
@@ -1005,7 +995,6 @@
 		{
 			x: -5.0d
 			y: -4.5d
-			dependencies: ["1357C71C28D8E325"]
 			id: "3D8DCFB8F92E67DB"
 			tasks: [{
 				id: "0CD10D2D0CA5E6FA"

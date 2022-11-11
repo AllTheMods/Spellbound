@@ -11,74 +11,67 @@
 			"patchouli:book": "psi:encyclopaedia_psionica"
 		}
 	}
+	subtitle: ["Wait, where's my fancy space-gun?"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Welcome to Psi! - Iron Rod Frame"
 			x: 0.0d
-			y: 0.0d
+			y: -2.25d
 			shape: "gear"
 			description: [
 				"Welcome to &aPsi&f, a mod by &2Vazkii&f!"
 				""
 				"Contained in your &eAkashic Tome&f, the &eEncyclopaedia Psionica&f will provide more information about the items and features in this mod."
+				"To start, create the iron rod frame. Your first Casting Assistant Device (CAD)!"
 			]
 			size: 1.5d
 			id: "14EBEEFAA34FBB77"
 			tasks: [{
-				id: "341F8B1E1667A045"
-				type: "checkmark"
-				title: "Psi"
-			}]
-			rewards: [{
-				id: "4F58802A8304C359"
-				type: "item"
-				item: {
-					id: "minecraft:player_head"
-					Count: 1b
-					tag: {
-						SkullOwner: {
-							Properties: {
-								textures: [{
-									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ3YzI3M2U5N2MyNzdjNDljOTA2NWVkZGYxMDdlODdlYTc3NWM4N2IyYzlmZWEwOTIyNTUwNTE5MDJhYzRhIn19fQ=="
-								}]
-							}
-							Id: [I;
-								-647195142
-								2010533167
-								-1243897687
-								1144171008
-							]
-						}
-						display: {
-							Name: "{\"text\":\"BovineShaman\"}"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: -2.0d
-			description: ["Your first &eCasting Assistant Device (CAD)&f!"]
-			dependencies: ["14EBEEFAA34FBB77"]
-			id: "447053485CABA551"
-			tasks: [{
-				id: "7083348D2C3AC9B6"
+				id: "1C8936B8C4B37E7C"
 				type: "item"
 				item: "psi:cad_assembly_iron"
 			}]
-			rewards: [{
-				id: "265BC6BBB82382F6"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4F58802A8304C359"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ3YzI3M2U5N2MyNzdjNDljOTA2NWVkZGYxMDdlODdlYTc3NWM4N2IyYzlmZWEwOTIyNTUwNTE5MDJhYzRhIn19fQ=="
+									}]
+								}
+								Id: [I;
+									-647195142
+									2010533167
+									-1243897687
+									1144171008
+								]
+							}
+							display: {
+								Name: "{\"text\":\"BovineShaman\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "68608C5223D84E46"
+					type: "xp"
+					xp: 1
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -4.0d
 			description: ["This station will be used for all of your &eCAD&f assembling needs."]
-			dependencies: ["447053485CABA551"]
+			dependencies: ["14EBEEFAA34FBB77"]
 			id: "3CEF13CA385F4434"
 			tasks: [{
 				id: "114C592ADE552419"

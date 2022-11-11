@@ -5,10 +5,13 @@
 	filename: "create"
 	title: "Create"
 	icon: "create:large_cogwheel"
+	subtitle: ["Dwarven tech is magic... right? The magic of the spinning cog."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Create"
+			icon: "create:wrench"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
@@ -22,10 +25,10 @@
 			size: 1.5d
 			id: "57A7A5C79389A96A"
 			tasks: [{
-				id: "695A0E0BC4B78AEC"
-				type: "checkmark"
-				title: "Create"
-				icon: "create:wrench"
+				id: "3CB2439776F5EC1F"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 2L
 			}]
 			rewards: [
 				{
@@ -625,7 +628,10 @@
 		{
 			x: 9.0d
 			y: 4.0d
-			description: ["The &n&5Tunnels&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."]
+			description: [
+				"The &n&5Tunnels&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."
+				"NOTE TO PLAYERS: DO NOT PUT AN OCCULTISM STABLE WORMHOLE ON A BRASS TUNNEL. "
+			]
 			dependencies: ["1DA6B8B2DCC97809"]
 			id: "78656C89EEE80DB5"
 			tasks: [{

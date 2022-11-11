@@ -5,13 +5,14 @@
 	filename: "natures_aura"
 	title: "Nature's Aura"
 	icon: "naturesaura:aura_bloom"
+	subtitle: ["Earth magic... condensed into fireflies."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -0.5d
-			y: 1.5d
-			subtitle: "Welcome to Nature's Aura"
+			y: -2.5d
+			subtitle: "Welcome to Nature's Aura. Get this advancement to begin!"
 			description: ["Find one of those glowy fields and hang around in it a few minutes. "]
 			id: "7B26D6008FA99796"
 			tasks: [{
@@ -26,7 +27,7 @@
 		{
 			title: "Golden Foliage"
 			x: -0.5d
-			y: 0.0d
+			y: -3.5d
 			description: ["You will need a lot of this gold leaf for this mod. Brilliant fibers is made with gold nuggets, leaves and grass. Right click it on any leaf block, and let turn gold. Break to get a high chance of a gold leaf. "]
 			dependencies: ["7B26D6008FA99796"]
 			id: "4F9D6109EEA5D26A"
@@ -54,7 +55,7 @@
 		{
 			title: "Ritual of the Forest"
 			x: -0.5d
-			y: -1.5d
+			y: -4.5d
 			description: ["The rituals are begun by planting the corresponding sapling and growing it with bonemeal after adding the items required onto the stands. The powder is consumed with the ritual, so you’ll be making a lot. By default, each leaf makes 2 powder, but later on there is a more efficient method. "]
 			dependencies: ["4F9D6109EEA5D26A"]
 			id: "497AE687B7E95DE8"
@@ -81,7 +82,7 @@
 		{
 			title: "An Eye on the environment"
 			x: -0.5d
-			y: -3.0d
+			y: -5.5d
 			description: ["This is a charm you can wear for monitoring the aura levels in the top left corner of the screen. Made with the ritual of the forest. "]
 			dependencies: ["497AE687B7E95DE8"]
 			id: "12D3C7FC4B3DAB23"
@@ -98,8 +99,8 @@
 		}
 		{
 			title: "Ancient Trees"
-			x: 0.5d
-			y: -2.5d
+			x: 1.5d
+			y: -5.5d
 			description: ["Make and plant some ancient saplings. When grown, these trees attempt to maintain the aura at normal levels (not too high or too low). If the aura drops, the leaves will start to decay to reverse the process. This is a slow process, so don’t dip your aura levels too badly. That is BAD NEWS. "]
 			dependencies: ["497AE687B7E95DE8"]
 			id: "22ADCF96AE3E609B"
@@ -124,8 +125,8 @@
 		}
 		{
 			title: "Tokens!"
-			x: -1.5d
-			y: -2.5d
+			x: -2.5d
+			y: -5.5d
 			dependencies: ["497AE687B7E95DE8"]
 			id: "05E668CE6687AC64"
 			tasks: [
@@ -165,8 +166,8 @@
 		}
 		{
 			title: "Bottling up the weather"
-			x: 1.5d
-			y: -1.0d
+			x: -0.5d
+			y: -6.5d
 			dependencies: ["497AE687B7E95DE8"]
 			id: "5A011CE8EEA3F9D8"
 			tasks: [
@@ -222,10 +223,13 @@
 		}
 		{
 			title: "Aura Creation"
-			x: -0.5d
-			y: -6.0d
+			x: -2.0d
+			y: -7.5d
 			description: ["Outline choices of aura creation here. Can link into Nature’s starlight here! "]
-			dependencies: ["5A011CE8EEA3F9D8"]
+			dependencies: [
+				"5A011CE8EEA3F9D8"
+				"3C2F5AB815A6C949"
+			]
 			id: "71B6F013C8A60EB6"
 			tasks: [
 				{
@@ -268,11 +272,10 @@
 		{
 			title: "A trove of aura"
 			x: 1.0d
-			y: -7.5d
+			y: -13.0d
 			description: ["Upgrade the aura cache to an aura trove."]
 			dependencies: [
 				"0B6D35F5B3A11FD2"
-				"20F9EF925DB1CE05"
 				"1D39634260A47C9A"
 			]
 			id: "24599D45F5D1606E"
@@ -322,11 +325,19 @@
 			description: ["    Build this same structure, in a crimson forest. You’ll need it for certain items. "]
 			dependencies: ["20F9EF925DB1CE05"]
 			id: "1767D7D6AD2D81F9"
-			tasks: [{
-				id: "70304DCA5256EF0B"
-				type: "item"
-				item: "naturesaura:nature_altar"
-			}]
+			tasks: [
+				{
+					id: "70304DCA5256EF0B"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "7E034897AD90DC87"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8L
+				}
+			]
 			rewards: [{
 				id: "32E40033D056CCDF"
 				type: "xp"
@@ -336,7 +347,7 @@
 		{
 			title: "I've got my Eye on you"
 			x: 2.0d
-			y: -4.5d
+			y: -7.5d
 			shape: "gear"
 			description: ["Talk about the eye of the blaze, eye of the shulker, eye of the pillager which find structures. You need an eye of the shulker to make the ATM star"]
 			dependencies: ["5A011CE8EEA3F9D8"]
@@ -418,11 +429,12 @@
 		{
 			title: "Offering the gods a birdbath in a forest of poppies"
 			x: -0.5d
-			y: -12.5d
+			y: -12.0d
 			description: ["The offering to the gods multiblock. You use spirits of calling to run it. Make some. "]
 			dependencies: [
 				"3C2F5AB815A6C949"
 				"05E668CE6687AC64"
+				"3EC90ADA4E322B14"
 			]
 			id: "5C990F7E5D345A6F"
 			tasks: [
@@ -619,9 +631,10 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -6.0d
+			x: -2.5d
+			y: -10.5d
 			subtitle: "Aura from Starlight?"
+			dependencies: ["3C2F5AB815A6C949"]
 			id: "4BBDAC913A502F91"
 			tasks: [{
 				id: "1533E8BC78C085D2"
@@ -632,6 +645,19 @@
 				id: "50FEF65084E905C8"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: -12.0d
+			shape: "gear"
+			description: ["Needed for the atm star."]
+			dependencies: ["5C990F7E5D345A6F"]
+			id: "3205DC6B33561D5C"
+			tasks: [{
+				id: "639E57D6E35A5391"
+				type: "item"
+				item: "naturesaura:clock_hand"
 			}]
 		}
 	]

@@ -5,29 +5,19 @@
 	filename: "forbidden_and_arcanus"
 	title: "Forbidden and Arcanus"
 	icon: "forbidden_arcanus:arcane_crystal"
+	subtitle: ["Few steps short of human transmutation."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Forbidden and Arcanus"
+			title: "Forbidden and Arcanus - Plant Hunt"
 			icon: "forbidden_arcanus:forbiddenmicon"
-			x: 0.0d
-			y: 0.0d
-			description: ["I hope you’re prepared to go end hunting or murdering the dragon repeatedly and the wither too. This is more of a decoration and utility mod than actual magic, but we’ve got some items here you’ll want to make the ATM star."]
-			id: "5FFE92C6473CAA33"
-			tasks: [{
-				id: "1FBE1CF921664B74"
-				type: "checkmark"
-				title: "WIP"
-			}]
-		}
-		{
-			title: "Plant Hunt"
-			icon: "forbidden_arcanus:mysterywood_sapling"
 			x: 1.5d
 			y: -1.0d
-			description: ["Plains biomes for cherry trees, and flower forests for mysterywood trees. Edelwood has no leaves or saplings but the logs are so worth it, in dark forests. Let the mysterywood leaves despawn NATURALLY, they drop golden apples! Don’t forget the yellow orchids from the flower forest!"]
-			dependencies: ["5FFE92C6473CAA33"]
+			description: [
+				"I hope you’re prepared to go end hunting or murdering the dragon repeatedly and the wither too. This is more of a decoration and utility mod than actual magic, but we’ve got some items here you’ll want to make the ATM star."
+				"Plains biomes for cherry trees, and flower forests for mysterywood trees. Edelwood has no leaves or saplings but the logs are so worth it, in dark forests. Let the mysterywood leaves despawn NATURALLY, they drop golden apples! Don’t forget the yellow orchids from the flower forest!"
+			]
 			id: "03436DE1D931968A"
 			tasks: [
 				{
@@ -70,7 +60,7 @@
 			x: 1.5d
 			y: 0.0d
 			description: ["Collect these ores,  you'll need them. Caution, stellarite explodes when mined!"]
-			dependencies: ["5FFE92C6473CAA33"]
+			dependencies: ["03436DE1D931968A"]
 			id: "00E478AA3D7C64E3"
 			tasks: [
 				{

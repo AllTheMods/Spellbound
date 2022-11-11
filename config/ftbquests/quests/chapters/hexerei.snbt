@@ -5,22 +5,21 @@
 	filename: "hexerei"
 	title: "Hexerei"
 	icon: "xreliquary:witch_hat"
+	subtitle: ["The Evermoor is growing... and the covens are building up."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Witch's Rival"
 			x: 0.0d
 			y: 0.0d
 			subtitle: "This chapter is under construction!"
-			description: [
-				"Welcome to Hexerei, a mod by joefoxe. "
-				"When Hexerei gets more material, this chapter will grow. "
-			]
+			description: ["Welcome to Hexerei, a mod by joefoxe. "]
 			id: "5404606D8CF57BB4"
 			tasks: [{
-				id: "7FD1A6AB17DA5068"
-				type: "checkmark"
-				title: "Witches rival"
+				id: "007E054C55A17ED5"
+				type: "item"
+				item: "hexerei:willow_sapling"
 			}]
 			rewards: [{
 				id: "6BD03F40A58AA0F8"
@@ -29,6 +28,7 @@
 			}]
 		}
 		{
+			title: "Village of Witches"
 			x: -1.0d
 			y: 0.5d
 			description: [
@@ -37,9 +37,9 @@
 			]
 			id: "60FF300E3C0B6860"
 			tasks: [{
-				id: "7D4DE4CFF02286D9"
-				type: "checkmark"
-				title: "Village of Witches"
+				id: "5BFA9EAB435E2BE9"
+				type: "item"
+				item: "hexerei:mahogany_sapling"
 			}]
 		}
 		{

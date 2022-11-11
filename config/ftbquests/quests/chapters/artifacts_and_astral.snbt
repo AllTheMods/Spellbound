@@ -5,6 +5,7 @@
 	filename: "artifacts_and_astral"
 	title: "Astral and Artifacts"
 	icon: "astral:key_of_enlightenment"
+	subtitle: ["Two words. DUNGEON LOOT."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

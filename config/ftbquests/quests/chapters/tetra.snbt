@@ -5,27 +5,16 @@
 	filename: "tetra"
 	title: "Tetra"
 	icon: "tetra:forged_workbench"
+	subtitle: ["Forgotten technology... how to create custom tools. Tinkers and Silent Gear are the cousins we don't talk about."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Welcome to Tetra: Hammer time"
 			x: -1.5d
 			y: -3.5d
 			subtitle: "Customizeable weapons to fit you."
-			description: ["This quest line is all about exploration and making great tools. Hammers, pickaxes. But not busted like Tinkers."]
-			id: "04B938420D8D7200"
-			tasks: [{
-				id: "66C792BA28B1C07C"
-				type: "checkmark"
-				title: "Welcome to Tetra!"
-			}]
-		}
-		{
-			title: "Hammer time"
-			x: -1.5d
-			y: -2.0d
-			description: ["Make a wooden or stone hammer from Tetra. This will give you the holosphere, the ‘book’ of this mod. More a collection of materials and stats than an actual guide. Hang onto this holosphere in a safe place, you’ll need it later on. "]
-			dependencies: ["04B938420D8D7200"]
+			description: ["This quest line is all about exploration and making great tools. Hammers, pickaxes. But not busted like Tinkers. Make a wooden or stone hammer from Tetra. This will give you the holosphere, the ‘book’ of this mod. More a collection of materials and stats than an actual guide. Hang onto this holosphere in a safe place, you’ll need it later on. "]
 			id: "2FA379C3D836DC02"
 			tasks: [
 				{
@@ -259,6 +248,7 @@
 			}
 			x: -4.0d
 			y: 3.5d
+			subtitle: "yes! On each piece."
 			dependencies: ["742997A2F022515D"]
 			id: "64B0BCD30EB010F2"
 			tasks: [{

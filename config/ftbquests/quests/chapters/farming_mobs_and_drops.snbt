@@ -10,8 +10,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -0.5d
-			y: 0.0d
+			x: -1.0d
+			y: -0.5d
+			description: ["Everyone requires a mob farm of some sort. Here's a few."]
 			id: "32200043CA9770F3"
 			tasks: [{
 				id: "4CB4271B5DBC18DA"
@@ -22,6 +23,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
+			description: ["damage plate and vector plates. "]
 			id: "70992422D88B35DE"
 			tasks: [{
 				id: "314761EF967B845B"
@@ -32,6 +34,7 @@
 		{
 			x: -2.5d
 			y: 1.0d
+			description: ["Deployers can use a weapon if set for attack with something in its hand. Mechanical saws and drills also hurt if hit by them."]
 			id: "0311D94D71049AAC"
 			tasks: [{
 				id: "567B6DBB30F3A35E"
@@ -42,6 +45,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
+			description: ["Well of suffering, and a sigil of magnetism to collect drops. Might be player dependent."]
 			id: "75E514C595DB78D4"
 			tasks: [{
 				id: "6D645D220291A945"
@@ -52,6 +56,10 @@
 		{
 			x: 2.5d
 			y: 1.0d
+			description: [
+				""
+				"Bellethorne for all mobs. Dreadthorne for adult animals. Daffomill to move drops, and hopperhock to collect drops."
+			]
 			id: "297B68E18A71A4E3"
 			tasks: [{
 				id: "2889CBAA9C22383D"

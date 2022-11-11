@@ -4,18 +4,8 @@
 	order_index: 1
 	filename: "elementalcraft"
 	title: "ElementalCraft"
-	icon: {
-		id: "elementalcraft:pure_element_holder"
-		Count: 1b
-		ForgeCaps: {
-			Parent: {
-				earth: 0
-				fire: 0
-				air: 0
-				water: 0
-			}
-		}
-	}
+	icon: "elementalcraft:pure_element_holder"
+	subtitle: ["Drawn from condense orbs of element, nature magic is funneled into blank white crystals and more. Unlock the power of the crystals."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -76,7 +66,7 @@
 			]
 		}
 		{
-			title: "ElementalCraft"
+			title: "ElementalCraft Inert Crystal"
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
@@ -84,12 +74,14 @@
 				"Welcome to &aElementalCraft&f!"
 				""
 				"The &eElementopedia&f in you &eAkashic Tome&f will guide you through the mod."
+				"To begin, mine some inert crystals. "
 			]
 			size: 1.5d
 			id: "55F12D063F9D9430"
 			tasks: [{
-				id: "66CB4D45D621E404"
-				type: "checkmark"
+				id: "41B6607417599E1E"
+				type: "item"
+				item: "elementalcraft:inertcrystal"
 			}]
 			rewards: [
 				{
@@ -129,29 +121,18 @@
 						}
 					}
 				}
+				{
+					id: "360481FDDB80ED03"
+					type: "item"
+					item: "elementalcraft:inertcrystal"
+					count: 5
+				}
 			]
-		}
-		{
-			x: 1.0d
-			y: 1.0d
-			dependencies: ["55F12D063F9D9430"]
-			id: "5408B4319D86920D"
-			tasks: [{
-				id: "1BB2305B3A343183"
-				type: "item"
-				item: "elementalcraft:inertcrystal"
-			}]
-			rewards: [{
-				id: "3F68CFBDCA169CE7"
-				type: "item"
-				item: "elementalcraft:inertcrystal"
-				count: 5
-			}]
 		}
 		{
 			x: 2.0d
 			y: 0.0d
-			dependencies: ["5408B4319D86920D"]
+			dependencies: ["55F12D063F9D9430"]
 			id: "04C3CDC36ED3DA81"
 			tasks: [{
 				id: "73DD538F07BAF5B0"

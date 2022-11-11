@@ -738,5 +738,37 @@
 				item: "sophisticatedbackpacks:netherite_backpack"
 			}]
 		}
+		{
+			icon: {
+				id: "occultism:dimensional_matrix"
+				Count: 1b
+				tag: {
+					spiritName: "Madurakder"
+				}
+			}
+			x: -1.5d
+			y: -7.5d
+			subtitle: "Perhaps the Occultism Storage Actuator and storage tiers could fit your needs. Hm?"
+			description: ["See the Occultism Chapter"]
+			id: "75EA8250F9BFCC57"
+			tasks: [{
+				id: "5D99D45DC0887105"
+				type: "checkmark"
+				title: "Near-infinite storage?"
+			}]
+		}
+		{
+			icon: "botania:corporea_index"
+			x: -1.5d
+			y: -6.0d
+			subtitle: "Botania is rumored to have chat activated storage searching?"
+			description: ["See the Botania Chapter"]
+			id: "29A024AB7BA75230"
+			tasks: [{
+				id: "42FF9717EC1B7286"
+				type: "checkmark"
+				title: "Hey Siri..."
+			}]
+		}
 	]
 }

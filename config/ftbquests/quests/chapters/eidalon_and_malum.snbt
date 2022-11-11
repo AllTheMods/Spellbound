@@ -10,43 +10,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Welcome to Eidolon"
-			x: 0.0d
-			y: -1.0d
-			subtitle: "Secrets of the Dark Arts"
-			description: [
-				"This is Eidolon. A Dark Magic Mod that encompasses rituals through Braziers and Soul Harvesting."
-				"Not to confuse with Malum, Malum has multiple spirits, Eidolon is singular soul gem."
-			]
-			id: "2E750291C0543B61"
-			tasks: [{
-				id: "2C886C86485DBCFA"
-				type: "checkmark"
-				title: "WIP"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -1.0d
-			subtitle: "Reaping, it's whats for dinner."
-			description: [
-				"Welcome to Malum."
-				""
-				"This mod is about utilizing the souls of various creatures into new objects, or even rituals to grow plants faster."
-			]
-			id: "0804386295A32FAF"
-			tasks: [{
-				id: "41066F7A01F80E34"
-				type: "checkmark"
-				title: "Welcome to Malum"
-			}]
-		}
-		{
+			title: "Welcome to Malum - Soulstone"
 			x: -5.5d
 			y: 0.5d
-			subtitle: "The start of the Harbinger"
-			description: ["The start of the mod requires this ore, found underground at all Y Levels."]
-			dependencies: ["0804386295A32FAF"]
+			subtitle: "The start of the Harbinger. Reaping, its whats for dinner."
+			description: ["This mod is about utilizing the souls of various creatures into new objects, or even rituals to grow plants faster. The start of the mod requires this ore, found underground at all Y Levels."]
 			id: "6473F499159ECBFA"
 			tasks: [{
 				id: "6195E8A383074F2F"
@@ -636,14 +604,16 @@
 			}]
 		}
 		{
+			title: "Ars Ecclesia - Welcome to Eidolon"
 			x: 0.0d
 			y: 0.5d
+			subtitle: "Secrets of the Dark Arts"
 			description: [
-				"You may have this book in the Akashic Tome, but creating this book will serve a special purpose."
+				"This is Eidolon. A Dark Magic Mod that encompasses rituals through Braziers and Soul Harvesting. Not to confuse with Malum, Malum has multiple spirits, Eidolon is singular soul gem. You may have this book in the Akashic Tome, but creating this book will serve a special purpose."
 				"You will need to throw this book at a Witch (yes, that hostile one), she'll add a Sign needed for later."
 				"And then throw the book at a Cleric Villager. Your best bet of this is finding/crafting a Brewing Stand and placing a bed next to it for a Villager to change jobs."
+				"Two addons are featured here; Eidolon Hexblades, and Sanguine Arsenal."
 			]
-			dependencies: ["2E750291C0543B61"]
 			id: "63E611810240C792"
 			tasks: [{
 				id: "578D4F3AF9668E1C"
@@ -1064,6 +1034,19 @@
 				id: "5DADA59471D036E5"
 				type: "item"
 				item: "eidolon:soul_enchanter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Forgot a flint and steel in the caves?"
+			description: ["Use the holy symbol three times to ignite what you are looking at."]
+			dependencies: ["158F13367C2E0C6D"]
+			id: "3A88906FC2E72528"
+			tasks: [{
+				id: "308A6145877C4E0A"
+				type: "item"
+				item: "bloodmagic:holy_water_anointment"
 			}]
 		}
 	]

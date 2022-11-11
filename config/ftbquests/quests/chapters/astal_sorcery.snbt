@@ -5,27 +5,30 @@
 	filename: "astal_sorcery"
 	title: "Astral Sorcery"
 	icon: "astralsorcery:starmetal_ingot"
+	subtitle: ["The power of the stars, focused into wood, rock, and more. Seek power through looking UP"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Astral Sorcery"
+			title: "Astral Sorcery - Stargazing"
+			icon: "astralsorcery:altar_radiance"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "Stargazing"
+			subtitle: "Stargazing sorcery. Rocks, glowing water, and the power of the stars. Relies on the nighttime with line of sight to the sky. "
 			description: [
 				"Welcome to Astral Sorcery!"
 				""
 				"The mod that will forever change the way you play Minecraft, while also having stunning visuals."
+				"To begin, mine some of that interesting Marble. This is the basis block for most of Astral Sorcery."
 			]
 			size: 1.5d
 			id: "6950F72651930951"
 			tasks: [{
-				id: "2EC2A284F54C3C9D"
-				type: "checkmark"
-				title: "Stargazing"
-				icon: { id: "astralsorcery:altar_radiance", Count: 2b }
+				id: "51DEBFECB6177C88"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+				count: 16L
 			}]
 			rewards: [{
 				id: "620631644E4BF6D0"
