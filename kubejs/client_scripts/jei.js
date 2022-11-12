@@ -31,6 +31,7 @@ onEvent('jei.hide.items', e => {
     e.remove('integratedynamics:mechanical_drying_basin')
 
     hideAlltheOre('tin')
+    hideAlltheOre('aluminum')
     hideAlltheOre('uranium')
     hideAlltheOre('platinum')
 })
