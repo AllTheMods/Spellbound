@@ -12,6 +12,13 @@ onEvent('jei.hide.items', e => {
     }
     e.hide('xreliquary:alkahestry_tome')
     e.hide('twilightforest:uncrafting_table')
+    e.hide('extrabotany:elementrune')
+    e.hide('extrabotany:sinrune')
+    e.hide('extrabotany:friggaapple')
+    e.hide('extrabotany:rewardbaglimitededition')
+    e.hide('twilightdelight:iron_lotus')
+    e.hide('twilightdelight:lily_chicken_block')
+    e.hide('twilightdelight:lily_chicken')
 
     const upgrades = ['rfsawmill', 'rfsmelter', 'rffuelgen', 'rfexpgen', 'refimport', 'rfrelay', 'rfcrusher', 'rftank', 'rffield', 'voidenergy']
     upgrades.forEach(upgrade => {
@@ -33,6 +40,9 @@ onEvent('jei.hide.items', e => {
     hideAlltheOre('tin')
     hideAlltheOre('uranium')
     hideAlltheOre('platinum')
+    hideAlltheOre('nickel')
+    hideAlltheOre('osmium')
+    hideAlltheOre('aluminum')
 })
 
 onEvent('jei.information', e => {
