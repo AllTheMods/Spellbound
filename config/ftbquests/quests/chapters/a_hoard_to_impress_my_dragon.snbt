@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "I'm not a hoarder, I promise. ^_^"
-			x: 0.0d
-			y: -8.5d
+			x: 1.0d
+			y: -10.0d
 			subtitle: "I'm an opportunistic creature"
 			description: [
 				"This is the chapter where collectors will come to show off their wares to the Dragon Hoard Council of Wizards. "
@@ -971,7 +971,7 @@
 		}
 		{
 			title: "Miner's Hoard: Gems and Dusts"
-			x: -3.0d
+			x: -2.5d
 			y: -10.5d
 			subtitle: "Feed me your not-ores"
 			description: ["This set of armor is not found anywhere in these worlds. It is of HIGHEST QUALITY. Don't break it."]
@@ -2107,8 +2107,8 @@
 		}
 		{
 			title: "The Ultimate Weapon"
-			x: -2.5d
-			y: -8.0d
+			x: -4.0d
+			y: -7.5d
 			subtitle: "When all weapons, armors and shields come together in one room..."
 			description: ["It summons a weapon from beyond the ages. Not craftable or gettable, it is the ultimate trophy. Don't break it."]
 			dependencies: [
@@ -2252,6 +2252,90 @@
 					id: "7ACD2A4EABA12B99"
 					type: "item"
 					item: "mowziesmobs:earth_talisman"
+				}
+			]
+		}
+		{
+			title: "And after all that..."
+			x: -0.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "You are a shining star. Congratulations for completing the modpack. "
+			dependencies: [
+				"66DD304488F6D2A4"
+				"3EA936A9F99A3F35"
+				"7500521A06C9B578"
+				"1709A583327321CF"
+				"3DD7D636166A83AF"
+			]
+			id: "2B6D8A70B415698B"
+			tasks: [
+				{
+					id: "761B2EEEA565D65C"
+					type: "item"
+					item: {
+						id: "theabyss:nosaj_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12D3091AACF3B69B"
+					type: "item"
+					item: {
+						id: "thebeginning:ring_of_nature"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64BA629C069C047B"
+					type: "item"
+					item: {
+						id: "mowziesmobs:earthbore_gauntlet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "580DA2FB99C35D79"
+					type: "item"
+					item: "mowziesmobs:earth_talisman"
+				}
+				{
+					id: "79436F68F410A887"
+					type: "item"
+					item: {
+						id: "iceandfire:pixie_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2C600F14E560E534"
+					type: "item"
+					item: "kubejs:atm_star"
+				}
+				{
+					id: "0C4993AD2C5AB6AD"
+					type: "toast"
+					title: "Spellbound Completionist"
+					description: ""
+				}
+				{
+					id: "595E23C6A7A06661"
+					type: "xp_levels"
+					xp_levels: 50
 				}
 			]
 		}
