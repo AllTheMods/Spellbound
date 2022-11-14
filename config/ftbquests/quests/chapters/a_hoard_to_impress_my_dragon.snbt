@@ -9,9 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "I'm not a hoarder, I promise. ^_^ WIP"
-			x: 0.0d
-			y: -8.5d
+			title: "I'm not a hoarder, I promise. ^_^"
+			x: 1.0d
+			y: -10.0d
 			subtitle: "I'm an opportunistic creature"
 			description: [
 				"This is the chapter where collectors will come to show off their wares to the Dragon Hoard Council of Wizards. "
@@ -30,8 +30,8 @@
 		{
 			title: "Armor Collector: Twilight Forest"
 			icon: "minecraft:armor_stand"
-			x: -5.0d
-			y: -7.0d
+			x: -5.5d
+			y: -6.5d
 			subtitle: "Shiny for my closet"
 			description: ["Collect all the armor available in the Twilight Forest. Bonus points if its on an armor stand when you're done. "]
 			dependencies: [
@@ -420,9 +420,10 @@
 		}
 		{
 			title: "Botanist Collector: Saplings from across the realms"
-			x: -4.0d
-			y: -6.0d
+			x: -4.5d
+			y: -5.5d
 			subtitle: "Shush, I know I have a problem. -fluffs the bonsai garden-"
+			description: ["This set of armor is not found anywhere on these realms. It is of HIGHEST QUALITY. Don't break it."]
 			dependencies: ["71CF3AC44897B56E"]
 			id: "7A3D78900DDEBD62"
 			tasks: [
@@ -516,12 +517,36 @@
 					item: "occultism:otherworld_sapling"
 				}
 			]
-			rewards: [{
-				id: "38D4AA964861071E"
-				type: "toast"
-				title: "Botanist Tree Collector Approval"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "38D4AA964861071E"
+					type: "toast"
+					title: "Botanist Tree Collector Approval"
+					description: ""
+				}
+				{
+					id: "10C743A22FF7309C"
+					type: "item"
+					item: {
+						id: "hexerei:druid_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0976DEA5EEBE87C9"
+					type: "item"
+					item: {
+						id: "hexerei:druid_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Weapons Collector: Weapons Merchant"
@@ -557,7 +582,7 @@
 					id: "2B5A516B4CCEA205"
 					type: "item"
 					item: {
-						id: "theabyss:nosaj_sword"
+						id: "twilightforest:glass_sword"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -605,18 +630,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-						}
-					}
-				}
-				{
-					id: "007839809FB75457"
-					type: "item"
-					item: {
-						id: "projecte:rm_sword"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
 						}
 					}
 				}
@@ -701,6 +714,148 @@
 						}
 					}
 				}
+				{
+					id: "119AD61F30B45EEE"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1043ED6DC6CAC62D"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_ice"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03A69D03020660C7"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_lightning"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "315FC13A4DB568AA"
+					type: "item"
+					item: {
+						id: "eidolon:sapping_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B81CE8CAB9E5C17"
+					type: "item"
+					item: {
+						id: "extrabotany:trueterrablade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18B2455918FB7C0A"
+					type: "item"
+					item: {
+						id: "rootsclassic:engraved_blade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52C5F499E304E13E"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:forbidden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "221C90A1472C78E8"
+					type: "item"
+					item: {
+						id: "projecte:rm_morning_star"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "4056EFAB66496D11"
+					type: "item"
+					item: "mowziesmobs:wrought_axe"
+				}
+				{
+					id: "1815F965B36F672A"
+					type: "item"
+					item: {
+						id: "twilightforest:minotaur_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "344CD588BBAA7545"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_battleaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 4s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+				{
+					id: "360FFE200B9D258B"
+					type: "item"
+					item: {
+						id: "extrabotany:influxwaver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D6CA2303AA4A118"
+					type: "item"
+					item: {
+						id: "extrabotany:trueshadowkatana"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 			rewards: [{
 				id: "088100011BD08A78"
@@ -710,11 +865,14 @@
 			}]
 		}
 		{
-			title: "Mining Hoard: Ore Collection"
+			title: "Miner's Hoard: Ore Collection"
 			x: -4.0d
 			y: -9.5d
 			subtitle: "Feed me your ores"
-			description: ["Not gems, not dusts, ORE."]
+			description: [
+				"Not gems, not dusts, ORE."
+				"This set of armor is not found anywhere in these worlds. It is of HIGHEST QUALITY. Don't break it."
+			]
 			dependencies: ["71CF3AC44897B56E"]
 			id: "10AC4D92DACE5F3C"
 			tasks: [
@@ -780,18 +938,43 @@
 					item: "allthemodium:allthemodium_ore"
 				}
 			]
-			rewards: [{
-				id: "3C83A1CE036CAFE9"
-				type: "toast"
-				title: "Ore Hoarder Approval"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "3C83A1CE036CAFE9"
+					type: "toast"
+					title: "Ore Hoarder Approval"
+					description: ""
+				}
+				{
+					id: "5B9B7EF7DA1E5277"
+					type: "item"
+					item: {
+						id: "hexerei:orc_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F1399D8FDEB1F95"
+					type: "item"
+					item: {
+						id: "hexerei:orc_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Miner's Hoard: Gems and Dusts"
-			x: -3.0d
+			x: -2.5d
 			y: -10.5d
 			subtitle: "Feed me your not-ores"
+			description: ["This set of armor is not found anywhere in these worlds. It is of HIGHEST QUALITY. Don't break it."]
 			dependencies: ["71CF3AC44897B56E"]
 			id: "6BDC54532B25133F"
 			tasks: [
@@ -840,6 +1023,7 @@
 					id: "60E1DEDC4F279CD8"
 					type: "item"
 					item: "forbidden_arcanus:arcane_crystal_obelisk"
+					count: 9L
 				}
 				{
 					id: "2DBACE12AB81BC41"
@@ -861,32 +1045,334 @@
 							Damage: 0
 						}
 					}
+					count: 9L
 				}
 				{
 					id: "4BE77489EFBD5AAC"
 					type: "item"
 					item: "feywild:brilliant_fey_gem"
+					count: 9L
 				}
 			]
-			rewards: [{
-				id: "250ADBB8D61056D2"
-				type: "toast"
-				title: "Gem Hoarder Approval"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "250ADBB8D61056D2"
+					type: "toast"
+					title: "Gem Hoarder Approval"
+					description: ""
+				}
+				{
+					id: "62D07405C68D4C7A"
+					type: "item"
+					item: {
+						id: "hexerei:orc_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44A112918309BEEB"
+					type: "item"
+					item: {
+						id: "hexerei:orc_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Botanist Collector: Flowers/Plants"
 			x: -2.5d
 			y: -5.0d
 			subtitle: "You can transplant and grow anything with tenacity and a magic growth spell"
+			description: [
+				"This set of armor is not found anywhere in these realms. It is of HIGHEST QUALITY. Don't break it."
+				"Be happy these are all vanilla plants. There's a LOT more I could ask for."
+			]
 			dependencies: ["71CF3AC44897B56E"]
 			id: "22F2BFBC59C43682"
-			tasks: [{
-				id: "481090098A35AE17"
-				type: "item"
-				item: "supplementaries:flower_box"
-			}]
+			tasks: [
+				{
+					id: "481090098A35AE17"
+					type: "item"
+					item: "supplementaries:flower_box"
+				}
+				{
+					id: "389F28BFC4BAE7D6"
+					type: "item"
+					item: "minecraft:cornflower"
+				}
+				{
+					id: "4B989C63786ADFAA"
+					type: "item"
+					item: "minecraft:dandelion"
+				}
+				{
+					id: "5587588C48634831"
+					type: "item"
+					item: "minecraft:poppy"
+				}
+				{
+					id: "2D328121B35592C6"
+					type: "item"
+					item: "minecraft:oxeye_daisy"
+				}
+				{
+					id: "5B42DD1265203414"
+					type: "item"
+					item: "minecraft:azure_bluet"
+				}
+				{
+					id: "7DD7E09AFF777036"
+					type: "item"
+					item: "minecraft:blue_orchid"
+				}
+				{
+					id: "21FD1557F9B755E6"
+					type: "item"
+					item: "minecraft:red_tulip"
+				}
+				{
+					id: "6FD330641F2F521C"
+					type: "item"
+					item: "minecraft:orange_tulip"
+				}
+				{
+					id: "2B13A10868240DA1"
+					type: "item"
+					item: "minecraft:white_tulip"
+				}
+				{
+					id: "557B07EDC0982B35"
+					type: "item"
+					item: "minecraft:pink_tulip"
+				}
+				{
+					id: "2FB3963FB97788A9"
+					type: "item"
+					item: "minecraft:allium"
+				}
+				{
+					id: "7429CA5A354A3FBF"
+					type: "item"
+					item: "minecraft:lily_of_the_valley"
+				}
+				{
+					id: "17E49CEB1C6D2802"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "1304B58BCED9CF6B"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "6F39C65AF471EA5A"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+				{
+					id: "767ECDC86D9AF9CD"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "21E2844490C46A9D"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "4078432670956723"
+					type: "item"
+					item: "minecraft:warped_roots"
+				}
+				{
+					id: "634AD2DE67575843"
+					type: "item"
+					item: "minecraft:crimson_roots"
+				}
+				{
+					id: "418AD159E1ECC592"
+					type: "item"
+					item: "minecraft:nether_sprouts"
+				}
+				{
+					id: "067C8DA98B107711"
+					type: "item"
+					item: "minecraft:sunflower"
+				}
+				{
+					id: "0232C1DB3E8AE5A7"
+					type: "item"
+					item: "minecraft:rose_bush"
+				}
+				{
+					id: "38FA0D728903F2FD"
+					type: "item"
+					item: "minecraft:peony"
+				}
+				{
+					id: "05D045558A3885C4"
+					type: "item"
+					item: "minecraft:lilac"
+				}
+				{
+					id: "6E0ABA9F746B3DFF"
+					type: "item"
+					item: "minecraft:lily_pad"
+				}
+				{
+					id: "378211D2CCBF8269"
+					type: "item"
+					item: "minecraft:weeping_vines"
+				}
+				{
+					id: "513E5648CA7DD15C"
+					type: "item"
+					item: "minecraft:twisting_vines"
+				}
+				{
+					id: "727B7025157CED6E"
+					type: "item"
+					item: "minecraft:vine"
+				}
+				{
+					id: "7EE0F41D744121EB"
+					type: "item"
+					item: "minecraft:grass"
+				}
+				{
+					id: "1E14CCC6F1369B30"
+					type: "item"
+					item: "minecraft:fern"
+				}
+				{
+					id: "665464CFA39CC408"
+					type: "item"
+					item: "minecraft:dead_bush"
+				}
+				{
+					id: "53F15AB95DFE4095"
+					type: "item"
+					item: "minecraft:seagrass"
+				}
+				{
+					id: "5C2494F4B18F91EC"
+					type: "item"
+					item: "minecraft:sea_pickle"
+				}
+				{
+					id: "5085BA07ACD50FB7"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+				{
+					id: "385E31FAA8AF40A8"
+					type: "item"
+					item: "minecraft:kelp"
+				}
+				{
+					id: "74DA85518895EF2A"
+					type: "item"
+					item: "minecraft:bamboo"
+				}
+				{
+					id: "7B6C9A07DE2127F5"
+					type: "item"
+					item: "minecraft:tall_grass"
+				}
+				{
+					id: "44080A68D1D13270"
+					type: "item"
+					item: "minecraft:large_fern"
+				}
+				{
+					id: "79C2F0B8B2581260"
+					type: "item"
+					item: "minecraft:tube_coral"
+				}
+				{
+					id: "00A4A44D7E746087"
+					type: "item"
+					item: "minecraft:brain_coral_fan"
+				}
+				{
+					id: "6028F881A93F3D5B"
+					type: "item"
+					item: "minecraft:bubble_coral"
+				}
+				{
+					id: "00BF400C30A8A4C0"
+					type: "item"
+					item: "minecraft:fire_coral"
+				}
+				{
+					id: "0FCA2609B347E3C1"
+					type: "item"
+					item: "minecraft:horn_coral"
+				}
+				{
+					id: "24035B7C96E9A64E"
+					type: "item"
+					item: "minecraft:tube_coral_fan"
+				}
+				{
+					id: "350EDD2CEC4676A1"
+					type: "item"
+					item: "minecraft:brain_coral_fan"
+				}
+				{
+					id: "3CE46D15CE57BFAF"
+					type: "item"
+					item: "minecraft:bubble_coral_fan"
+				}
+				{
+					id: "2AA9D45611F9CE54"
+					type: "item"
+					item: "minecraft:fire_coral_fan"
+				}
+				{
+					id: "5F9E7ADFAFB8FB75"
+					type: "item"
+					item: "minecraft:horn_coral_fan"
+				}
+			]
+			rewards: [
+				{
+					id: "6CC3A5CEEA14775E"
+					type: "item"
+					item: {
+						id: "hexerei:druid_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4561368F79E31A7A"
+					type: "item"
+					item: {
+						id: "hexerei:druid_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2354BB4C644184BE"
+					type: "toast"
+					title: "Botanist Collector: Plants Approval"
+					description: ""
+				}
+			]
 		}
 		{
 			title: "The world's pickiest Hungarian Horntail"
@@ -1044,12 +1530,28 @@
 					item: "mysticalagradditions:dragon_egg_crux"
 				}
 			]
-			rewards: [{
-				id: "40FA4825C3460F99"
-				type: "toast"
-				title: "Egg Thief"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "40FA4825C3460F99"
+					type: "toast"
+					title: "Egg Thief"
+					description: ""
+				}
+				{
+					id: "4DABA186ADF03868"
+					type: "item"
+					item: "iceandfire:creative_dragon_meal"
+				}
+				{
+					id: "4EC25D76D59D1DB1"
+					type: "item"
+					item: {
+						id: "wyrmroost:coin_dragon"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			title: "Blood Bank"
@@ -1140,18 +1642,31 @@
 					consume_items: true
 				}
 			]
-			rewards: [{
-				id: "211D4FD9E5C3E654"
-				type: "toast"
-				title: "Anemic"
-				icon: "minecraft:crimson_sign"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "211D4FD9E5C3E654"
+					type: "toast"
+					title: "Anemic"
+					icon: "minecraft:crimson_sign"
+					description: ""
+				}
+				{
+					id: "099727F23B9AE2E8"
+					type: "item"
+					item: {
+						id: "sanguinearsenal:scepter_of_blood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Bounty Hunter: Pixies must die!"
 			icon: "iceandfire:pixie_wings"
-			x: 3.5d
+			x: 2.5d
 			y: -7.0d
 			subtitle: "Wow, you've got an issue with pixies there buddy. Uh, yeah, slay some pixies for this wizard please. They've all fled to Alfheim. "
 			dependencies: ["71CF3AC44897B56E"]
@@ -1199,17 +1714,30 @@
 					value: 100L
 				}
 			]
-			rewards: [{
-				id: "7A4EFFF83BDF3053"
-				type: "toast"
-				title: "Pixie Slayer"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "7A4EFFF83BDF3053"
+					type: "toast"
+					title: "Pixie Slayer"
+					description: ""
+				}
+				{
+					id: "4D6342811E46FC62"
+					type: "item"
+					item: {
+						id: "iceandfire:pixie_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Star Eater"
-			x: 1.0d
-			y: -10.0d
+			x: 2.0d
+			y: -5.5d
 			subtitle: "You really don't think I'm going to have you sacrifice another star, do you?"
 			dependencies: ["71CF3AC44897B56E"]
 			id: "08FF5BDFA64D5314"
@@ -1217,7 +1745,7 @@
 				{
 					id: "1A92DCC0356A9656"
 					type: "item"
-					item: "minecraft:nether_star"
+					item: "forbidden_arcanus:dark_nether_star"
 					count: 16L
 					consume_items: true
 				}
@@ -1279,13 +1807,537 @@
 					}
 					consume_items: true
 				}
+				{
+					id: "7014AF5A63A7C142"
+					type: "item"
+					item: {
+						id: "extrabotany:starwrath"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "15C4D43309B9781C"
+					type: "toast"
+					title: "Psych!"
+					description: ""
+				}
+				{
+					id: "6BE55F12DF40641F"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_omega"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Druid's Armor"
+			x: -2.5d
+			y: -6.5d
+			dependencies: [
+				"22F2BFBC59C43682"
+				"7A3D78900DDEBD62"
+			]
+			id: "3EA936A9F99A3F35"
+			tasks: [
+				{
+					id: "29D1DEE3F110AAA8"
+					type: "item"
+					item: {
+						id: "hexerei:druid_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0827C30B94A441DF"
+					type: "item"
+					item: {
+						id: "hexerei:druid_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3383D645C8004C6A"
+					type: "item"
+					item: {
+						id: "hexerei:druid_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A7616AB1513AF53"
+					type: "item"
+					item: {
+						id: "hexerei:druid_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "71282298CD1AEE98"
+					type: "toast"
+					title: "Lv 20 Druid"
+					description: ""
+				}
+				{
+					id: "4F3C36CBF8519237"
+					type: "item"
+					item: {
+						id: "thebeginning:ring_of_nature"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D1936AA4E9713A8"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_starlit_crusher"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+							Rarity: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Orc's Armor"
+			x: -2.5d
+			y: -9.5d
+			subtitle: "Forged by goblins, this armor is of HIGHEST QUALITY. Do not break it."
+			description: ["Now accept the power of the dwarves in the palm of your hand."]
+			dependencies: [
+				"6BDC54532B25133F"
+				"10AC4D92DACE5F3C"
+			]
+			id: "66DD304488F6D2A4"
+			tasks: [
+				{
+					id: "22BBAE57DE303AD6"
+					type: "item"
+					item: {
+						id: "hexerei:orc_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26DCAD37EA3E1940"
+					type: "item"
+					item: {
+						id: "hexerei:orc_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5DB15B4A43F291A7"
+					type: "item"
+					item: {
+						id: "hexerei:orc_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32AAECEAD42C02E0"
+					type: "item"
+					item: {
+						id: "hexerei:orc_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6988CC84F3DFBE23"
+					type: "toast"
+					title: "Lv 20 Orc Miner"
+					description: ""
+				}
+				{
+					id: "5FAA50C2D5EE179A"
+					type: "item"
+					item: {
+						id: "mowziesmobs:earthbore_gauntlet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Weapons Collector: Shield Merchant"
+			x: -5.5d
+			y: -7.5d
+			dependencies: ["71CF3AC44897B56E"]
+			id: "41DD0CC72B5798A8"
+			tasks: [
+				{
+					id: "63732776D4AE4FCD"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E683B07A20B3A1B"
+					type: "item"
+					item: {
+						id: "blue_skies:spike_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F02EAD4903488C1"
+					type: "item"
+					item: {
+						id: "blue_skies:moonstone_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A69567C5CF6172F"
+					type: "item"
+					item: {
+						id: "twilightforest:knightmetal_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72BAC5514B06E418"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "704D95038D955FC2"
+					type: "item"
+					item: "ars_nouveau:glyph_shield"
+				}
+				{
+					id: "7C6E1C2667232056"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1938FD3DA801CBFF"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_skull_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53ADD74BA5D11C5D"
+					type: "item"
+					item: "eidolon:mind_shielding_plate"
+				}
 			]
 			rewards: [{
-				id: "15C4D43309B9781C"
+				id: "0DFF332138A7978E"
 				type: "toast"
-				title: "Psych!"
+				title: "Shield Merchant Approval"
 				description: ""
 			}]
+		}
+		{
+			title: "The Ultimate Weapon"
+			x: -4.0d
+			y: -7.5d
+			subtitle: "When all weapons, armors and shields come together in one room..."
+			description: ["It summons a weapon from beyond the ages. Not craftable or gettable, it is the ultimate trophy. Don't break it."]
+			dependencies: [
+				"41DD0CC72B5798A8"
+				"5CCE02FCF696BA2C"
+				"1605E3200B26CC84"
+				"3EA936A9F99A3F35"
+				"66DD304488F6D2A4"
+			]
+			id: "3DD7D636166A83AF"
+			tasks: [
+				{
+					id: "27110C102DE28159"
+					type: "item"
+					item: {
+						id: "mahoutsukai:clarent"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+								MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+							}
+						}
+					}
+				}
+				{
+					id: "579144A6AC036E92"
+					type: "item"
+					item: {
+						id: "mahoutsukai:caliburn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+								MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+							}
+						}
+					}
+				}
+				{
+					id: "647196C598A6BF46"
+					type: "item"
+					item: {
+						id: "mahoutsukai:morgan"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+								MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "043E12B0AA8374C0"
+					type: "item"
+					item: {
+						id: "theabyss:nosaj_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "234F9C60F3592DCA"
+					type: "toast"
+					title: "Weapons Hoarder"
+					description: ""
+				}
+				{
+					id: "34AFDB3031CC3632"
+					type: "item"
+					item: "hexblades:sword_stand"
+				}
+			]
+		}
+		{
+			title: "Cast the star into the fire!"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Now you can be an earthbender!"
+			dependencies: [
+				"7C4C1FAE1D02B28A"
+				"5B1D2B7ED72C1469"
+				"08FF5BDFA64D5314"
+			]
+			id: "1709A583327321CF"
+			tasks: [
+				{
+					id: "330B64506245B886"
+					type: "item"
+					item: {
+						id: "wyrmroost:coin_dragon"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0CA2F688A38D44BC"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_omega"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "313D24A6766D5F7C"
+					type: "item"
+					item: {
+						id: "sanguinearsenal:scepter_of_blood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "69C5A204B6E579B2"
+					type: "toast"
+					title: "The One Talisman to rule them all"
+					description: ""
+				}
+				{
+					id: "7ACD2A4EABA12B99"
+					type: "item"
+					item: "mowziesmobs:earth_talisman"
+				}
+			]
+		}
+		{
+			title: "And after all that..."
+			x: -0.5d
+			y: -8.5d
+			shape: "gear"
+			subtitle: "You are a shining star. Congratulations for completing the modpack. "
+			dependencies: [
+				"66DD304488F6D2A4"
+				"3EA936A9F99A3F35"
+				"7500521A06C9B578"
+				"1709A583327321CF"
+				"3DD7D636166A83AF"
+			]
+			id: "2B6D8A70B415698B"
+			tasks: [
+				{
+					id: "761B2EEEA565D65C"
+					type: "item"
+					item: {
+						id: "theabyss:nosaj_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12D3091AACF3B69B"
+					type: "item"
+					item: {
+						id: "thebeginning:ring_of_nature"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64BA629C069C047B"
+					type: "item"
+					item: {
+						id: "mowziesmobs:earthbore_gauntlet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "580DA2FB99C35D79"
+					type: "item"
+					item: "mowziesmobs:earth_talisman"
+				}
+				{
+					id: "79436F68F410A887"
+					type: "item"
+					item: {
+						id: "iceandfire:pixie_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2C600F14E560E534"
+					type: "item"
+					item: "kubejs:atm_star"
+				}
+				{
+					id: "0C4993AD2C5AB6AD"
+					type: "toast"
+					title: "Spellbound Completionist"
+					description: ""
+				}
+				{
+					id: "595E23C6A7A06661"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
 		}
 	]
 }
