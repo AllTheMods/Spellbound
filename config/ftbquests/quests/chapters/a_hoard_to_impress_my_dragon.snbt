@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "I'm not a hoarder, I promise. ^_^ WIP"
+			title: "I'm not a hoarder, I promise. ^_^"
 			x: 0.0d
 			y: -8.5d
 			subtitle: "I'm an opportunistic creature"
@@ -1530,12 +1530,28 @@
 					item: "mysticalagradditions:dragon_egg_crux"
 				}
 			]
-			rewards: [{
-				id: "40FA4825C3460F99"
-				type: "toast"
-				title: "Egg Thief"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "40FA4825C3460F99"
+					type: "toast"
+					title: "Egg Thief"
+					description: ""
+				}
+				{
+					id: "4DABA186ADF03868"
+					type: "item"
+					item: "iceandfire:creative_dragon_meal"
+				}
+				{
+					id: "4EC25D76D59D1DB1"
+					type: "item"
+					item: {
+						id: "wyrmroost:coin_dragon"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			title: "Blood Bank"
@@ -1626,19 +1642,32 @@
 					consume_items: true
 				}
 			]
-			rewards: [{
-				id: "211D4FD9E5C3E654"
-				type: "toast"
-				title: "Anemic"
-				icon: "minecraft:crimson_sign"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "211D4FD9E5C3E654"
+					type: "toast"
+					title: "Anemic"
+					icon: "minecraft:crimson_sign"
+					description: ""
+				}
+				{
+					id: "099727F23B9AE2E8"
+					type: "item"
+					item: {
+						id: "sanguinearsenal:scepter_of_blood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Bounty Hunter: Pixies must die!"
 			icon: "iceandfire:pixie_wings"
-			x: 2.0d
-			y: -5.5d
+			x: 2.5d
+			y: -7.0d
 			subtitle: "Wow, you've got an issue with pixies there buddy. Uh, yeah, slay some pixies for this wizard please. They've all fled to Alfheim. "
 			dependencies: ["71CF3AC44897B56E"]
 			id: "7500521A06C9B578"
@@ -1685,17 +1714,30 @@
 					value: 100L
 				}
 			]
-			rewards: [{
-				id: "7A4EFFF83BDF3053"
-				type: "toast"
-				title: "Pixie Slayer"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "7A4EFFF83BDF3053"
+					type: "toast"
+					title: "Pixie Slayer"
+					description: ""
+				}
+				{
+					id: "4D6342811E46FC62"
+					type: "item"
+					item: {
+						id: "iceandfire:pixie_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Star Eater"
-			x: 2.5d
-			y: -6.5d
+			x: 2.0d
+			y: -5.5d
 			subtitle: "You really don't think I'm going to have you sacrifice another star, do you?"
 			dependencies: ["71CF3AC44897B56E"]
 			id: "08FF5BDFA64D5314"
@@ -1777,12 +1819,25 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "15C4D43309B9781C"
-				type: "toast"
-				title: "Psych!"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "15C4D43309B9781C"
+					type: "toast"
+					title: "Psych!"
+					description: ""
+				}
+				{
+					id: "6BE55F12DF40641F"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_omega"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Druid's Armor"
@@ -1839,17 +1894,44 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "71282298CD1AEE98"
-				type: "toast"
-				title: "Lv 20 Druid"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "71282298CD1AEE98"
+					type: "toast"
+					title: "Lv 20 Druid"
+					description: ""
+				}
+				{
+					id: "4F3C36CBF8519237"
+					type: "item"
+					item: {
+						id: "thebeginning:ring_of_nature"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D1936AA4E9713A8"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_starlit_crusher"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+							Rarity: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Orc's Armor"
 			x: -2.5d
 			y: -9.5d
+			subtitle: "Forged by goblins, this armor is of HIGHEST QUALITY. Do not break it."
+			description: ["Now accept the power of the dwarves in the palm of your hand."]
 			dependencies: [
 				"6BDC54532B25133F"
 				"10AC4D92DACE5F3C"
@@ -1901,12 +1983,25 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "6988CC84F3DFBE23"
-				type: "toast"
-				title: "Lv 20 Orc Miner"
-				description: ""
-			}]
+			rewards: [
+				{
+					id: "6988CC84F3DFBE23"
+					type: "toast"
+					title: "Lv 20 Orc Miner"
+					description: ""
+				}
+				{
+					id: "5FAA50C2D5EE179A"
+					type: "item"
+					item: {
+						id: "mowziesmobs:earthbore_gauntlet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Weapons Collector: Shield Merchant"
@@ -2099,6 +2194,64 @@
 					id: "34AFDB3031CC3632"
 					type: "item"
 					item: "hexblades:sword_stand"
+				}
+			]
+		}
+		{
+			title: "Cast the star into the fire!"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Now you can be an earthbender!"
+			dependencies: [
+				"7C4C1FAE1D02B28A"
+				"5B1D2B7ED72C1469"
+				"08FF5BDFA64D5314"
+			]
+			id: "1709A583327321CF"
+			tasks: [
+				{
+					id: "330B64506245B886"
+					type: "item"
+					item: {
+						id: "wyrmroost:coin_dragon"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0CA2F688A38D44BC"
+					type: "item"
+					item: {
+						id: "projecte:klein_star_omega"
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "313D24A6766D5F7C"
+					type: "item"
+					item: {
+						id: "sanguinearsenal:scepter_of_blood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "69C5A204B6E579B2"
+					type: "toast"
+					title: "The One Talisman to rule them all"
+					description: ""
+				}
+				{
+					id: "7ACD2A4EABA12B99"
+					type: "item"
+					item: "mowziesmobs:earth_talisman"
 				}
 			]
 		}
